@@ -1131,6 +1131,9 @@ const allocationPopup = () => {
         if (selectSkill.value == "Blade Dance") {
             skillDesc.innerHTML = "每次攻击逐步提高攻速。战斗后重置";
         }
+        if (selectSkill.value == "Paladin's Heart") {
+            skillDesc.innerHTML = "受到的伤害减免25%";
+        }
         if (selectSkill.value == "Kuaiqidong") {
             skillDesc.innerHTML = "基础攻速增加100%,但是每次攻击逐步降低攻速。战斗后重置";
         }
