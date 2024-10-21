@@ -404,7 +404,7 @@ const enemyAttack = () => {
                 addCombatLog(`你被异界气息笼罩,完全无视了这次攻击`)
             }
         }else{
-            damage = damage*3;
+            damage = damage*10;
             addCombatLog(`你被这个世界排斥!!`)
         }
     }
@@ -416,7 +416,7 @@ const enemyAttack = () => {
         }
     }
 
-    
+
     player.stats.hp -= damage;
     // Aegis Thorns skill
     objectValidation();

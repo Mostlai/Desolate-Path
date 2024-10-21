@@ -1181,7 +1181,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "你在气血高于80%时不会被秒杀";
         }
         if (selectSkill.value == "YJSH") {
-            skillDesc.innerHTML = "你的基础气血下降99%,你有99%几率闪避所有普通攻击,对暴击无效,你受到的伤害上升300%";
+            skillDesc.innerHTML = "你的基础气血下降99%,你有99%几率闪避所有普通攻击,对暴击无效,你受到的伤害上升1000%";
         }
         if (selectSkill.value == "HL") {
             skillDesc.innerHTML = "你的伤害上升50%,但是有30%的几率无法命中";
