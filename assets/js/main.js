@@ -1242,6 +1242,7 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "Kuaiqidong") {
             player.skills.push("Kuaiqidong");
+            player.baseStats.atkSpd = player.baseStats.atkSpd + ((100 * player.baseStats.atkSpd) / 100);
         }
         if (selectSkill.value == "Lingshi") {
             player.skills.push("Lingshi");
