@@ -409,6 +409,9 @@ const enemyAttack = () => {
                 damage = 0;
                 addCombatLog(`你被异界气息笼罩,完全无视了这次攻击`)
             }
+        }else{
+            damage = damage*3;
+            addCombatLog(`你被这个世界排斥!!`)
         }
     }
     player.stats.hp -= damage;
