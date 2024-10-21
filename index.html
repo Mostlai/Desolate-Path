@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-8HZ96T7NQD"></script> -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1410792404041007"
+    crossorigin="anonymous"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8HZ96T7NQD');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Rubik Vinyl' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/rpg-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/icon/favicon.ico">
+    <script src="./assets/js/howler.min.js"></script>
+    <title>绝境仙途</title>
+</head>
+
+<body>
+    <main>
+        <!-- ===== Rooms ===== -->
+        <!-- Title Screen -->
+        <section id="title-screen" class="game-container">
+            <div>
+                <i class="fa-solid fa-yin-yang fa-5x"></i>
+                <h1>绝境仙途</h1>
+            </div>
+            <p>点击踏上仙路</p>
+        </section>
+
+        <!-- Character Creation -->
+        <section id="character-creation" class="game-container">
+            <form id="name-submit">
+                <h1>为求道者命名?</h1>
+                <input type="text" id="name-input" autocomplete="off">
+                <p id="alert"></p>
+                <button type="submit">确认</button>
+            </form>
+        </section>
+
+        <!-- Hub -->
+        <section id="dungeon-main" class="game-container scrollable">
+            <header>
+                <p id="player-name"></p>
+                <p id="player-exp"></p>
+                <p id="player-gold"></p>
+                <div>
+                    <button onclick="openInventory()" style="width: auto;"><i class="fa-solid fa-box-open" style="font-size: 1.3rem;"></i></button>
+                    <button id="house-btn" style="width: auto;"><i class="fa-solid fa-house-chimney-window" style="font-size: 1.3rem;"></i></button>
+                    <button id="menu-btn" style="width: auto;"><i class="fas fa-bars" style="font-size: 1.3rem;"></i></button>
+                </div>
+            </header>
+            <div class="stat-panel">
+                <div class="box">
+                    <h4>属性点</h4>
+                    <p><i class="fas fa-heart"></i>气血: <span id="player-hp"></span></p>
+                    <p><i class="ra ra-sword"></i>攻击: <span id="player-atk"></span></p>
+                    <p><i class="ra ra-round-shield"></i>护体: <span id="player-def"></span></p>
+                    <p><i class="ra ra-plain-dagger"></i>攻速: <span id="player-atkspd"></span></p>
+                    <p><i class="ra ra-dripping-blade"></i>汲元: <span id="player-vamp"></span></p>
+                    <p><i class="ra ra-lightning-bolt"></i>暴击机率: <span id="player-crate"></span></p>
+                    <p><i class="ra ra-focused-lightning"></i>暴击伤害: <span id="player-cdmg"></span></p>
+                </div>
+                <div class="box" id="bonus-stats"></div>
+            </div>
+            <div class="dungeon-head">
+                <p id="dungeonTime"></p>
+                <p id="floorCount"></p>
+                <p id="roomCount"></p>
+                <button id="dungeonActivity"></button>
+            </div>
+            <div class="logBox primary-panel">
+                <p id="dungeonAction"></p>
+                <div id="dungeonLog"></div>
+            </div>
+        </section>
+
+        <!-- ===== Utility ===== -->
+        <div id="loading" class="game-container">
+            <div class="loader"></div>
+        </div>
+
+        <!-- ===== Modals ===== -->
+        <div class="modal-container" id="inventory">
+            <div class="content">
+                <div class="content-head">
+                    <h3>物品栏</h3>
+                    <p onclick="closeInventory()"><i class="fa fa-xmark"></i></p>
+                </div>
+                <div class="content-head">
+                    <button id="sell-all">售卖</button>
+                    <select id="sell-rarity">
+                        <option class="Common" value="Common">普通</option>
+                        <option class="Uncommon" value="Uncommon">寻常</option>
+                        <option class="Rare" value="Rare">稀有</option>
+                        <option class="Epic" value="Epic">史诗</option>
+                        <option class="Legendary" value="Legendary">传说</option>
+                        <option class="Heirloom" value="Heirloom">道器</option>
+                        <option class="Common" value="All">所有</option>
+                    </select>
+                </div>
+                <div class="inventorySlots" id="playerInventory"></div>
+                <div class="stat-panel">
+                    <div class="box">
+                        <div class="box-head">
+                            <h4>已装备</h4>
+                            <p id="unequip-all"><i class="fa fa-circle-xmark"></i></p>
+                        </div>
+                        <div id="playerEquipment"></div>
+                    </div>
+                </div>
+                <button id="menu-btn">菜单</button>
+            </div>
+        </div>
+        <div class="modal-container" id="equipmentInfo"></div>
+        <div class="modal-container" id="combatPanel"></div>
+        <div class="modal-container" id="lvlupPanel">
+            <div class="content" id="lvlupSelect"></div>
+        </div>
+        <div class="modal-container" id="defaultModal"></div>
+        <div class="modal-container" id="menuModal"></div>
+        <div class="modal-container" id="confirmationModal"></div>
+    </main>
+
+    <script src="./assets/js/utility.js"></script>
+    <script src="./assets/js/elements.js"></script>
+    <script src="./assets/js/music.js"></script>
+    <script src="./assets/js/player.js"></script>
+    <script src="./assets/js/equipment.js"></script>
+    <script src="./assets/js/combat.js"></script>
+    <script src="./assets/js/dungeon.js"></script>
+    <script src="./assets/js/enemy.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
