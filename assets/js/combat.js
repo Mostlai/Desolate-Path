@@ -403,10 +403,9 @@ const enemyAttack = () => {
                 damage = 0;
                 addCombatLog(`你被异界气息笼罩,完全无视了这次攻击`)
             }
-        }else{
-            damage = damage*10;
-            addCombatLog(`你被这个世界排斥!!`)
         }
+        damage = damage*10;
+        if(damage!=0) addCombatLog(`你被这个世界排斥!!`)
     }
 
     if (player.skills.includes("DCJJ")) {
