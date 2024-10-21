@@ -258,7 +258,7 @@ window.addEventListener("load", function () {
             depof.onclick = function () {
                 sfxConfirm.play();
                 let number = Number(document.querySelector('#depod-input').value);
-                if(number<player.gold){
+                if(number<=player.gold){
                     player.bank = player.bank + number;
                     player.gold -= number;
                 }
@@ -270,7 +270,7 @@ window.addEventListener("load", function () {
             withdf.onclick = function () {
                 sfxConfirm.play();
                 let number = Number(document.querySelector('#withd-input').value);
-                if(number<player.bank){
+                if(number<=player.bank){
                     player.bank = player.bank - number;
                     player.gold = player.gold + number;
                 }
