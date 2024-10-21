@@ -261,10 +261,10 @@ window.addEventListener("load", function () {
                 if(number<=player.gold){
                     player.bank = player.bank + number;
                     player.gold -= number;
+                    addDungeonLog('你存入了' + nFormatter(number) + '灵石');
                 }
                 document.querySelector('#ls').innerHTML = `灵石: ${nFormatter(player.gold)}`;
                 document.querySelector('#ck').innerHTML = `存款: ${nFormatter(player.bank)}`;
-                addDungeonLog('你存入了' + nFormatter(number) + '灵石');
                 playerLoadStats();
             }
             withdf.onclick = function () {
@@ -273,10 +273,10 @@ window.addEventListener("load", function () {
                 if(number<=player.bank){
                     player.bank = player.bank - number;
                     player.gold = player.gold + number;
+                    addDungeonLog('你提出了' + nFormatter(number) + '灵石');
                 }
                 document.querySelector('#ls').innerHTML = `灵石: ${nFormatter(player.gold)}`;
                 document.querySelector('#ck').innerHTML = `存款: ${nFormatter(player.bank)}`;
-                addDungeonLog('你提出了' + nFormatter(number) + '灵石');
                 playerLoadStats();
             };
 
