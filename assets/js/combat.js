@@ -273,13 +273,6 @@ const playerAttack = () => {
         }
     }
 
-    if (player.skills.includes("DCJJ")) {
-        if (player.stats.hp == player.stats.hpMax) {
-            damage = Math.floor(damage*0.5);
-            addCombatLog(`你的【多重坚甲】守护着你`)
-        }
-    }
-
     // Lifesteal formula
     let lifesteal = Math.round(damage * lt_mod * (player.stats.vamp / 100));
 
@@ -393,6 +386,7 @@ const enemyAttack = () => {
             enemy.stats.hp -= damage;
         } 
     }
+    
 
     // Apply the calculations
     // 至高气息
@@ -414,6 +408,15 @@ const enemyAttack = () => {
             addCombatLog(`你被这个世界排斥!!`)
         }
     }
+
+    if (player.skills.includes("DCJJ")) {
+        if (player.stats.hp == player.stats.hpMax) {
+            damage = Math.floor(damage*0.5);
+            addCombatLog(`你的【多重坚甲】守护着你`)
+        }
+    }
+
+    
     player.stats.hp -= damage;
     // Aegis Thorns skill
     objectValidation();
