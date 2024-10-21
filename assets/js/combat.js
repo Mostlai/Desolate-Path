@@ -251,6 +251,20 @@ const playerAttack = () => {
         }
     }
 
+    if (player.skills.includes("GoldG")) {
+        let dmod = 1;
+        dmod = 1+ (player.gold/1000)*0.01;
+        damage = Math.floor(damage*dmod);
+        player.gold = player.gold-Math.floor(damage*0.05)
+        addCombatLog(`你的灵石源源不断的向对方砸去`)
+    }
+    if (player.skills.includes("PoorG")) {
+        if(player.gold<1000){
+            damage = damage+50;
+            addCombatLog(`穷神祝福你`)
+        }
+    }
+
     // Lifesteal formula
     let lifesteal = Math.round(damage * lt_mod * (player.stats.vamp / 100));
 
@@ -334,6 +348,20 @@ const enemyAttack = () => {
                 enemy.stats.hp -= t_damage;
                 addCombatLog(`你于风中展开弹反,对方的攻势竟倒飞而去`)
             }
+        }
+    }
+
+    if (player.skills.includes("GoldS")) {
+        let dmod = 1;
+        dmod = (player.gold/1000)*0.01;
+        damage = Math.max(1,Math.floor(damage*(1-dmod)));
+        player.gold = player.gold-Math.floor(damage*0.05)
+        addCombatLog(`你的灵石守护着你`)
+    }
+    if (player.skills.includes("PoorS")) {
+        if(player.gold<1000){
+            damage = Math.max(1,damage-30);
+            addCombatLog(`穷神祝福你`)
         }
     }
     

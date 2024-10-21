@@ -665,6 +665,10 @@ function getSkillName(englishName) {
         "Lingshi": "帝王宝库",
         "Baoji": "狂热之心",
         "Gongji": "仁慈之心",
+        "GoldG": "金钱攻势",
+        "GoldS": "金钱守势",
+        "PoorG": "穷神攻势",
+        "PoorS": "穷神守势",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1015,6 +1019,10 @@ const allocationPopup = () => {
                     <option value="Paladin's Heart">求道者之心</option>
                     <option value="Aegis Thorns">拒绝之刺</option>
                     <option value="Lingshi">帝王宝库</option>
+                    <option value="GoldG">金钱攻势</option>
+                    <option value="GoldS">金钱守势</option>
+                    <option value="PoorG">穷神攻势</option>
+                    <option value="PoorS">穷神守势</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1143,6 +1151,18 @@ const allocationPopup = () => {
         if (selectSkill.value == "Lingshi") {
             skillDesc.innerHTML = "战斗获得的灵石增加30%";
         }
+        if (selectSkill.value == "GoldG") {
+            skillDesc.innerHTML = "每拥有1000灵石,造成伤害+1%,但是每次攻击消耗伤害值5%的灵石";
+        }
+        if (selectSkill.value == "GoldS") {
+            skillDesc.innerHTML = "每拥有1000灵石,受到伤害-1%,但是每次防御消耗伤害值5%的灵石";
+        }
+        if (selectSkill.value == "PoorG") {
+            skillDesc.innerHTML = "灵石小于1000时,每次攻击附加50伤害";
+        }
+        if (selectSkill.value == "PoorS") {
+            skillDesc.innerHTML = "灵石小于1000时,每次防御减少30伤害";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1249,6 +1269,19 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "Lingshi") {
             player.skills.push("Lingshi");
+        }
+        
+        if (selectSkill.value == "GoldG") {
+            player.skills.push("GoldG");
+        }
+        if (selectSkill.value == "GoldS") {
+            player.skills.push("GoldS");
+        }
+        if (selectSkill.value == "PoorG") {
+            player.skills.push("PoorG");
+        }
+        if (selectSkill.value == "PoorS") {
+            player.skills.push("PoorS");
         }
 
         //先天包
