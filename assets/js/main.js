@@ -669,6 +669,11 @@ function getSkillName(englishName) {
         "GoldS": "金钱守势",
         "PoorG": "穷神攻势",
         "PoorS": "穷神守势",
+        "ZDKJ": "战斗盔甲",
+        "ZGQX": "至高气息",
+        "YJSH": "异界守护",
+        "HL": "活力",
+        "DCJJ": "多重坚甲",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1001,8 +1006,9 @@ const allocationPopup = () => {
                     <button id="atkSpdAdd">+</button>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style='flex-direction: column;align-items: flex-start;'>
                 <p style='color:cornflowerblue'><i class="fa-solid fa-cube"></i>属性包(+30属性点): ${khe()}</p>
+                <p style='color:gold'><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包(解锁⭐先天): ${che()}</p>
             </div>
             <div class="row">
                 <p id="alloPts"><i class="fa-solid fa-street-view"></i>可分配属性点: ${points}</p>
@@ -1023,6 +1029,11 @@ const allocationPopup = () => {
                     <option value="GoldS">金钱守势</option>
                     <option value="PoorG">穷神攻势</option>
                     <option value="PoorS">穷神守势</option>
+                    <option value="ZDKJ">战斗盔甲</option>
+                    <option value="ZGQX">至高气息</option>
+                    <option value="YJSH">异界守护</option>
+                    <option value="HL">活力</option>
+                    <option value="DCJJ">多重坚甲</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1163,6 +1174,21 @@ const allocationPopup = () => {
         if (selectSkill.value == "PoorS") {
             skillDesc.innerHTML = "灵石小于1000时,每次防御减少30伤害";
         }
+        if (selectSkill.value == "ZDKJ") {
+            skillDesc.innerHTML = "你免疫暴击";
+        }
+        if (selectSkill.value == "ZGQX") {
+            skillDesc.innerHTML = "你在气血高于80%时不会被秒杀";
+        }
+        if (selectSkill.value == "YJSH") {
+            skillDesc.innerHTML = "你的基础气血下降99%,你有99%几率闪避所有普通攻击,对暴击无效";
+        }
+        if (selectSkill.value == "HL") {
+            skillDesc.innerHTML = "你的伤害上升50%,但是有30%的几率无法命中";
+        }
+        if (selectSkill.value == "DCJJ") {
+            skillDesc.innerHTML = "气血全满时,减少50%受到伤害";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1282,6 +1308,22 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "PoorS") {
             player.skills.push("PoorS");
+        }
+        if (selectSkill.value == "ZDKJ") {
+            player.skills.push("ZDKJ");
+        }
+        if (selectSkill.value == "ZGQX") {
+            player.skills.push("ZGQX");
+        }
+        if (selectSkill.value == "YJSH") {
+            player.baseStats.hp = player.baseStats.hp - ((99 * player.baseStats.atkSpd) / 100);
+            player.skills.push("YJSH");
+        }
+        if (selectSkill.value == "HL") {
+            player.skills.push("HL");
+        }
+        if (selectSkill.value == "DCJJ") {
+            player.skills.push("DCJJ");
         }
 
         //先天包

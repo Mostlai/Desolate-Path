@@ -152,9 +152,9 @@ const playerAttack = () => {
     }
     if (player.skills.includes("Blade Dance")) {
         // Gain increased attack speed after each hit. Stack resets after battle
-        player.baseStats.atkSpd += 0.01;
+        player.baseStats.atkSpd += 0.03;
         objectValidation();
-        player.tempStats.atkSpd += 0.01;
+        player.tempStats.atkSpd += 0.03;
         saveData();
     }
     // 快启动
@@ -265,6 +265,21 @@ const playerAttack = () => {
         }
     }
 
+    if (player.skills.includes("HL")) {
+        damage = Math.floor(damage * 1.3);
+        if (Math.floor(Math.random() * 100) < 30) {
+            damage = 0
+            addCombatLog(`哎呀,打歪了`)
+        }
+    }
+
+    if (player.skills.includes("DCJJ")) {
+        if (player.stats.hp == player.stats.hpMax) {
+            damage = Math.floor(damage*0.5);
+            addCombatLog(`你的【多重坚甲】守护着你`)
+        }
+    }
+
     // Lifesteal formula
     let lifesteal = Math.round(damage * lt_mod * (player.stats.vamp / 100));
 
@@ -324,8 +339,14 @@ const enemyAttack = () => {
     damage = damage * dmgRange;
     // Check if the attack is a critical hit
     if (Math.floor(Math.random() * 100) < enemy.stats.critRate) {
-        dmgtype = "crit damage";
-        damage = Math.round(damage * (1 + (enemy.stats.critDmg / 100)));
+        // 战斗盔甲免疫暴击
+        if(player.skills.includes("ZDKJ")){
+            dmgtype = "damage";
+            damage = Math.round(damage);
+        }else{
+            dmgtype = "crit damage";
+            damage = Math.round(damage * (1 + (enemy.stats.critDmg / 100)));
+        }
     } else {
         dmgtype = "damage";
         damage = Math.round(damage);
@@ -374,6 +395,22 @@ const enemyAttack = () => {
     }
 
     // Apply the calculations
+    // 至高气息
+    if (player.skills.includes("ZGQX")) {
+        if(player.stats.hp-damage<=0){
+            damage = player.stats.hp - 5;
+        }
+    }
+
+    //异界守护
+    if (player.skills.includes("YJSH")) {
+        if (Math.floor(Math.random() * 100) < 99) {
+            if(dmgtype == 'damage'){
+                damage = 0;
+                addCombatLog(`你被异界气息笼罩,完全无视了这次攻击`)
+            }
+        }
+    }
     player.stats.hp -= damage;
     // Aegis Thorns skill
     objectValidation();
