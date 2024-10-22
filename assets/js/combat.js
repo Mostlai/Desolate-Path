@@ -410,9 +410,12 @@ const enemyAttack = () => {
     // Apply the calculations
     // 至高气息
     if (player.skills.includes("ZGQX")) {
-        if(player.stats.hp-damage<=0){
-            damage = player.stats.hp - 5;
-        }
+        let hpPercentage = (player.stats.hp / player.stats.hpMax) * 100;
+        if (hpPercentage > 80) {
+            if(player.stats.hp-damage<=0){
+                damage = player.stats.hp - 5;
+            }
+        } 
     }
 
     //异界守护
