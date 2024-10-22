@@ -334,6 +334,7 @@ window.addEventListener("load", function () {
             <button id="squn" style='color:dodgerblue'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>2群:839785679</button>
             <button id="zqun" style='color:red'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>作者:2096358571</button>
             <button id="quit-run">隐退...</button>
+            <button>点点广告,球球了</button>
         </div>`;
 
         let close = document.querySelector('#close-menu');
@@ -680,6 +681,7 @@ window.addEventListener("load", function () {
             <button id="squn" style='color:dodgerblue'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>2群:839785679</button>
             <button id="zqun" style='color:red'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>作者:2096358571</button>
             <button id="quit-run">隐退...</button>
+            <button>点点广告,球球了</button>
         </div>`;
 
         let close = document.querySelector('#close-menu');
