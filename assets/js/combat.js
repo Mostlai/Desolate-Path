@@ -33,7 +33,7 @@ const hpValidation = () => {
             });
         }else{
             enemyDead = true;
-            player.stats.hp += Math.round((player.stats.hpMax * 90) / 100);
+            player.stats.hp = player.stats.hpMax;
             addCombatLog(`你消耗一张【复活卷轴】逃出生天`);
             player.rebirth = player.rebirth - 1;
             document.querySelector("#battleButton").addEventListener("click", function () {
@@ -86,10 +86,10 @@ const hpValidation = () => {
             dld_mod = 1.5;
         }
         if(enemy.class=='guardian'){
-            if (Math.floor(Math.random() * 100) < 3*dld_mod) {
+            if (Math.floor(Math.random() * 100) < 2*dld_mod) {
                 createEquipmentPrint("combat",'XTLB');
             }else
-            if (Math.floor(Math.random() * 100) < 6*dld_mod) {
+            if (Math.floor(Math.random() * 100) < 3*dld_mod) {
                 createEquipmentPrint("combat",'LB');
             }
         }
@@ -102,10 +102,10 @@ const hpValidation = () => {
                 player.rebirth = player.rebirth + 1;
                 addCombatLog(`你从这个强大的生物上找到一张【复活卷轴】`)
             }
-            if (Math.floor(Math.random() * 100) < 3*dld_mod) {
+            if (Math.floor(Math.random() * 100) < 1*dld_mod) {
                 createEquipmentPrint("combat",'DB');
             }else
-            if (Math.floor(Math.random() * 100) < 10*dld_mod) {
+            if (Math.floor(Math.random() * 100) < 2*dld_mod) {
                 createEquipmentPrint("combat",'DB');
             }
         }
@@ -165,10 +165,16 @@ const playerAttack = () => {
 
     if (Math.floor(Math.random() * 100) < player.stats.critRate) {
         crit = true;
-        dmgtype = "crit damage";
-        damage = Math.round(damage * crit_mod * (1 + (player.stats.critDmg / 100)));
-        if (player.skills.includes("Baoji")) {
-            addCombatLog(`【狂热之心】使你额外造成${Math.round(damage * (crit_mod-1) * (1 + (player.stats.critDmg / 100)))}伤害.`)
+        if (player.skills.includes("RCZF")) {
+            crit = false;
+            dmgtype = "damage";
+            damage = Math.round(damage * dmg_mod);
+        }else{
+            dmgtype = "crit damage";
+            damage = Math.round(damage * crit_mod * (1 + (player.stats.critDmg / 100)));
+            if (player.skills.includes("Baoji")) {
+                addCombatLog(`【狂热之心】使你额外造成${Math.round(damage * (crit_mod-1) * (1 + (player.stats.critDmg / 100)))}伤害.`)
+            }
         }
     } else {
         crit = false;
@@ -316,7 +322,7 @@ const playerAttack = () => {
         let dmod = 1;
         dmod = 1+ (player.gold/1000)*0.01;
         damage = Math.floor(damage*dmod);
-        player.gold = player.gold-Math.floor(damage*0.05)
+        player.gold = player.gold-Math.floor(damage*0.09)
         addCombatLog(`你的灵石源源不断的向对方砸去`)
     }
     if (player.skills.includes("PoorG")) {
@@ -344,6 +350,16 @@ const playerAttack = () => {
             enemy.stats.hp -= damage;
             addCombatLog(`--【天人同击】--`)
         }
+    }
+
+    if (player.skills.includes("RCZF")) {
+        enemy.stats.hp -= damage;
+        addCombatLog(`【仁慈之风】发动了第二次攻击`)
+    }
+
+    if (player.skills.includes("DPMJ")) {
+        damage = Math.floor(player.stats.def*0.1);
+        addCombatLog(`你用你的肚皮攻击`)
     }
 
     enemy.stats.hp -= damage;

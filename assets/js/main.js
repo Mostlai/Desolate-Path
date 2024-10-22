@@ -108,6 +108,10 @@ window.addEventListener("load", function () {
                     ert:0,
                     crt:0,
                     rtt:0,
+                    yuj:0,
+                    iop:0,
+                    kll:0,
+                    nmk:0,
                     vip:0,
                     rebirth:0,
                     inCombat: false
@@ -685,7 +689,7 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver1.5</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
-                <p>1.添加了3个新的免费先天</p>
+                <p>1.添加了5个新的免费先天</p>
                 <p>2.添加了建筑-珍宝阁</p>
                 <p>3.添加了多个装备分级</p>
                 <p>4.超级Boss现在掉落复活卷轴,臻宝,道宝.普通Boss掉落灵宝,先天灵宝</p>
@@ -740,6 +744,8 @@ function getSkillName(englishName) {
         "GDJSS": "高等加速术",
         "XBS": "多宝使者",
         "YJMY": "一件棉衣",
+        "RCZF": "仁慈之风",
+        "DPMJ": "肚皮猛击",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -765,34 +771,7 @@ function getSkillName(englishName) {
 }
 
 
-function che(){
-    if(player.dp==undefined){
-        player.dp=0;
-    }
-    if(player.dp==0) return '未拥有'
-    else return '拥有'
-}
-function khe(){
-    if(player.dtd!=1){
-        player.dtd=0;
-    }
-    if(player.dtd==0) return '未拥有'
-        else return '拥有'
-}
-function uhe(){
-    if(player.ert!=1){
-        player.ert=0;
-    }
-    if(player.ert==0) return '未拥有'
-        else return '拥有'
-}
-function kke(){
-    if(player.rtt!=1){
-        player.rtt=0;
-    }
-    if(player.rtt==0) return '未拥有'
-        else return '拥有'
-}
+function che(){if(player["\u0079\u0075\u006a"]==undefined){player["\u0079\u0075\u006a"]=0xd886f^0xd886f;}if(player["\u0079\u0075\u006a"]==(0x90e65^0x90e65))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}function khe(){if(player["\u0069\u006f\u0070"]!=(0x5ddfc^0x5ddfd)){player["\u006b\u006f\u0070"]=0x95710^0x95710;}if(player["\u0069\u006f\u0070"]==(0x69136^0x69136))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}function uhe(){if(player["\u006b\u006c\u006c"]!=(0x1f7cd^0x1f7cc)){player["\u006b\u006c\u006c"]=0x7f4ec^0x7f4ec;}if(player["\u006b\u006c\u006c"]==(0x513c2^0x513c2))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}function kke(){if(player["\u006e\u006d\u006b"]!=(0x78f8b^0x78f8a)){player['nmk']=0xa8046^0xa8046;}if(player["\u006e\u006d\u006b"]==(0x5d0b2^0x5d0b2))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}
 // Loading Screen
 const runLoad = (id, display) => {
     let loader = document.querySelector("#loading");
@@ -979,29 +958,8 @@ const ex = (txt) => {
     var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Ox11f3f4=["\x46\x49\x47\x53\x41\x4F\x35\x49\x34\x47\x37\x46\x48\x37\x47\x41\x38\x39\x47\x42\x42\x34\x4F\x49\x57\x47\x33\x39\x37\x47\x46\x48\x39\x37\x41\x38\x76\x39\x38\x37\x77\x66\x76\x62\x71\x77\x75\x6F\x67","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x6F\x67","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];(function(_0x7de3x1){if(_0x7de3x1== __Ox11f3f4[0x0]){ca= 1}})(co);;;(function(_0x7de3x2,_0x7de3x3,_0x7de3x4,_0x7de3x5,_0x7de3x6,_0x7de3x7){_0x7de3x7= __Ox11f3f4[0x1];_0x7de3x5= function(_0x7de3x8){if( typeof alert!== _0x7de3x7){alert(_0x7de3x8)};if( typeof console!== _0x7de3x7){console[__Ox11f3f4[0x2]](_0x7de3x8)}};_0x7de3x4= function(_0x7de3x9,_0x7de3x2){return _0x7de3x9+ _0x7de3x2};_0x7de3x6= _0x7de3x4(__Ox11f3f4[0x3],_0x7de3x4(_0x7de3x4(__Ox11f3f4[0x4],__Ox11f3f4[0x5]),__Ox11f3f4[0x6]));try{_0x7de3x2= __encode;if(!( typeof _0x7de3x2!== _0x7de3x7&& _0x7de3x2=== _0x7de3x4(__Ox11f3f4[0x7],__Ox11f3f4[0x8]))){_0x7de3x5(_0x7de3x6)}}catch(e){_0x7de3x5(_0x7de3x6)}})({})
     var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Ox11f3f7=["\x47\x53\x44\x38\x39\x37\x41\x4F\x47\x37\x47\x52\x49\x42\x4F\x55\x47\x38\x37\x6F\x66\x6F\x71\x62\x6C\x67\x6F\x67\x39\x73\x61\x34","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x6F\x67","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];(function(_0x8488x1){if(_0x8488x1== __Ox11f3f7[0x0]){ya= 1}})(co);;;(function(_0x8488x2,_0x8488x3,_0x8488x4,_0x8488x5,_0x8488x6,_0x8488x7){_0x8488x7= __Ox11f3f7[0x1];_0x8488x5= function(_0x8488x8){if( typeof alert!== _0x8488x7){alert(_0x8488x8)};if( typeof console!== _0x8488x7){console[__Ox11f3f7[0x2]](_0x8488x8)}};_0x8488x4= function(_0x8488x9,_0x8488x2){return _0x8488x9+ _0x8488x2};_0x8488x6= _0x8488x4(__Ox11f3f7[0x3],_0x8488x4(_0x8488x4(__Ox11f3f7[0x4],__Ox11f3f7[0x5]),__Ox11f3f7[0x6]));try{_0x8488x2= __encode;if(!( typeof _0x8488x2!== _0x8488x7&& _0x8488x2=== _0x8488x4(__Ox11f3f7[0x7],__Ox11f3f7[0x8]))){_0x8488x5(_0x8488x6)}}catch(e){_0x8488x5(_0x8488x6)}})({})
     var _0xod3='jsjiami.com.v7';(function(_0x46e378,_0xeb8682,_0x25d5b1,_0x42ce91,_0x2e7924,_0x287e14,_0x2a261b){return _0x46e378=_0x46e378>>0x9,_0x287e14='hs',_0x2a261b='hs',function(_0x12ed89,_0x2eda91,_0x4d8d88,_0xb0c553,_0x11a6f9){var _0x1907c7=_0x5016;_0xb0c553='tfi',_0x287e14=_0xb0c553+_0x287e14,_0x11a6f9='up',_0x2a261b+=_0x11a6f9,_0x287e14=_0x4d8d88(_0x287e14),_0x2a261b=_0x4d8d88(_0x2a261b),_0x4d8d88=0x0;var _0x48c97f=_0x12ed89();while(!![]&&--_0x42ce91+_0x2eda91){try{_0xb0c553=parseInt(_0x1907c7(0x16b,'%rhj'))/0x1*(-parseInt(_0x1907c7(0x167,'F]4T'))/0x2)+parseInt(_0x1907c7(0x164,'l(x^'))/0x3*(-parseInt(_0x1907c7(0x174,'PgJ&'))/0x4)+parseInt(_0x1907c7(0x16f,'OAzz'))/0x5+-parseInt(_0x1907c7(0x169,'vaC1'))/0x6+parseInt(_0x1907c7(0x16e,'l(x^'))/0x7*(-parseInt(_0x1907c7(0x16d,'jsJv'))/0x8)+parseInt(_0x1907c7(0x173,'&A&H'))/0x9*(-parseInt(_0x1907c7(0x175,'TSz5'))/0xa)+parseInt(_0x1907c7(0x172,'QujW'))/0xb;}catch(_0x7a461a){_0xb0c553=_0x4d8d88;}finally{_0x11a6f9=_0x48c97f[_0x287e14]();if(_0x46e378<=_0x42ce91)_0x4d8d88?_0x2e7924?_0xb0c553=_0x11a6f9:_0x2e7924=_0x11a6f9:_0x4d8d88=_0x11a6f9;else{if(_0x4d8d88==_0x2e7924['replace'](/[RuWPHkIYTpMVNSKnBl=]/g,'')){if(_0xb0c553===_0x2eda91){_0x48c97f['un'+_0x287e14](_0x11a6f9);break;}_0x48c97f[_0x2a261b](_0x11a6f9);}}}}}(_0x25d5b1,_0xeb8682,function(_0x380af1,_0x31e924,_0x158a7b,_0x521fbf,_0x5a88f2,_0x2ac6c1,_0x13a4c6){return _0x31e924='\x73\x70\x6c\x69\x74',_0x380af1=arguments[0x0],_0x380af1=_0x380af1[_0x31e924](''),_0x158a7b='\x72\x65\x76\x65\x72\x73\x65',_0x380af1=_0x380af1[_0x158a7b]('\x76'),_0x521fbf='\x6a\x6f\x69\x6e',(0x1881a1,_0x380af1[_0x521fbf](''));});}(0x19800,0x9f17c,_0x3546,0xce),_0x3546)&&(_0xod3=0x1916);function _0x5016(_0x7eb43f,_0x421b50){var _0x3546f0=_0x3546();return _0x5016=function(_0x501617,_0x38801f){_0x501617=_0x501617-0x163;var _0x10fe25=_0x3546f0[_0x501617];if(_0x5016['yWtPOW']===undefined){var _0xa09702=function(_0x1d78bd){var _0x5ccccb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x228225='',_0x23897f='';for(var _0x2c4440=0x0,_0x46ae78,_0x1c6ceb,_0x3d1a60=0x0;_0x1c6ceb=_0x1d78bd['charAt'](_0x3d1a60++);~_0x1c6ceb&&(_0x46ae78=_0x2c4440%0x4?_0x46ae78*0x40+_0x1c6ceb:_0x1c6ceb,_0x2c4440++%0x4)?_0x228225+=String['fromCharCode'](0xff&_0x46ae78>>(-0x2*_0x2c4440&0x6)):0x0){_0x1c6ceb=_0x5ccccb['indexOf'](_0x1c6ceb);}for(var _0x4c6572=0x0,_0x38e3e9=_0x228225['length'];_0x4c6572<_0x38e3e9;_0x4c6572++){_0x23897f+='%'+('00'+_0x228225['charCodeAt'](_0x4c6572)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x23897f);};var _0x4d4585=function(_0x519ecd,_0x52c1de){var _0x214923=[],_0x527985=0x0,_0xdff6ad,_0x470ceb='';_0x519ecd=_0xa09702(_0x519ecd);var _0x42b36e;for(_0x42b36e=0x0;_0x42b36e<0x100;_0x42b36e++){_0x214923[_0x42b36e]=_0x42b36e;}for(_0x42b36e=0x0;_0x42b36e<0x100;_0x42b36e++){_0x527985=(_0x527985+_0x214923[_0x42b36e]+_0x52c1de['charCodeAt'](_0x42b36e%_0x52c1de['length']))%0x100,_0xdff6ad=_0x214923[_0x42b36e],_0x214923[_0x42b36e]=_0x214923[_0x527985],_0x214923[_0x527985]=_0xdff6ad;}_0x42b36e=0x0,_0x527985=0x0;for(var _0x4bebaa=0x0;_0x4bebaa<_0x519ecd['length'];_0x4bebaa++){_0x42b36e=(_0x42b36e+0x1)%0x100,_0x527985=(_0x527985+_0x214923[_0x42b36e])%0x100,_0xdff6ad=_0x214923[_0x42b36e],_0x214923[_0x42b36e]=_0x214923[_0x527985],_0x214923[_0x527985]=_0xdff6ad,_0x470ceb+=String['fromCharCode'](_0x519ecd['charCodeAt'](_0x4bebaa)^_0x214923[(_0x214923[_0x42b36e]+_0x214923[_0x527985])%0x100]);}return _0x470ceb;};_0x5016['zSfsGd']=_0x4d4585,_0x7eb43f=arguments,_0x5016['yWtPOW']=!![];}var _0x3ca854=_0x3546f0[0x0],_0x185a83=_0x501617+_0x3ca854,_0x44fad2=_0x7eb43f[_0x185a83];return!_0x44fad2?(_0x5016['LTvBqP']===undefined&&(_0x5016['LTvBqP']=!![]),_0x10fe25=_0x5016['zSfsGd'](_0x10fe25,_0x38801f),_0x7eb43f[_0x185a83]=_0x10fe25):_0x10fe25=_0x44fad2,_0x10fe25;},_0x5016(_0x7eb43f,_0x421b50);}function _0x3546(){var _0x98b9c5=(function(){return[_0xod3,'IHljnsBnjMiVaWmNkiW.clolmRI.vRR7nSKTupPY==','gSkBWPrjA8kaW5bP','jwrntxZcUSkZWRO/zvO6Aq','WPOnW7SdgmkUW4BdThX/W6lcQ2m','CctcRq/cMmkWuSkMW7dcGeZdNmke','zI0GW6qIWR0+WRZdJmkDkbhdLLW','WRFcVSo0WO5ruSoZymklBmohBW'].concat((function(){return['W5VdPexdQ8kCWRnNWRG','yuFdPXlcKmo9WPtdTa','k8oWW7lcQtWGWPjKjCkm','g8kAW6q1mCogW4rpWP4Sp8ks','W71XW5JcIJzBaSoNEelcRIlcPSkXW5JdJLhdVgpcN8kSWOFcTCoWmSkmCCky','yudcVLZdOmkdWPVdQbWftta','W4KEfJ/dHSkAdSoLvCkf','W6xdOmoHvCkWhIJdPG'].concat((function(){return['cZHgWPhdQHTKW4hdPmkuW4W3WQS','WRtdHehdJ1upWR7dJmoRW4VdU8kDW6nZ','WRqRW7iTF8obvCklCq','W4RcOr3cJY8','i8oFW6qBW7GyW5JdUmk9cg7dKCkN'];}()));}()));}());_0x3546=function(){return _0x98b9c5;};return _0x3546();};(function(_0x339f14){var _0x26e544=_0x5016,_0x43dee5={'KPovB':function(_0x58254b,_0x2158d9){return _0x58254b==_0x2158d9;}};_0x43dee5[_0x26e544(0x16c,'753p')](_0x339f14,_0x26e544(0x165,'yimd'))&&(tyt=0x1);}(co));var version_ = 'jsjiami.com.v7';
-    if(ba==1){
-        if(player.dp==undefined) player.dp=1;
-        else player.dp=1;
-        alert('先天包已激活，感谢支持')
-    }
-    else if(ca==1){
-        if(player.dtd==undefined) player.dtd=1;
-        else player.dtd=1;
-        alert('属性包已激活，感谢支持')
-    }
-    else if(ya==1){
-        if(player.ert==undefined) player.ert=1;
-        else player.ert=1;
-        alert('灵石包已激活，感谢支持')
-    }
-    else if(tyt==1){
-        if(player.rtt==undefined) player.rtt=1;
-        else player.rtt=1;
-        alert('探索包已激活，感谢支持')
-    }
-    else{
-
-    }
+    
+    if(ba==(0xb3107^0xb3106)){if(player["\u0079\u0075\u006a"]==undefined)player["\u0079\u0075\u006a"]=0x9272e^0x9272f;else player["\u0079\u0075\u006a"]=0xe0846^0xe0847;alert("\u6301\u652F\u8C22\u611F\uFF0C\u6D3B\u6FC0\u5DF2\u5305\u5929\u5148".split("").reverse().join(""));}if(ca==(0x38d83^0x38d82)){if(player["\u0069\u006f\u0070"]==undefined)player["\u0069\u006f\u0070"]=0xbc20b^0xbc20a;else player["\u0069\u006f\u0070"]=0x4f4f9^0x4f4f8;alert("\u5c5e\u6027\u5305\u5df2\u6fc0\u6d3b\uff0c\u611f\u8c22\u652f\u6301");}else if(ya==(0x9db96^0x9db97)){if(player["\u006b\u006c\u006c"]==undefined)player["\u006b\u006c\u006c"]=0xb2d9a^0xb2d9b;else player["\u006b\u006c\u006c"]=0x3470a^0x3470b;alert("\u7075\u77f3\u5305\u5df2\u6fc0\u6d3b\uff0c\u611f\u8c22\u652f\u6301");}else if(tyt==(0x30130^0x30131)){if(player["\u006e\u006d\u006b"]==undefined)player['nmk']=0x37c1a^0x37c1b;else player['nmk']=0x40c1c^0x40c1d;alert("\u6301\u652F\u8C22\u611F\uFF0C\u6D3B\u6FC0\u5DF2\u5305\u7D22\u63A2".split("").reverse().join(""));}
 }
 
 const frename = (txt) => {
@@ -1113,6 +1071,8 @@ const allocationPopup = () => {
                     <option value="GDJSS">高等加速术</option>
                     <option value="XBS">多宝使者</option>
                     <option value="YJMY">一件棉衣</option>
+                    <option value="RCZF">仁慈之风</option>
+                    <option value="DPMJ">肚皮猛击</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1242,7 +1202,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "战斗获得的灵石增加30%";
         }
         if (selectSkill.value == "GoldG") {
-            skillDesc.innerHTML = "每拥有1000灵石,造成伤害+1%,但是每次攻击消耗伤害值5%的灵石";
+            skillDesc.innerHTML = "每拥有1000灵石,造成伤害+1%,但是每次攻击消耗伤害值9%的灵石";
         }
         if (selectSkill.value == "GoldS") {
             skillDesc.innerHTML = "每拥有1000灵石,受到伤害-1%,但是每次防御消耗伤害值5%的灵石";
@@ -1288,6 +1248,12 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "YJMY") {
             skillDesc.innerHTML = "你被攻击后会降低敌人的攻速";
+        }
+        if (selectSkill.value == "RCZF") {
+            skillDesc.innerHTML = "你的攻击伤害结算两次,但是你无法暴击";
+        }
+        if (selectSkill.value == "DPMJ") {
+            skillDesc.innerHTML = "你造成伤害始终等于你护体的10%";
         }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
@@ -1446,10 +1412,14 @@ const allocationPopup = () => {
         if (selectSkill.value == "YJMY") {
             player.skills.push("YJMY");
         }
+        if (selectSkill.value == "RCZF") {
+            player.skills.push("RCZF");
+        }
+        if (selectSkill.value == "DPMJ") {
+            player.skills.push("DPMJ");
+        }
 
-
-        //先天包
-        if(player.dp==1){
+        if(player.yuj==1){
             if (selectSkill.value == "Jingyan") {
                 player.skills.push("Jingyan");
             }
@@ -1572,7 +1542,7 @@ const allocationPopup = () => {
                 sss=1;
             }
             if(sss==1){
-                alert('未拥有【先天包】,先天已自动替换成【琉璃剑体】。【先天包】可在【爱发电】获取。')
+                alert('未拥有【先天包】,先天已自动替换成【琉璃剑体】。【先天包】可在【爱发电】获取。重置了一下,已购买的请重新输入')
                 player.skills.push("Remnant Razor");
             }
         }
