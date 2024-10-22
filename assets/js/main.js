@@ -1030,6 +1030,7 @@ function getSkillName(englishName) {
         "BQZJ": "不屈之剑",
         "BQZD": "不屈之盾",
         "TRA": "天人爱",
+        "GDJSS": "高等加速术",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1145,7 +1146,13 @@ const calculateStats = () => {
 
     // Caps attack speed to 2.5
     if (player.stats.atkSpd > 2.5) {
-        player.stats.atkSpd = 2.5;
+        if (player.skills.includes("GDJSS")) {
+            if(player.stats.atkSpd > 5){
+                player.stats.atkSpd = 5;
+            }
+        }else{
+            player.stats.atkSpd = 2.5;
+        }
     }
 }
 
@@ -1394,6 +1401,7 @@ const allocationPopup = () => {
                     <option value="BQZJ">不屈之剑</option>
                     <option value="BQZD">不屈之盾</option>
                     <option value="TRA">天人爱</option>
+                    <option value="GDJSS">高度加速术</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1561,6 +1569,9 @@ const allocationPopup = () => {
         if (selectSkill.value == "TRA") {
             skillDesc.innerHTML = "你有10%几率连续攻击两次";
         }
+        if (selectSkill.value == "GDJSS") {
+            skillDesc.innerHTML = "你的攻速上限翻倍(2.5->5)";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1708,6 +1719,9 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "TRA") {
             player.skills.push("TRA");
+        }
+        if (selectSkill.value == "GDJSS") {
+            player.skills.push("GDJSS");
         }
 
 
