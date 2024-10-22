@@ -713,6 +713,7 @@ function getSkillName(englishName) {
         "TRA": "天人爱",
         "GDJSS": "高等加速术",
         "XBS": "多宝使者",
+        "YJMY": "一件棉衣",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1085,6 +1086,7 @@ const allocationPopup = () => {
                     <option value="TRA">天人爱</option>
                     <option value="GDJSS">高等加速术</option>
                     <option value="XBS">多宝使者</option>
+                    <option value="YJMY">一件棉衣</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1258,6 +1260,9 @@ const allocationPopup = () => {
         if (selectSkill.value == "XBS") {
             skillDesc.innerHTML = "你击败强大敌人后找到灵宝以上装备的概率提高50%";
         }
+        if (selectSkill.value == "YJMY") {
+            skillDesc.innerHTML = "你被攻击后会降低敌人的攻速";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1411,6 +1416,9 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "XBS") {
             player.skills.push("XBS");
+        }
+        if (selectSkill.value == "YJMY") {
+            player.skills.push("YJMY");
         }
 
 

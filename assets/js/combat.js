@@ -529,12 +529,18 @@ const enemyAttack = () => {
 
     
     // 鲜烈之龙
-    let enemy_wait = enemy.stats.atkSpd
+    let enemy_wait = enemy.stats.atkSpd;
     if (player.skills.includes("XLZL")) {
         if(player.stats.atkSpd<enemy.stats.atkSpd){
-            enemy_wait = Math.max(0.1,player.stats.atkSpd-0.1)
+            enemy_wait = Math.max(0.1,player.stats.atkSpd-0.1);
             addCombatLog(`敌人被震撼着`)
         }
+    }
+
+    if (player.skills.includes("YJMY")) {
+        player.stats.atkSpd = player.stats.atkSpd - 0.05;
+        enemy_wait = enemy.stats.atkSpd;
+        addCombatLog(`敌人被你的棉衣纠缠住了!`)
     }
 
     // Attack Timer
