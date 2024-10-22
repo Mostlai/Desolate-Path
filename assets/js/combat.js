@@ -131,6 +131,7 @@ const playerAttack = () => {
 
     if (player.skills.includes("BQZJ")) {
         console.log(player.tempStats.firstAtk)
+        if(player.tempStats.firstAtk==undefined) player.tempStats.firstAtk = 0;
         if(player.tempStats.firstAtk==0){
             dmgtype = "crit damage";
             damage = Math.round(damage * crit_mod * 2 * (1 + (player.stats.critDmg / 100)));
@@ -434,11 +435,12 @@ const enemyAttack = () => {
     }
 
     if (player.skills.includes("BQZD")) {
+        if(player.tempStats.firstDef==undefined) player.tempStats.firstDef = 0;
         if(player.tempStats.firstDef==0){
             let heal = damage;
             player.stats.hp = player.stats.hp + heal;
             damage = 0;
-            player.tempStats.firstAtk = 1;
+            player.tempStats.firstDef = 1;
             addCombatLog(`你激发出【不屈之盾】`)
             addCombatLog(`你获得了${heal}治疗`)
         }
