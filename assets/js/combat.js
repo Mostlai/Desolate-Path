@@ -33,7 +33,7 @@ const hpValidation = () => {
             });
         }else{
             enemyDead = true;
-            player.stats.hp = 300;
+            player.stats.hp += Math.round((player.stats.hpMax * 90) / 100);
             addCombatLog(`你消耗一张【复活卷轴】逃出生天`);
             player.rebirth = player.rebirth - 1;
             document.querySelector("#battleButton").addEventListener("click", function () {
