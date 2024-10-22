@@ -306,6 +306,23 @@ button:focus {
     color: #e30b5c;
 }
 
+.LB {
+    color: #159AFF;
+    text-shadow: 0px 0px 9px #159AFF;
+}
+.XTLB {
+    color: #0b0be2;
+    text-shadow: 0px 0px 9px #0b0be2;
+}
+.ZB {
+    color: rgb(229, 7, 218);
+    text-shadow: 0px 0px 9px rgb(229, 7, 218);
+}
+.DB {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 9px rgb(255, 0, 0);
+}
+
 /* Game */
 .game-container {
     display: inline-block;

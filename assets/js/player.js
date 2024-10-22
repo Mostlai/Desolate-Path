@@ -104,12 +104,16 @@ const playerLoadStats = () => {
     <p><i class="ra ra-focused-lightning"></i>暴击伤害+${player.bonusStats.critDmg.toFixed(2).replace(rx, "$1")}%</p>`;
 }
 function getRareNmae(txt){
-    if(txt=='Common') return '普通'
-    if(txt=='Uncommon') return '寻常'
-    if(txt=='Rare') return '稀有'
-    if(txt=='Epic') return '史诗'
-    if(txt=='Legendary') return '传说'
-    if(txt=='Heirloom') return '道器'
+    if(txt=='Common') return '凡品'
+    if(txt=='Uncommon') return '良品'
+    if(txt=='Rare') return '上品'
+    if(txt=='Epic') return '超品'
+    if(txt=='Legendary') return '传世'
+    if(txt=='Heirloom') return '绝世'
+    if(txt=='LB') return '灵宝'
+    if(txt=='XTLB') return '先天灵宝'
+    if(txt=='ZB') return '臻宝'
+    if(txt=='DB') return '道宝'
 }
 // Opens inventory
 const openInventory = () => {

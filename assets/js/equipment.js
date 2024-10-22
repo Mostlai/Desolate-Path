@@ -1,4 +1,4 @@
-const createEquipment = () => {
+const createEquipment = (pre_rarity=null) => {
     const equipment = {
         category: null,
         attribute: null,
@@ -55,6 +55,8 @@ const createEquipment = () => {
         }
     }
 
+    if(pre_rarity!=null) equipment.rarity = pre_rarity;
+
     // Determine number of times to loop based on equipment rarity
     let loopCount;
     switch (equipment.rarity) {
@@ -75,6 +77,22 @@ const createEquipment = () => {
             break;
         case "Heirloom":
             loopCount = 8;
+            break;
+        // 灵宝
+        case "LB":
+            loopCount = 9;
+            break;
+        // 先天灵宝
+        case "XTLB":
+            loopCount = 10
+            break;
+        // 臻宝
+        case "ZB":
+            loopCount = 11
+            break;
+        // 道宝
+        case "DB":
+            loopCount = 12
             break;
     }
 
@@ -175,6 +193,14 @@ const createEquipment = () => {
         } else if (equipment.rarity == "Legendary" && loopCount > 7) {
             loopCount--;
         } else if (equipment.rarity == "Heirloom" && loopCount > 9) {
+            loopCount--;
+        } else if (equipment.rarity == "LB" && loopCount > 10) {
+            loopCount--;
+        } else if (equipment.rarity == "XTLB" && loopCount > 11) {
+            loopCount--;
+        } else if (equipment.rarity == "ZB" && loopCount > 12) {
+            loopCount--;
+        } else if (equipment.rarity == "DB" && loopCount > 13) {
             loopCount--;
         }
 
@@ -385,12 +411,16 @@ const showItemInfo = (item, icon, type, i) => {
     };
 }
 function getRareNmae(txt){
-    if(txt=='Common') return '普通'
-    if(txt=='Uncommon') return '寻常'
-    if(txt=='Rare') return '稀有'
-    if(txt=='Epic') return '史诗'
-    if(txt=='Legendary') return '传说'
-    if(txt=='Heirloom') return '道器'
+    if(txt=='Common') return '凡品'
+    if(txt=='Uncommon') return '良品'
+    if(txt=='Rare') return '上品'
+    if(txt=='Epic') return '超品'
+    if(txt=='Legendary') return '传世'
+    if(txt=='Heirloom') return '绝世'
+    if(txt=='LB') return '灵宝'
+    if(txt=='XTLB') return '先天灵宝'
+    if(txt=='ZB') return '臻宝'
+    if(txt=='DB') return '道宝'
 }
 function getEquipmentName(equipment) {
     if (equipment == "Sword") return '灵剑';
@@ -548,9 +578,9 @@ const sellAll = (rarity) => {
     }
 }
 
-const createEquipmentPrint = (condition) => {
+const createEquipmentPrint = (condition,pre_rarity=null) => {
     let rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
-    let item = createEquipment();
+    let item = createEquipment(pre_rarity);
     let panel = `
         <div class="primary-panel" style="padding: 0.5rem; margin-top: 0.5rem;">
                 <h4 class="${item.rarity}"><b>${item.icon}${getRareNmae(item.rarity)} ${getEquipmentName(item.category)}</b></h4>

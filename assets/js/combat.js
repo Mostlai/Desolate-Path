@@ -6,29 +6,49 @@ let playerDead = false;
 const hpValidation = () => {
     // Prioritizes player death before the enemy
     if (player.stats.hp < 1) {
-        player.stats.hp = 0;
-        playerDead = true;
-        player.deaths++;
-        if(player.bank==undefined) player.bank=0;
-        player.bank = player.bank+ Math.ceil(player.gold*0.3)
-        player.gold = 0
-        addCombatLog(`你死了!`);
-        addCombatLog(`30%的灵石自动存入了钱庄`);
-        document.querySelector("#battleButton").addEventListener("click", function () {
-            sfxConfirm.play();
-            playerDead = false;
+        if(player.rebirth==undefined) player.rebirth=0
+        if(player.rebirth==0){
+            player.stats.hp = 0;
+            playerDead = true;
+            player.deaths++;
+            if(player.bank==undefined) player.bank=0;
+            player.bank = player.bank+ Math.ceil(player.gold*0.3)
+            player.gold = 0
+            addCombatLog(`你死了!`);
+            addCombatLog(`30%的灵石自动存入了钱庄`);
+            document.querySelector("#battleButton").addEventListener("click", function () {
+                sfxConfirm.play();
+                playerDead = false;
 
-            // Reset all the necessary stats and return to menu
-            let dimDungeon = document.querySelector('#dungeon-main');
-            dimDungeon.style.filter = "brightness(100%)";
-            dimDungeon.style.display = "none";
-            combatPanel.style.display = "none";
-            runLoad("title-screen", "flex");
+                // Reset all the necessary stats and return to menu
+                let dimDungeon = document.querySelector('#dungeon-main');
+                dimDungeon.style.filter = "brightness(100%)";
+                dimDungeon.style.display = "none";
+                combatPanel.style.display = "none";
+                runLoad("title-screen", "flex");
 
-            clearInterval(dungeonTimer);
-            clearInterval(playTimer);
-            progressReset();
-        });
+                clearInterval(dungeonTimer);
+                clearInterval(playTimer);
+                progressReset();
+            });
+        }else{
+            enemyDead = true;
+            addCombatLog(`你消耗一张【复活卷轴】逃出生天`);
+            player.rebirth = player.rebirth - 1;
+            document.querySelector("#battleButton").addEventListener("click", function () {
+                sfxConfirm.play();
+    
+                // Clear combat backlog and transition to dungeon exploration
+                let dimDungeon = document.querySelector('#dungeon-main');
+                dimDungeon.style.filter = "brightness(100%)";
+                bgmDungeon.play();
+    
+                dungeon.status.event = false;
+                combatPanel.style.display = "none";
+                enemyDead = false;
+                combatBacklog.length = 0;
+            });
+        }
         endCombat();
     } else if (enemy.stats.hp < 1) {
         // Gives out all the reward and show the claim button
@@ -58,6 +78,35 @@ const hpValidation = () => {
         playerLoadStats();
         if (enemy.rewards.drop) {
             createEquipmentPrint("combat");
+        }
+
+        let dld_mod = 1;
+        if (player.skills.includes("XBS")) {
+            dld_mod = 1.5;
+        }
+        if(enemy.class=='guardian'){
+            if (Math.floor(Math.random() * 100) < 3*dld_mod) {
+                createEquipmentPrint("combat",'XTLB');
+            }else
+            if (Math.floor(Math.random() * 100) < 6*dld_mod) {
+                createEquipmentPrint("combat",'LB');
+            }
+        }
+
+
+        if(enemy.class=='sboss'){
+            // sboss 50%几率掉落复活卷轴
+            if (Math.floor(Math.random() * 100) < 50) {
+                if(player.rebirth == undefined) player.rebirth = 0;
+                player.rebirth = player.rebirth + 1;
+                addCombatLog(`你从这个强大的生物上找到一张【复活卷轴】`)
+            }
+            if (Math.floor(Math.random() * 100) < 3*dld_mod) {
+                createEquipmentPrint("combat",'DB');
+            }else
+            if (Math.floor(Math.random() * 100) < 10*dld_mod) {
+                createEquipmentPrint("combat",'DB');
+            }
         }
 
         // Recover 20% of players health
@@ -521,7 +570,7 @@ const updateCombatLog = () => {
     if (enemyDead) {
         let button = document.createElement("div");
         button.className = "decision-panel";
-        button.innerHTML = `<button id="battleButton">取得</button>`;
+        button.innerHTML = `<button id="battleButton">知道了</button>`;
         combatLogBox.appendChild(button);
     }
 

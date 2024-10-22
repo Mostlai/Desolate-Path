@@ -109,6 +109,7 @@ window.addEventListener("load", function () {
                     crt:0,
                     rtt:0,
                     vip:0,
+                    rebirth:0,
                     inCombat: false
                 };
                 calculateStats();
@@ -174,6 +175,7 @@ window.addEventListener("load", function () {
             <button id="farm" style='color:lawngreen'><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</button>
             <button id="liesha" style='color:red'><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</button>
             <button id="bank" style='color:lawngreen'><i class="fa-solid fa-building-columns"></i>钱庄</button>
+            <button id="treasuree" style='color:gold'><i class="fa-regular fa-gem"></i>珍宝阁</button>
             <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
         </div>`;
         let close = document.querySelector('#close-menu');
@@ -181,6 +183,7 @@ window.addEventListener("load", function () {
         let farm = document.querySelector('#farm');
         let liesha = document.querySelector('#liesha');
         let bank = document.querySelector('#bank');
+        let treasureM = document.querySelector('#treasuree');
 
         farm.onclick = function () {
             sfxOpen.play();
@@ -279,6 +282,32 @@ window.addEventListener("load", function () {
                 document.querySelector('#ck').innerHTML = `存款: ${nFormatter(player.bank)}`;
                 playerLoadStats();
             };
+
+            profileTab.style.width = "15rem";
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        treasureM.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.rebirth==undefined) player.rebirth = 0;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head">
+                    <h3><i class="fa-regular fa-gem"></i>珍宝阁</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p id='RB' style='color:lawngreen'><i class="fa-solid fa-scroll"></i>重生卷轴: ${nFormatter(player.rebirth)}</p>
+                <p color:lawngreen'>效果:死亡时自动消耗,免死一次</p>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
 
             profileTab.style.width = "15rem";
             let profileClose = document.querySelector('#profile-close');
@@ -653,354 +682,6 @@ window.addEventListener("load", function () {
             dimDungeon.style.filter = "brightness(100%)";
         };
     });
-
-    document.querySelector("#amenu-btn").addEventListener("click", function () {
-        closeInventory();
-
-        dungeon.status.exploring = false;
-        let dimDungeon = document.querySelector('#dungeon-main');
-        dimDungeon.style.filter = "brightness(50%)";
-        menuModalElement.style.display = "flex";
-
-        // Menu tab
-        menuModalElement.innerHTML = `
-        <div class="content">
-            <div class="content-head">
-                <h3>菜单</h3>
-                <h3>版本:${version}</h3>
-                <p id="close-menu"><i class="fa fa-xmark"></i></p>
-            </div>
-            <button id="player-menu"><i class="fas fa-user"></i>${player.name}</button>
-            <button id="stats">当前状态</button>
-            <button id="volume-btn">音量调节</button>
-            <button id="excode" style='color:gold'>兑换码</button>
-            <button id="rename" style='color:mediumvioletred'>更改档案名</button>
-            <button id="export-import" style='color:orange'>导入/导出</button>
-            <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
-            <button id="fqun" style='color:lawngreen'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>1群:281738137</button>
-            <button id="squn" style='color:dodgerblue'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>2群:839785679</button>
-            <button id="zqun" style='color:red'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>作者:2096358571</button>
-            <button id="quit-run">隐退...</button>
-            <button>点点广告,球球了</button>
-        </div>`;
-
-        let close = document.querySelector('#close-menu');
-        let playerMenu = document.querySelector('#player-menu');
-        let runMenu = document.querySelector('#stats');
-        let quitRun = document.querySelector('#quit-run');
-        let exportImport = document.querySelector('#export-import');
-        let volumeSettings = document.querySelector('#volume-btn');
-        let excode = document.querySelector('#excode');
-        let rename = document.querySelector('#rename');
-
-        fqun.onclick = function () {
-            navigator.clipboard.writeText('281738137');
-            alert("已复制1群群号");
-        }
-        squn.onclick = function () {
-            navigator.clipboard.writeText('839785679');
-            alert("已复制2群群号");
-        }
-        zqun.onclick = function () {
-            navigator.clipboard.writeText('2096358571');
-            alert("已复制作者QQ号");
-        }
-
-        // Player profile click function
-        playerMenu.onclick = function () {
-            sfxOpen.play();
-            let playTime = new Date(player.playtime * 1000).toISOString().slice(11, 19);
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="profile-tab">
-                <div class="content-head">
-                    <h3>统计数据</h3>
-                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <p>${player.name} Lv.${player.lvl}</p>
-                <p>总杀敌: ${nFormatter(player.kills)}</p>
-                <p>死亡次数: ${nFormatter(player.deaths)}</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包: ${che()}</p>
-                <p style='color:gold'>效果==解锁所有先天==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>属性包: ${khe()}</p>
-                <p style='color:gold'>效果==出生时额外30属性点==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>灵石包: ${uhe()}</p>
-                <p style='color:gold'>效果==敌人掉落灵石X2==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>探索包: ${kke()}</p>
-                <p style='color:gold'>效果==探索速度X2=</p>
-                <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
-                <p>游戏时间: ${playTime}</p>
-            </div>`;
-            let profileTab = document.querySelector('#profile-tab');
-            profileTab.style.width = "15rem";
-            let profileClose = document.querySelector('#profile-close');
-            profileClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-        // Dungeon run click function
-        runMenu.onclick = function () {
-            sfxOpen.play();
-            let runTime = new Date(dungeon.statistics.runtime * 1000).toISOString().slice(11, 19);
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="run-tab">
-                <div class="content-head">
-                    <h3>当前状态</h3>
-                    <p id="run-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <p>${player.name} Lv.${player.lvl} (${getSkillName(player.skills)})</p>
-                <p>眷天 Lvl.${player.blessing}</p>
-                <p>弃天 Lvl.${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
-                <p>杀敌: ${nFormatter(dungeon.statistics.kills)}</p>
-                <p>游戏时间: ${runTime}</p>
-            </div>`;
-            let runTab = document.querySelector('#run-tab');
-            runTab.style.width = "15rem";
-            let runClose = document.querySelector('#run-close');
-            runClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-        // Quit the current run
-        quitRun.onclick = function () {
-            sfxOpen.play();
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content">
-                <p>确定要隐退(回到开始)吗?</p>
-                <div class="button-container">
-                    <button id="quit-run">隐退</button>
-                    <button id="cancel-quit">取消</button>
-                </div>
-            </div>`;
-            let quit = document.querySelector('#quit-run');
-            let cancel = document.querySelector('#cancel-quit');
-            quit.onclick = function () {
-                sfxConfirm.play();
-                // Clear out everything, send the player back to meny and clear progress.
-                bgmDungeon.stop();
-                let dimDungeon = document.querySelector('#dungeon-main');
-                dimDungeon.style.filter = "brightness(100%)";
-                dimDungeon.style.display = "none";
-                menuModalElement.style.display = "none";
-                menuModalElement.innerHTML = "";
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                runLoad("title-screen", "flex");
-                clearInterval(dungeonTimer);
-                clearInterval(playTimer);
-                progressReset();
-            };
-            cancel.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-        // Opens the volume settings
-        volumeSettings.onclick = function () {
-            sfxOpen.play();
-
-            let master = volume.master * 100;
-            let bgm = (volume.bgm * 100) * 2;
-            let sfx = volume.sfx * 100;
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="volume-tab">
-                <div class="content-head">
-                    <h3>音量</h3>
-                    <p id="volume-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <label id="master-label" for="master-volume">主音量 (${master}%)</label>
-                <input type="range" id="master-volume" min="0" max="100" value="${master}">
-                <label id="bgm-label" for="bgm-volume">BGM (${bgm}%)</label>
-                <input type="range" id="bgm-volume" min="0" max="100" value="${bgm}">
-                <label id="sfx-label" for="sfx-volume">SFX (${sfx}%)</label>
-                <input type="range" id="sfx-volume" min="0" max="100" value="${sfx}">
-                <button id="apply-volume">Apply</button>
-            </div>`;
-            let masterVol = document.querySelector('#master-volume');
-            let bgmVol = document.querySelector('#bgm-volume');
-            let sfxVol = document.querySelector('#sfx-volume');
-            let applyVol = document.querySelector('#apply-volume');
-            let volumeTab = document.querySelector('#volume-tab');
-            volumeTab.style.width = "15rem";
-            let volumeClose = document.querySelector('#volume-close');
-            volumeClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-
-            // Volume Control
-            masterVol.oninput = function () {
-                master = this.value;
-                document.querySelector('#master-label').innerHTML = `主音量 (${master}%)`;
-            };
-
-            bgmVol.oninput = function () {
-                bgm = this.value;
-                document.querySelector('#bgm-label').innerHTML = `BGM (${bgm}%)`;
-            };
-
-            sfxVol.oninput = function () {
-                sfx = this.value;
-                document.querySelector('#sfx-label').innerHTML = `SFX (${sfx}%)`;
-            };
-
-            applyVol.onclick = function () {
-                volume.master = master / 100;
-                volume.bgm = (bgm / 100) / 2;
-                volume.sfx = sfx / 100;
-                bgmDungeon.stop();
-                setVolume();
-                bgmDungeon.play();
-                saveData();
-            };
-        };
-
-        // Export/Import Save Data
-        exportImport.onclick = function () {
-            sfxOpen.play();
-            let exportedData = exportData();
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="ei-tab">
-                <div class="content-head">
-                    <h3>导入/导出存档</h3>
-                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <h4>导出存档</h4>
-                <h4>【档案名不能包含中文】</h4>
-                <input type="text" id="export-input" autocomplete="off" value="${exportedData}" readonly>
-                <button id="copy-export">复制</button>
-                <h4>导入存档(把存档粘贴到此处)</h4>
-                <input type="text" id="import-input" autocomplete="off">
-                <button id="data-import">导入</button>
-            </div>`;
-            let eiTab = document.querySelector('#ei-tab');
-            eiTab.style.width = "15rem";
-            let eiClose = document.querySelector('#ei-close');
-            let copyExport = document.querySelector('#copy-export')
-            let dataImport = document.querySelector('#data-import');
-            let importInput = document.querySelector('#import-input');
-            copyExport.onclick = function () {
-                sfxConfirm.play();
-                let copyText = document.querySelector('#export-input');
-                copyText.select();
-                copyText.setSelectionRange(0, 99999);
-                navigator.clipboard.writeText(copyText.value);
-                copyExport.innerHTML = "已复制!";
-            }
-            dataImport.onclick = function () {
-                importData(importInput.value);
-            };
-            eiClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-         // Export/Import Save Data
-         excode.onclick = function () {
-            sfxOpen.play();
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="ei-tab">
-                <div class="content-head">
-                    <h3>激活兑换码</h3>
-                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包: ${che()}</p>
-                <p style='color:gold'>效果==解锁所有先天==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>属性包: ${khe()}</p>
-                <p style='color:gold'>效果==出生时额外30属性点==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>灵石包: ${uhe()}</p>
-                <p style='color:gold'>效果==敌人掉落灵石X2==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>探索包: ${kke()}</p>
-                <p style='color:gold'>效果==探索速度X2=</p>
-                <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
-                
-                <h4>输入兑换码到此处</h4>
-                <input type="text" id="import-input" autocomplete="off">
-                <button id="data-import">提交</button>
-            </div>`;
-            let eiTab = document.querySelector('#ei-tab');
-            eiTab.style.width = "15rem";
-            let eiClose = document.querySelector('#ei-close');
-            let dataImport = document.querySelector('#data-import');
-            let importInput = document.querySelector('#import-input');
-            dataImport.onclick = function () {
-                ex(importInput.value);
-            };
-            eiClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-        rename.onclick = function () {
-            sfxOpen.play();
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="ei-tab">
-                <div class="content-head">
-                    <h3>更改档案名</h3>
-                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <h4>输入你的新名字</h4>
-                <input type="text" id="import-input" autocomplete="off">
-                <button id="data-import">提交</button>
-            </div>`;
-            let eiTab = document.querySelector('#ei-tab');
-            eiTab.style.width = "15rem";
-            let eiClose = document.querySelector('#ei-close');
-            let dataImport = document.querySelector('#data-import');
-            let importInput = document.querySelector('#import-input');
-            dataImport.onclick = function () {
-                frename(importInput.value);
-            };
-            eiClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-        // Close menu
-        close.onclick = function () {
-            sfxDecline.play();
-            continueExploring();
-            menuModalElement.style.display = "none";
-            menuModalElement.innerHTML = "";
-            dimDungeon.style.filter = "brightness(100%)";
-        };
-    });
-
 });
 
 
@@ -1031,6 +712,7 @@ function getSkillName(englishName) {
         "BQZD": "不屈之盾",
         "TRA": "天人爱",
         "GDJSS": "高等加速术",
+        "XBS": "多宝使者",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1402,6 +1084,7 @@ const allocationPopup = () => {
                     <option value="BQZD">不屈之盾</option>
                     <option value="TRA">天人爱</option>
                     <option value="GDJSS">高等加速术</option>
+                    <option value="XBS">多宝使者</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1572,6 +1255,9 @@ const allocationPopup = () => {
         if (selectSkill.value == "GDJSS") {
             skillDesc.innerHTML = "你的攻速上限翻倍(2.5->5)";
         }
+        if (selectSkill.value == "XBS") {
+            skillDesc.innerHTML = "你击败强大敌人后找到灵宝以上装备的概率提高50%";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1722,6 +1408,9 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "GDJSS") {
             player.skills.push("GDJSS");
+        }
+        if (selectSkill.value == "XBS") {
+            player.skills.push("XBS");
         }
 
 

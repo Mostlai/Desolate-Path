@@ -2,6 +2,7 @@
 let enemy = {
     name: null,
     type: null,
+    class: null,
     lvl: null,
     stats: {
         hp: null,
@@ -120,6 +121,7 @@ const generateRandomEnemy = (condition) => {
 
     // Generate enemy type
     enemy.type = enemyTypes[Math.floor(Math.random() * enemyTypes.length)];
+    enemy.class = condition;
 
     // Calculate enemy level
     const maxLvl = dungeon.progress.floor * dungeon.settings.enemyLvlGap + (dungeon.settings.enemyBaseLvl - 1);

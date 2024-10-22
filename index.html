@@ -93,18 +93,22 @@
         <div class="modal-container" id="inventory">
             <div class="content">
                 <div class="content-head">
-                    <h3>物品栏</h3>
+                    <h3>装备库</h3>
                     <p onclick="closeInventory()"><i class="fa fa-xmark"></i></p>
                 </div>
                 <div class="content-head">
                     <button id="sell-all">售卖</button>
                     <select id="sell-rarity">
-                        <option class="Common" value="Common">普通</option>
-                        <option class="Uncommon" value="Uncommon">寻常</option>
-                        <option class="Rare" value="Rare">稀有</option>
-                        <option class="Epic" value="Epic">史诗</option>
-                        <option class="Legendary" value="Legendary">传说</option>
-                        <option class="Heirloom" value="Heirloom">道器</option>
+                        <option class="Common" value="Common">凡品</option>
+                        <option class="Uncommon" value="Uncommon">良品</option>
+                        <option class="Rare" value="Rare">上品</option>
+                        <option class="Epic" value="Epic">超品</option>
+                        <option class="Legendary" value="Legendary">传世</option>
+                        <option class="Heirloom" value="Heirloom">绝世</option>
+                        <option class="LB" value="LB">灵宝</option>
+                        <option class="XTLB" value="XTLB">先天灵宝</option>
+                        <option class="ZB" value="ZB">臻宝</option>
+                        <option class="DB" value="DB">道宝</option>
                         <option class="Common" value="All">所有</option>
                     </select>
                 </div>
@@ -118,7 +122,6 @@
                         <div id="playerEquipment"></div>
                     </div>
                 </div>
-                <button id="amenu-btn">菜单</button>
             </div>
         </div>
         <div class="modal-container" id="equipmentInfo"></div>
