@@ -152,9 +152,9 @@ const playerAttack = () => {
     }
     if (player.skills.includes("Blade Dance")) {
         // Gain increased attack speed after each hit. Stack resets after battle
-        player.baseStats.atkSpd += 0.03;
+        player.baseStats.atkSpd += 0.3;
         objectValidation();
-        player.tempStats.atkSpd += 0.03;
+        player.tempStats.atkSpd += 0.3;
         saveData();
     }
     // 快启动

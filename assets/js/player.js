@@ -151,6 +151,7 @@ const openInventory = () => {
         let confirm = document.querySelector('#sell-confirm');
         let cancel = document.querySelector('#sell-cancel');
         confirm.onclick = function () {
+            // 卖出所有
             sellAll(rarity);
             defaultModalElement.style.display = "none";
             defaultModalElement.innerHTML = "";
