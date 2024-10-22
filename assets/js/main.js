@@ -540,6 +540,7 @@ window.addEventListener("load", function () {
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <h4>导出存档</h4>
+                <h4>【档案名不能包含中文】</h4>
                 <input type="text" id="export-input" autocomplete="off" value="${exportedData}" readonly>
                 <button id="copy-export">复制</button>
                 <h4>导入存档(把存档粘贴到此处)</h4>
