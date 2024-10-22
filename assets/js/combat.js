@@ -129,6 +129,16 @@ const playerAttack = () => {
         }
     }
 
+    if (player.skills.includes("BQZJ")) {
+        console.log(player.tempStats.firstAtk)
+        if(player.tempStats.firstAtk==0){
+            dmgtype = "crit damage";
+            damage = Math.round(damage * crit_mod * 2 * (1 + (player.stats.critDmg / 100)));
+            player.tempStats.firstAtk = 1;
+            addCombatLog(`你激发出【不屈之剑】`)
+        }
+    }
+
     // Skill effects
     objectValidation();
     if (player.skills.includes("Remnant Razor")) {
@@ -277,6 +287,14 @@ const playerAttack = () => {
     let lifesteal = Math.round(damage * lt_mod * (player.stats.vamp / 100));
 
     // Apply the calculations to combat
+
+    if (player.skills.includes("TRA")) {
+        if (Math.floor(Math.random() * 100) < 10) {
+            enemy.stats.hp -= damage;
+            addCombatLog(`--【天人同击】--`)
+        }
+    }
+
     enemy.stats.hp -= damage;
     player.stats.hp += lifesteal;
     addCombatLog(`${player.name} 对  ${enemy.name}造成了 ` + nFormatter(damage) + ` ${getDtype(dmgtype)} 伤害`);
@@ -415,6 +433,17 @@ const enemyAttack = () => {
         }
     }
 
+    if (player.skills.includes("BQZD")) {
+        if(player.tempStats.firstDef==0){
+            let heal = damage;
+            player.stats.hp = player.stats.hp + heal;
+            damage = 0;
+            player.tempStats.firstAtk = 1;
+            addCombatLog(`你激发出【不屈之盾】`)
+            addCombatLog(`你获得了${heal}治疗`)
+        }
+    }
+
 
     player.stats.hp -= damage;
     // Aegis Thorns skill
@@ -443,13 +472,24 @@ const enemyAttack = () => {
         playerPanel.classList.remove("animation-shake");
     }, 200);
 
+
+    
+    // 鲜烈之龙
+    let enemy_wait = enemy.stats.atkSpd
+    if (player.skills.includes("XLZL")) {
+        if(player.stats.atkSpd<enemy.stats.atkSpd){
+            enemy_wait = Math.max(0.1,player.stats.atkSpd-0.1)
+            addCombatLog(`敌人被震撼着`)
+        }
+    }
+
     // Attack Timer
     if (player.inCombat) {
         setTimeout(() => {
             if (player.inCombat) {
                 enemyAttack();
             }
-        }, (1000 / enemy.stats.atkSpd));
+        }, (1000 / enemy_wait));
     }
 }
 
@@ -541,6 +581,19 @@ const endCombat = () => {
         objectValidation();
         player.baseStats.atkSpd -= player.tempStats.atkSpd;
         player.tempStats.atkSpd = 0;
+        saveData();
+    }
+
+    if (player.skills.includes("BQZJ")) {
+        // 基础攻速增加100%，但是每次攻击逐步降低攻速。战斗后重置
+        objectValidation();
+        player.tempStats.firstAtk = 0;
+        saveData();
+    }
+    if (player.skills.includes("BQZD")) {
+        // 基础攻速增加100%，但是每次攻击逐步降低攻速。战斗后重置
+        objectValidation();
+        player.tempStats.firstDef = 0;
         saveData();
     }
 

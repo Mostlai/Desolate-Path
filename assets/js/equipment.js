@@ -252,7 +252,6 @@ const equipmentIcon = (equipment) => {
     }
 }
 function replaceNmae(txt){
-    console.log(txt)
     if(txt=='hp') return '气血'
     if(txt=='atk') return '攻击'
     if(txt=='def') return '护体'

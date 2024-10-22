@@ -411,7 +411,7 @@ window.addEventListener("load", function () {
                 <p>眷天 Lvl.${player.blessing}</p>
                 <p>弃天 Lvl.${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
                 <p>杀敌: ${nFormatter(dungeon.statistics.kills)}</p>
-                <p>游戏世界: ${runTime}</p>
+                <p>游戏时间: ${runTime}</p>
             </div>`;
             let runTab = document.querySelector('#run-tab');
             runTab.style.width = "15rem";
@@ -431,7 +431,7 @@ window.addEventListener("load", function () {
             defaultModalElement.style.display = "flex";
             defaultModalElement.innerHTML = `
             <div class="content">
-                <p>确定要隐退吗?</p>
+                <p>确定要隐退(回到开始)吗?</p>
                 <div class="button-container">
                     <button id="quit-run">隐退</button>
                     <button id="cancel-quit">取消</button>
@@ -674,6 +674,10 @@ function getSkillName(englishName) {
         "YJSH": "异界守护",
         "HL": "活力",
         "DCJJ": "多重坚甲",
+        "XYZL": "鲜烈之龙",
+        "BQZJ": "不屈之剑",
+        "BQZD": "不屈之盾",
+        "TRA": "天人爱",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1034,6 +1038,10 @@ const allocationPopup = () => {
                     <option value="YJSH">异界守护</option>
                     <option value="HL">活力</option>
                     <option value="DCJJ">多重坚甲</option>
+                    <option value="XLZL">鲜烈之龙</option>
+                    <option value="BQZJ">不屈之剑</option>
+                    <option value="BQZD">不屈之盾</option>
+                    <option value="TRA">天人爱</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1189,6 +1197,18 @@ const allocationPopup = () => {
         if (selectSkill.value == "DCJJ") {
             skillDesc.innerHTML = "气血全满时,减少50%受到伤害";
         }
+        if (selectSkill.value == "XLZL") {
+            skillDesc.innerHTML = "敌人的攻速必定小于你的攻速";
+        }
+        if (selectSkill.value == "BQZJ") {
+            skillDesc.innerHTML = "第一击必定暴击并且伤害翻倍";
+        }
+        if (selectSkill.value == "BQZD") {
+            skillDesc.innerHTML = "无视受到的第一次攻击并转化成治疗";
+        }
+        if (selectSkill.value == "TRA") {
+            skillDesc.innerHTML = "你有10%几率连续攻击两次";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1325,6 +1345,19 @@ const allocationPopup = () => {
         if (selectSkill.value == "DCJJ") {
             player.skills.push("DCJJ");
         }
+        if (selectSkill.value == "XLZL") {
+            player.skills.push("XLZL");
+        }
+        if (selectSkill.value == "BQZJ") {
+            player.skills.push("BQZJ");
+        }
+        if (selectSkill.value == "BQZD") {
+            player.skills.push("BQZD");
+        }
+        if (selectSkill.value == "TRA") {
+            player.skills.push("TRA");
+        }
+
 
         //先天包
         if(player.dp==1){
@@ -1509,6 +1542,8 @@ const objectValidation = () => {
         player.tempStats = {};
         player.tempStats.atk = 0;
         player.tempStats.atkSpd = 0;
+        player.tempStats.firstAtk = 0;
+        player.tempStats.firstDef = 0;
     }
     saveData();
 }
