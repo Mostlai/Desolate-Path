@@ -1401,7 +1401,7 @@ const allocationPopup = () => {
                     <option value="BQZJ">不屈之剑</option>
                     <option value="BQZD">不屈之盾</option>
                     <option value="TRA">天人爱</option>
-                    <option value="GDJSS">高度加速术</option>
+                    <option value="GDJSS">高等加速术</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
