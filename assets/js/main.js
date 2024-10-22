@@ -1582,7 +1582,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "提升30%攻击,降低100%暴击伤害";
         }
         if (selectSkill.value == "Kuangbao") {
-            skillDesc.innerHTML = "血量位于50%以下获得狂暴,增加50%攻速和30%攻击";
+            skillDesc.innerHTML = "血量位于50%以下获得狂暴,增加50%攻速和50%伤害";
         }
         if (selectSkill.value == "JiyuanXiaoguo") {
             skillDesc.innerHTML = "基础护体降低50%,提高30%汲元效果";

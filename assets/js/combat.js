@@ -179,11 +179,11 @@ const playerAttack = () => {
     // 血衣
     let atkspd_mod = 1;
     if (player.skills.includes("Kuangbao")) {
-        // 血量位于50%以下获得狂暴,增加50%攻速和30%攻击
+        // 血量位于50%以下获得狂暴,增加50%攻速和50%攻击
         if(player.stats.hp<=player.stats.hpMax*0.5){
             addCombatLog(`你身披【血衣】,眼目猩红`)
-            damage = Math.ceil(dmg*1.3);
-            atkspd_mod = 0.5;
+            damage = Math.ceil(damage*1.5);
+            atkspd_mod = 2;
         }
     }
     let atk_timer = player.stats.atkSpd;
