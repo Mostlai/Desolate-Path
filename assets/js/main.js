@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.4'
+    const version = '1.5'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -364,6 +364,7 @@ window.addEventListener("load", function () {
             <button id="zqun" style='color:red'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>作者:2096358571</button>
             <button id="quit-run">隐退...</button>
             <button>点点广告,球球了</button>
+            <button id="uplog">更新记录</button>
         </div>`;
 
         let close = document.querySelector('#close-menu');
@@ -374,6 +375,7 @@ window.addEventListener("load", function () {
         let volumeSettings = document.querySelector('#volume-btn');
         let excode = document.querySelector('#excode');
         let rename = document.querySelector('#rename');
+        let uplog = document.querySelector('#uplog');
 
         fqun.onclick = function () {
             navigator.clipboard.writeText('281738137');
@@ -665,6 +667,30 @@ window.addEventListener("load", function () {
             dataImport.onclick = function () {
                 frename(importInput.value);
             };
+            eiClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        uplog.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="ei-tab">
+                <div class="content-head">
+                    <h3>更新记录Ver1.5</h3>
+                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p>1.添加了3个新的免费先天</p>
+                <p>2.添加了建筑-珍宝阁</p>
+                <p>3.添加了多个装备分级</p>
+                <p>4.超级Boss现在掉落复活卷轴,臻宝,道宝.普通Boss掉落灵宝,先天灵宝</p>
+            </div>`;
+            let eiClose = document.querySelector('#ei-close');
             eiClose.onclick = function () {
                 sfxDecline.play();
                 defaultModalElement.style.display = "none";
