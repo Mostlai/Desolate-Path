@@ -277,7 +277,7 @@ const dungeonEvent = () => {
                                 <button id="choice1">进入</button>
                                 <button id="choice2">无视</button>
                             </div>`;
-                    addDungeonLog(`<span class="Heirloom">你发现了一个散布着恐怖威压的地方</span>`, choices);
+                    addDungeonLog(`<span class="Heirloom" style="border: 2px solid;padding: 2px;border-radius: 5px;">你发现了一个散布着恐怖威压的地方</span>`, choices);
                     document.querySelector("#choice1").onclick = function () {
                         specialBossBattle();
                     }
