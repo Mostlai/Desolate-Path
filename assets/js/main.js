@@ -114,6 +114,11 @@ window.addEventListener("load", function () {
                     nmk:0,
                     vip:0,
                     rebirth:0,
+
+                    ascend:0,
+                    cureseLB:0,
+                    riftLB:0,
+                    emporLB:0,
                     inCombat: false
                 };
                 calculateStats();
@@ -169,6 +174,8 @@ window.addEventListener("load", function () {
         dimDungeon.style.filter = "brightness(50%)";
         menuModalElement.style.display = "flex";
 
+        // <button id="farm" style='color:lawngreen'><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</button>
+        // <button id="liesha" style='color:red'><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</button>
         // Menu tab
         menuModalElement.innerHTML = `
         <div class="content">
@@ -176,10 +183,11 @@ window.addEventListener("load", function () {
                 <h3>建筑</h3>
                 <p id="close-menu"><i class="fa fa-xmark"></i></p>
             </div>
-            <button id="farm" style='color:lawngreen'><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</button>
-            <button id="liesha" style='color:red'><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</button>
             <button id="bank" style='color:lawngreen'><i class="fa-solid fa-building-columns"></i>钱庄</button>
             <button id="treasuree" style='color:gold'><i class="fa-regular fa-gem"></i>珍宝阁</button>
+            <button id="ascend" style='color:coral'><i class="fa-solid fa-bridge-water"></i>通天祭坛</button>
+            <button id="hardloop" style='color:red'><i class="fa-solid fa-bridge-water"></i>苦难煎熬</button>
+            <button id="tower" style='color:pink'><i class="fa-solid fa-gopuram"></i>镇魔塔</button>
             <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
         </div>`;
         let close = document.querySelector('#close-menu');
@@ -188,6 +196,7 @@ window.addEventListener("load", function () {
         let liesha = document.querySelector('#liesha');
         let bank = document.querySelector('#bank');
         let treasureM = document.querySelector('#treasuree');
+        let ascend = document.querySelector('#ascend');
 
         farm.onclick = function () {
             sfxOpen.play();
@@ -302,6 +311,9 @@ window.addEventListener("load", function () {
             menuModalElement.style.display = "none";
             defaultModalElement.style.display = "flex";
             if(player.rebirth==undefined) player.rebirth = 0;
+            if(player.cureseLB==undefined) player.cureseLB = 0;
+            if(player.riftLB==undefined) player.riftLB = 0;
+            if(player.emporLB==undefined) player.emporLB = 0;
             defaultModalElement.innerHTML = `
             <div class="content" id="profile-tab">
                 <div class="content-head">
@@ -310,6 +322,12 @@ window.addEventListener("load", function () {
                 </div>
                 <p id='RB' style='color:lawngreen'><i class="fa-solid fa-scroll"></i>重生卷轴: ${nFormatter(player.rebirth)}</p>
                 <p color:lawngreen'>效果:死亡时自动消耗,免死一次</p>
+                <p id='RB' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}</p>
+                <p color:lawngreen'>效果:通天材料</p>
+                <p id='RB' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
+                <p color:lawngreen'>效果:通天材料</p>
+                <p id='RB' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片: ${nFormatter(player.emporLB)}</p>
+                <p color:lawngreen'>效果:通天材料</p>
             </div>`;
             let profileTab = document.querySelector('#profile-tab');
 
@@ -320,6 +338,57 @@ window.addEventListener("load", function () {
                 defaultModalElement.style.display = "none";
                 defaultModalElement.innerHTML = "";
                 menuModalElement.style.display = "flex";
+            };
+        };
+
+        ascend.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.ascend==undefined) player.ascend = 0;
+            if(player.cureseLB==undefined) player.cureseLB = 0;
+            if(player.riftLB==undefined) player.riftLB = 0;
+            if(player.emporLB==undefined) player.emporLB = 0;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head middle">
+                    <h3><i class="fa-solid fa-bridge-water"></i>通天祭坛</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p class="middle" id='AS' style='color:gold;'>通天等级:${nFormatter(player.ascend)}</p>
+                <p class="middle" style='color:grey;'>每1等级提高1%基础属性,下局游戏起效</p>
+                <p class="middle" style='color:white;'>---下一级消耗---</p>
+                <p class="middle" id='CR' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片:${getCost(player.ascend,1)}(${nFormatter(player.cureseLB)})</p>
+                <p class="middle" id='RF' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片:${getCost(player.ascend,2)}(${nFormatter(player.riftLB)})</p>
+                <p class="middle" id='EM' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片:${getCost(player.ascend,3)}(${nFormatter(player.emporLB)})</p>
+                
+                <button class="middle" id="as">通天</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+            let Aas = document.querySelector('#as');
+
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+            Aas.onclick = function () {
+                let ok = 1;
+                if( getCost(player.ascend,1)> player.cureseLB) ok=0;
+                if( getCost(player.ascend,2)> player.riftLB) ok=0;
+                if( getCost(player.ascend,3)> player.emporLB) ok=0;
+                if(ok==1){
+                    player.cureseLB = player.cureseLB-getCost(player.ascend,1);
+                    player.riftLB = player.riftLB-getCost(player.ascend,2);
+                    player.emporLB = player.emporLB-getCost(player.ascend,3);
+                    player.ascend = player.ascend + 1;
+                    document.querySelector('#AS').innerHTML = `<p class="middle" id='AS' style='color:gold;'>通天等级:${nFormatter(player.ascend)}</p>`;
+                    document.querySelector('#CR').innerHTML = `<p class="middle" id='CR' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片:${getCost(player.ascend,1)}(${nFormatter(player.cureseLB)})</p>`;
+                    document.querySelector('#RF').innerHTML = `<p class="middle" id='RF' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片:${getCost(player.ascend,2)}(${nFormatter(player.riftLB)})</p>`;
+                    document.querySelector('#EM').innerHTML = `<p class="middle" id='EM' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片:${getCost(player.ascend,3)}(${nFormatter(player.emporLB)})</p>`;
+                }
             };
         };
 
@@ -692,6 +761,8 @@ window.addEventListener("load", function () {
                 <p>1.添加了5个新的免费先天</p>
                 <p>2.修复若干Bug</p>
                 <p>3.添加了1个新的付费先天</p>
+                <p>4.添加了通天祭坛</p>
+                <p>4.Boss现在掉落诅咒裂隙灵宝碎片,超级Boss现在掉落诅咒裂隙帝者灵宝碎片</p>
                 <p>======================</p>
                 <p>1.添加了5个新的免费先天</p>
                 <p>2.添加了建筑-珍宝阁</p>
@@ -717,6 +788,21 @@ window.addEventListener("load", function () {
         };
     });
 });
+
+
+function getCost(ascend,typel){
+    let lv = Math.max(1,ascend);
+    if(typel==1){
+        return lv*8;
+    }
+    if(typel==2){
+        return lv*5;
+    }
+    if(typel==3){
+        if(lv>=15) return (lv-5)*2;
+        else return 0;
+    }
+};
 
 
 
@@ -1335,10 +1421,10 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "每次攻击5%几率提高伤害1%的护体";
         }
         if (selectSkill.value == "Lutian") {
-            skillDesc.innerHTML = "每次攻击5%几率提高伤害0.5%的攻击";
+            skillDesc.innerHTML = "每次攻击1%几率提高伤害0.3%的攻击";
         }
         if (selectSkill.value == "Zhutian") {
-            skillDesc.innerHTML = "每次攻击5%几率提高0.5%暴击伤害";
+            skillDesc.innerHTML = "每次攻击1%几率提高0.5%暴击伤害";
         }
         if (selectSkill.value == "Daitian") {
             skillDesc.innerHTML = "每次攻击1%几率使对手受到他100%血量的伤害";
@@ -1604,6 +1690,15 @@ const allocationPopup = () => {
 
         if(player.vip>=1){
             player.baseStats.hp = 0;
+        }
+
+        if(player.ascend>=1){
+            let ascend_mod = 1+ (0.01 * player.ascend);
+            player.baseStats.hp = player.baseStats.hp*ascend_mod;
+            player.baseStats.atk = player.baseStats.atk*ascend_mod;
+            player.baseStats.def = player.baseStats.def*ascend_mod;
+            player.baseStats.atkSpd = player.baseStats.atkSpd*ascend_mod;
+            player.baseStats.critDmg = player.baseStats.critDmg*ascend_mod;
         }
 
         // Proceed to dungeon

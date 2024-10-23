@@ -323,6 +323,11 @@ button:focus {
     text-shadow: 0px 0px 9px rgb(255, 0, 0);
 }
 
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
 /* Game */
 .game-container {
     display: inline-block;
