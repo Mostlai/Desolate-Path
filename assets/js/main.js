@@ -1453,7 +1453,7 @@ const allocationPopup = () => {
             player.skills.push("DPMJ");
         }
         if (selectSkill.value == "CZJS") {
-            player.skills.push("DPMJ");
+            player.skills.push("CZJS");
         }
         if (selectSkill.value == "FX") {
             player.skills.push("FX");
