@@ -994,7 +994,7 @@ const allocationPopup = () => {
     }
     updateStats();
     let points = 20;
-    if(player.dtd==1){
+    if(player.iop==1){
         points = 50
     }
     const loadContent = function () {
@@ -1569,7 +1569,7 @@ const allocationPopup = () => {
             atkSpd: 5
         };
         points = 20;
-        if(player.dtd==1){
+        if(player.iop==1){
             points = 50
         }
         updateStats();
