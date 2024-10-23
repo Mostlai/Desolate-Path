@@ -1088,7 +1088,6 @@ const allocationPopup = () => {
                     <option value="ZJJ">血腥终结</option>
                     <option value="ZSDS">战术大师</option>
                     <option value="HLXM">华丽谢幕</option>
-                    <option value="TXWW">通晓万物</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
