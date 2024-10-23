@@ -70,7 +70,7 @@ const hpValidation = () => {
             // 战斗获得的灵石增加30%
             gold_mod=1.3
         }
-        if(player.ert==1){g_md=2}
+        if(player.kll==1){g_md=2}
         addCombatLog(`${enemy.name} 掉落了 <i class="fa-solid fa-gem" style="color: #ff8000;"></i>${nFormatter(enemy.rewards.gold*gold_mod*g_md)} 灵石.`)
         if (player.skills.includes("Lingshi")) {
             addCombatLog(`【帝王宝库】使你额外获得${nFormatter(Math.ceil(enemy.rewards.gold*0.3))}经验.`)
@@ -362,6 +362,14 @@ const playerAttack = () => {
         addCombatLog(`你用你的肚皮攻击`)
     }
 
+    if (player.skills.includes("FX")) {
+        if (Math.floor(Math.random() * 100) < 50) {
+            player.stats.hp -= player.stats.hp*0.5;
+            damage = damage*3;
+            addCombatLog(`你放血而击`)
+        }
+    }
+
     enemy.stats.hp -= damage;
     player.stats.hp += lifesteal;
     addCombatLog(`${player.name} 对  ${enemy.name}造成了 ` + nFormatter(damage) + ` ${getDtype(dmgtype)} 伤害`);
@@ -512,6 +520,18 @@ const enemyAttack = () => {
             player.tempStats.firstDef = 1;
             addCombatLog(`你激发出【不屈之盾】`)
             addCombatLog(`你获得了${heal}治疗`)
+        }
+    }
+
+    if (player.skills.includes("CZJS")) {
+        if(player.tempStats.czjs==undefined) player.tempStats.czjs = 0;
+        if(player.stats.hp-damage<=0){
+            damage = 0;
+            if(player.tempStats.czjs==0){
+                player.stats.hp = player.stats.hpMax;
+                player.tempStats.czjs = 1;
+                addCombatLog(`你拒绝了死亡`)
+            }
         }
     }
 
@@ -671,6 +691,11 @@ const endCombat = () => {
         // 基础攻速增加100%，但是每次攻击逐步降低攻速。战斗后重置
         objectValidation();
         player.tempStats.firstDef = 0;
+        saveData();
+    }
+    if (player.skills.includes("CZJS")) {
+        objectValidation();
+        player.tempStats.czjs = 0;
         saveData();
     }
 

@@ -746,6 +746,8 @@ function getSkillName(englishName) {
         "YJMY": "一件棉衣",
         "RCZF": "仁慈之风",
         "DPMJ": "肚皮猛击",
+        "CZJS": "重振精神",
+        "FX": "放血",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -1073,6 +1075,8 @@ const allocationPopup = () => {
                     <option value="YJMY">一件棉衣</option>
                     <option value="RCZF">仁慈之风</option>
                     <option value="DPMJ">肚皮猛击</option>
+                    <option value="CZJS">重振精神</option>
+                    <option value="FX">放血</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1255,6 +1259,12 @@ const allocationPopup = () => {
         if (selectSkill.value == "DPMJ") {
             skillDesc.innerHTML = "你造成伤害始终等于你护体的10%";
         }
+        if (selectSkill.value == "CZJS") {
+            skillDesc.innerHTML = "每场战斗一次,第一次被击败时满血复活";
+        }
+        if (selectSkill.value == "FX") {
+            skillDesc.innerHTML = "每场战斗一次,攻击时50%几率损失当前气血的50%并造成3倍伤害";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1417,6 +1427,12 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "DPMJ") {
             player.skills.push("DPMJ");
+        }
+        if (selectSkill.value == "CZJS") {
+            player.skills.push("DPMJ");
+        }
+        if (selectSkill.value == "FX") {
+            player.skills.push("FX");
         }
 
         if(player.yuj==1){
@@ -1603,6 +1619,7 @@ const objectValidation = () => {
         player.tempStats.atkSpd = 0;
         player.tempStats.firstAtk = 0;
         player.tempStats.firstDef = 0;
+        player.tempStats.czjs = 0;
     }
     saveData();
 }

@@ -55,7 +55,7 @@ const initialDungeonLoad = () => {
     dungeonTime.innerHTML = "00:00:00";
     let waittime = 1000;
     let txt = '探索'
-    if(player.rtt==1){
+    if(player.nmk==1){
         player.waittime=500;
         txt = '探索(速度X2)'
     }
@@ -71,7 +71,7 @@ const dungeonStartPause = () => {
 
         dungeonAction.innerHTML = "调息中...";
         let txt = '探索'
-        if(player.rtt==1){
+        if(player.nmk==1){
             txt = '探索(速度X2)'
         }
         dungeonActivity.innerHTML = txt;
@@ -81,7 +81,7 @@ const dungeonStartPause = () => {
         sfxUnpause.play();
 
         let txt = '探索中'
-        if(player.rtt==1){
+        if(player.nmk==1){
             txt = '探索中...(速度X2)'
         }
         dungeonAction.innerHTML = txt;
