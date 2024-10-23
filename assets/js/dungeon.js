@@ -56,7 +56,7 @@ const initialDungeonLoad = () => {
     let waittime = 1000;
     let txt = '探索'
     if(player.nmk==1){
-        player.waittime=200;
+        waittime=200;
         txt = '探索(速度X2)'
     }
     dungeonActivity.innerHTML = txt;
