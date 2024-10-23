@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.5'
+    const version = '1.6'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -686,9 +686,13 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab">
                 <div class="content-head">
-                    <h3>更新记录Ver1.5</h3>
+                    <h3>更新记录Ver1.6</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.添加了5个新的免费先天</p>
+                <p>2.修复若干Bug</p>
+                <p>3.添加了1个新的付费先天</p>
+                <p>======================</p>
                 <p>1.添加了5个新的免费先天</p>
                 <p>2.添加了建筑-珍宝阁</p>
                 <p>3.添加了多个装备分级</p>
@@ -748,6 +752,9 @@ function getSkillName(englishName) {
         "DPMJ": "肚皮猛击",
         "CZJS": "重振精神",
         "FX": "放血",
+        "ZJJ": "血腥终结",
+        "ZSDS": "战术大师",
+        "FX": "华丽谢幕",
         //PACKS1
         "Jingyan": "⭐资深",
         "Kuangbao": "⭐血衣",
@@ -766,7 +773,8 @@ function getSkillName(englishName) {
         "Baitian": "⭐败天",
         "Lutian": "⭐戮天",
         "Zhutian": "⭐诛天",
-        "Daitian": "⭐代天"
+        "Daitian": "⭐代天",
+        "TXWW": "⭐通晓万物"
     };
     
     return skillNames[englishName] || "未知技能"; // 如果没有匹配的技能，返回"未知技能"
@@ -1077,6 +1085,10 @@ const allocationPopup = () => {
                     <option value="DPMJ">肚皮猛击</option>
                     <option value="CZJS">重振精神</option>
                     <option value="FX">放血</option>
+                    <option value="ZJJ">血腥终结</option>
+                    <option value="ZSDS">战术大师</option>
+                    <option value="HLXM">华丽谢幕</option>
+                    <option value="TXWW">通晓万物</option>
                     <option value="Jingyan">⭐资深</option>
                     <option value="Baoji">⭐狂热之心</option>
                     <option value="Gongji">⭐仁慈之心</option>
@@ -1096,6 +1108,7 @@ const allocationPopup = () => {
                     <option value="Lutian">⭐戮天</option>
                     <option value="Zhutian">⭐诛天</option>
                     <option value="Daitian">⭐代天</option>
+                    <option value="TXWW">⭐通晓万物</option>
                 </select>
             </div>
             <div class="row primary-panel pad">
@@ -1265,6 +1278,15 @@ const allocationPopup = () => {
         if (selectSkill.value == "FX") {
             skillDesc.innerHTML = "每场战斗一次,攻击时50%几率损失当前气血的50%并造成3倍伤害";
         }
+        if (selectSkill.value == "ZJJ") {
+            skillDesc.innerHTML = "每次造成的伤害提高上一次的10%,每次攻击消耗5%气血。战斗后重置";
+        }
+        if (selectSkill.value == "ZSDS") {
+            skillDesc.innerHTML = "如果你在未攻击的时候被攻击,此次攻击无效并2倍反弹给敌人";
+        }
+        if (selectSkill.value == "HLXM") {
+            skillDesc.innerHTML = "如果你的攻击的两倍伤害能够击杀敌人,则本次攻击造成两倍伤害";
+        }
         if (selectSkill.value == "Jingyan") {
             skillDesc.innerHTML = "战斗获得的经验增加20%";
         }
@@ -1321,6 +1343,9 @@ const allocationPopup = () => {
         }
         if (selectSkill.value == "Daitian") {
             skillDesc.innerHTML = "每次攻击1%几率使对手受到他100%血量的伤害";
+        }
+        if (selectSkill.value == "TXWW") {
+            skillDesc.innerHTML = "每次攻击10%几率进入一种姿态。【玄】:造成的伤害和受到的伤害X2【止】:受到的伤害-30%【动】:连续造成3次伤害,攻击后退出姿态。战斗后重置。";
         }
     }
 
@@ -1434,6 +1459,15 @@ const allocationPopup = () => {
         if (selectSkill.value == "FX") {
             player.skills.push("FX");
         }
+        if (selectSkill.value == "ZJJ") {
+            player.skills.push("ZJJ");
+        }
+        if (selectSkill.value == "ZSDS") {
+            player.skills.push("ZSDS");
+        }
+        if (selectSkill.value == "HLXM") {
+            player.skills.push("HLXM");
+        }
 
         if(player.yuj==1){
             if (selectSkill.value == "Jingyan") {
@@ -1498,6 +1532,9 @@ const allocationPopup = () => {
             if (selectSkill.value == "Daitian") {
                 player.skills.push("Daitian");
             }
+            if (selectSkill.value == "TXWW") {
+                player.skills.push("TXWW");
+            }
         }else{
             let sss = 0;
             if (selectSkill.value == "Jingyan") {
@@ -1555,6 +1592,9 @@ const allocationPopup = () => {
                 sss=1;
             }
             if (selectSkill.value == "Daitian") {
+                sss=1;
+            }
+            if (selectSkill.value == "TXWW") {
                 sss=1;
             }
             if(sss==1){
@@ -1620,6 +1660,9 @@ const objectValidation = () => {
         player.tempStats.firstAtk = 0;
         player.tempStats.firstDef = 0;
         player.tempStats.czjs = 0;
+        player.tempStats.zjj = 0;
+        player.tempStats.zsds = 0;
+        player.tempStats.txww = 0;
     }
     saveData();
 }
