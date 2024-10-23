@@ -183,6 +183,8 @@ window.addEventListener("load", function () {
                 <h3>建筑</h3>
                 <p id="close-menu"><i class="fa fa-xmark"></i></p>
             </div>
+            <button id="farm" style='color:lawngreen'><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</button>
+            <button id="liesha" style='color:red'><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</button>
             <button id="bank" style='color:lawngreen'><i class="fa-solid fa-building-columns"></i>钱庄</button>
             <button id="treasuree" style='color:gold'><i class="fa-regular fa-gem"></i>珍宝阁</button>
             <button id="ascend" style='color:coral'><i class="fa-solid fa-bridge-water"></i>通天祭坛</button>
