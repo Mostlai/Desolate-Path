@@ -942,7 +942,7 @@ const enterDungeon = () => {
     if(player.hardloop>=1){
         let num = player.hardloop;
         sfxBuff.play();
-        let add = Math.ceil(player.hardloop*0.05)
+        let add = player.hardloop*0.02
         dungeon.settings.enemyScaling += 0.1+add;
         addDungeonLog(`已进入煎熬，煎熬等级${num}`);
         saveData();
