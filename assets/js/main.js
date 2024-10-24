@@ -123,6 +123,8 @@ window.addEventListener("load", function () {
                     hardloopmax:1,
                     hardloopsign:0,
                     deepth:0,
+                    tpmax:1,
+                    tpval:1,
                     inCombat: false
                 };
                 calculateStats();
@@ -373,7 +375,7 @@ window.addEventListener("load", function () {
                 <p class="middle" style='color:white;'>每10级煎熬+1阶位突破</p>
                 <p class="ra ra-on-target middle" id='QTND' style='color:red;'>难度加成:+${nFormatter(Math.ceil(player.hardloop*9))}%</p>
                 <p class="ra ra-skull-trophy middle" id='LBSP' style='color:lawngreen;'>灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%</p>
-                <p class="ra ra-skull-trophy middle" id='JAXZ' style='color:lawngreen;'>煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%</p>
+                <p class="ra ra-skull-trophy middle" id='JAXZ' style='color:lawngreen;'>煎熬象征掉落加成:+${nFormatter(player.hardloop)}%</p>
                 <p class="middle" style='color:white;'>击杀敌人以获得煎熬象征</p>
                 <p class="middle" style='color:white;'>---提升煎熬等级消耗---</p>
                 <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter((player.hardloopmax+1)*3)}</p>
@@ -400,7 +402,7 @@ window.addEventListener("load", function () {
                 document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
                 document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
                 document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
-                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(player.hardloop)}%`;
                     
             };
 
@@ -413,7 +415,7 @@ window.addEventListener("load", function () {
                 document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
                 document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
                 document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
-                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(player.hardloop)}%`;
             };
 
             TSSX.onclick = function () {
@@ -428,7 +430,7 @@ window.addEventListener("load", function () {
                 document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
                 document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
                 document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
-                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(player.hardloop)}%`;
             };
         };
 
@@ -436,22 +438,37 @@ window.addEventListener("load", function () {
             sfxOpen.play();
             menuModalElement.style.display = "none";
             defaultModalElement.style.display = "flex";
-            if(player.deepth==undefined) player.deepth = 0;
+            if(player.deepth==undefined) player.deepth = 1;
+            if(player.tpmax==undefined) player.tpmax = 1;
+            if(player.tpval==undefined) player.tpval = 1;
             defaultModalElement.innerHTML = `
             <div class="content" id="profile-tab">
                 <div class="content-head middle">
                     <h3><i class="ra ra-player-teleport"></i>传送阵(未实装)</h3>
                     <p id="profile-close"><i class="fa fa-xmark"></i></p>
                 </div>
-                <p class="ra ra-broadhead-arrow" id='AS' style='color:ornage;'>到达的最远世界:${nFormatter((player.deepth))}</p>
+                <p class="ra ra-broadhead-arrow" id='AS' style='color:ornage;'>到达过的最远世界:${nFormatter((player.deepth))}</p>
+                <p class="ra ra-radial-balance" id='AS' style='color:lawngreen;'>当前传送阵最大范围:${nFormatter((player.tpmax))}</p>
+                <p class="ra  ra-moon-sun" id='CSSJ' style='color:gold;'>你下一局游戏直接出生在世界:${nFormatter((player.tpval))}</p>
+                <p class="middle" style='color:white;'>---升级传送阵范围上限消耗---</p>
+                <p class="ra ra-skull" id='AS' style='color:red;'>煎熬象征:${nFormatter((player.tpmax+1)*20)}</p>
                 
-                <button class="middle" id="JAADD">传送阵范围+</button>
-                <button class="middle" id="JAROM">传送阵范围-</button>
-                <button class="middle" id="TSSX">提升传送阵范围上限</button>
+                <button class="middle" id="TPADD">传送阵范围+</button>
+                <button class="middle" id="TPROM">传送阵范围-</button>
+                <button class="middle" id="SJFW">升级传送阵范围上限</button>
             </div>`;
             let profileTab = document.querySelector('#profile-tab');
 
             let profileClose = document.querySelector('#profile-close');
+            TPADD.onclick = function () {
+                if(player.tpval<player.tpmax) player.tpval+=1;
+                document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
+            };
+            TPROM.onclick = function () {
+                if(player.tpval>1) player.tpval-=1;
+                else player.tpval = 1;
+                document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
+            };
             profileClose.onclick = function () {
                 sfxDecline.play();
                 defaultModalElement.style.display = "none";
