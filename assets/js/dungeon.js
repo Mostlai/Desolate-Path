@@ -448,12 +448,12 @@ const statBlessing = () => {
 const cursedTotem = (curseLvl) => {
     sfxBuff.play();
     
-    let add = 0;
+    let add = 1;
     if(player.hardloop>=1){
-        add = Math.ceil(player.hardloop*0.09);
+        add = 1 + (Math.ceil(player.hardloop*0.09));
         addDungeonLog(` 【本次弃天受苦难煎熬加成】`);
     }
-    dungeon.settings.enemyScaling += 0.1+add;
+    dungeon.settings.enemyScaling += (0.1*add);
     addDungeonLog(` 所遇到中的敌人变得更强,战利品质量提高了。 (弃天等级 Lv.${curseLvl} > 弃天等级 Lv.${curseLvl + 1})`);
     saveData();
 }
