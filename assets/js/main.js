@@ -122,6 +122,7 @@ window.addEventListener("load", function () {
                     hardloop:0,
                     hardloopmax:1,
                     hardloopsign:0,
+                    deepth:0,
                     inCombat: false
                 };
                 calculateStats();
@@ -191,6 +192,7 @@ window.addEventListener("load", function () {
             <button id="ascend" style='color:coral'><i class="fa-solid fa-bridge-water"></i>通天祭坛</button>
             <button id="hardloop" style='color:red'><i class="ra ra-blade-bite"></i>苦难煎熬</button>
             <button id="tower" style='color:pink'><i class="fa-solid fa-gopuram"></i>镇魔塔</button>
+            <button id="TP" style='color:orange'><i class="ra ra-player-teleport"></i>传送阵</button>
             <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
         </div>`;
         let close = document.querySelector('#close-menu');
@@ -427,6 +429,34 @@ window.addEventListener("load", function () {
                 document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
                 document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
                 document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
+            };
+        };
+
+        TP.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.deepth==undefined) player.deepth = 0;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head middle">
+                    <h3><i class="ra ra-player-teleport"></i>传送阵(未实装)</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p class="ra ra-broadhead-arrow" id='AS' style='color:ornage;'>到达的最远世界:${nFormatter((player.deepth))}</p>
+                
+                <button class="middle" id="JAADD">传送阵范围+</button>
+                <button class="middle" id="JAROM">传送阵范围-</button>
+                <button class="middle" id="TSSX">提升传送阵范围上限</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
             };
         };
 
@@ -937,16 +967,6 @@ const enterDungeon = () => {
     }
     initialDungeonLoad();
     playerLoadStats();
-
-    // 煎熬
-    if(player.hardloop>=1){
-        let num = player.hardloop;
-        sfxBuff.play();
-        let add = player.hardloop*0.02
-        dungeon.settings.enemyScaling += 0.1+add;
-        addDungeonLog(`已进入煎熬，煎熬等级${num}`);
-        saveData();
-    }
 }
 
 // Save all the data into local storage
