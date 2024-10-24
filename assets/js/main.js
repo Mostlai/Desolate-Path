@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.7'
+    const version = '1.7a'
 
     if (player === null) {
         runLoad("character-creation", "flex");
