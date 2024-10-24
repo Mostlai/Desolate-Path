@@ -119,6 +119,9 @@ window.addEventListener("load", function () {
                     cureseLB:0,
                     riftLB:0,
                     emporLB:0,
+                    hardloop:0,
+                    hardloopmax:1,
+                    hardloopsign:0,
                     inCombat: false
                 };
                 calculateStats();
@@ -183,70 +186,19 @@ window.addEventListener("load", function () {
                 <h3>建筑</h3>
                 <p id="close-menu"><i class="fa fa-xmark"></i></p>
             </div>
-            <button id="farm" style='color:lawngreen'><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</button>
-            <button id="liesha" style='color:red'><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</button>
             <button id="bank" style='color:lawngreen'><i class="fa-solid fa-building-columns"></i>钱庄</button>
             <button id="treasuree" style='color:gold'><i class="fa-regular fa-gem"></i>珍宝阁</button>
             <button id="ascend" style='color:coral'><i class="fa-solid fa-bridge-water"></i>通天祭坛</button>
-            <button id="hardloop" style='color:red'><i class="fa-solid fa-bridge-water"></i>苦难煎熬</button>
+            <button id="hardloop" style='color:red'><i class="ra ra-blade-bite"></i>苦难煎熬</button>
             <button id="tower" style='color:pink'><i class="fa-solid fa-gopuram"></i>镇魔塔</button>
             <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
         </div>`;
         let close = document.querySelector('#close-menu');
         let Aclose = document.querySelector('#Aclose-menu');
-        let farm = document.querySelector('#farm');
-        let liesha = document.querySelector('#liesha');
         let bank = document.querySelector('#bank');
         let treasureM = document.querySelector('#treasuree');
         let ascend = document.querySelector('#ascend');
-
-        farm.onclick = function () {
-            sfxOpen.play();
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="profile-tab">
-                <div class="content-head">
-                    <h3><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</h3>
-                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <p>爱发电众筹中</p>
-            </div>`;
-            let profileTab = document.querySelector('#profile-tab');
-
-            profileTab.style.width = "15rem";
-            let profileClose = document.querySelector('#profile-close');
-            profileClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
-
-        liesha.onclick = function () {
-            sfxOpen.play();
-            menuModalElement.style.display = "none";
-            defaultModalElement.style.display = "flex";
-            defaultModalElement.innerHTML = `
-            <div class="content" id="profile-tab">
-                <div class="content-head">
-                    <h3><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</h3>
-                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
-                </div>
-                <p>爱发电众筹中</p>
-            </div>`;
-            let profileTab = document.querySelector('#profile-tab');
-
-            profileTab.style.width = "15rem";
-            let profileClose = document.querySelector('#profile-close');
-            profileClose.onclick = function () {
-                sfxDecline.play();
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                menuModalElement.style.display = "flex";
-            };
-        };
+        let hardloop = document.querySelector('#hardloop');
 
         bank.onclick = function () {
             if(player.bank==undefined) player.bank = 0;
@@ -316,6 +268,7 @@ window.addEventListener("load", function () {
             if(player.cureseLB==undefined) player.cureseLB = 0;
             if(player.riftLB==undefined) player.riftLB = 0;
             if(player.emporLB==undefined) player.emporLB = 0;
+            if(player.hardloopsign==undefined) player.hardloopsign = 0;
             defaultModalElement.innerHTML = `
             <div class="content" id="profile-tab">
                 <div class="content-head">
@@ -323,13 +276,15 @@ window.addEventListener("load", function () {
                     <p id="profile-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p id='RB' style='color:lawngreen'><i class="fa-solid fa-scroll"></i>重生卷轴: ${nFormatter(player.rebirth)}</p>
-                <p color:lawngreen'>效果:死亡时自动消耗,免死一次</p>
+                <p color:lawngreen'>用途:死亡时自动消耗,免死一次</p>
                 <p id='RB' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}</p>
-                <p color:lawngreen'>效果:通天材料</p>
+                <p color:lawngreen'>用途:通天材料</p>
                 <p id='RB' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
-                <p color:lawngreen'>效果:通天材料</p>
+                <p color:lawngreen'>用途:通天材料</p>
                 <p id='RB' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片: ${nFormatter(player.emporLB)}</p>
-                <p color:lawngreen'>效果:通天材料</p>
+                <p color:lawngreen'>用途:通天材料</p>
+                <p id='RB' style='color:red;'><i class="ra ra-skull"></i>煎熬象征: ${nFormatter(player.hardloopsign)}</p>
+                <p color:lawngreen'>用途:苦难煎熬材料</p>
             </div>`;
             let profileTab = document.querySelector('#profile-tab');
 
@@ -391,6 +346,87 @@ window.addEventListener("load", function () {
                     document.querySelector('#RF').innerHTML = `<p class="middle" id='RF' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片:${getCost(player.ascend,2)}(${nFormatter(player.riftLB)})</p>`;
                     document.querySelector('#EM').innerHTML = `<p class="middle" id='EM' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片:${getCost(player.ascend,3)}(${nFormatter(player.emporLB)})</p>`;
                 }
+            };
+        };
+
+        hardloop.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.hardloop==undefined) player.hardloop = 0;
+            if(player.hardloopsign==undefined) player.hardloopsign = 0;
+            if(player.hardloopmax==undefined || player.hardloopmax==0) player.hardloopmax = 1;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head middle">
+                    <h3><i class="ra ra-blade-bite"></i>苦难煎熬</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p class="ra ra-level-two middle" id='JADJ' style='color:gold;'>煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}</p>
+                <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter(player.hardloopsign)}</p>
+                <p class="middle" style='color:white;'>---苦难煎熬加成---</p>
+                <p class="ra ra-site middle" id='DJTP' style='color:steelblue;'>等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}</p>
+                <p class="ra ra-site middle" id='JWTP' style='color:steelblue;'>阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}</p>
+                <p class="ra ra-skull-trophy middle" id='TPSX' style='color:lawngreen;'>突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}</p>
+                <p class="middle" style='color:white;'>每10级煎熬+1阶位突破</p>
+                <p class="ra ra-on-target middle" id='QTND' style='color:red;'>难度加成:+${nFormatter(Math.ceil(player.hardloop*9))}%</p>
+                <p class="ra ra-skull-trophy middle" id='LBSP' style='color:lawngreen;'>灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%</p>
+                <p class="ra ra-skull-trophy middle" id='JAXZ' style='color:lawngreen;'>煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%</p>
+                <p class="middle" style='color:white;'>击杀敌人以获得煎熬象征</p>
+                <p class="middle" style='color:white;'>---提升煎熬等级消耗---</p>
+                <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter((player.hardloopmax+1)*3)}</p>
+                
+                <button class="middle" id="JAADD">煎熬等级+</button>
+                <button class="middle" id="JAROM">煎熬等级-</button>
+                <button class="middle" id="TSSX">提升煎熬等级上限</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+
+            JAADD.onclick = function () {
+                if(player.hardloop<=player.hardloopmax) player.hardloop+=1;
+                document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
+                document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
+                document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
+                document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
+                    
+            };
+
+            JAROM.onclick = function () {
+                if(player.hardloop>1) player.hardloop-=1;
+                else player.hardloop = 0;
+                document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
+                document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
+                document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
+                document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
+            };
+
+            TSSX.onclick = function () {
+                let num = (player.hardloopmax+1)*3;
+                if(player.hardloopsign>=num){
+                    player.hardloopmax+=1;
+                    player.hardloopsign= player.hardloopsign-num;
+                }
+                document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
+                document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
+                document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
+                document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%`;
             };
         };
 
@@ -757,14 +793,18 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab">
                 <div class="content-head">
-                    <h3>更新记录Ver1.6</h3>
+                    <h3>更新记录Ver1.7</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.添加苦难煎熬</p>
+                <p>2.现在装备等级阶位不设限</p>
+                <p>3.提高了裂隙碎片的掉落</p>
+                <p>======================</p>
                 <p>1.添加了5个新的免费先天</p>
                 <p>2.修复若干Bug</p>
                 <p>3.添加了1个新的付费先天</p>
                 <p>4.添加了通天祭坛</p>
-                <p>4.Boss现在掉落诅咒裂隙灵宝碎片,超级Boss现在掉落诅咒裂隙帝者灵宝碎片</p>
+                <p>4.Boss现在掉落诅咒/裂隙灵宝碎片,超级Boss现在掉落裂隙/帝者灵宝碎片</p>
                 <p>======================</p>
                 <p>1.添加了5个新的免费先天</p>
                 <p>2.添加了建筑-珍宝阁</p>
@@ -897,6 +937,16 @@ const enterDungeon = () => {
     }
     initialDungeonLoad();
     playerLoadStats();
+
+    // 煎熬
+    if(player.hardloop>=1){
+        let num = player.hardloop;
+        sfxBuff.play();
+        let add = Math.ceil(player.hardloop*0.05)
+        dungeon.settings.enemyScaling += 0.1+add;
+        addDungeonLog(`已进入煎熬，煎熬等级${num}`);
+        saveData();
+    }
 }
 
 // Save all the data into local storage
@@ -1369,7 +1419,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "每次造成的伤害提高上一次的10%,每次攻击消耗5%气血。战斗后重置";
         }
         if (selectSkill.value == "ZSDS") {
-            skillDesc.innerHTML = "如果你在未攻击的时候被攻击,此次攻击无效并2倍反弹给敌人";
+            skillDesc.innerHTML = "如果你在未攻击的时候被攻击,此次攻击无效并50%反弹给敌人";
         }
         if (selectSkill.value == "HLXM") {
             skillDesc.innerHTML = "如果你的攻击的两倍伤害能够击杀敌人,则本次攻击造成两倍伤害";

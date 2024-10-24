@@ -124,13 +124,23 @@ const createEquipment = (pre_rarity=null) => {
         const maxLvl = dungeon.progress.floor * dungeon.settings.enemyLvlGap + (dungeon.settings.enemyBaseLvl - 1);
         const minLvl = maxLvl - (dungeon.settings.enemyLvlGap - 1);
         // 设置装备等级上限
+        let ecap = 250;
+        let etcap = 0;
+        if(player.hardloop>=1){
+            let activelvlv = Math.round((dungeon.settings.enemyScaling - 1) * 10);
+            let curse = Math.round((dungeon.settings.enemyScaling - 1) * 10);
+            if(activelvlv>=curse){
+                ecap = 250 + Math.ceil(player.hardloop/2);
+                etcap = 0 + Math.floor(player.hardloop/10);
+            }
+        }
         equipment.lvl = randomizeNum(minLvl, maxLvl);
-        if (equipment.lvl > 250) {
-            equipment.lvl = 250;
+        if (equipment.lvl > ecap) {
+            equipment.lvl = ecap;
         }
         // Set stat scaling and equipment tier Tier 10 cap
         // 内鬼
-        let es_mod = 0
+        let es_mod = 0;
         if (player.skills.includes("Gaoping")) {
             es_mod = 0.3
         }
@@ -139,7 +149,7 @@ const createEquipment = (pre_rarity=null) => {
             enemyScaling = 2;
         }
         let statMultiplier = (enemyScaling - 1) * equipment.lvl;
-        equipment.tier = Math.round((enemyScaling - 1) * 10);
+        equipment.tier = Math.round(((enemyScaling - 1) * 10 + etcap));
         let hpScaling = (40 * randomizeDecimal(0.5, 1.5)) + ((40 * randomizeDecimal(0.5, 1.5)) * statMultiplier);
         let atkDefScaling = (16 * randomizeDecimal(0.5, 1.5)) + ((16 * randomizeDecimal(0.5, 1.5)) * statMultiplier);
         let cdAtkSpdScaling = (3 * randomizeDecimal(0.5, 1.5)) + ((3 * randomizeDecimal(0.5, 1.5)) * statMultiplier);
