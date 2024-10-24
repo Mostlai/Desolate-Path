@@ -307,6 +307,10 @@ const showItemInfo = (item, icon, type, i) => {
     if (item.tier == undefined) {
         item.tier = 1;
     }
+    let as_mod = 0;
+    if(player.ascend>=1){
+        as_mod = (0.01*player.ascend);
+    }
     itemInfo.style.display = "flex";
     dimContainer.style.filter = "brightness(50%)";
     itemInfo.innerHTML = `
@@ -316,10 +320,10 @@ const showItemInfo = (item, icon, type, i) => {
                 <ul>
                 ${item.stats.map(stat => {
         if (Object.keys(stat)[0] === "critRate" || Object.keys(stat)[0] === "critDmg" || Object.keys(stat)[0] === "atkSpd" || Object.keys(stat)[0] === "vamp") {
-            return `<li>${replaceNmae(Object.keys(stat)[0])}+${stat[Object.keys(stat)[0]].toFixed(2).replace(rx, "$1")}%</li>`;
+            return `<li style='display: flex;justify-content: space-between;'>${replaceNmae(Object.keys(stat)[0])}+${stat[Object.keys(stat)[0]].toFixed(2).replace(rx, "$1")}% <span style='color:lawngreen'>(+${(stat[Object.keys(stat)[0]]*as_mod).toFixed(1)}%)</span></li>`;
         }
         else {
-            return `<li>${replaceNmae(Object.keys(stat)[0])}+${stat[Object.keys(stat)[0]]}</li>`;
+            return `<li style='display: flex;justify-content: space-between;'>${replaceNmae(Object.keys(stat)[0])}+${stat[Object.keys(stat)[0]]} <span style='color:lawngreen'>(+${(stat[Object.keys(stat)[0]]*as_mod).toFixed(1)})</span></li>`;
         }
     }).join('')}
                 </ul>
@@ -529,7 +533,11 @@ const applyEquipmentStats = () => {
         // Iterate through the stats array and update the player stats
         item.stats.forEach(stat => {
             for (const key in stat) {
-                player.equippedStats[key] += stat[key];
+                let as_mod = 1;
+                if(player.ascend>=1){
+                    as_mod = 1 + (0.01*player.ascend);
+                }
+                player.equippedStats[key] += stat[key]*as_mod;
             }
         });
     }
