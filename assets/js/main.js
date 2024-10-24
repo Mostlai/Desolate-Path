@@ -391,7 +391,7 @@ window.addEventListener("load", function () {
             };
 
             JAADD.onclick = function () {
-                if(player.hardloop<=player.hardloopmax) player.hardloop+=1;
+                if(player.hardloop<player.hardloopmax) player.hardloop+=1;
                 document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
                 document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
                 document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
