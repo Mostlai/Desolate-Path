@@ -1,4 +1,4 @@
-const createEquipment = (pre_rarity=null) => {
+const createEquipment = (pre_rarity=null, type=null) => {
     const equipment = {
         category: null,
         attribute: null,
@@ -15,13 +15,40 @@ const createEquipment = (pre_rarity=null) => {
     const equipmentAttributes = ["Damage", "Defense"];
     equipment.attribute = equipmentAttributes[Math.floor(Math.random() * equipmentAttributes.length)];
 
+    // if (equipment == "Sword") return '灵剑';
+    // if (equipment == "Axe") return '斩魂斧';
+    // if (equipment == "Hammer") return '天锤';
+    // if (equipment == "Dagger") return '飞刀';
+    // if (equipment == "Flail") return '锁链锤';
+    // if (equipment == "Scythe") return '夺命镰';
+    // if (equipment == "Plate") return '铠甲';
+    // if (equipment == "Chain") return '链甲';
+    // if (equipment == "Leather") return '法灵皮甲';
+    // if (equipment == "Tower") return '护法盾';
+    // if (equipment == "Kite") return '幻影风盾';
+    // if (equipment == "Buckler") return '小圆盾';
+    // if (equipment == "Great Helm") return '无双头盔';
+    // if (equipment == "Horned Helm") return '角盔';
+    // if (equipment == "Bowie Knife") return '龙骨刃';
+    // if (equipment == "Frostfire") return '焰形石';
+    // if (equipment == "Pendant") return '御符';
+    // if (equipment == "Overmind") return '全界之灵';
+    
+    // if (equipment == "Duel") return '对刀';
+    // if (equipment == "Croc Sword") return '裂隙巨剑';
+    // if (equipment == "Bat Sword") return '汲元剑';
+    // if (equipment == "Drill") return '灵枪';
+    // if (equipment == "Laser Blast") return '血魂杖';
+    // if (equipment == "Arena") return '血影护盔';
+    // if (equipment == "Triforce") return '三界调零';
+
     // Generate random equipment name and type based on attribute
     if (equipment.attribute == "Damage") {
-        const equipmentCategories = ["Sword", "Axe", "Hammer", "Dagger", "Flail", "Scythe"];
+        const equipmentCategories = ["Sword", "Axe", "Hammer", "Dagger", "Flail", "Scythe", "Bowie Knife", "Duel", "Croc Sword", "Bat Sword", "Drill"];
         equipment.category = equipmentCategories[Math.floor(Math.random() * equipmentCategories.length)];
         equipment.type = "Weapon";
     } else if (equipment.attribute == "Defense") {
-        const equipmentTypes = ["Armor", "Shield", "Helmet"];
+        const equipmentTypes = ["Armor", "Shield", "Helmet", "jewelry"];
         equipment.type = equipmentTypes[Math.floor(Math.random() * equipmentTypes.length)];
         if (equipment.type == "Armor") {
             const equipmentCategories = ["Plate", "Chain", "Leather"];
@@ -32,7 +59,17 @@ const createEquipment = (pre_rarity=null) => {
         } else if (equipment.type == "Helmet") {
             const equipmentCategories = ["Great Helm", "Horned Helm"];
             equipment.category = equipmentCategories[Math.floor(Math.random() * equipmentCategories.length)];
+        } else if (equipment.type == "jewelry") {
+            const equipmentCategories = ["Frostfire", "Pendant", "Arena", "Overmind", "Laser Blast", "Triforce"];
+            equipment.category = equipmentCategories[Math.floor(Math.random() * equipmentCategories.length)];
+            if(equipment.category=="Overmind") equipment.category = equipmentCategories[Math.floor(Math.random() * equipmentCategories.length)];
+            if(equipment.category=="Overmind") equipment.category = equipmentCategories[Math.floor(Math.random() * equipmentCategories.length)];
         }
+    }
+
+    if(type!=null){
+        // equipment.category = type;
+        // equipment.type = "jewelry";
     }
 
     // Generate random equipment rarity
@@ -103,6 +140,17 @@ const createEquipment = (pre_rarity=null) => {
     const speedyStats = ["atkSpd", "atkSpd", "atk", "vamp", "critRate", "critRate", "critDmg"];
     const defenseStats = ["hp", "hp", "def", "def", "atk"];
     const dmgDefStats = ["hp", "def", "atk", "atk", "critRate", "critDmg"];
+    const hpDefStats = ["hp", "def", "def", "atk", "hp", "vamp"];
+    const hpStats = ["hp","hp","hp","hp","hp","hp","vamp"];
+    const DefStats = ["def", "def", "def", "hp", "critRate"];
+    const AllStats = ["hp", "def", "atk", "atkSpd", "vamp", "critRate", "critDmg"];
+    const AtkspdStats = ["atk", "atk", "atk", "atkSpd", "def", "atkSpd", "critDmg"];
+    const ArkCrtStats = ["atk", "atk", "critRate", "critRate", "critDmg", "critDmg", "critDmg"];
+    const ArkVampStats = ["atk", "atk", "vamp", "vamp", "hp", "atk"];
+    const AtkCrtdmgStats = ["atk", "atk", "critDmg", "critDmg", "def", "atkSpd"];
+    const HpatkStats = ["atk", "atk", "hp", "atk", "def", "hp", "hp"];
+    const HpdefStats = ["hp", "hp", "hp", "hp", "def", "hp", "hp","vamp"];
+
     let statTypes;
     if (equipment.attribute == "Damage") {
         if (equipment.category == "Axe" || equipment.category == "Scythe") {
@@ -111,11 +159,51 @@ const createEquipment = (pre_rarity=null) => {
             statTypes = speedyStats;
         } else if (equipment.category == "Hammer") {
             statTypes = dmgDefStats;
-        } else {
+        } else if (equipment.category == "Bowie Knife") {
+            statTypes = hpDefStats;
+        } else if (equipment.category == "Duel") {
+            statTypes = AtkspdStats;
+        } else if (equipment.category == "Croc Sword") {
+            statTypes = ArkCrtStats;
+        } else if (equipment.category == "Bat Sword") {
+            statTypes = ArkVampStats;
+        } else if (equipment.category == "Drill") {
+            statTypes = AtkCrtdmgStats;
+        }   else {
             statTypes = physicalStats;
         }
     } else if (equipment.attribute == "Defense") {
         statTypes = defenseStats;
+        if (equipment.category == "Frostfire") {
+            statTypes = hpStats;
+        } else if (equipment.category == "Pendant") {
+            statTypes = DefStats;
+        } else if (equipment.category == "Overmind") {
+            statTypes = AllStats;
+        } else if (equipment.category == "Laser Blast") {
+            statTypes = HpatkStats;
+        } else if (equipment.category == "Arena") {
+            statTypes = HpdefStats;
+        } else if (equipment.category == "Triforce") {
+            let allStatsList = [
+                physicalStats,
+                damageyStats,
+                speedyStats,
+                defenseStats,
+                dmgDefStats,
+                hpDefStats,
+                hpStats,
+                DefStats,
+                AllStats,
+                AtkspdStats,
+                ArkCrtStats,
+                ArkVampStats,
+                AtkCrtdmgStats,
+                HpatkStats,
+                HpdefStats
+            ];
+            statTypes = allStatsList[Math.floor(Math.random() * allStatsList.length)];
+        }
     }
     let equipmentValue = 0;
     for (let i = 0; i < loopCount; i++) {
@@ -287,11 +375,27 @@ const equipmentIcon = (equipment) => {
     } else if (equipment == "Horned Helm") {
         return '<i class="ra ra-helmet"></i>';
     } else if (equipment == "Bowie Knife") {
-        return '<i class="ra ra-bowie-knife"></i>';
+        return '<i class="ra ra-bone-knife"></i>';
     } else if (equipment == "Frostfire") {
         return '<i class="ra ra-frostfire"></i>';
     } else if (equipment == "Pendant") {
         return '<i class="ra ra-gem-pendant"></i>';
+    } else if (equipment == "Overmind") {
+        return '<i class="ra ra-overmind"></i>';
+    } else if (equipment == "Duel") {
+        return '<i class="ra ra-duel"></i>';
+    } else if (equipment == "Croc Sword") {
+        return '<i class="ra ra-croc-sword"></i>';
+    } else if (equipment == "Bat Sword") {
+        return '<i class="ra ra-bat-sword"></i>';
+    } else if (equipment == "Drill") {
+        return '<i class="ra ra-drill"></i>';
+    } else if (equipment == "Laser Blast") {
+        return '<i class="ra ra-laser-blast"></i>';
+    } else if (equipment == "Arena") {
+        return '<i class="ra ra-arena"></i>';
+    } else if (equipment == "Triforce") {
+        return '<i class="ra ra-triforce"></i>';
     }
 }
 function getEquipmentName(equipment) {
@@ -312,6 +416,14 @@ function getEquipmentName(equipment) {
     if (equipment == "Bowie Knife") return '龙骨刃';
     if (equipment == "Frostfire") return '焰形石';
     if (equipment == "Pendant") return '御符';
+    if (equipment == "Overmind") return '全界之灵';
+    if (equipment == "Duel") return '对刀';
+    if (equipment == "Croc Sword") return '裂隙巨剑';
+    if (equipment == "Bat Sword") return '汲元剑';
+    if (equipment == "Drill") return '灵枪';
+    if (equipment == "Laser Blast") return '血魂杖';
+    if (equipment == "Arena") return '血影护盔';
+    if (equipment == "Triforce") return '三界调零';
 }
 function replaceNmae(txt){
     if(txt=='hp') return '气血'
@@ -635,9 +747,9 @@ const sellAll = (rarity) => {
     }
 }
 
-const createEquipmentPrint = (condition,pre_rarity=null) => {
+const createEquipmentPrint = (condition,pre_rarity=null,type=null) => {
     let rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
-    let item = createEquipment(pre_rarity);
+    let item = createEquipment(pre_rarity,type);
     let panel = `
         <div class="primary-panel" style="padding: 0.5rem; margin-top: 0.5rem;">
                 <h4 class="${item.rarity}"><b>${item.icon}${getRareNmae(item.rarity)} ${getEquipmentName(item.category)}</b></h4>
