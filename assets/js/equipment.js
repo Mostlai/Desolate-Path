@@ -286,7 +286,32 @@ const equipmentIcon = (equipment) => {
         return '<i class="ra ra-knight-helmet"></i>';
     } else if (equipment == "Horned Helm") {
         return '<i class="ra ra-helmet"></i>';
+    } else if (equipment == "Bowie Knife") {
+        return '<i class="ra ra-bowie-knife"></i>';
+    } else if (equipment == "Frostfire") {
+        return '<i class="ra ra-frostfire"></i>';
+    } else if (equipment == "Pendant") {
+        return '<i class="ra ra-gem-pendant"></i>';
     }
+}
+function getEquipmentName(equipment) {
+    if (equipment == "Sword") return '灵剑';
+    if (equipment == "Axe") return '斩魂斧';
+    if (equipment == "Hammer") return '天锤';
+    if (equipment == "Dagger") return '飞刀';
+    if (equipment == "Flail") return '锁链锤';
+    if (equipment == "Scythe") return '夺命镰';
+    if (equipment == "Plate") return '铠甲';
+    if (equipment == "Chain") return '链甲';
+    if (equipment == "Leather") return '法灵皮甲';
+    if (equipment == "Tower") return '护法盾';
+    if (equipment == "Kite") return '幻影风盾';
+    if (equipment == "Buckler") return '小圆盾';
+    if (equipment == "Great Helm") return '无双头盔';
+    if (equipment == "Horned Helm") return '角盔';
+    if (equipment == "Bowie Knife") return '龙骨刃';
+    if (equipment == "Frostfire") return '焰形石';
+    if (equipment == "Pendant") return '御符';
 }
 function replaceNmae(txt){
     if(txt=='hp') return '气血'
@@ -437,22 +462,6 @@ function getRareNmae(txt){
     if(txt=='ZB') return '臻宝'
     if(txt=='DB') return '道宝'
 }
-function getEquipmentName(equipment) {
-    if (equipment == "Sword") return '灵剑';
-    if (equipment == "Axe") return '斩魂斧';
-    if (equipment == "Hammer") return '天锤';
-    if (equipment == "Dagger") return '飞刀';
-    if (equipment == "Flail") return '锁链锤';
-    if (equipment == "Scythe") return '夺命镰';
-    if (equipment == "Plate") return '铠甲';
-    if (equipment == "Chain") return '链甲';
-    if (equipment == "Leather") return '法灵皮甲';
-    if (equipment == "Tower") return '护法盾';
-    if (equipment == "Kite") return '幻影风盾';
-    if (equipment == "Buckler") return '小圆盾';
-    if (equipment == "Great Helm") return '无双头盔';
-    if (equipment == "Horned Helm") return '角盔';
-}
 function getTypeName(txt){
     if (txt == "Equip") return '装备';
     if (txt == "Unequip") return '卸下';
@@ -584,7 +593,7 @@ const unequipAll = () => {
 
 const sellAll = (rarity) => {
     if (rarity == "All") {
-        if (all.length !== 0) {
+        if (player.inventory.equipment.length !== 0) {
             sfxSell.play();
             for (let i = 0; i < player.inventory.equipment.length; i++) {
                 const equipment = JSON.parse(player.inventory.equipment[i]);
