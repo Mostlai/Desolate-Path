@@ -532,6 +532,7 @@ window.addEventListener("load", function () {
             <button id="quit-run">隐退...</button>
             <button>点点广告,球球了</button>
             <button id="uplog">更新记录</button>
+            <button id="wykg">一键开挂通关</button>
         </div>`;
 
         let close = document.querySelector('#close-menu');
@@ -882,6 +883,10 @@ window.addEventListener("load", function () {
                 defaultModalElement.innerHTML = "";
                 menuModalElement.style.display = "flex";
             };
+        };
+        wykg.onclick = function () {
+            alert("恭喜你,你已经通关了")
+            alert("真的通关了哦")
         };
 
         // Close menu
