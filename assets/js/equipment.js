@@ -7,6 +7,7 @@ const createEquipment = (pre_rarity=null) => {
         lvl: null,
         tier: null,
         value: null,
+        lock: 0,
         stats: [],
     };
 
@@ -473,11 +474,38 @@ const showInventory = () => {
         // Create an element to display the item's name
         let itemDiv = document.createElement('div');
         let icon = equipmentIcon(item.category);
+        if(item.lock==undefined){
+            item.lock=0;
+            player.inventory.equipment[i] = JSON.stringify(item)
+        }
+
+        let lock_icon = '<i class="fa-solid fa-unlock" style="color: white"></i>'
+        if(item.lock==1) lock_icon = '<i class="fa-solid fa-lock" style="color: lawngreen"></i>'
+
         itemDiv.className = "items";
-        itemDiv.innerHTML = `<p class="${item.rarity}">${icon}${getRareNmae(item.rarity)} ${getEquipmentName(item.category)}</p>`;
+        itemDiv.innerHTML = `<span><p class="${item.rarity}">${icon}${getRareNmae(item.rarity)} ${getEquipmentName(item.category)}</p></span>`;
         itemDiv.addEventListener('click', function () {
             let type = "Equip";
             showItemInfo(item, icon, type, i);
+        });
+
+        let lock_span = document.createElement('span');
+        lock_span.innerHTML = `<span id="locki">${lock_icon}</span>`;
+        itemDiv.appendChild(lock_span);
+        lock_span.addEventListener('click', function () {
+            if(item.lock==1){
+                item.lock=0;
+                lock_icon = '<i class="fa-solid fa-unlock" style="color: white"></i>'
+                if(item.lock==1) lock_icon = '<i class="fa-solid fa-lock" style="color: lawngreen"></i>'
+                player.inventory.equipment[i] = JSON.stringify(item);
+                lock_span.innerHTML = `<span id="locki">${lock_icon}</span>`;
+            }else{
+                item.lock=1;
+                lock_icon = '<i class="fa-solid fa-unlock" style="color: white"></i>'
+                if(item.lock==1) lock_icon = '<i class="fa-solid fa-lock" style="color: lawngreen"></i>'
+                player.inventory.equipment[i] = JSON.stringify(item);
+                lock_span.innerHTML = `<span id="locki">${lock_icon}</span>`;
+            }
         });
 
         // Add the itemDiv to the inventory container
@@ -556,13 +584,15 @@ const unequipAll = () => {
 
 const sellAll = (rarity) => {
     if (rarity == "All") {
-        if (player.inventory.equipment.length !== 0) {
+        if (all.length !== 0) {
             sfxSell.play();
             for (let i = 0; i < player.inventory.equipment.length; i++) {
                 const equipment = JSON.parse(player.inventory.equipment[i]);
-                player.gold += equipment.value;
-                player.inventory.equipment.splice(i, 1);
-                i--;
+                if(equipment.lock==0){
+                    player.gold += equipment.value;
+                    player.inventory.equipment.splice(i, 1);
+                    i--;
+                }
             }
             playerLoadStats();
             saveData();
@@ -582,7 +612,7 @@ const sellAll = (rarity) => {
             sfxSell.play();
             for (let i = 0; i < player.inventory.equipment.length; i++) {
                 const equipment = JSON.parse(player.inventory.equipment[i]);
-                if (equipment.rarity === rarity) {
+                if (equipment.rarity === rarity && equipment.lock==0) {
                     player.gold += equipment.value;
                     player.inventory.equipment.splice(i, 1);
                     i--;

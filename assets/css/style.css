@@ -714,6 +714,12 @@ header button i {
     -webkit-animation: shake 0.2s;
 }
 
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
 @keyframes shake {
     0% {
         transform: translate(1px, 1px) rotate(0deg);
