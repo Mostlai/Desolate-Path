@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.8b'
+    const version = '1.8c'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -849,10 +849,11 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab">
                 <div class="content-head">
-                    <h3>更新记录Ver1.8b</h3>
+                    <h3>更新记录Ver1.8c</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p>1.添加装备锁(WIP)</p>
+                <p>2.添加11种新的装备类型</p>
                 <p>======================</p>
                 <p>1.添加传送阵</p>
                 <p>2.现在通天影响装备加成</p>
