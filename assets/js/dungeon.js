@@ -248,8 +248,9 @@ const dungeonEvent = () => {
                             <div class="decision-panel">
                                 <button id="choice1">成交</button>
                                 <button id="choice2">无视</button>
+                                <button id="choice3">砸毁</button>
                             </div>`;
-                    addDungeonLog(`<span class="Heirloom">你发现了一个弃天雕像. 你愿意提供<i class="fa-solid fa-gem" style="color: #ff8000;"></i><span class="Common">${nFormatter(cost)}</span>?这会加强敌人但也会提高战利品品质(弃天Lv.${curseLvl})</span>`, choices);
+                    addDungeonLog(`<span class="Heirloom">你发现了一个弃天雕像. 你愿意提供<i class="fa-solid fa-gem" style="color: #ff8000;"></i><span class="Common">${nFormatter(cost)}</span>?这会加强敌人但也会提高战利品品质(弃天Lv.${curseLvl})</span>。砸毁会降低弃天等级。`, choices);
                     document.querySelector("#choice1").onclick = function () {
                         if (player.gold < cost) {
                             sfxDeny.play();
@@ -263,6 +264,10 @@ const dungeonEvent = () => {
                     }
                     document.querySelector("#choice2").onclick = function () {
                         ignoreEvent();
+                    };
+                    document.querySelector("#choice3").onclick = function () {
+                        anticursedTotem(curseLvl);
+                        dungeon.status.event = false;
                     };
                 } else {
                     nothingEvent();
@@ -455,6 +460,20 @@ const cursedTotem = (curseLvl) => {
     }
     dungeon.settings.enemyScaling += (0.1*add);
     addDungeonLog(` 所遇到中的敌人变得更强,战利品质量提高了。 (弃天等级 Lv.${curseLvl} > 弃天等级 Lv.${curseLvl + 1})`);
+    saveData();
+}
+
+// Cursed totem offering
+const anticursedTotem = (curseLvl) => {
+    sfxBuff.play();
+    
+    let add = 1;
+    if(player.hardloop>=1){
+        add = 1 + (Math.ceil(player.hardloop*0.09));
+    }
+    dungeon.settings.enemyScaling -= (0.1*add);
+    dungeon.settings.enemyScaling = Math.max(1.1, dungeon.settings.enemyScaling);
+    addDungeonLog(`弃天等级有所下降`);
     saveData();
 }
 
