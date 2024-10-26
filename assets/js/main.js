@@ -973,6 +973,7 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <button id="update">刷新按钮</button>
                 <p>1.升级加成随机化</p>
                 <p>2.多种升级稀有度</p>
                 <p>3.尸体现在20%几率搜刮到灵石</p>
@@ -1003,6 +1004,9 @@ window.addEventListener("load", function () {
                 <p>4.超级Boss现在掉落复活卷轴,臻宝,道宝.普通Boss掉落灵宝,先天灵宝</p>
             </div>`;
             let eiClose = document.querySelector('#ei-close');
+            update.onclick = function () {
+                location.reload(true);
+            };
             eiClose.onclick = function () {
                 sfxDecline.play();
                 defaultModalElement.style.display = "none";
