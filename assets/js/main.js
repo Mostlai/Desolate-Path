@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.9'
+    const version = '1.9a'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -850,12 +850,13 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab">
                 <div class="content-head">
-                    <h3>更新记录Ver1.9</h3>
+                    <h3>更新记录Ver1.9a</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p>1.升级加成随机化</p>
                 <p>2.多种升级稀有度</p>
                 <p>3.尸体现在20%几率搜刮到灵石</p>
+                <p>4.修复传奇升级Bug</p>
                 <p>======================</p>
                 <p>1.添加装备锁(WIP)</p>
                 <p>2.添加11种新的装备类型</p>
