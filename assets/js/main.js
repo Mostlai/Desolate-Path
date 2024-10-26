@@ -829,6 +829,7 @@ window.addEventListener("load", function () {
         // Export/Import Save Data
         exportImport.onclick = function () {
             sfxOpen.play();
+            player.name = 'player';
             let exportedData = exportData();
             menuModalElement.style.display = "none";
             defaultModalElement.style.display = "flex";
@@ -1232,23 +1233,27 @@ const importData = (importedData) => {
             let confirm = document.querySelector("#import-btn");
             let cancel = document.querySelector("#cancel-btn");
             confirm.onclick = function () {
-                sfxConfirm.play();
-                player = playerImport;
-                saveData();
-                bgmDungeon.stop();
-                let dimDungeon = document.querySelector('#dungeon-main');
-                dimDungeon.style.filter = "brightness(100%)";
-                dimDungeon.style.display = "none";
-                menuModalElement.style.display = "none";
-                menuModalElement.innerHTML = "";
-                confirmationModalElement.style.display = "none";
-                confirmationModalElement.innerHTML = "";
-                defaultModalElement.style.display = "none";
-                defaultModalElement.innerHTML = "";
-                runLoad("title-screen", "flex");
-                clearInterval(dungeonTimer);
-                clearInterval(playTimer);
-                progressReset();
+                if(playerImport.name=='player'){
+                    sfxConfirm.play();
+                    player = playerImport;
+                    saveData();
+                    bgmDungeon.stop();
+                    let dimDungeon = document.querySelector('#dungeon-main');
+                    dimDungeon.style.filter = "brightness(100%)";
+                    dimDungeon.style.display = "none";
+                    menuModalElement.style.display = "none";
+                    menuModalElement.innerHTML = "";
+                    confirmationModalElement.style.display = "none";
+                    confirmationModalElement.innerHTML = "";
+                    defaultModalElement.style.display = "none";
+                    defaultModalElement.innerHTML = "";
+                    runLoad("title-screen", "flex");
+                    clearInterval(dungeonTimer);
+                    clearInterval(playTimer);
+                    progressReset();
+                }else{
+                    alert("请重新导出数据")
+                }
             }
             cancel.onclick = function () {
                 sfxDecline.play();
