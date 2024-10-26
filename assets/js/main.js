@@ -129,6 +129,9 @@ window.addEventListener("load", function () {
                     ao:0,
                     aa:0,
                     ak:0,
+                    ai:0,
+                    au:0,
+                    aw:0,
                     inCombat: false
                 };
                 calculateStats();
@@ -501,6 +504,8 @@ window.addEventListener("load", function () {
                 if(player.aa==undefined) player.aa = 0;
                 if(player.ak==undefined) player.ak = 0;
                 if(player.ai==undefined) player.ai = 0;
+                if(player.au==undefined) player.au = 0;
+                if(player.aw==undefined) player.aw = 0;
                 defaultModalElement.innerHTML = `
                 <div class="content" id="profile-tab">
                     <div class="content-head middle">
@@ -510,9 +515,11 @@ window.addEventListener("load", function () {
                     
                     <p class="middle" style='color:white;'>---1代表开,0代表关---</p>
                     <button class="middle" id="AO">自动打开乾坤袋:${player.ao}</button>
-                    <button class="middle" id="AA">自动迎战:${player.ao}</button>
-                    <button class="middle" id="AK">自动知道了:${player.ao}</button>
+                    <button class="middle" id="AA">自动迎战:${player.aa}</button>
+                    <button class="middle" id="AK">自动知道了:${player.ak}</button>
                     <button class="middle" id="AI">自动无视:${player.ai}</button>
+                    <button class="middle" id="AU">自动升级(第一项):${player.au}</button>
+                    <button class="middle" id="AW">自动超级Boss:${player.aw}</button>
                 </div>`;
                 let profileTab = document.querySelector('#profile-tab');
 
@@ -525,17 +532,27 @@ window.addEventListener("load", function () {
                 AA.onclick = function () {
                     if(player.aa==0) player.aa=1;
                     else player.aa=0;
-                    document.querySelector('#AA').innerHTML = `自动迎战:${player.ao}`;
+                    document.querySelector('#AA').innerHTML = `自动迎战:${player.aa}`;
                 };
                 AK.onclick = function () {
                     if(player.ak==0) player.ak=1;
                     else player.ak=0;
-                    document.querySelector('#AK').innerHTML = `自动知道了:${player.ao}`;
+                    document.querySelector('#AK').innerHTML = `自动知道了:${player.ak}`;
                 };
                 AI.onclick = function () {
                     if(player.ai==0) player.ai=1;
                     else player.ai=0;
                     document.querySelector('#AI').innerHTML = `自动无视:${player.ai}`;
+                };
+                AU.onclick = function () {
+                    if(player.au==0) player.au=1;
+                    else player.au=0;
+                    document.querySelector('#AU').innerHTML = `自动升级(第一项):${player.au}`;
+                };
+                AW.onclick = function () {
+                    if(player.aw==0) player.aw=1;
+                    else player.aw=0;
+                    document.querySelector('#AW').innerHTML = `自动超级BOSS:${player.aw}`;
                 };
                 profileClose.onclick = function () {
                     sfxDecline.play();
@@ -548,6 +565,8 @@ window.addEventListener("load", function () {
                 player.aa=0;
                 player.ak=0;
                 player.ai=0;
+                player.au=0;
+                player.aw=0;
                 alert("需要探索包哦")
             }
         };
