@@ -534,7 +534,7 @@ window.addEventListener("load", function () {
                 AI.onclick = function () {
                     if(player.ai==0) player.ai=1;
                     else player.ai=0;
-                    document.querySelector('#AI').innerHTML = `自动知道了:${player.ai}`;
+                    document.querySelector('#AI').innerHTML = `自动无视:${player.ai}`;
                 };
                 profileClose.onclick = function () {
                     sfxDecline.play();
