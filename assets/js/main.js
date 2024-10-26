@@ -506,6 +506,8 @@ window.addEventListener("load", function () {
                 if(player.ai==undefined) player.ai = 0;
                 if(player.au==undefined) player.au = 0;
                 if(player.aw==undefined) player.aw = 0;
+                if(player.ad==undefined) player.ad = 0;
+                if(player.aj==undefined) player.aj = 0;
                 defaultModalElement.innerHTML = `
                 <div class="content" id="profile-tab">
                     <div class="content-head middle">
@@ -517,9 +519,11 @@ window.addEventListener("load", function () {
                     <button class="middle" id="AO">自动打开乾坤袋:${player.ao}</button>
                     <button class="middle" id="AA">自动迎战:${player.aa}</button>
                     <button class="middle" id="AK">自动知道了:${player.ak}</button>
+                    <button class="middle" id="AJ">自动眷天:${player.aj}</button>
+                    <button class="middle" id="AW">自动超级Boss:${player.aw}</button>
                     <button class="middle" id="AI">自动无视:${player.ai}</button>
                     <button class="middle" id="AU">自动升级(第一项):${player.au}</button>
-                    <button class="middle" id="AW">自动超级Boss:${player.aw}</button>
+                    <button class="middle" id="AD">自动丢弃传世以下装备:${player.ad}</button>
                 </div>`;
                 let profileTab = document.querySelector('#profile-tab');
 
@@ -553,6 +557,16 @@ window.addEventListener("load", function () {
                     if(player.aw==0) player.aw=1;
                     else player.aw=0;
                     document.querySelector('#AW').innerHTML = `自动超级BOSS:${player.aw}`;
+                };
+                AD.onclick = function () {
+                    if(player.ad==0) player.ad=1;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                };
+                AJ.onclick = function () {
+                    if(player.aj==0) player.aj=1;
+                    else player.aj=0;
+                    document.querySelector('#AJ').innerHTML = `自动眷天:${player.aj}`;
                 };
                 profileClose.onclick = function () {
                     sfxDecline.play();
