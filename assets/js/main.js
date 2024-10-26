@@ -843,6 +843,7 @@ window.addEventListener("load", function () {
                 <h4>【档案名不能包含中文】</h4>
                 <input type="text" id="export-input" autocomplete="off" value="${exportedData}" readonly>
                 <button id="copy-export">复制</button>
+                <button id="save-export">导出为文件</button>
                 <h4>导入存档(把存档粘贴到此处)</h4>
                 <input type="text" id="import-input" autocomplete="off">
                 <button id="data-import">导入</button>
@@ -851,6 +852,7 @@ window.addEventListener("load", function () {
             eiTab.style.width = "15rem";
             let eiClose = document.querySelector('#ei-close');
             let copyExport = document.querySelector('#copy-export')
+            let saveExport = document.querySelector('#save-export')
             let dataImport = document.querySelector('#data-import');
             let importInput = document.querySelector('#import-input');
             copyExport.onclick = function () {
@@ -860,6 +862,17 @@ window.addEventListener("load", function () {
                 copyText.setSelectionRange(0, 99999);
                 navigator.clipboard.writeText(copyText.value);
                 copyExport.innerHTML = "已复制!";
+            }
+            saveExport.onclick = function () {
+                const blob = new Blob([exportedData], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'save.txt';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
             }
             dataImport.onclick = function () {
                 importData(importInput.value);
