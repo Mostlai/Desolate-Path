@@ -508,6 +508,7 @@ window.addEventListener("load", function () {
                 if(player.aw==undefined) player.aw = 0;
                 if(player.ad==undefined) player.ad = 0;
                 if(player.aj==undefined) player.aj = 0;
+                if(player.an==undefined) player.an = 0;
                 defaultModalElement.innerHTML = `
                 <div class="content" id="profile-tab">
                     <div class="content-head middle">
@@ -524,6 +525,7 @@ window.addEventListener("load", function () {
                     <button class="middle" id="AI">自动无视:${player.ai}</button>
                     <button class="middle" id="AU">自动升级(第一项):${player.au}</button>
                     <button class="middle" id="AD">自动丢弃传世以下装备:${player.ad}</button>
+                    <button class="middle" id="AN">自动过门:${player.an}</button>
                 </div>`;
                 let profileTab = document.querySelector('#profile-tab');
 
@@ -567,6 +569,11 @@ window.addEventListener("load", function () {
                     if(player.aj==0) player.aj=1;
                     else player.aj=0;
                     document.querySelector('#AJ').innerHTML = `自动眷天:${player.aj}`;
+                };
+                AN.onclick = function () {
+                    if(player.an==0) player.an=1;
+                    else player.an=0;
+                    document.querySelector('#AN').innerHTML = `自动过门:${player.an}`;
                 };
                 profileClose.onclick = function () {
                     sfxDecline.play();
