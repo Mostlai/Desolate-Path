@@ -125,6 +125,10 @@ window.addEventListener("load", function () {
                     deepth:0,
                     tpmax:1,
                     tpval:1,
+
+                    ao:0,
+                    aa:0,
+                    ak:0,
                     inCombat: false
                 };
                 calculateStats();
@@ -195,6 +199,7 @@ window.addEventListener("load", function () {
             <button id="hardloop" style='color:red'><i class="ra ra-blade-bite"></i>苦难煎熬</button>
             <button id="tower" style='color:pink'><i class="fa-solid fa-gopuram"></i>镇魔塔</button>
             <button id="TP" style='color:orange'><i class="ra ra-player-teleport"></i>传送阵</button>
+            <button id="AUTO" style='color:orange'><i class="ra ra-player-teleport"></i>自动化</button>
             <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
         </div>`;
         let close = document.querySelector('#close-menu');
@@ -484,6 +489,66 @@ window.addEventListener("load", function () {
                 defaultModalElement.innerHTML = "";
                 menuModalElement.style.display = "flex";
             };
+        };
+
+        AUTO.onclick = function () {
+            if(kke()=='拥有'){
+                sfxOpen.play();
+                menuModalElement.style.display = "none";
+                defaultModalElement.style.display = "flex";
+                if(player.ao==undefined) player.ao = 0;
+                if(player.aa==undefined) player.aa = 0;
+                if(player.ak==undefined) player.ak = 0;
+                if(player.ai==undefined) player.ai = 0;
+                defaultModalElement.innerHTML = `
+                <div class="content" id="profile-tab">
+                    <div class="content-head middle">
+                        <h3><i class="ra ra-player-teleport"></i>自动化[探索包]</h3>
+                        <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                    </div>
+                    
+                    <p class="middle" style='color:white;'>---1代表开,0代表关---</p>
+                    <button class="middle" id="AO">自动打开乾坤袋:${player.ao}</button>
+                    <button class="middle" id="AA">自动迎战:${player.ao}</button>
+                    <button class="middle" id="AK">自动知道了:${player.ao}</button>
+                    <button class="middle" id="AI">自动无视:${player.ai}</button>
+                </div>`;
+                let profileTab = document.querySelector('#profile-tab');
+
+                let profileClose = document.querySelector('#profile-close');
+                AO.onclick = function () {
+                    if(player.ao==0) player.ao=1;
+                    else player.ao=0;
+                    document.querySelector('#AO').innerHTML = `自动打开乾坤袋:${player.ao}`;
+                };
+                AA.onclick = function () {
+                    if(player.aa==0) player.aa=1;
+                    else player.aa=0;
+                    document.querySelector('#AA').innerHTML = `自动迎战:${player.ao}`;
+                };
+                AK.onclick = function () {
+                    if(player.ak==0) player.ak=1;
+                    else player.ak=0;
+                    document.querySelector('#AK').innerHTML = `自动知道了:${player.ao}`;
+                };
+                AI.onclick = function () {
+                    if(player.ai==0) player.ai=1;
+                    else player.ai=0;
+                    document.querySelector('#AI').innerHTML = `自动知道了:${player.ai}`;
+                };
+                profileClose.onclick = function () {
+                    sfxDecline.play();
+                    defaultModalElement.style.display = "none";
+                    defaultModalElement.innerHTML = "";
+                    menuModalElement.style.display = "flex";
+                };
+            }else{
+                player.ao=0;
+                player.aa=0;
+                player.ak=0;
+                player.ai=0;
+                alert("需要探索包哦")
+            }
         };
 
         // Close menu
@@ -850,13 +915,14 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab" style="max-height: 50%;overflow-y: scroll;">
                 <div class="content-head">
-                    <h3>更新记录Ver1.9a</h3>
+                    <h3>更新记录Ver1.9b</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p>1.升级加成随机化</p>
                 <p>2.多种升级稀有度</p>
                 <p>3.尸体现在20%几率搜刮到灵石</p>
                 <p>4.修复传奇升级Bug</p>
+                <p>5.增加自动化</p>
                 <p>======================</p>
                 <p>1.添加装备锁(WIP)</p>
                 <p>2.添加11种新的装备类型</p>

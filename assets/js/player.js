@@ -1,1 +1,397 @@
-let player=JSON["\u0070\u0061\u0072\u0073\u0065"](localStorage["\u0067\u0065\u0074\u0049\u0074\u0065\u006d"]("\u0070\u006c\u0061\u0079\u0065\u0072\u0044\u0061\u0074\u0061"));let inventoryOpen=![];let leveled=![];const lvlupSelect=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("tceleSpulvl#".split("").reverse().join(""));const lvlupPanel=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("lenaPpulvl#".split("").reverse().join(""));const playerExpGain=()=>{let _0x55de7a=0xaab51^0xaab50;if(player["\u0073\u006b\u0069\u006c\u006c\u0073"]["\u0069\u006e\u0063\u006c\u0075\u0064\u0065\u0073"]("naygniJ".split("").reverse().join(""))){_0x55de7a=1.2;}player['exp']['expCurr']+=Math['ceil'](enemy["\u0072\u0065\u0077\u0061\u0072\u0064\u0073"]["\u0065\u0078\u0070"]*_0x55de7a);player["\u0065\u0078\u0070"]["\u0065\u0078\u0070\u0043\u0075\u0072\u0072\u004c\u0076\u006c"]+=Math['ceil'](enemy['rewards']['exp']*_0x55de7a);while(player['exp']['expCurr']>=player['exp']['expMax']){playerLvlUp();}if(leveled){lvlupPopup();}playerLoadStats();};const playerLvlUp=()=>{leveled=!![];let _0x454ccf=Math['floor'](player['exp']["\u0065\u0078\u0070\u004d\u0061\u0078"]*1.1+(0x422f7^0x42293)-player['exp']["\u0065\u0078\u0070\u004d\u0061\u0078"]);if(player["\u006c\u0076\u006c"]>(0x39ee1^0x39e85)){_0x454ccf=0xf4240;}let _0xaf4523=player["\u0065\u0078\u0070"]["\u0065\u0078\u0070\u0043\u0075\u0072\u0072"]-player['exp']['expMax'];player['exp']['expCurrLvl']=_0xaf4523;player['exp']["\u0065\u0078\u0070\u004d\u0061\u0078\u004c\u0076\u006c"]=_0x454ccf;player["\u006c\u0076\u006c"]++;player['exp']["\u006c\u0076\u006c\u0047\u0061\u0069\u006e\u0065\u0064"]++;player["\u0065\u0078\u0070"]['expMax']+=_0x454ccf;player['bonusStats']['hp']+=0x85db6^0x85db2;player["\u0062\u006f\u006e\u0075\u0073\u0053\u0074\u0061\u0074\u0073"]['atk']+=0xcedda^0xcedd8;player["\u0062\u006f\u006e\u0075\u0073\u0053\u0074\u0061\u0074\u0073"]['def']+=0x2c673^0x2c671;player["\u0062\u006f\u006e\u0075\u0073\u0053\u0074\u0061\u0074\u0073"]["\u0061\u0074\u006b\u0053\u0070\u0064"]+=0.15;player["\u0062\u006f\u006e\u0075\u0073\u0053\u0074\u0061\u0074\u0073"]["\u0063\u0072\u0069\u0074\u0052\u0061\u0074\u0065"]+=0.1;player['bonusStats']["\u0063\u0072\u0069\u0074\u0044\u006d\u0067"]+=0.25;};const playerLoadStats=()=>{showEquipment();showInventory();applyEquipmentStats();let _0x599771=/\.0+$|(\.[0-9]*[1-9])0+$/;if(player['stats']["\u0068\u0070"]>player['stats']['hpMax']){player["\u0073\u0074\u0061\u0074\u0073"]["\u0068\u0070"]=player["\u0073\u0074\u0061\u0074\u0073"]["\u0068\u0070\u004d\u0061\u0078"];}player["\u0073\u0074\u0061\u0074\u0073"]['hpPercent']=Number(player["\u0073\u0074\u0061\u0074\u0073"]["\u0068\u0070"]/player["\u0073\u0074\u0061\u0074\u0073"]['hpMax']*(0xd14ed^0xd1489))["\u0074\u006f\u0046\u0069\u0078\u0065\u0064"](0x2)['replace'](_0x599771,'$1');player['exp']['expPercent']=Number(player["\u0065\u0078\u0070"]['expCurrLvl']/player["\u0065\u0078\u0070"]['expMaxLvl']*(0xee34a^0xee32e))['toFixed'](0x2)['replace'](_0x599771,"1$".split("").reverse().join(""));if(player["\u0069\u006e\u0043\u006f\u006d\u0062\u0061\u0074"]||playerDead){const _0x25f71b=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("elttab-ph-reyalp#".split("").reverse().join(""));const _0x33492a=document['querySelector']("\u0023\u0070\u006c\u0061\u0079\u0065\u0072\u002d\u0068\u0070\u002d\u0064\u006d\u0067");const _0x365377=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("rab-pxe-reyalp#".split("").reverse().join(""));const _0x23fd5b=document['querySelector']("ofni-tabmoc-reyalp#".split("").reverse().join(""));_0x25f71b['innerHTML']='&nbsp'+nFormatter(player['stats']['hp'])+'/'+nFormatter(player['stats']['hpMax'])+"\u0028"+player['stats']['hpPercent']+")%".split("").reverse().join("");_0x25f71b['style']["\u0077\u0069\u0064\u0074\u0068"]=player["\u0073\u0074\u0061\u0074\u0073"]['hpPercent']+"\u0025";_0x33492a['style']['width']=player["\u0073\u0074\u0061\u0074\u0073"]["\u0068\u0070\u0050\u0065\u0072\u0063\u0065\u006e\u0074"]+"\u0025";_0x365377['style']['width']=player['exp']["\u0065\u0078\u0070\u0050\u0065\u0072\u0063\u0065\u006e\u0074"]+"\u0025";_0x23fd5b["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]=player["\u006e\u0061\u006d\u0065"]+".vL ".split("").reverse().join("")+player['lvl']+"( ".split("").reverse().join("")+player['exp']["\u0065\u0078\u0070\u0050\u0065\u0072\u0063\u0065\u006e\u0074"]+"\u0025\u0029";}document['querySelector']("eman-reyalp#".split("").reverse().join(""))["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='<i\x20class=\x22fas\x20fa-user\x22></i>'+player["\u006e\u0061\u006d\u0065"]+".vL ".split("").reverse().join("")+player["\u006c\u0076\u006c"];document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("\u0023\u0070\u006c\u0061\u0079\u0065\u0072\u002d\u0065\u0078\u0070")['innerHTML']=" >p/<\u9A8C\u7ECF>\";elbaliava-llif-tikbew- :htdiw\"=elyts p<".split("").reverse().join("")+nFormatter(player['exp']['expCurr'])+'/'+nFormatter(player["\u0065\u0078\u0070"]["\u0065\u0078\u0070\u004d\u0061\u0078"])+"( ".split("").reverse().join("")+player['exp']['expPercent']+'%)';document['querySelector']('#player-gold')["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='<i\x20class=\x22fa-solid\x20fa-gem\x22\x20style=\x22color:\x20#ff8000;\x22></i>'+nFormatter(player["\u0067\u006f\u006c\u0064"]);playerHpElement['innerHTML']=nFormatter(player['stats']['hp'])+'/'+nFormatter(player['stats']['hpMax'])+'\x20('+player['stats']["\u0068\u0070\u0050\u0065\u0072\u0063\u0065\u006e\u0074"]+'%)';playerAtkElement['innerHTML']=nFormatter(player['stats']['atk']);playerDefElement["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]=nFormatter(player['stats']['def']);playerAtkSpdElement['innerHTML']=player['stats']["\u0061\u0074\u006b\u0053\u0070\u0064"]['toFixed'](0x1dea6^0x1dea4)['replace'](_0x599771,"1$".split("").reverse().join(""));playerVampElement['innerHTML']=player['stats']["\u0076\u0061\u006d\u0070"]['toFixed'](0x2)['replace'](_0x599771,'$1')+"\u0025";playerCrateElement['innerHTML']=player['stats']['critRate']['toFixed'](0xcd5b3^0xcd5b1)["\u0072\u0065\u0070\u006c\u0061\u0063\u0065"](_0x599771,'$1')+"\u0025";playerCdmgElement['innerHTML']=player['stats']['critDmg']['toFixed'](0x2)['replace'](_0x599771,'$1')+"\u0025";document['querySelector']("stats-sunob#".split("").reverse().join(""))['innerHTML']='\x0a\x20\x20\x20\x20<h4>属性加成</h4>\x0a\x20\x20\x20\x20<p><i\x20class=\x22fas\x20fa-heart\x22></i>气血+'+player['bonusStats']['hp']['toFixed'](0x2)['replace'](_0x599771,'$1')+'%</p>\x0a\x20\x20\x20\x20<p><i\x20class=\x22ra\x20ra-sword\x22></i>攻击+'+player['bonusStats']['atk']['toFixed'](0x2)['replace'](_0x599771,"1$".split("").reverse().join(""))+'%</p>\x0a\x20\x20\x20\x20<p><i\x20class=\x22ra\x20ra-round-shield\x22></i>护体+'+player['bonusStats']["\u0064\u0065\u0066"]['toFixed'](0x5ac75^0x5ac77)['replace'](_0x599771,"1$".split("").reverse().join(""))+"+\u901F\u653B>i/<>\"reggad-nialp-ar ar\"=ssalc i<>p<    \n>p/<%".split("").reverse().join("")+player['bonusStats']['atkSpd']['toFixed'](0x2)['replace'](_0x599771,'$1')+"+\u5143\u6C72>i/<>\"edalb-gnippird-ar ar\"=ssalc i<>p<    \n>p/<%".split("").reverse().join("")+player['bonusStats']["\u0076\u0061\u006d\u0070"]['toFixed'](0xca6b0^0xca6b2)['replace'](_0x599771,'$1')+"+\u7387\u51E0\u51FB\u66B4>i/<>\"tlob-gninthgil-ar ar\"=ssalc i<>p<    \n>p/<%".split("").reverse().join("")+player['bonusStats']['critRate']['toFixed'](0x2)['replace'](_0x599771,'$1')+"+\u5BB3\u4F24\u51FB\u66B4>i/<>\"gninthgil-desucof-ar ar\"=ssalc i<>p<    \n>p/<%".split("").reverse().join("")+player['bonusStats']['critDmg']['toFixed'](0x2)["\u0072\u0065\u0070\u006c\u0061\u0063\u0065"](_0x599771,'$1')+">p/<%".split("").reverse().join("");};function getRareNmae(_0x3f28d7){if(_0x3f28d7=="nommoC".split("").reverse().join(""))return"\u54C1\u51E1".split("").reverse().join("");if(_0x3f28d7=='Uncommon')return"\u54C1\u826F".split("").reverse().join("");if(_0x3f28d7=="\u0052\u0061\u0072\u0065")return"\u54C1\u4E0A".split("").reverse().join("");if(_0x3f28d7=='Epic')return'超品';if(_0x3f28d7=="yradnegeL".split("").reverse().join(""))return"\u4E16\u4F20".split("").reverse().join("");if(_0x3f28d7=='Heirloom')return"\u4E16\u7EDD".split("").reverse().join("");if(_0x3f28d7=="\u004c\u0042")return'灵宝';if(_0x3f28d7=="BLTX".split("").reverse().join(""))return'先天灵宝';if(_0x3f28d7=='ZB')return'臻宝';if(_0x3f28d7=="BD".split("").reverse().join(""))return'道宝';}const openInventory=()=>{sfxOpen['play']();dungeon['status']['exploring']=![];inventoryOpen=!![];let _0x283cf6=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("yrotnevni#".split("").reverse().join(""));let _0x36b5ee=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("niam-noegnud#".split("").reverse().join(""));_0x283cf6['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]="\u0066\u006c\u0065\u0078";_0x36b5ee['style']["\u0066\u0069\u006c\u0074\u0065\u0072"]='brightness(50%)';sellAllElement['onclick']=function(){sfxOpen['play']();_0x283cf6['style']["\u0066\u0069\u006c\u0074\u0065\u0072"]='brightness(50%)';let _0xde2922=sellRarityElement['value'];defaultModalElement['style']['display']='flex';if(_0xde2922=='All'){defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>卖出所有装备?</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22button-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22sell-confirm\x22>全部卖出</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22sell-cancel\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';}else{defaultModalElement['innerHTML']="\"=ssalc naps<\u6709\u6240\u51FA\u5356>p<                \n>\"tnetnoc\"=ssalc vid<            \n".split("").reverse().join("")+_0xde2922+'\x22>'+getRareNmae(_0xde2922)+'</span>\x20装备?</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22button-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22sell-confirm\x22>全部卖出</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22sell-cancel\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';}let _0x200a5f=document['querySelector']('#sell-confirm');let _0x53d1bf=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("lecnac-lles#".split("").reverse().join(""));_0x200a5f['onclick']=function(){sellAll(_0xde2922);defaultModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['innerHTML']="";_0x283cf6['style']["\u0066\u0069\u006c\u0074\u0065\u0072"]='brightness(100%)';};_0x53d1bf['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['innerHTML']='';_0x283cf6['style']['filter']='brightness(100%)';};};sellRarityElement["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=function(){sfxOpen["\u0070\u006c\u0061\u0079"]();};sellRarityElement['onchange']=function(){let _0xf31482=sellRarityElement["\u0076\u0061\u006c\u0075\u0065"];sellRarityElement['className']=_0xf31482;};};const closeInventory=()=>{sfxDecline['play']();let _0x37cc87=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#inventory');let _0x118d11=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("niam-noegnud#".split("").reverse().join(""));_0x37cc87['style']['display']="enon".split("").reverse().join("");_0x118d11['style']["\u0066\u0069\u006c\u0074\u0065\u0072"]='brightness(100%)';inventoryOpen=![];if(!dungeon['status']["\u0070\u0061\u0075\u0073\u0065\u0064"]){dungeon['status']['exploring']=!![];}};const continueExploring=()=>{if(!inventoryOpen&&!dungeon['status']['paused']){dungeon["\u0073\u0074\u0061\u0074\u0075\u0073"]['exploring']=!![];}};const lvlupPopup=()=>{sfxLvlUp['play']();addCombatLog('你升级了!\x20(Lv.'+(player['lvl']-player['exp']["\u006c\u0076\u006c\u0047\u0061\u0069\u006e\u0065\u0064"])+'\x20>\x20Lv.'+player['lvl']+')');player["\u0073\u0074\u0061\u0074\u0073"]['hp']+=Math['round'](player['stats']['hpMax']*0x14/0x64);playerLoadStats();lvlupPanel["\u0073\u0074\u0079\u006c\u0065"]['display']="xelf".split("").reverse().join("");combatPanel["\u0073\u0074\u0079\u006c\u0065"]['filter']=")%05(ssenthgirb".split("").reverse().join("");const _0x1a4778={"\u0068\u0070":Number(Number(0xa*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'hpval':Number(Number(player['stats']['hpMax']*0.05*randomizeDecimal(0.9,1.1))["\u0074\u006f\u0046\u0069\u0078\u0065\u0064"](0xcc103^0xcc102)),'atk':Number(Number((0x2ea01^0x2ea09)*randomizeDecimal(0.9,1.1))['toFixed'](0x7d2ed^0x7d2ec)),'atkval':Number(Number(player["\u0073\u0074\u0061\u0074\u0073"]["\u0061\u0074\u006b"]*0.07*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'def':Number(Number(0x8*randomizeDecimal(0.9,1.1))['toFixed'](0xba15d^0xba15c)),"\u0064\u0065\u0066\u0076\u0061\u006c":Number(Number(player['stats']['def']*0.07*randomizeDecimal(0.9,1.1))['toFixed'](0x6cf3a^0x6cf3b)),'atkSpd':Number(Number((0xc3dd4^0xc3dd7)*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'vamp':Number(Number(0.5*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'critRate':Number(Number(0x1*randomizeDecimal(0.9,1.1))['toFixed'](0xb4dac^0xb4dad)),'critDmg':Number(Number(0x6*randomizeDecimal(0.9,1.1))['toFixed'](0x1c72b^0x1c72a))};generateLvlStats(0x2,_0x1a4778);};function replaceNmae(_0x2f3ab4){if(_0x2f3ab4=="ph".split("").reverse().join(""))return'气血';if(_0x2f3ab4=="\u0068\u0070\u0076\u0061\u006c")return"\u8840\u6C14\u7840\u57FA".split("").reverse().join("");if(_0x2f3ab4=='atk')return"\u51FB\u653B".split("").reverse().join("");if(_0x2f3ab4=='atkval')return'基础攻击';if(_0x2f3ab4=='def')return'护体';if(_0x2f3ab4=="lavfed".split("").reverse().join(""))return"\u57fa\u7840\u62a4\u4f53";if(_0x2f3ab4=='vamp')return"\u5143\u6C72".split("").reverse().join("");if(_0x2f3ab4=="dpSkta".split("").reverse().join(""))return"\u901F\u653B".split("").reverse().join("");if(_0x2f3ab4=='critRate')return'暴击几率';if(_0x2f3ab4=='critDmg')return'暴击伤害';if(_0x2f3ab4=="etaRd".split("").reverse().join(""))return'灵宝掉落加成';if(_0x2f3ab4=="etaRdl".split("").reverse().join(""))return"\u843D\u6389\u77F3\u7075".split("").reverse().join("");if(_0x2f3ab4=="etaRde".split("").reverse().join(""))return"\u843D\u6389\u9A8C\u7ECF".split("").reverse().join("");if(_0x2f3ab4=='cdRate')return'诅咒碎片掉落';if(_0x2f3ab4=='rdRate')return'裂隙碎片掉落';if(_0x2f3ab4=="etaRdp".split("").reverse().join(""))return"\u843D\u6389\u7247\u788E\u8005\u5E1D".split("").reverse().join("");if(_0x2f3ab4=="etaRdh".split("").reverse().join(""))return'煎熬象征掉落';}function normalizeRarityChances(_0x3ed3e7){const _0x199fb4=Object['values'](_0x3ed3e7)['reduce']((_0x365cbf,_0x372ed0)=>_0x365cbf+_0x372ed0,0x7807e^0x7807e);const _0x59cd86={};for(const[_0x3f5b8c,_0x392430]of Object['entries'](_0x3ed3e7)){_0x59cd86[_0x3f5b8c]=_0x392430/_0x199fb4;}return _0x59cd86;}function getRandomRarity(_0x44d8c2){const _0x5cc0b6=normalizeRarityChances(_0x44d8c2);const _0x37c7fe=Math['random']();let _0x4288ab=0x7715a^0x7715a;for(const[_0x4ca255,_0x55e928]of Object["\u0065\u006e\u0074\u0072\u0069\u0065\u0073"](_0x5cc0b6)){_0x4288ab+=_0x55e928;if(_0x37c7fe<_0x4288ab){return _0x4ca255;}}return'Common';}const generateLvlStats=(_0x22585a,_0x54b087)=>{let _0x3b3075=[];let _0xcf2fc5=["ph".split("").reverse().join(""),"\u0061\u0074\u006b","fed".split("").reverse().join(""),"dpSkta".split("").reverse().join(""),"pmav".split("").reverse().join(""),"etaRtirc".split("").reverse().join(""),'critDmg',"\u0068\u0070\u0076\u0061\u006c","lavkta".split("").reverse().join(""),'defval'];while(_0x3b3075['length']<0x4){let _0x59fe3c=Math['floor'](Math['random']()*_0xcf2fc5['length']);if(!_0x3b3075['includes'](_0xcf2fc5[_0x59fe3c])){_0x3b3075['push'](_0xcf2fc5[_0x59fe3c]);}}const _0x367edd=()=>{lvlupSelect['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1>升级!</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>剩余:\x20'+player['exp']['lvlGained']+'</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22lvlReroll\x22>重掷\x20'+_0x22585a+"        \n>vid/<            \n>nottub/<2/".split("").reverse().join("");};_0x367edd();_0x54b087={'hp':Number(Number(0xa*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'hpval':Number(Number(player['stats']['hpMax']*0.05*randomizeDecimal(0.9,1.1))['toFixed'](0xeabf2^0xeabf3)),'atk':Number(Number((0x600c7^0x600cf)*randomizeDecimal(0.9,1.1))['toFixed'](0xb50d0^0xb50d1)),'atkval':Number(Number(player['stats']["\u0061\u0074\u006b"]*0.005*randomizeDecimal(0.3,1.7))["\u0074\u006f\u0046\u0069\u0078\u0065\u0064"](0x1)),'def':Number(Number(0x8*randomizeDecimal(0.9,1.1))["\u0074\u006f\u0046\u0069\u0078\u0065\u0064"](0x1)),'defval':Number(Number(player['stats']['def']*0.05*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'atkSpd':Number(Number(0x3*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'vamp':Number(Number(0.5*randomizeDecimal(0.9,1.1))['toFixed'](0x1)),'critRate':Number(Number(0x1*randomizeDecimal(0.9,1.1))['toFixed'](0xc9405^0xc9404)),'critDmg':Number(Number((0x6c9ae^0x6c9a8)*randomizeDecimal(0.9,1.1))['toFixed'](0x1d6ca^0x1d6cb))};const _0x425fa3={"\u0043\u006f\u006d\u006d\u006f\u006e":0.7,'Uncommon':0.4,'Rare':0.16,'Epic':0.08,'Legendary':0.05};const _0x16e729={'Common':0x1,'Uncommon':1.2,'Rare':1.5,'Epic':0x2,'Legendary':2.2};let _0x9b26ee=[];for(let _0x5a18f5=0x0;_0x5a18f5<0x4;_0x5a18f5++){const _0x2bf441=Math["\u0072\u0061\u006e\u0064\u006f\u006d"]();let _0x104648=0x0;let _0x2ea6f7='Common';_0x2ea6f7=getRandomRarity(_0x425fa3);console['log'](_0x2ea6f7);_0x9b26ee['push'](_0x2ea6f7);}const _0x28b3ad=document['querySelector']('#lvlReroll');_0x28b3ad['addEventListener']('click',function(){if(_0x22585a>0x0){sfxSell['play']();_0x22585a--;_0x367edd();generateLvlStats(_0x22585a,_0x54b087);}else{sfxDeny['play']();}});try{for(let _0x58d891=0x0;_0x58d891<(0x2b618^0x2b61c);_0x58d891++){let _0x18cc09=document['createElement']('button');_0x18cc09['id']='lvlSlot'+_0x58d891;let _0x28e477=document['createElement']('h3');_0x28e477['innerHTML']="'=ssalc naps<".split("").reverse().join("")+_0x9b26ee[_0x58d891]+">'".split("").reverse().join("")+replaceNmae(_0x9b26ee[_0x58d891])+'-'+replaceNmae(_0x3b3075[_0x58d891])+'\x20UP'+'</span>';_0x18cc09['appendChild'](_0x28e477);let _0x57ae7d=document['createElement']('p');if(!_0x3b3075[_0x58d891]['includes']('val')){_0x57ae7d['innerHTML']="'=ssalc naps<".split("").reverse().join("")+_0x9b26ee[_0x58d891]+'\x27>'+replaceNmae(_0x3b3075[_0x58d891])+'提升'+Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0x1))+">naps/<%".split("").reverse().join("");}else{_0x57ae7d['innerHTML']='<span\x20class=\x27'+_0x9b26ee[_0x58d891]+">'".split("").reverse().join("")+replaceNmae(_0x3b3075[_0x58d891])+'提升'+Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0x1))+'</span>';}_0x18cc09['appendChild'](_0x57ae7d);_0x18cc09['addEventListener']("kcilc".split("").reverse().join(""),function(){sfxItem['play']();if(!_0x3b3075[_0x58d891]['includes']('val')){player['bonusStats'][_0x3b3075[_0x58d891]]+=Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0xaea6c^0xaea6d));}else{if(_0x3b3075[_0x58d891]==='hpval'){player['stats']['hp']+=Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0x399e2^0x399e3));player['stats']['hpMax']+=Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0x1));}if(_0x3b3075[_0x58d891]==='atkval'){player['stats']['atk']+=Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0x1));}if(_0x3b3075[_0x58d891]==="lavfed".split("").reverse().join("")){player['stats']['def']+=Number(Number(_0x54b087[_0x3b3075[_0x58d891]]*_0x16e729[_0x9b26ee[_0x58d891]])['toFixed'](0x1));}}if(player['exp']["\u006c\u0076\u006c\u0047\u0061\u0069\u006e\u0065\u0064"]>(0xe092f^0xe092e)){player['exp']['lvlGained']--;generateLvlStats(0xa61e9^0xa61eb,_0x54b087);}else{player['exp']['lvlGained']=0x0;lvlupPanel['style']['display']='none';combatPanel['style']['filter']='brightness(100%)';leveled=![];}playerLoadStats();saveData();});lvlupSelect['appendChild'](_0x18cc09);}}catch(_0x149ef3){}};
+let player = JSON.parse(localStorage.getItem("playerData"));
+let inventoryOpen = false;
+let leveled = false;
+const lvlupSelect = document.querySelector("#lvlupSelect");
+const lvlupPanel = document.querySelector("#lvlupPanel");
+
+const playerExpGain = () => {
+
+    let exp_mod = 1
+    if (player.skills.includes("Jingyan")) {
+        // 战斗获得的经验增加20%
+        exp_mod=1.2;
+    }
+
+    player.exp.expCurr += Math.ceil(enemy.rewards.exp*exp_mod);
+    player.exp.expCurrLvl += Math.ceil(enemy.rewards.exp*exp_mod);
+
+    while (player.exp.expCurr >= player.exp.expMax) {
+        playerLvlUp();
+    }
+    if (leveled) {
+        lvlupPopup();
+    }
+
+    playerLoadStats();
+}
+
+// Levels up the player
+const playerLvlUp = () => {
+    leveled = true;
+
+    // Calculates the excess exp and the new exp required to level up
+    let expMaxIncrease = Math.floor(((player.exp.expMax * 1.1) + 100) - player.exp.expMax);
+    if (player.lvl > 100) {
+        expMaxIncrease = 1000000;
+    }
+    let excessExp = player.exp.expCurr - player.exp.expMax;
+    player.exp.expCurrLvl = excessExp;
+    player.exp.expMaxLvl = expMaxIncrease;
+
+    // Increase player level and maximum exp
+    player.lvl++;
+    player.exp.lvlGained++;
+    player.exp.expMax += expMaxIncrease;
+
+    // Increase player bonus stats per level
+    player.bonusStats.hp += 4;
+    player.bonusStats.atk += 2;
+    player.bonusStats.def += 2;
+    player.bonusStats.atkSpd += 0.15;
+    player.bonusStats.critRate += 0.1;
+    player.bonusStats.critDmg += 0.25;
+}
+
+// Refresh the player stats
+const playerLoadStats = () => {
+    showEquipment();
+    showInventory();
+    applyEquipmentStats();
+
+    let rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
+    if (player.stats.hp > player.stats.hpMax) {
+        player.stats.hp = player.stats.hpMax;
+    }
+    player.stats.hpPercent = Number((player.stats.hp / player.stats.hpMax) * 100).toFixed(2).replace(rx, "$1");
+    player.exp.expPercent = Number((player.exp.expCurrLvl / player.exp.expMaxLvl) * 100).toFixed(2).replace(rx, "$1");
+
+    // Generate battle info for player if in combat
+    if (player.inCombat || playerDead) {
+        const playerCombatHpElement = document.querySelector('#player-hp-battle');
+        const playerHpDamageElement = document.querySelector('#player-hp-dmg');
+        const playerExpElement = document.querySelector('#player-exp-bar');
+        const playerInfoElement = document.querySelector('#player-combat-info');
+        playerCombatHpElement.innerHTML = `&nbsp${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)}(${player.stats.hpPercent}%)`;
+        playerCombatHpElement.style.width = `${player.stats.hpPercent}%`;
+        playerHpDamageElement.style.width = `${player.stats.hpPercent}%`;
+        playerExpElement.style.width = `${player.exp.expPercent}%`;
+        playerInfoElement.innerHTML = `${player.name} Lv.${player.lvl} (${player.exp.expPercent}%)`;
+    }
+
+    // Header
+    document.querySelector("#player-name").innerHTML = `<i class="fas fa-user"></i>${player.name} Lv.${player.lvl}`;
+    document.querySelector("#player-exp").innerHTML = `<p style="width: -webkit-fill-available;">经验</p> ${nFormatter(player.exp.expCurr)}/${nFormatter(player.exp.expMax)} (${player.exp.expPercent}%)`;
+    document.querySelector("#player-gold").innerHTML = `<i class="fa-solid fa-gem" style="color: #ff8000;"></i>${nFormatter(player.gold)}`;
+
+    // Player Stats
+    playerHpElement.innerHTML = `${nFormatter(player.stats.hp)}/${nFormatter(player.stats.hpMax)} (${player.stats.hpPercent}%)`;
+    playerAtkElement.innerHTML = nFormatter(player.stats.atk);
+    playerDefElement.innerHTML = nFormatter(player.stats.def);
+    playerAtkSpdElement.innerHTML = player.stats.atkSpd.toFixed(2).replace(rx, "$1");
+    playerVampElement.innerHTML = (player.stats.vamp).toFixed(2).replace(rx, "$1") + "%";
+    playerCrateElement.innerHTML = (player.stats.critRate).toFixed(2).replace(rx, "$1") + "%";
+    playerCdmgElement.innerHTML = (player.stats.critDmg).toFixed(2).replace(rx, "$1") + "%";
+
+    // Player Bonus Stats
+    document.querySelector("#bonus-stats").innerHTML = `
+    <h4>属性加成</h4>
+    <p><i class="fas fa-heart"></i>气血+${player.bonusStats.hp.toFixed(2).replace(rx, "$1")}%</p>
+    <p><i class="ra ra-sword"></i>攻击+${player.bonusStats.atk.toFixed(2).replace(rx, "$1")}%</p>
+    <p><i class="ra ra-round-shield"></i>护体+${player.bonusStats.def.toFixed(2).replace(rx, "$1")}%</p>
+    <p><i class="ra ra-plain-dagger"></i>攻速+${player.bonusStats.atkSpd.toFixed(2).replace(rx, "$1")}%</p>
+    <p><i class="ra ra-dripping-blade"></i>汲元+${player.bonusStats.vamp.toFixed(2).replace(rx, "$1")}%</p>
+    <p><i class="ra ra-lightning-bolt"></i>暴击几率+${player.bonusStats.critRate.toFixed(2).replace(rx, "$1")}%</p>
+    <p><i class="ra ra-focused-lightning"></i>暴击伤害+${player.bonusStats.critDmg.toFixed(2).replace(rx, "$1")}%</p>`;
+}
+function getRareNmae(txt){
+    if(txt=='Common') return '凡品'
+    if(txt=='Uncommon') return '良品'
+    if(txt=='Rare') return '上品'
+    if(txt=='Epic') return '超品'
+    if(txt=='Legendary') return '传世'
+    if(txt=='Heirloom') return '绝世'
+    if(txt=='LB') return '灵宝'
+    if(txt=='XTLB') return '先天灵宝'
+    if(txt=='ZB') return '臻宝'
+    if(txt=='DB') return '道宝'
+}
+// Opens inventory
+const openInventory = () => {
+    sfxOpen.play();
+
+    dungeon.status.exploring = false;
+    inventoryOpen = true;
+    let openInv = document.querySelector('#inventory');
+    let dimDungeon = document.querySelector('#dungeon-main');
+    openInv.style.display = "flex";
+    dimDungeon.style.filter = "brightness(50%)";
+
+    sellAllElement.onclick = function () {
+        sfxOpen.play();
+        openInv.style.filter = "brightness(50%)";
+        let rarity = sellRarityElement.value;
+
+        defaultModalElement.style.display = "flex";
+        if (rarity == "All") {
+            defaultModalElement.innerHTML = `
+            <div class="content">
+                <p>卖出所有装备?</p>
+                <div class="button-container">
+                    <button id="sell-confirm">全部卖出</button>
+                    <button id="sell-cancel">取消</button>
+                </div>
+            </div>`;
+        } else {
+            defaultModalElement.innerHTML = `
+            <div class="content">
+                <p>卖出所有<span class="${rarity}">${getRareNmae(rarity)}</span> 装备?</p>
+                <div class="button-container">
+                    <button id="sell-confirm">全部卖出</button>
+                    <button id="sell-cancel">取消</button>
+                </div>
+            </div>`;
+        }
+
+        let confirm = document.querySelector('#sell-confirm');
+        let cancel = document.querySelector('#sell-cancel');
+        confirm.onclick = function () {
+            // 卖出所有
+            sellAll(rarity);
+            defaultModalElement.style.display = "none";
+            defaultModalElement.innerHTML = "";
+            openInv.style.filter = "brightness(100%)";
+        };
+        cancel.onclick = function () {
+            sfxDecline.play();
+            defaultModalElement.style.display = "none";
+            defaultModalElement.innerHTML = "";
+            openInv.style.filter = "brightness(100%)";
+        };
+    };
+    sellRarityElement.onclick = function () {
+        sfxOpen.play();
+    };
+    sellRarityElement.onchange = function () {
+        let rarity = sellRarityElement.value;
+        sellRarityElement.className = rarity;
+    };
+}
+
+// Closes inventory
+const closeInventory = () => {
+    sfxDecline.play();
+
+    let openInv = document.querySelector('#inventory');
+    let dimDungeon = document.querySelector('#dungeon-main');
+    openInv.style.display = "none";
+    dimDungeon.style.filter = "brightness(100%)";
+    inventoryOpen = false;
+    if (!dungeon.status.paused) {
+        dungeon.status.exploring = true;
+    }
+}
+
+// Continue exploring if inventory is not open and the game is not paused
+const continueExploring = () => {
+    if (!inventoryOpen && !dungeon.status.paused) {
+        dungeon.status.exploring = true;
+    }
+}
+
+// Shows the level up popup
+const lvlupPopup = () => {
+    sfxLvlUp.play();
+    addCombatLog(`你升级了! (Lv.${player.lvl - player.exp.lvlGained} > Lv.${player.lvl})`);
+
+    // Recover 20% extra hp on level up
+    player.stats.hp += Math.round((player.stats.hpMax * 20) / 100);
+    playerLoadStats();
+
+    // Show popup choices
+    lvlupPanel.style.display = "flex";
+    combatPanel.style.filter = "brightness(50%)";
+    const percentages = {
+        "hp": Number(Number(10 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "hpval": Number(Number(player.stats.hpMax * 0.05 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "atk": Number(Number(8 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "atkval": Number(Number(player.stats.atk * 0.07 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "def": Number(Number(8 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "defval": Number(Number(player.stats.def * 0.07 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "atkSpd": Number(Number(3 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "vamp": Number(Number(0.5 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "critRate": Number(Number(1 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "critDmg": Number(Number(6 * randomizeDecimal(0.9, 1.1)).toFixed(1))
+    };
+    generateLvlStats(2, percentages);
+}
+function replaceNmae(txt){
+    if(txt=='hp') return '气血'
+    if(txt=='hpval') return '基础气血'
+    if(txt=='atk') return '攻击'
+    if(txt=='atkval') return '基础攻击'
+    if(txt=='def') return '护体'
+    if(txt=='defval') return '基础护体'
+    if(txt=='vamp') return '汲元'
+    if(txt=='atkSpd') return '攻速'
+    if(txt=='critRate') return '暴击几率'
+    if(txt=='critDmg') return '暴击伤害'
+    if(txt=='dRate') return '灵宝掉落加成'
+    if(txt=='ldRate') return '灵石掉落'
+    if(txt=='edRate') return '经验掉落'
+    if(txt=='cdRate') return '诅咒碎片掉落'
+    if(txt=='rdRate') return '裂隙碎片掉落'
+    if(txt=='pdRate') return '帝者碎片掉落'
+    if(txt=='hdRate') return '煎熬象征掉落'
+}
+// Generates random stats for level up popup
+
+function normalizeRarityChances(chances) {
+    const total = Object.values(chances).reduce((acc, chance) => acc + chance, 0);
+    const normalized = {};
+  
+    for (const [rarity, chance] of Object.entries(chances)) {
+        normalized[rarity] = chance / total;
+    }
+  
+    return normalized;
+}
+
+
+function getRandomRarity(rarityChances) {
+    const normalizedRarityChances = normalizeRarityChances(rarityChances);
+    const randomNum = Math.random(); // 生成 0 到 1 之间的随机数
+    let cumulativeProbability = 0;
+
+    for (const [rarity, chance] of Object.entries(normalizedRarityChances)) {
+        cumulativeProbability += chance; // 累加概率
+        if (randomNum < cumulativeProbability) {
+            return rarity; // 返回符合条件的稀有度
+        }
+    }
+
+    return 'Common'; // 万一没有返回，安全返回
+}
+
+const generateLvlStats = (rerolls, percentages) => {
+    let selectedStats = [];
+    let stats = ["hp", "atk", "def", "atkSpd", "vamp", "critRate", "critDmg", "hpval", "atkval", "defval"];
+    while (selectedStats.length < 4) {
+        let randomIndex = Math.floor(Math.random() * stats.length);
+        if (!selectedStats.includes(stats[randomIndex])) {
+            selectedStats.push(stats[randomIndex]);
+        }
+    }
+
+    const loadLvlHeader = () => {
+        lvlupSelect.innerHTML = `
+            <h1>升级!</h1>
+            <div class="content-head">
+                <h4>剩余: ${player.exp.lvlGained}</h4>
+                <button id="lvlReroll">重掷 ${rerolls}/2</button>
+            </div>
+        `;
+    }
+    loadLvlHeader();
+
+    percentages = {
+        "hp": Number(Number(10 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "hpval": Number(Number(player.stats.hpMax * 0.05 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "atk": Number(Number(8 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "atkval": Number(Number(player.stats.atk * 0.005 * randomizeDecimal(0.3, 1.7)).toFixed(1)),
+        "def": Number(Number(8 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "defval": Number(Number(player.stats.def * 0.05 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "atkSpd": Number(Number(3 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "vamp": Number(Number(0.5 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "critRate": Number(Number(1 * randomizeDecimal(0.9, 1.1)).toFixed(1)),
+        "critDmg": Number(Number(6 * randomizeDecimal(0.9, 1.1)).toFixed(1))
+    };
+
+    const rarityChances = {
+        "Common": 0.7,
+        "Uncommon": 0.4,
+        "Rare": 0.16,
+        "Epic": 0.08,
+        "Legendary": 0.05
+    };
+    
+    const rarityChances_add = {
+        "Common": 1,
+        "Uncommon": 1.2,
+        "Rare": 1.5,
+        "Epic": 2,
+        "Legendary": 2.2
+    };
+    let Prarity_list = []
+    for (let i = 0; i < 4; i++) {
+        const randomNumber = Math.random();
+        let cumulativeChance = 0;
+        let Prarity = "Common";
+        Prarity = getRandomRarity(rarityChances)
+        console.log(Prarity)
+        Prarity_list.push(Prarity)
+    }
+
+    const lvlReroll = document.querySelector("#lvlReroll");
+    lvlReroll.addEventListener("click", function () {
+        if (rerolls > 0) {
+            sfxSell.play();
+            rerolls--;
+            loadLvlHeader();
+            generateLvlStats(rerolls, percentages);
+        } else {
+            sfxDeny.play();
+        }
+    });
+
+    try {
+        for (let i = 0; i < 4; i++) {
+            let button = document.createElement("button");
+            button.id = "lvlSlot" + i;
+
+            let h3 = document.createElement("h3");
+            h3.innerHTML = `<span class='${Prarity_list[i]}'>`+replaceNmae(Prarity_list[i]) + '-' + replaceNmae(selectedStats[i]) + " UP"+"</span>";
+            button.appendChild(h3);
+            let p = document.createElement("p");
+            if(!selectedStats[i].includes("val")){
+                p.innerHTML = `<span class='${Prarity_list[i]}'>${replaceNmae(selectedStats[i])}提升${Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1))}%</span>`;
+            }else{
+                p.innerHTML = `<span class='${Prarity_list[i]}'>${replaceNmae(selectedStats[i])}提升${Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1))}</span>`;
+            }
+            button.appendChild(p);
+
+            // Increase the selected stat for player
+            button.addEventListener("click", function () {
+                sfxItem.play();
+                if(!selectedStats[i].includes("val")){
+                    player.bonusStats[selectedStats[i]] += Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1));
+                }else{
+                    if(selectedStats[i] === 'hpval'){
+                        player.stats.hp +=  Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1));
+                        player.stats.hpMax +=  Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1));
+                    }
+                    if(selectedStats[i] === 'atkval'){
+                        player.stats.atk +=  Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1));
+                    }
+                    if(selectedStats[i] === 'defval'){
+                        player.stats.def +=  Number(Number(percentages[selectedStats[i]]*rarityChances_add[Prarity_list[i]]).toFixed(1));
+                    }
+                }
+
+                if (player.exp.lvlGained > 1) {
+                    player.exp.lvlGained--;
+                    generateLvlStats(2, percentages);
+                } else {
+                    player.exp.lvlGained = 0;
+                    lvlupPanel.style.display = "none";
+                    combatPanel.style.filter = "brightness(100%)";
+                    leveled = false;
+                }
+
+                playerLoadStats();
+                saveData();
+            });
+
+            lvlupSelect.appendChild(button);
+        }
+    } catch (err) { }
+}
