@@ -963,7 +963,7 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab" style="max-height: 50%;overflow-y: scroll;">
                 <div class="content-head">
-                    <h3>更新记录Ver1.9b</h3>
+                    <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p>1.升级加成随机化</p>
@@ -1246,27 +1246,23 @@ const importData = (importedData) => {
             let confirm = document.querySelector("#import-btn");
             let cancel = document.querySelector("#cancel-btn");
             confirm.onclick = function () {
-                if(playerImport.name=='player'){
-                    sfxConfirm.play();
-                    player = playerImport;
-                    saveData();
-                    bgmDungeon.stop();
-                    let dimDungeon = document.querySelector('#dungeon-main');
-                    dimDungeon.style.filter = "brightness(100%)";
-                    dimDungeon.style.display = "none";
-                    menuModalElement.style.display = "none";
-                    menuModalElement.innerHTML = "";
-                    confirmationModalElement.style.display = "none";
-                    confirmationModalElement.innerHTML = "";
-                    defaultModalElement.style.display = "none";
-                    defaultModalElement.innerHTML = "";
-                    runLoad("title-screen", "flex");
-                    clearInterval(dungeonTimer);
-                    clearInterval(playTimer);
-                    progressReset();
-                }else{
-                    alert("请重新导出数据")
-                }
+                sfxConfirm.play();
+                player = playerImport;
+                saveData();
+                bgmDungeon.stop();
+                let dimDungeon = document.querySelector('#dungeon-main');
+                dimDungeon.style.filter = "brightness(100%)";
+                dimDungeon.style.display = "none";
+                menuModalElement.style.display = "none";
+                menuModalElement.innerHTML = "";
+                confirmationModalElement.style.display = "none";
+                confirmationModalElement.innerHTML = "";
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                runLoad("title-screen", "flex");
+                clearInterval(dungeonTimer);
+                clearInterval(playTimer);
+                progressReset();
             }
             cancel.onclick = function () {
                 sfxDecline.play();
