@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.8c'
+    const version = '1.9'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -850,9 +850,13 @@ window.addEventListener("load", function () {
             defaultModalElement.innerHTML = `
             <div class="content" id="ei-tab">
                 <div class="content-head">
-                    <h3>更新记录Ver1.8c</h3>
+                    <h3>更新记录Ver1.9</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.升级加成随机化</p>
+                <p>2.多种升级稀有度</p>
+                <p>3.尸体现在20%几率搜刮到灵石</p>
+                <p>======================</p>
                 <p>1.添加装备锁(WIP)</p>
                 <p>2.添加11种新的装备类型</p>
                 <p>3.现在可以砸毁弃天雕像</p>
@@ -1424,7 +1428,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "每拥有1000灵石,造成伤害+1%,但是每次攻击消耗伤害值9%的灵石";
         }
         if (selectSkill.value == "GoldS") {
-            skillDesc.innerHTML = "每拥有1000灵石,受到伤害-1%,但是每次防御消耗伤害值5%的灵石";
+            skillDesc.innerHTML = "每拥有1000灵石,受到伤害-1%,但是每次防御消耗伤害值7%的灵石";
         }
         if (selectSkill.value == "PoorG") {
             skillDesc.innerHTML = "灵石小于1000时,每次攻击附加50伤害";
@@ -1451,7 +1455,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "敌人的攻速必定小于你的攻速";
         }
         if (selectSkill.value == "BQZJ") {
-            skillDesc.innerHTML = "第一击必定暴击并且伤害翻倍";
+            skillDesc.innerHTML = "第一击不管暴击与否，继续判定一次强制暴击伤害并且伤害翻倍。";
         }
         if (selectSkill.value == "BQZD") {
             skillDesc.innerHTML = "无视受到的第一次攻击并转化成治疗";
@@ -1472,7 +1476,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "你的攻击伤害结算两次,但是你无法暴击";
         }
         if (selectSkill.value == "DPMJ") {
-            skillDesc.innerHTML = "你造成伤害始终等于你护体的10%";
+            skillDesc.innerHTML = "你造成伤害始终等于你护体的10%。受暴击影响。";
         }
         if (selectSkill.value == "CZJS") {
             skillDesc.innerHTML = "每场战斗一次,第一次被击败时满血复活";
@@ -1484,7 +1488,7 @@ const allocationPopup = () => {
             skillDesc.innerHTML = "每次造成的伤害提高上一次的10%,每次攻击消耗5%气血。战斗后重置";
         }
         if (selectSkill.value == "ZSDS") {
-            skillDesc.innerHTML = "如果你在未攻击的时候被攻击,此次攻击无效并50%反弹给敌人";
+            skillDesc.innerHTML = "如果你在未攻击的时候被攻击,此次攻击无效并50%反弹给敌人。受暴击影响。";
         }
         if (selectSkill.value == "HLXM") {
             skillDesc.innerHTML = "如果你的攻击的两倍伤害能够击杀敌人,则本次攻击造成两倍伤害";
