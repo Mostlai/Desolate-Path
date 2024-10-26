@@ -848,7 +848,7 @@ window.addEventListener("load", function () {
             menuModalElement.style.display = "none";
             defaultModalElement.style.display = "flex";
             defaultModalElement.innerHTML = `
-            <div class="content" id="ei-tab">
+            <div class="content" id="ei-tab" style="max-height: 50%;overflow-y: scroll;">
                 <div class="content-head">
                     <h3>更新记录Ver1.9a</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
