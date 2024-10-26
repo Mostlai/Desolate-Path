@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.9a'
+    const version = '1.9b'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -477,6 +477,7 @@ window.addEventListener("load", function () {
             SJFW.onclick = function () {
                 let cost = (player.tpmax+1)*15;
                 if(player.hardloopsign>=cost) {
+                    player.hardloopsign -= cost;
                     player.tpmax = player.tpmax + 1;
                 }
                 document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
