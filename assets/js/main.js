@@ -924,7 +924,6 @@ window.addEventListener("load", function () {
             let dataImport = document.querySelector('#data-import');
             let importInput = document.querySelector('#import-input');
             dataImport.onclick = function () {
-                // ex(importInput.value);
                 alert("被人攻击了，激活兑换码请联系作者[QQ:2096358571]，邮件好友皆可")
             };
             eiClose.onclick = function () {
