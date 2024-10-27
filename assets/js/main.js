@@ -903,6 +903,7 @@ window.addEventListener("load", function () {
                     <h3>激活兑换码</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>被人攻击了，激活兑换码请联系作者[QQ:2096358571]，邮件好友皆可</p>
                 <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包: ${che()}</p>
                 <p style='color:gold'>效果==解锁所有先天==</p>
                 <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>属性包: ${khe()}</p>
