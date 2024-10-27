@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '1.9b'
+    const version = '2.0a'
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -386,7 +386,7 @@ window.addEventListener("load", function () {
                 <p class="ra ra-skull-trophy middle" id='JAXZ' style='color:lawngreen;'>煎熬象征掉落加成:+${nFormatter(player.hardloop)}%</p>
                 <p class="middle" style='color:white;'>击杀敌人以获得煎熬象征</p>
                 <p class="middle" style='color:white;'>---提升煎熬等级消耗---</p>
-                <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter((player.hardloopmax+1)*3)}</p>
+                <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter(getHardCost(player.hardloopmax))}</p>
                 
                 <button class="middle" id="JAADD">煎熬等级+</button>
                 <button class="middle" id="JAROM">煎熬等级-</button>
@@ -427,7 +427,7 @@ window.addEventListener("load", function () {
             };
 
             TSSX.onclick = function () {
-                let num = (player.hardloopmax+1)*3;
+                let num = getHardCost(player.hardloopmax);
                 if(player.hardloopsign>=num){
                     player.hardloopmax+=1;
                     player.hardloopsign= player.hardloopsign-num;
@@ -973,6 +973,11 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.宝箱怪有用化</p>
+                <p>2.添加更多种装备</p>
+                <p>3.修复自动打开乾坤袋</p>
+                <p>4.增加游戏内纸条提示</p>
+                <p>======================</p>
                 <p>1.升级加成随机化</p>
                 <p>2.多种升级稀有度</p>
                 <p>3.尸体现在20%几率搜刮到灵石</p>
@@ -1029,17 +1034,63 @@ window.addEventListener("load", function () {
 
 function getCost(ascend,typel){
     let lv = Math.max(1,ascend);
+    let mod = 1;
+    if(lv>=200){
+        mod = 12
+    }else if(lv>=175){
+        mod = 9
+    }else if(lv>=150){
+        mod = 8
+    }else if(lv>=125){
+        mod = 7
+    }else if(lv>=110){
+        mod = 6
+    }else if(lv>=100){
+        mod = 5
+    }else if(lv>=75){
+        mod = 4
+    }else if(lv>=50){
+        mod = 3
+    }else if(lv>=25){
+        mod = 2
+    }
     if(typel==1){
-        return lv*8;
+        return lv*8*mod;
     }
     if(typel==2){
-        return lv*5;
+        return lv*5*mod;
     }
     if(typel==3){
-        if(lv>=15) return (lv-5)*2;
+        if(lv>=15) return (lv-5)*2*mod;
         else return 0;
     }
 };
+
+function getHardCost(hard){
+    let mod = 1;
+    let lv = hard;
+    if(lv>=200){
+        mod = 12
+    }else if(lv>=100){
+        mod = 10
+    }else if(lv>=90){
+        mod = 9
+    }else if(lv>=80){
+        mod = 8
+    }else if(lv>=70){
+        mod = 7
+    }else if(lv>=60){
+        mod = 6
+    }else if(lv>=50){
+        mod = 5
+    }else if(lv>=40){
+        mod = 4
+    }else if(lv>=30){
+        mod = 3
+    }
+    let cost = (hard+1)*3*mod;
+    return cost;
+}
 
 
 

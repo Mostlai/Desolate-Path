@@ -496,6 +496,16 @@ button:focus {
     -o-transition: .1s;
 }
 
+.bb-mp .current {
+    background-color: #159AFF;
+    margin-top: -1rem;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
+
 .bb-xb .current {
     color: transparent;
     background-color: #9a00b9;
