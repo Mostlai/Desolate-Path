@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.0a'
+    const version = '2.0b';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -974,6 +974,10 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.修复若干Bug</p>
+                <p>2.增加战斗内防卡死按钮</p>
+                <p>1.增加限制之戒</p>
+                <p>======================</p>
                 <p>1.宝箱怪有用化</p>
                 <p>2.添加更多种装备</p>
                 <p>3.修复自动打开乾坤袋</p>
