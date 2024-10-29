@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.1';
+    const version = '2.2';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -478,7 +478,7 @@ window.addEventListener("load", function () {
                 document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
             };
             SJFW.onclick = function () {
-                let cost = (player.tpmax+1)*15;
+                let cost = (player.tpmax+1)*5;
                 if(player.hardloopsign>=cost) {
                     player.hardloopsign -= cost;
                     player.tpmax = player.tpmax + 1;
@@ -982,6 +982,8 @@ window.addEventListener("load", function () {
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p>1.增加不升级</p>
+                <p>2.降低传送阵花费</p>
+                <p>3.溢出的煎熬掉率有用化</p>
                 <p>======================</p>
                 <p>1.修复若干Bug</p>
                 <p>2.增加战斗内防卡死按钮</p>
@@ -1075,7 +1077,7 @@ function getCost(ascend,typel){
         return lv*5*mod;
     }
     if(typel==3){
-        if(lv>=15) return (lv-5)*2*mod;
+        if(lv>=15) return Math.ceil((lv-5)*2*mod);
         else return 0;
     }
 };
@@ -1102,7 +1104,7 @@ function getHardCost(hard){
     }else if(lv>=30){
         mod = 3
     }
-    let cost = (hard+1)*3*mod;
+    let cost = Math.ceil((hard+1)*3*mod);
     return cost;
 }
 
