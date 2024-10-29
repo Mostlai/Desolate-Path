@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.0b';
+    const version = '2.1';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -509,6 +509,7 @@ window.addEventListener("load", function () {
                 if(player.ad==undefined) player.ad = 0;
                 if(player.aj==undefined) player.aj = 0;
                 if(player.an==undefined) player.an = 0;
+                if(player.nu==undefined) player.nu = 0;
                 defaultModalElement.innerHTML = `
                 <div class="content" id="profile-tab">
                     <div class="content-head middle">
@@ -526,6 +527,7 @@ window.addEventListener("load", function () {
                     <button class="middle" id="AU">自动升级(第一项):${player.au}</button>
                     <button class="middle" id="AD">自动丢弃传世以下装备:${player.ad}</button>
                     <button class="middle" id="AN">自动过门:${player.an}</button>
+                    <button class="middle" id="NU">不升级:${player.nu}</button>
                 </div>`;
                 let profileTab = document.querySelector('#profile-tab');
 
@@ -574,6 +576,11 @@ window.addEventListener("load", function () {
                     if(player.an==0) player.an=1;
                     else player.an=0;
                     document.querySelector('#AN').innerHTML = `自动过门:${player.an}`;
+                };
+                NU.onclick = function () {
+                    if(player.nu==0) player.nu=1;
+                    else player.nu=0;
+                    document.querySelector('#NU').innerHTML = `不升级:${player.nu}`;
                 };
                 profileClose.onclick = function () {
                     sfxDecline.play();
@@ -974,9 +981,11 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.增加不升级</p>
+                <p>======================</p>
                 <p>1.修复若干Bug</p>
                 <p>2.增加战斗内防卡死按钮</p>
-                <p>1.增加限制之戒</p>
+                <p>3.增加限制之戒</p>
                 <p>======================</p>
                 <p>1.宝箱怪有用化</p>
                 <p>2.添加更多种装备</p>
