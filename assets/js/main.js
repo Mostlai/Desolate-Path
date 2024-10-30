@@ -459,7 +459,7 @@ window.addEventListener("load", function () {
                 <p class="ra ra-radial-balance" id='ZDFW' style='color:lawngreen;'>当前传送阵最大范围:${nFormatter((player.tpmax))}</p>
                 <p class="ra  ra-moon-sun" id='CSSJ' style='color:gold;'>你下一局游戏直接出生在世界:${nFormatter((player.tpval))}</p>
                 <p class="middle" style='color:white;'>---升级传送阵范围上限消耗---</p>
-                <p class="ra ra-skull" id='SJXF' style='color:red;'>煎熬象征:${nFormatter((player.tpmax+1)*15)}</p>
+                <p class="ra ra-skull" id='SJXF' style='color:red;'>煎熬象征:${nFormatter((player.tpmax+1)*3)}</p>
                 
                 <button class="middle" id="TPADD">传送阵范围+</button>
                 <button class="middle" id="TPROM">传送阵范围-</button>
@@ -478,14 +478,14 @@ window.addEventListener("load", function () {
                 document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
             };
             SJFW.onclick = function () {
-                let cost = (player.tpmax+1)*5;
+                let cost = (player.tpmax+1)*3;
                 if(player.hardloopsign>=cost) {
                     player.hardloopsign -= cost;
                     player.tpmax = player.tpmax + 1;
                 }
                 document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
                 document.querySelector('#ZDFW').innerHTML = `当前传送阵最大范围:${nFormatter((player.tpmax))}`;
-                document.querySelector('#SJXF').innerHTML = `煎熬象征:${nFormatter((player.tpmax+1)*20)}`;
+                document.querySelector('#SJXF').innerHTML = `煎熬象征:${nFormatter((player.tpmax+1)*3)}`;
             };
             profileClose.onclick = function () {
                 sfxDecline.play();
