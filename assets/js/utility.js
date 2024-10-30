@@ -2,13 +2,26 @@
 const nFormatter = (num) => {
     let lookup = [
         { value: 1, symbol: "" },
-        { value: 1e3, symbol: "k" },
-        { value: 1e6, symbol: "M" },
-        { value: 1e9, symbol: "B" },
-        { value: 1e12, symbol: "T" },
-        { value: 1e15, symbol: "P" },
-        { value: 1e18, symbol: "E" }
-    ];
+        { value: 1e3, symbol: "千" },
+        { value: 1e6, symbol: "百万" },
+        { value: 1e9, symbol: "十亿" },
+        { value: 1e12, symbol: "万亿" },
+        { value: 1e15, symbol: "千万亿" },
+        { value: 1e18, symbol: "兆" },
+        { value: 1e21, symbol: "京" },
+        { value: 1e24, symbol: "垓" },
+        { value: 1e27, symbol: "秭" },
+        { value: 1e30, symbol: "穰" },
+        { value: 1e33, symbol: "沟" },
+        { value: 1e36, symbol: "涧" },
+        { value: 1e39, symbol: "正" },
+        { value: 1e42, symbol: "载" },
+        { value: 1e45, symbol: "极" },
+        { value: 1e48, symbol: "恒" },
+        { value: 1e51, symbol: "阿" },
+        { value: 1e54, symbol: "那" },
+        { value: 1e57, symbol: "涧" }
+    ];    
     let rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
     let item = lookup.slice().reverse().find(function (item) {
         return num >= item.value;
