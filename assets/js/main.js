@@ -982,6 +982,7 @@ window.addEventListener("load", function () {
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
                 <p>1.优化卡死问题</p>
+                <p>2.导入不再重置世界进度</p>
                 <p>======================</p>
                 <p>1.增加不升级</p>
                 <p>2.降低传送阵花费</p>
@@ -1328,6 +1329,7 @@ const importData = (importedData) => {
                 sfxConfirm.play();
                 player = playerImport;
                 saveData();
+                location.reload();
                 bgmDungeon.stop();
                 let dimDungeon = document.querySelector('#dungeon-main');
                 dimDungeon.style.filter = "brightness(100%)";
@@ -1339,9 +1341,9 @@ const importData = (importedData) => {
                 defaultModalElement.style.display = "none";
                 defaultModalElement.innerHTML = "";
                 runLoad("title-screen", "flex");
-                clearInterval(dungeonTimer);
-                clearInterval(playTimer);
-                progressReset();
+                // clearInterval(dungeonTimer);
+                // clearInterval(playTimer);
+                // progressReset();
             }
             cancel.onclick = function () {
                 sfxDecline.play();
