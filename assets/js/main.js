@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.2';
+    const version = '2.3';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -981,6 +981,8 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.优化卡死问题</p>
+                <p>======================</p>
                 <p>1.增加不升级</p>
                 <p>2.降低传送阵花费</p>
                 <p>3.溢出的煎熬掉率有用化</p>
@@ -1188,9 +1190,10 @@ const enterDungeon = () => {
     document.querySelector("#title-screen").style.display = "none";
     runLoad("dungeon-main", "flex");
     if (player.inCombat) {
-        enemy = JSON.parse(localStorage.getItem("enemyData"));
-        showCombatInfo();
-        startCombat(bgmBattleMain);
+        player.inCombat = false;
+        // enemy = JSON.parse(localStorage.getItem("enemyData"));
+        // showCombatInfo();
+        // startCombat(bgmBattleMain);
     } else {
         bgmDungeon.play();
     }
@@ -1203,13 +1206,15 @@ const enterDungeon = () => {
 
 // Save all the data into local storage
 const saveData = () => {
+    dungeon.backlog.length = 0;
     const playerData = JSON.stringify(player);
     const dungeonData = JSON.stringify(dungeon);
     const enemyData = JSON.stringify(enemy);
     const volumeData = JSON.stringify(volume);
     localStorage.setItem("playerData", playerData);
     localStorage.setItem("dungeonData", dungeonData);
-    localStorage.setItem("enemyData", enemyData);
+    localStorage.setItem("enemyData", '');
+    // localStorage.setItem("enemyData", enemyData);
     localStorage.setItem("volumeData", volumeData);
 }
 
