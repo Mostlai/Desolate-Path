@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.4';
+    const version = '2.5';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -122,6 +122,7 @@ window.addEventListener("load", function () {
                     hardloop:0,
                     hardloopmax:1,
                     hardloopsign:0,
+                    riftstone:0,
                     deepth:0,
                     tpmax:1,
                     tpval:1,
@@ -201,6 +202,7 @@ window.addEventListener("load", function () {
             <button id="ascend" style='color:coral'><i class="fa-solid fa-bridge-water"></i>通天祭坛</button>
             <button id="hardloop" style='color:red'><i class="ra ra-blade-bite"></i>苦难煎熬</button>
             <button id="tower" style='color:pink'><i class="fa-solid fa-gopuram"></i>镇魔塔</button>
+            <button id="refiny" style='color:red'><i class="ra ra-fire-symbol"></i>提炼炉</button>
             <button id="TP" style='color:orange'><i class="ra ra-player-teleport"></i>传送阵</button>
             <button id="AUTO" style='color:orange'><i class="ra ra-player-teleport"></i>自动化</button>
             <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
@@ -272,6 +274,72 @@ window.addEventListener("load", function () {
             };
         };
 
+        refiny.onclick = function () {
+            sfxOpen.play();
+            if(player.riftLB==undefined) player.riftLB = 0;
+            if(player.riftstone==undefined) player.riftstone = 0;
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head">
+                    <h3><i class="ra ra-fire-symbol"></i>提炼炉</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <div>
+                <div>
+                    <p id='RB' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
+                    <p id='MS' style='color:steelblue'><i class="ra ra-rune-stone "></i>裂隙磨石: ${nFormatter(player.riftstone)}</p>
+                    <p style='color:grey'>10裂隙灵宝碎片可以提炼为1裂隙磨石,在下方输入需要获得的【裂隙磨石】数量</p>
+                    <input type="number" id="MSpod-input" autocomplete="off">
+                    <button id="rts"><i class="ra ra-fire"></i>提炼</button>
+                </div>
+                <div>
+                    <p id='RB1' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
+                    <p id='CB' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}</p>
+                    <p style='color:grey'>3裂隙灵宝碎片可以提炼为1诅咒灵宝碎片,在下方输入需要获得的【诅咒灵宝碎片】数量</p>
+                    <input type="number" id="CUpod-input" autocomplete="off">
+                    <button id="rtc"><i class="ra ra-fire"></i>提炼</button>
+                </div>
+                </div>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            rts.onclick = function () {
+                sfxConfirm.play();
+                let number = Number(document.querySelector('#MSpod-input').value);
+                if(number>=1){
+                    if(number*10<=player.riftLB){
+                        player.riftLB = player.riftLB - number*10;
+                        player.riftstone = player.riftstone + number;
+                    }
+                    document.querySelector('#RB').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#RB1').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#MS').innerHTML = `<i class="ra ra-rune-stone "></i>裂隙磨石: ${nFormatter(player.riftstone)}`;
+                }
+            }
+            rtc.onclick = function () {
+                sfxConfirm.play();
+                let number = Number(document.querySelector('#CUpod-input').value);
+                if(number>=1){
+                    if(number*3<=player.riftLB){
+                        player.riftLB = player.riftLB - number*3;
+                        player.cureseLB = player.cureseLB + number;
+                    }
+                    document.querySelector('#RB').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#RB1').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#CB').innerHTML = `<i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}`;
+                }
+            }
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
         treasureM.onclick = function () {
             sfxOpen.play();
             menuModalElement.style.display = "none";
@@ -280,6 +348,7 @@ window.addEventListener("load", function () {
             if(player.cureseLB==undefined) player.cureseLB = 0;
             if(player.riftLB==undefined) player.riftLB = 0;
             if(player.emporLB==undefined) player.emporLB = 0;
+            if(player.riftstone==undefined) player.riftstone = 0;
             if(player.hardloopsign==undefined) player.hardloopsign = 0;
             defaultModalElement.innerHTML = `
             <div class="content" id="profile-tab">
@@ -297,6 +366,8 @@ window.addEventListener("load", function () {
                 <p color:lawngreen'>用途:通天材料</p>
                 <p id='RB' style='color:red;'><i class="ra ra-skull"></i>煎熬象征: ${nFormatter(player.hardloopsign)}</p>
                 <p color:lawngreen'>用途:苦难煎熬材料</p>
+                <p id='RB' style='color:steelblue;'><i class="ra ra-rune-stone"></i>裂隙磨石: ${nFormatter(player.riftstone)}</p>
+                <p color:lawngreen'>用途:强化材料</p>
             </div>`;
             let profileTab = document.querySelector('#profile-tab');
 
@@ -998,6 +1069,9 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.增加提炼炉</p>
+                <p>2.现在装备可以强化了</p>
+                <p>======================</p>
                 <p>1.增加自动丢弃绝世以下装备</p>
                 <p>2.增加自动丢弃灵宝以下装备</p>
                 <p>3.煎熬掉落上限增加</p>
