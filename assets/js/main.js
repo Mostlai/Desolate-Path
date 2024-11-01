@@ -613,7 +613,7 @@ window.addEventListener("load", function () {
                 player.ai=0;
                 player.au=0;
                 player.aw=0;
-                alert("需要探索包哦")
+                alert("需要探索包哦,自动化功能:自动打开乾坤袋,自动迎战,自动知道了,自动眷天,自动超级Boss,自动无视,自动升级,自动丢弃传世以下装备,自动丢弃绝世以下装备,自动丢弃灵宝以下装备,自动过门,不升级")
             }
         };
 
