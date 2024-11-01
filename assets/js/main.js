@@ -568,16 +568,22 @@ window.addEventListener("load", function () {
                     if(player.ad==0) player.ad=1;
                     else player.ad=0;
                     document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
                 };
                 AD1.onclick = function () {
                     if(player.ad==0) player.ad=2;
                     else player.ad=0;
-                    document.querySelector('#AD').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
                 };
                 AD2.onclick = function () {
                     if(player.ad==0) player.ad=3;
                     else player.ad=0;
-                    document.querySelector('#AD').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
                 };
                 AJ.onclick = function () {
                     if(player.aj==0) player.aj=1;
