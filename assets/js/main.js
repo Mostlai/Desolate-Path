@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.3';
+    const version = '2.4';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -517,7 +517,7 @@ window.addEventListener("load", function () {
                         <p id="profile-close"><i class="fa fa-xmark"></i></p>
                     </div>
                     
-                    <p class="middle" style='color:white;'>---1代表开,0代表关---</p>
+                    <p class="middle" style='color:white;'>---1/2/3代表开,0代表关---</p>
                     <button class="middle" id="AO">自动打开乾坤袋:${player.ao}</button>
                     <button class="middle" id="AA">自动迎战:${player.aa}</button>
                     <button class="middle" id="AK">自动知道了:${player.ak}</button>
@@ -526,6 +526,8 @@ window.addEventListener("load", function () {
                     <button class="middle" id="AI">自动无视:${player.ai}</button>
                     <button class="middle" id="AU">自动升级(第一项):${player.au}</button>
                     <button class="middle" id="AD">自动丢弃传世以下装备:${player.ad}</button>
+                    <button class="middle" id="AD1">自动丢弃绝世以下装备:${player.ad}</button>
+                    <button class="middle" id="AD2">自动丢弃灵宝以下装备:${player.ad}</button>
                     <button class="middle" id="AN">自动过门:${player.an}</button>
                     <button class="middle" id="NU">不升级:${player.nu}</button>
                 </div>`;
@@ -566,6 +568,16 @@ window.addEventListener("load", function () {
                     if(player.ad==0) player.ad=1;
                     else player.ad=0;
                     document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                };
+                AD1.onclick = function () {
+                    if(player.ad==0) player.ad=2;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                };
+                AD2.onclick = function () {
+                    if(player.ad==0) player.ad=3;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
                 };
                 AJ.onclick = function () {
                     if(player.aj==0) player.aj=1;
@@ -981,6 +993,11 @@ window.addEventListener("load", function () {
                     <h3>更新记录Ver${version}</h3>
                     <p id="ei-close"><i class="fa fa-xmark"></i></p>
                 </div>
+                <p>1.增加自动丢弃绝世以下装备</p>
+                <p>2.增加自动丢弃灵宝以下装备</p>
+                <p>3.煎熬掉落上限增加</p>
+                <p>4.宝箱徽记不会被自动丢弃</p>
+                <p>======================</p>
                 <p>1.优化卡死问题</p>
                 <p>2.导入不再重置世界进度</p>
                 <p>======================</p>
