@@ -1,1 +1,2361 @@
-window["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("daol".split("").reverse().join(""),function(){const _0xaca9c5="8.2".split("").reverse().join("");if(player===null){runLoad("\u0063\u0068\u0061\u0072\u0061\u0063\u0074\u0065\u0072\u002d\u0063\u0072\u0065\u0061\u0074\u0069\u006f\u006e","xelf".split("").reverse().join(""));}else{let _0x42b381=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("neercs-eltit#".split("").reverse().join(""));_0x42b381["\u0073\u0074\u0079\u006c\u0065"]["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]="xelf".split("").reverse().join("");}document['querySelector']("neercs-eltit#".split("").reverse().join(""))['addEventListener']("kcilc".split("").reverse().join(""),function(){const _0x324b0c=JSON['parse'](localStorage['getItem']("\u0070\u006c\u0061\u0079\u0065\u0072\u0044\u0061\u0074\u0061"));if(_0x324b0c['allocated']){enterDungeon();}else{allocationPopup();}});document['ondblclick']=function(_0x2f919d){_0x2f919d['preventDefault']();};document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("timbus-eman#".split("").reverse().join(""))["\u0061\u0064\u0064\u0045\u0076\u0065\u006e\u0074\u004c\u0069\u0073\u0074\u0065\u006e\u0065\u0072"]("timbus".split("").reverse().join(""),function(_0x165384){_0x165384['preventDefault']();let _0x5966a7=document['querySelector']("tupni-eman#".split("").reverse().join(""))["\u0076\u0061\u006c\u0075\u0065"];var _0x3f87d1=/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;if(_0x3f87d1['test'](_0x5966a7)){document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#alert')['innerHTML']="!\u7B26\u5B57\u6B8A\u7279\u542B\u5305\u5B57\u540D\u7684\u4F60".split("").reverse().join("");}else{if(_0x5966a7['length']<(0x8eaed^0x8eaee)||_0x5966a7['length']>(0x1ae5a^0x1ae55)){document['querySelector']("\u0023\u0061\u006c\u0065\u0072\u0074")['innerHTML']="\u4f60\u7684\u540d\u5b57\u957f\u5ea6\u5e94\u4f4d\u4e8e\u0033\u002d\u0031\u0035\u4e4b\u95f4\u0021";}else{player={'name':_0x5966a7,"\u006c\u0076\u006c":0x1,'stats':{"\u0068\u0070":null,'hpMax':null,"\u0061\u0074\u006b":null,'def':null,'pen':null,"\u0061\u0074\u006b\u0053\u0070\u0064":null,"\u0076\u0061\u006d\u0070":null,'critRate':null,'critDmg':null},"\u0062\u0061\u0073\u0065\u0053\u0074\u0061\u0074\u0073":{"\u0068\u0070":0x1f4,"\u0061\u0074\u006b":0x64,'def':0x32,"\u0070\u0065\u006e":0x0,'atkSpd':0.6,'vamp':0x0,"\u0063\u0072\u0069\u0074\u0052\u0061\u0074\u0065":0x0,"\u0063\u0072\u0069\u0074\u0044\u006d\u0067":0x32},'equippedStats':{'hp':0x0,'atk':0x0,'def':0x0,"\u0070\u0065\u006e":0x0,"\u0061\u0074\u006b\u0053\u0070\u0064":0x0,'vamp':0x0,"\u0063\u0072\u0069\u0074\u0052\u0061\u0074\u0065":0x0,'critDmg':0x0,"\u0068\u0070\u0050\u0063\u0074":0x0,"\u0061\u0074\u006b\u0050\u0063\u0074":0x0,"\u0064\u0065\u0066\u0050\u0063\u0074":0x0,"\u0070\u0065\u006e\u0050\u0063\u0074":0x0},"\u0062\u006f\u006e\u0075\u0073\u0053\u0074\u0061\u0074\u0073":{"\u0068\u0070":0x0,'atk':0x0,"\u0064\u0065\u0066":0x0,'atkSpd':0x0,'vamp':0x0,"\u0063\u0072\u0069\u0074\u0052\u0061\u0074\u0065":0x0,"\u0063\u0072\u0069\u0074\u0044\u006d\u0067":0x0},'exp':{'expCurr':0x0,'expMax':0x64,"\u0065\u0078\u0070\u0043\u0075\u0072\u0072\u004c\u0076\u006c":0x0,'expMaxLvl':0x64,"\u006c\u0076\u006c\u0047\u0061\u0069\u006e\u0065\u0064":0x0},'inventory':{'consumables':[],'equipment':[]},'equipped':[],'gold':0x0,"\u0062\u0061\u006e\u006b":0x0,'playtime':0x0,"\u006b\u0069\u006c\u006c\u0073":0x0,'deaths':0x0,'dp':0x0,'ap':0x0,"\u0073\u0070":0x0,'dtd':0x0,"\u006f\u0070\u0073":0x0,"\u0065\u0072\u0074":0x0,"\u0063\u0072\u0074":0x0,'rtt':0x0,"\u0079\u0075\u006a":0x0,"\u0069\u006f\u0070":0x0,"\u006b\u006c\u006c":0x0,'nmk':0x0,"\u0076\u0069\u0070":0x0,'rebirth':0x0,'ascend':0x0,'cureseLB':0x0,'riftLB':0x0,'emporLB':0x0,'hardloop':0x0,'hardloopmax':0x1,'hardloopsign':0x0,"\u0072\u0069\u0066\u0074\u0073\u0074\u006f\u006e\u0065":0x0,'deepth':0x0,'tpmax':0x1,'tpval':0x1,"\u0061\u006f":0x0,'aa':0x0,'ak':0x0,"\u0061\u0069":0x0,'au':0x0,"\u0061\u0077":0x0,'inCombat':![]};calculateStats();player["\u0073\u0074\u0061\u0074\u0073"]['hp']=player['stats']["\u0068\u0070\u004d\u0061\u0078"];saveData();document['querySelector']("noitaerc-retcarahc#".split("").reverse().join(""))["\u0073\u0074\u0079\u006c\u0065"]["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]="enon".split("").reverse().join("");runLoad("neercs-eltit".split("").reverse().join(""),"\u0066\u006c\u0065\u0078");}}});document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#unequip-all')['addEventListener']("\u0063\u006c\u0069\u0063\u006b",function(){sfxOpen["\u0070\u006c\u0061\u0079"]();dungeon["\u0073\u0074\u0061\u0074\u0075\u0073"]["\u0065\u0078\u0070\u006c\u006f\u0072\u0069\u006e\u0067"]=![];let _0x18b0c5=document['querySelector']('#inventory');_0x18b0c5['style']['filter']='brightness(50%)';defaultModalElement["\u0073\u0074\u0079\u006c\u0065"]['display']='flex';defaultModalElement['innerHTML']=">vid/<        \n>vid/<            \n>nottub/<\u6D88\u53D6>\"lecnac-piuqenu\"=di nottub<                \n>nottub/<\u4E0B\u5378>\"mrifnoc-piuqenu\"=di nottub<                \n>\"reniatnoc-nottub\"=ssalc vid<            \n>p/<?s\u5907\u88C5\u6709\u6240\u4E0B\u5378>p<            \n>\"tnetnoc\"=ssalc vid<        \n".split("").reverse().join("");let _0x3a7dca=document['querySelector']("mrifnoc-piuqenu#".split("").reverse().join(""));let _0x3e52db=document['querySelector']('#unequip-cancel');_0x3a7dca['onclick']=function(){sfxUnequip['play']();unequipAll();continueExploring();defaultModalElement['style']['display']='none';defaultModalElement["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]="".split("").reverse().join("");_0x18b0c5['style']['filter']=")%001(ssenthgirb".split("").reverse().join("");};_0x3e52db['onclick']=function(){sfxDecline["\u0070\u006c\u0061\u0079"]();continueExploring();defaultModalElement['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]='none';defaultModalElement['innerHTML']='';_0x18b0c5['style']["\u0066\u0069\u006c\u0074\u0065\u0072"]='brightness(100%)';};});document['querySelector']("ntb-esuoh#".split("").reverse().join(""))['addEventListener']("kcilc".split("").reverse().join(""),function(){sfxOpen['play']();closeInventory();dungeon["\u0073\u0074\u0061\u0074\u0075\u0073"]['exploring']=![];let _0x5ea3c2=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("\u0023\u0064\u0075\u006e\u0067\u0065\u006f\u006e\u002d\u006d\u0061\u0069\u006e");_0x5ea3c2['style']['filter']='brightness(50%)';menuModalElement['style']['display']="xelf".split("").reverse().join("");menuModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>建筑</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22close-menu\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22bank\x22\x20style=\x27color:lawngreen\x27><i\x20class=\x22fa-solid\x20fa-building-columns\x22></i>钱庄</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22treasuree\x22\x20style=\x27color:gold\x27><i\x20class=\x22fa-regular\x20fa-gem\x22></i>珍宝阁</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22ascend\x22\x20style=\x27color:coral\x27><i\x20class=\x22fa-solid\x20fa-bridge-water\x22></i>通天祭坛</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22hardloop\x22\x20style=\x27color:red\x27><i\x20class=\x22ra\x20ra-blade-bite\x22></i>苦难煎熬</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22tower\x22\x20style=\x27color:pink\x27><i\x20class=\x22fa-solid\x20fa-gopuram\x22></i>镇魔塔</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22refiny\x22\x20style=\x27color:red\x27><i\x20class=\x22ra\x20ra-fire-symbol\x22></i>提炼炉</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22TP\x22\x20style=\x27color:orange\x27><i\x20class=\x22ra\x20ra-player-teleport\x22></i>传送阵</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22AUTO\x22\x20style=\x27color:orange\x27><i\x20class=\x22ra\x20ra-player-teleport\x22></i>自动化</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22Aclose-menu\x22><i\x20class=\x22fa-solid\x20fa-right-from-bracket\x22></i>离开</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x87f82b=document['querySelector']('#close-menu');let _0x5a89b3=document['querySelector']("unem-esolcA#".split("").reverse().join(""));let _0x498d41=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#bank');let _0x4c3ae3=document['querySelector']("eerusaert#".split("").reverse().join(""));let _0x4f5872=document['querySelector']("dnecsa#".split("").reverse().join(""));let _0x279e23=document['querySelector']('#hardloop');_0x498d41['onclick']=function(){if(player["\u0062\u0061\u006e\u006b"]==undefined)player['bank']=0xaf69f^0xaf69f;sfxOpen["\u0070\u006c\u0061\u0079"]();let _0x3aa397=0xbb2ae^0xbb2ae;let _0x4999db=0x1d09e^0x1d09e;menuModalElement["\u0073\u0074\u0079\u006c\u0065"]['display']="\u006e\u006f\u006e\u0065";defaultModalElement['style']['display']="\u0066\u006c\u0065\u0078";defaultModalElement['innerHTML']=" :\u77F3\u7075>'sl'=di p<                \n>vid/<                \n>p/<>i/<>\"kramx-af af\"=ssalc i<>\"esolc-eliforp\"=di p<                    \n>3h/<\u5E84\u94B1>i/<>\"snmuloc-gnidliub-af dilos-af\"=ssalc i<>3h<                    \n>\"daeh-tnetnoc\"=ssalc vid<                \n>\"bat-eliforp\"=di \"tnetnoc\"=ssalc vid<            \n".split("").reverse().join("")+nFormatter(player['gold'])+" :\u6B3E\u5B58>'kc'=di p<                \n>p/<".split("").reverse().join("")+nFormatter(player['bank'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22depod-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22dem\x22><i\x20class=\x22fa-solid\x20fa-right-from-bracket\x22></i>存入</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22withd-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22wtm\x22><i\x20class=\x22fa-solid\x20fa-right-from-bracket\x22></i>提出</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x243837=document['querySelector']('#profile-tab');let _0x5dfbef=document['querySelector']("med#".split("").reverse().join(""));let _0x51d66d=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#wtm');_0x5dfbef["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=function(){sfxConfirm['play']();let _0x14f531=Number(document['querySelector']("\u0023\u0064\u0065\u0070\u006f\u0064\u002d\u0069\u006e\u0070\u0075\u0074")['value']);if(_0x14f531<=player['gold']){player['bank']=player["\u0062\u0061\u006e\u006b"]+_0x14f531;player['gold']-=_0x14f531;}document['querySelector']('#ls')['innerHTML']='灵石:\x20'+nFormatter(player["\u0067\u006f\u006c\u0064"]);document['querySelector']('#ck')['innerHTML']=" :\u6B3E\u5B58".split("").reverse().join("")+nFormatter(player['bank']);playerLoadStats();};_0x51d66d['onclick']=function(){sfxConfirm['play']();let _0xf3e38b=Number(document['querySelector']("tupni-dhtiw#".split("").reverse().join(""))['value']);if(_0xf3e38b<=player['bank']){player["\u0062\u0061\u006e\u006b"]=player['bank']-_0xf3e38b;player['gold']=player['gold']+_0xf3e38b;}document['querySelector']("sl#".split("").reverse().join(""))["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]=" :\u77F3\u7075".split("").reverse().join("")+nFormatter(player['gold']);document['querySelector']('#ck')['innerHTML']='存款:\x20'+nFormatter(player['bank']);playerLoadStats();};_0x243837['style']['width']="\u0031\u0035\u0072\u0065\u006d";let _0x5a7181=document['querySelector']("\u0023\u0070\u0072\u006f\u0066\u0069\u006c\u0065\u002d\u0063\u006c\u006f\u0073\u0065");_0x5a7181['onclick']=function(){sfxDecline['play']();defaultModalElement["\u0073\u0074\u0079\u006c\u0065"]['display']='none';defaultModalElement['innerHTML']="".split("").reverse().join("");menuModalElement['style']['display']='flex';};};refiny['onclick']=function(){sfxOpen['play']();if(player['riftLB']==undefined)player['riftLB']=0x2ea06^0x2ea06;if(player["\u0072\u0069\u0066\u0074\u0073\u0074\u006f\u006e\u0065"]==undefined)player["\u0072\u0069\u0066\u0074\u0073\u0074\u006f\u006e\u0065"]=0x8c6c9^0x8c6c9;menuModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]='flex';defaultModalElement["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22profile-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3><i\x20class=\x22ra\x20ra-fire-symbol\x22></i>提炼炉</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22profile-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB\x27\x20style=\x27color:steelblue\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>裂隙灵宝碎片:\x20'+nFormatter(player['riftLB'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27MS\x27\x20style=\x27color:steelblue\x27><i\x20class=\x22ra\x20ra-rune-stone\x20\x22></i>裂隙磨石:\x20'+nFormatter(player["\u0072\u0069\u0066\u0074\u0073\u0074\u006f\u006e\u0065"])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:grey\x27>10裂隙灵宝碎片可以提炼为1裂隙磨石,在下方输入需要获得的【裂隙磨石】数量</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22MSpod-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22rts\x22><i\x20class=\x22ra\x20ra-fire\x22></i>提炼</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB1\x27\x20style=\x27color:steelblue\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>裂隙灵宝碎片:\x20'+nFormatter(player['riftLB'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27CB\x27\x20style=\x27color:burlywood\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>诅咒灵宝碎片:\x20'+nFormatter(player["\u0063\u0075\u0072\u0065\u0073\u0065\u004c\u0042"])+">vid/<            \n>vid/<                \n>vid/<                \n>nottub/<\u70BC\u63D0>i/<>\"erif-ar ar\"=ssalc i<>\"ctr\"=di nottub<                    \n>\"ffo\"=etelpmocotua \"tupni-dopUC\"=di \"rebmun\"=epyt tupni<                    \n>p/<\u91CF\u6570\u3011\u7247\u788E\u5B9D\u7075\u5492\u8BC5\u3010\u7684\u5F97\u83B7\u8981\u9700\u5165\u8F93\u65B9\u4E0B\u5728,\u7247\u788E\u5B9D\u7075\u5492\u8BC51\u4E3A\u70BC\u63D0\u4EE5\u53EF\u7247\u788E\u5B9D\u7075\u9699\u88C23>'yerg:roloc'=elyts p<                    \n>p/<".split("").reverse().join("");let _0x3272d5=document['querySelector']("bat-eliforp#".split("").reverse().join(""));rts['onclick']=function(){sfxConfirm['play']();let _0x54bf6f=Number(document['querySelector']("tupni-dopSM#".split("").reverse().join(""))['value']);if(_0x54bf6f>=(0x62940^0x62941)){if(_0x54bf6f*(0xd352a^0xd3520)<=player['riftLB']){player['riftLB']=player['riftLB']-_0x54bf6f*(0xb8765^0xb876f);player['riftstone']=player['riftstone']+_0x54bf6f;}document['querySelector']('#RB')['innerHTML']='<i\x20class=\x22ra\x20ra-chessboard\x22></i>裂隙灵宝碎片:\x20'+nFormatter(player['riftLB']);document['querySelector']("1BR#".split("").reverse().join(""))["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]=" :\u7247\u788E\u5B9D\u7075\u9699\u88C2>i/<>\"draobssehc-ar ar\"=ssalc i<".split("").reverse().join("")+nFormatter(player["\u0072\u0069\u0066\u0074\u004c\u0042"]);document['querySelector']('#MS')['innerHTML']='<i\x20class=\x22ra\x20ra-rune-stone\x20\x22></i>裂隙磨石:\x20'+nFormatter(player['riftstone']);}};rtc['onclick']=function(){sfxConfirm['play']();let _0x57b872=Number(document['querySelector']("\u0023\u0043\u0055\u0070\u006f\u0064\u002d\u0069\u006e\u0070\u0075\u0074")['value']);if(_0x57b872>=0x1){if(_0x57b872*0x3<=player['riftLB']){player["\u0072\u0069\u0066\u0074\u004c\u0042"]=player['riftLB']-_0x57b872*(0x658e6^0x658e5);player['cureseLB']=player['cureseLB']+_0x57b872;}document['querySelector']("BR#".split("").reverse().join(""))['innerHTML']=" :\u7247\u788E\u5B9D\u7075\u9699\u88C2>i/<>\"draobssehc-ar ar\"=ssalc i<".split("").reverse().join("")+nFormatter(player['riftLB']);document['querySelector']('#RB1')['innerHTML']='<i\x20class=\x22ra\x20ra-chessboard\x22></i>裂隙灵宝碎片:\x20'+nFormatter(player['riftLB']);document['querySelector']('#CB')['innerHTML']=" :\u7247\u788E\u5B9D\u7075\u5492\u8BC5>i/<>\"draobssehc-ar ar\"=ssalc i<".split("").reverse().join("")+nFormatter(player['cureseLB']);}};let _0x49dc1b=document['querySelector']('#profile-close');_0x49dc1b['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['innerHTML']="".split("").reverse().join("");menuModalElement['style']['display']='flex';};};_0x4c3ae3['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement["\u0073\u0074\u0079\u006c\u0065"]["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]="xelf".split("").reverse().join("");if(player['rebirth']==undefined)player['rebirth']=0xd42b9^0xd42b9;if(player['cureseLB']==undefined)player["\u0063\u0075\u0072\u0065\u0073\u0065\u004c\u0042"]=0xcdd9d^0xcdd9d;if(player['riftLB']==undefined)player['riftLB']=0x20b95^0x20b95;if(player["\u0065\u006d\u0070\u006f\u0072\u004c\u0042"]==undefined)player["\u0065\u006d\u0070\u006f\u0072\u004c\u0042"]=0x0;if(player['riftstone']==undefined)player["\u0072\u0069\u0066\u0074\u0073\u0074\u006f\u006e\u0065"]=0x5c9b7^0x5c9b7;if(player['hardloopsign']==undefined)player["\u0068\u0061\u0072\u0064\u006c\u006f\u006f\u0070\u0073\u0069\u0067\u006e"]=0x560a5^0x560a5;defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22profile-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3><i\x20class=\x22fa-regular\x20fa-gem\x22></i>珍宝阁</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22profile-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB\x27\x20style=\x27color:lawngreen\x27><i\x20class=\x22fa-solid\x20fa-scroll\x22></i>重生卷轴:\x20'+nFormatter(player['rebirth'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20color:lawngreen\x27>用途:死亡时自动消耗,免死一次</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB\x27\x20style=\x27color:burlywood\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>诅咒灵宝碎片:\x20'+nFormatter(player['cureseLB'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20color:lawngreen\x27>用途:通天材料</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB\x27\x20style=\x27color:steelblue\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>裂隙灵宝碎片:\x20'+nFormatter(player['riftLB'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20color:lawngreen\x27>用途:通天材料</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB\x27\x20style=\x27color:fuchsia\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>帝者灵宝碎片:\x20'+nFormatter(player['emporLB'])+" :\u5F81\u8C61\u71AC\u714E>i/<>\"lluks-ar ar\"=ssalc i<>';der:roloc'=elyts 'BR'=di p<                \n>p/<\u6599\u6750\u5929\u901A:\u9014\u7528>'neergnwal:roloc p<                \n>p/<".split("").reverse().join("")+nFormatter(player['hardloopsign'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20color:lawngreen\x27>用途:苦难煎熬材料</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x27RB\x27\x20style=\x27color:steelblue;\x27><i\x20class=\x22ra\x20ra-rune-stone\x22></i>裂隙磨石:\x20'+nFormatter(player['riftstone'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20color:lawngreen\x27>用途:强化材料</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x52955d=document['querySelector']('#profile-tab');_0x52955d['style']['width']='15rem';let _0x1c64b7=document['querySelector']("\u0023\u0070\u0072\u006f\u0066\u0069\u006c\u0065\u002d\u0063\u006c\u006f\u0073\u0065");_0x1c64b7['onclick']=function(){sfxDecline['play']();defaultModalElement['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]="\u006e\u006f\u006e\u0065";defaultModalElement['innerHTML']="".split("").reverse().join("");menuModalElement['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]='flex';};};_0x4f5872['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']='none';defaultModalElement['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]='flex';if(player['ascend']==undefined)player["\u0061\u0073\u0063\u0065\u006e\u0064"]=0x0;if(player['cureseLB']==undefined)player['cureseLB']=0x0;if(player['riftLB']==undefined)player['riftLB']=0x0;if(player["\u0065\u006d\u0070\u006f\u0072\u004c\u0042"]==undefined)player['emporLB']=0x0;defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22profile-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x20middle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3><i\x20class=\x22fa-solid\x20fa-bridge-water\x22></i>通天祭坛</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22profile-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20id=\x27AS\x27\x20style=\x27color:gold;\x27>通天等级:'+nFormatter(player['ascend'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20style=\x27color:grey;\x27>每1等级提高1%基础属性,下局游戏起效</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20style=\x27color:white;\x27>---下一级消耗---</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20id=\x27CR\x27\x20style=\x27color:burlywood\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>诅咒灵宝碎片:'+getCost(player['ascend'],0x1)+'('+nFormatter(player['cureseLB'])+')</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20id=\x27RF\x27\x20style=\x27color:steelblue\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>裂隙灵宝碎片:'+getCost(player['ascend'],0x2)+"\u0028"+nFormatter(player['riftLB'])+":\u7247\u788E\u5B9D\u7075\u8005\u5E1D>i/<>\"draobssehc-ar ar\"=ssalc i<>'aishcuf:roloc'=elyts 'ME'=di \"elddim\"=ssalc p<                \n>p/<)".split("").reverse().join("")+getCost(player['ascend'],0x577d1^0x577d2)+'('+nFormatter(player["\u0065\u006d\u0070\u006f\u0072\u004c\u0042"])+">vid/<            \n>nottub/<\u5929\u901A>\"sa\"=di \"elddim\"=ssalc nottub<                \n                \n>p/<)".split("").reverse().join("");let _0xf40fbc=document['querySelector']("bat-eliforp#".split("").reverse().join(""));let _0x3aea65=document['querySelector']('#as');let _0x25ef0b=document['querySelector']('#profile-close');_0x25ef0b['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']="xelf".split("").reverse().join("");};_0x3aea65["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=function(){let _0x198d60=0x1;if(getCost(player['ascend'],0xb7ae6^0xb7ae7)>player['cureseLB'])_0x198d60=0x87dbf^0x87dbf;if(getCost(player['ascend'],0x8f0b1^0x8f0b3)>player['riftLB'])_0x198d60=0x0;if(getCost(player['ascend'],0xdde8d^0xdde8e)>player['emporLB'])_0x198d60=0x0;if(_0x198d60==0x1){player['cureseLB']=player['cureseLB']-getCost(player['ascend'],0x1);player['riftLB']=player['riftLB']-getCost(player['ascend'],0x2);player['emporLB']=player['emporLB']-getCost(player['ascend'],0x426ea^0x426e9);player['ascend']=player['ascend']+(0x4a19b^0x4a19a);document['querySelector']('#AS')['innerHTML']='<p\x20class=\x22middle\x22\x20id=\x27AS\x27\x20style=\x27color:gold;\x27>通天等级:'+nFormatter(player['ascend'])+">p/<".split("").reverse().join("");document['querySelector']("RC#".split("").reverse().join(""))['innerHTML']='<p\x20class=\x22middle\x22\x20id=\x27CR\x27\x20style=\x27color:burlywood\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>诅咒灵宝碎片:'+getCost(player['ascend'],0x1)+'('+nFormatter(player['cureseLB'])+"\u0029\u003c\u002f\u0070\u003e";document['querySelector']('#RF')["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]=":\u7247\u788E\u5B9D\u7075\u9699\u88C2>i/<>\"draobssehc-ar ar\"=ssalc i<>'eulbleets:roloc'=elyts 'FR'=di \"elddim\"=ssalc p<".split("").reverse().join("")+getCost(player['ascend'],0x81544^0x81546)+'('+nFormatter(player['riftLB'])+')</p>';document['querySelector']("ME#".split("").reverse().join(""))['innerHTML']='<p\x20class=\x22middle\x22\x20id=\x27EM\x27\x20style=\x27color:fuchsia\x27><i\x20class=\x22ra\x20ra-chessboard\x22></i>帝者灵宝碎片:'+getCost(player['ascend'],0x3)+'('+nFormatter(player['emporLB'])+')</p>';}};};_0x279e23["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=function(){sfxOpen['play']();menuModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['style']['display']='flex';if(player['hardloop']==undefined)player["\u0068\u0061\u0072\u0064\u006c\u006f\u006f\u0070"]=0x90cfb^0x90cfb;if(player['hardloopsign']==undefined)player['hardloopsign']=0x4f58b^0x4f58b;if(player['hardloopmax']==undefined||player['hardloopmax']==(0xe61ff^0xe61ff))player['hardloopmax']=0x43083^0x43082;defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22profile-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x20middle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3><i\x20class=\x22ra\x20ra-blade-bite\x22></i>苦难煎熬</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22profile-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-level-two\x20middle\x22\x20id=\x27JADJ\x27\x20style=\x27color:gold;\x27>煎熬等级:'+nFormatter(player['hardloop'])+'/'+nFormatter(player['hardloopmax'])+":\u5F81\u8C61\u71AC\u714E>';der:roloc'=elyts 'SA'=di \"elddim lluks-ar ar\"=ssalc p<                \n>p/<".split("").reverse().join("")+nFormatter(player['hardloopsign'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20style=\x27color:white;\x27>---苦难煎熬加成---</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-site\x20middle\x22\x20id=\x27DJTP\x27\x20style=\x27color:steelblue;\x27>等级突破奖励:+'+nFormatter(Math['ceil'](player['hardloop']/0x2))+"+:\u52B1\u5956\u7834\u7A81\u4F4D\u9636>';eulbleets:roloc'=elyts 'PTWJ'=di \"elddim etis-ar ar\"=ssalc p<                \n>p/<".split("").reverse().join("")+nFormatter(Math['floor'](player['hardloop']/(0xe6531^0xe653b)))+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-skull-trophy\x20middle\x22\x20id=\x27TPSX\x27\x20style=\x27color:lawngreen;\x27>突破生效所需弃天等级:'+nFormatter(0xa+Math['ceil'](player['hardloop']/(0x85722^0x85720)))+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20style=\x27color:white;\x27>每10级煎熬+1阶位突破</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-on-target\x20middle\x22\x20id=\x27QTND\x27\x20style=\x27color:red;\x27>难度加成:+'+nFormatter(Math['ceil'](player['hardloop']*0x9))+'%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-skull-trophy\x20middle\x22\x20id=\x27LBSP\x27\x20style=\x27color:lawngreen;\x27>灵宝碎片掉落加成:+'+nFormatter(Math['ceil'](player['hardloop']/(0x50573^0x50576)))+'%</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-skull-trophy\x20middle\x22\x20id=\x27JAXZ\x27\x20style=\x27color:lawngreen;\x27>煎熬象征掉落加成:+'+nFormatter(player['hardloop'])+":\u5F81\u8C61\u71AC\u714E>';der:roloc'=elyts 'SA'=di \"elddim lluks-ar ar\"=ssalc p<                \n>p/<---\u8017\u6D88\u7EA7\u7B49\u71AC\u714E\u5347\u63D0--->';etihw:roloc'=elyts \"elddim\"=ssalc p<                \n>p/<\u5F81\u8C61\u71AC\u714E\u5F97\u83B7\u4EE5\u4EBA\u654C\u6740\u51FB>';etihw:roloc'=elyts \"elddim\"=ssalc p<                \n>p/<%".split("").reverse().join("")+nFormatter(getHardCost(player['hardloopmax']))+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22JAADD\x22>煎熬等级+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22JAROM\x22>煎熬等级-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22TSSX\x22>提升煎熬等级上限</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0xe87e18=document['querySelector']("bat-eliforp#".split("").reverse().join(""));let _0x57b309=document['querySelector']('#profile-close');_0x57b309['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};JAADD['onclick']=function(){if(player['hardloop']<player['hardloopmax'])player['hardloop']+=0x1;document['querySelector']('#JADJ')['innerHTML']='煎熬等级:'+nFormatter(player['hardloop'])+'/'+nFormatter(player['hardloopmax']);document['querySelector']("PTJD#".split("").reverse().join(""))['innerHTML']="+:\u52B1\u5956\u7834\u7A81\u7EA7\u7B49".split("").reverse().join("")+nFormatter(Math['ceil'](player['hardloop']/0x2));document['querySelector']("PTWJ#".split("").reverse().join(""))['innerHTML']='阶位突破奖励:+'+nFormatter(Math['floor'](player['hardloop']/0xa));document['querySelector']('#QTND')['innerHTML']='弃天难度加成:+'+nFormatter(Math['ceil'](player['hardloop']*(0x19dc5^0x19dc0)))+'%';document['querySelector']('#TPSX')["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='突破生效所需弃天等级:'+nFormatter((0x8398f^0x83985)+Math['ceil'](player['hardloop']/0x2));document['querySelector']("PSBL#".split("").reverse().join(""))['innerHTML']='灵宝碎片掉落加成:+'+nFormatter(Math['ceil'](player['hardloop']/0xc))+'%';document['querySelector']('#JAXZ')['innerHTML']='煎熬象征掉落加成:+'+nFormatter(player['hardloop'])+'%';};JAROM["\u006f\u006e\u0063\u006c\u0069\u0063\u006b"]=function(){if(player['hardloop']>(0xa8130^0xa8131))player['hardloop']-=0x1;else player['hardloop']=0x0;document['querySelector']('#JADJ')['innerHTML']='煎熬等级:'+nFormatter(player['hardloop'])+'/'+nFormatter(player['hardloopmax']);document['querySelector']('#DJTP')['innerHTML']='等级突破奖励:+'+nFormatter(Math['ceil'](player['hardloop']/(0xf2032^0xf2030)));document['querySelector']('#JWTP')['innerHTML']="+:\u52B1\u5956\u7834\u7A81\u4F4D\u9636".split("").reverse().join("")+nFormatter(Math['floor'](player['hardloop']/0xa));document['querySelector']('#QTND')['innerHTML']='弃天难度加成:+'+nFormatter(Math['ceil'](player['hardloop']*0x5))+'%';document['querySelector']('#TPSX')['innerHTML']='突破生效所需弃天等级:'+nFormatter((0xa6afc^0xa6af6)+Math['ceil'](player['hardloop']/0x2));document['querySelector']('#LBSP')['innerHTML']="+:\u6210\u52A0\u843D\u6389\u7247\u788E\u5B9D\u7075".split("").reverse().join("")+nFormatter(Math['ceil'](player['hardloop']/(0x4b5c5^0x4b5c9)))+'%';document['querySelector']("ZXAJ#".split("").reverse().join(""))['innerHTML']='煎熬象征掉落加成:+'+nFormatter(player['hardloop'])+'%';};TSSX['onclick']=function(){let _0x4e5557=getHardCost(player['hardloopmax']);if(player['hardloopsign']>=_0x4e5557){player['hardloopmax']+=0x1;player['hardloopsign']=player['hardloopsign']-_0x4e5557;}document['querySelector']('#JADJ')['innerHTML']='煎熬等级:'+nFormatter(player['hardloop'])+'/'+nFormatter(player['hardloopmax']);document['querySelector']("PTJD#".split("").reverse().join(""))['innerHTML']="+:\u52B1\u5956\u7834\u7A81\u7EA7\u7B49".split("").reverse().join("")+nFormatter(Math['ceil'](player['hardloop']/(0x565e0^0x565e2)));document['querySelector']("PTWJ#".split("").reverse().join(""))['innerHTML']='阶位突破奖励:+'+nFormatter(Math['floor'](player['hardloop']/0xa));document['querySelector']('#QTND')["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]='弃天难度加成:+'+nFormatter(Math['ceil'](player['hardloop']*0x5))+'%';document['querySelector']('#TPSX')['innerHTML']='突破生效所需弃天等级:'+nFormatter(0xa+Math['ceil'](player['hardloop']/0x2));document['querySelector']('#LBSP')['innerHTML']='灵宝碎片掉落加成:+'+nFormatter(Math['ceil'](player['hardloop']/(0xca511^0xca51d)))+'%';document['querySelector']('#JAXZ')['innerHTML']='煎熬象征掉落加成:+'+nFormatter(player['hardloop'])+'%';};};TP['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';if(player['deepth']==undefined)player['deepth']=0x1;if(player['tpmax']==undefined)player['tpmax']=0x1;if(player['tpval']==undefined)player['tpval']=0x94c13^0x94c12;defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22profile-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x20middle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3><i\x20class=\x22ra\x20ra-player-teleport\x22></i>传送阵</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22profile-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-broadhead-arrow\x22\x20id=\x27FAR\x27\x20style=\x27color:ornage;\x27>到达过的最远世界:'+nFormatter(player['deepth'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-radial-balance\x22\x20id=\x27ZDFW\x27\x20style=\x27color:lawngreen;\x27>当前传送阵最大范围:'+nFormatter(player['tpmax'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20\x20ra-moon-sun\x22\x20id=\x27CSSJ\x27\x20style=\x27color:gold;\x27>你下一局游戏直接出生在世界:'+nFormatter(player['tpval'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20style=\x27color:white;\x27>---升级传送阵范围上限消耗---</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ra\x20ra-skull\x22\x20id=\x27SJXF\x27\x20style=\x27color:red;\x27>煎熬象征:'+nFormatter((player['tpmax']+0x1)*0x3)+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22TPADD\x22>传送阵范围+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22TPROM\x22>传送阵范围-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22SJFW\x22>升级传送阵范围上限</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x447021=document['querySelector']('#profile-tab');let _0x2fc6cd=document['querySelector']('#profile-close');TPADD['onclick']=function(){if(player['tpval']<player['tpmax'])player['tpval']+=0x1;document['querySelector']('#CSSJ')['innerHTML']='你下一局游戏直接出生在世界:'+nFormatter(player['tpval']);};TPROM['onclick']=function(){if(player['tpval']>(0x989d0^0x989d1))player['tpval']-=0xaa311^0xaa310;else player['tpval']=0xcd928^0xcd929;document['querySelector']('#CSSJ')['innerHTML']='你下一局游戏直接出生在世界:'+nFormatter(player['tpval']);};SJFW['onclick']=function(){let _0x428050=(player['tpmax']+0x1)*0x3;if(player['hardloopsign']>=_0x428050){player['hardloopsign']-=_0x428050;player['tpmax']=player['tpmax']+0x1;}document['querySelector']('#CSSJ')['innerHTML']='你下一局游戏直接出生在世界:'+nFormatter(player['tpval']);document['querySelector']('#ZDFW')['innerHTML']='当前传送阵最大范围:'+nFormatter(player['tpmax']);document['querySelector']('#SJXF')['innerHTML']='煎熬象征:'+nFormatter((player['tpmax']+(0x1fb1c^0x1fb1d))*0x3);};_0x2fc6cd['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement["\u0073\u0074\u0079\u006c\u0065"]['display']='flex';};};AUTO['onclick']=function(){if(kke()=='拥有'){sfxOpen['play']();menuModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['style']['display']='flex';if(player['ao']==undefined)player['ao']=0xe12b4^0xe12b4;if(player['aa']==undefined)player['aa']=0x0;if(player['ak']==undefined)player['ak']=0x42738^0x42738;if(player['ai']==undefined)player['ai']=0x0;if(player['au']==undefined)player['au']=0x0;if(player['aw']==undefined)player['aw']=0x0;if(player['ad']==undefined)player['ad']=0x6b0a6^0x6b0a6;if(player['aj']==undefined)player['aj']=0xbe71a^0xbe71a;if(player["\u0061\u006e"]==undefined)player['an']=0xb3957^0xb3957;if(player['nu']==undefined)player['nu']=0x5b75a^0x5b75a;defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22profile-tab\x22\x20style=\x27max-height:\x2050%;overflow-y:\x20scroll;\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x20middle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3><i\x20class=\x22ra\x20ra-player-teleport\x22></i>自动化[探索包]</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22profile-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22middle\x22\x20style=\x27color:white;\x27>---1/2/3代表开,0代表关---</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AO\x22>自动打开乾坤袋:'+player['ao']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AA\x22>自动迎战:'+player['aa']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AK\x22>自动知道了:'+player['ak']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AJ\x22>自动眷天:'+player['aj']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AW\x22>自动超级Boss:'+player['aw']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AI\x22>自动无视:'+player['ai']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AU\x22>自动升级(第一项):'+player['au']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AD\x22>自动丢弃传世以下装备:'+player['ad']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AD1\x22>自动丢弃绝世以下装备:'+player['ad']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AD2\x22>自动丢弃灵宝以下装备:'+player['ad']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AD3\x22>自动丢弃先天灵宝以下装备:'+player['ad']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AD4\x22>自动丢弃臻宝以下装备:'+player['ad']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AD5\x22>自动丢弃道宝以下装备:'+player['ad']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22AN\x22>自动过门:'+player['an']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22middle\x22\x20id=\x22NU\x22>不升级:'+player['nu']+">vid/<                \n>nottub/<".split("").reverse().join("");let _0x4de050=document['querySelector']('#profile-tab');let _0x434604=document['querySelector']('#profile-close');AO['onclick']=function(){if(player['ao']==(0x9a284^0x9a284))player['ao']=0x757b6^0x757b7;else player['ao']=0x0;document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#AO')['innerHTML']=":\u888B\u5764\u4E7E\u5F00\u6253\u52A8\u81EA".split("").reverse().join("")+player['ao'];};AA['onclick']=function(){if(player['aa']==0x0)player['aa']=0xda5b9^0xda5b8;else player['aa']=0x0;document['querySelector']('#AA')['innerHTML']='自动迎战:'+player['aa'];};AK['onclick']=function(){if(player['ak']==(0xc6fc4^0xc6fc4))player['ak']=0x1;else player['ak']=0x1e797^0x1e797;document['querySelector']('#AK')['innerHTML']='自动知道了:'+player['ak'];};AI['onclick']=function(){if(player['ai']==0x0)player['ai']=0x1;else player['ai']=0xbb7ab^0xbb7ab;document['querySelector']('#AI')['innerHTML']='自动无视:'+player['ai'];};AU['onclick']=function(){if(player['au']==(0x233fd^0x233fd))player['au']=0x1;else player['au']=0x74370^0x74370;document['querySelector']('#AU')['innerHTML']="\u81ea\u52a8\u5347\u7ea7\u0028\u7b2c\u4e00\u9879\u0029\u003a"+player['au'];};AW['onclick']=function(){if(player['aw']==0x0)player['aw']=0xc36fc^0xc36fd;else player['aw']=0x0;document['querySelector']('#AW')['innerHTML']=":SSOB\u7EA7\u8D85\u52A8\u81EA".split("").reverse().join("")+player['aw'];};AD['onclick']=function(){if(player['ad']==0x0)player['ad']=0x28f4b^0x28f4a;else player['ad']=0x4325e^0x4325e;document['querySelector']('#AD')['innerHTML']='自动丢弃传世以下装备:'+player['ad'];document['querySelector']('#AD1')['innerHTML']='自动丢弃绝世以下装备:'+player['ad'];document['querySelector']('#AD2')['innerHTML']=":\u5907\u88C5\u4E0B\u4EE5\u5B9D\u7075\u5F03\u4E22\u52A8\u81EA".split("").reverse().join("")+player['ad'];document['querySelector']('#AD3')['innerHTML']='自动丢弃先天灵宝以下装备:'+player['ad'];document['querySelector']('#AD4')['innerHTML']='自动丢弃臻宝以下装备:'+player['ad'];document['querySelector']('#AD5')['innerHTML']="\u81ea\u52a8\u4e22\u5f03\u9053\u5b9d\u4ee5\u4e0b\u88c5\u5907\u003a"+player['ad'];};AD1['onclick']=function(){if(player['ad']==0x0)player['ad']=0xddedc^0xddede;else player['ad']=0xc60e8^0xc60e8;document['querySelector']('#AD')['innerHTML']='自动丢弃传世以下装备:'+player['ad'];document['querySelector']('#AD1')['innerHTML']='自动丢弃绝世以下装备:'+player['ad'];document['querySelector']("2DA#".split("").reverse().join(""))['innerHTML']='自动丢弃灵宝以下装备:'+player['ad'];document['querySelector']('#AD3')['innerHTML']='自动丢弃先天灵宝以下装备:'+player['ad'];document['querySelector']('#AD4')['innerHTML']='自动丢弃臻宝以下装备:'+player['ad'];document['querySelector']('#AD5')['innerHTML']='自动丢弃道宝以下装备:'+player['ad'];};AD2['onclick']=function(){if(player['ad']==0x0)player['ad']=0x3;else player['ad']=0x0;document['querySelector']("DA#".split("").reverse().join(""))['innerHTML']='自动丢弃传世以下装备:'+player['ad'];document['querySelector']('#AD1')['innerHTML']='自动丢弃绝世以下装备:'+player['ad'];document['querySelector']('#AD2')['innerHTML']='自动丢弃灵宝以下装备:'+player['ad'];document['querySelector']('#AD3')['innerHTML']='自动丢弃先天灵宝以下装备:'+player['ad'];document['querySelector']('#AD4')['innerHTML']='自动丢弃臻宝以下装备:'+player['ad'];document['querySelector']('#AD5')['innerHTML']='自动丢弃道宝以下装备:'+player['ad'];};AD3['onclick']=function(){if(player['ad']==(0x4892e^0x4892e))player['ad']=0x4;else player['ad']=0x0;document['querySelector']('#AD')['innerHTML']='自动丢弃传世以下装备:'+player['ad'];document['querySelector']('#AD1')['innerHTML']=":\u5907\u88C5\u4E0B\u4EE5\u4E16\u7EDD\u5F03\u4E22\u52A8\u81EA".split("").reverse().join("")+player['ad'];document['querySelector']('#AD2')['innerHTML']='自动丢弃灵宝以下装备:'+player['ad'];document['querySelector']('#AD3')['innerHTML']='自动丢弃先天灵宝以下装备:'+player['ad'];document['querySelector']('#AD4')['innerHTML']='自动丢弃臻宝以下装备:'+player['ad'];document['querySelector']('#AD5')['innerHTML']='自动丢弃道宝以下装备:'+player['ad'];};AD4['onclick']=function(){if(player['ad']==(0x9a2d4^0x9a2d4))player['ad']=0x5;else player['ad']=0xa75e2^0xa75e2;document['querySelector']('#AD')['innerHTML']='自动丢弃传世以下装备:'+player['ad'];document['querySelector']('#AD1')['innerHTML']='自动丢弃绝世以下装备:'+player['ad'];document['querySelector']('#AD2')['innerHTML']='自动丢弃灵宝以下装备:'+player['ad'];document['querySelector']('#AD3')['innerHTML']='自动丢弃先天灵宝以下装备:'+player['ad'];document['querySelector']('#AD4')['innerHTML']='自动丢弃臻宝以下装备:'+player['ad'];document['querySelector']('#AD5')['innerHTML']='自动丢弃道宝以下装备:'+player['ad'];};AD5['onclick']=function(){if(player['ad']==0x0)player['ad']=0x6;else player['ad']=0x7a42e^0x7a42e;document['querySelector']('#AD')['innerHTML']='自动丢弃传世以下装备:'+player['ad'];document['querySelector']('#AD1')['innerHTML']='自动丢弃绝世以下装备:'+player['ad'];document['querySelector']("2DA#".split("").reverse().join(""))['innerHTML']='自动丢弃灵宝以下装备:'+player['ad'];document['querySelector']('#AD3')['innerHTML']='自动丢弃先天灵宝以下装备:'+player['ad'];document['querySelector']('#AD4')['innerHTML']='自动丢弃臻宝以下装备:'+player['ad'];document['querySelector']('#AD5')['innerHTML']='自动丢弃道宝以下装备:'+player['ad'];};AJ['onclick']=function(){if(player['aj']==(0xdaccc^0xdaccc))player['aj']=0xaf9a6^0xaf9a7;else player['aj']=0x0;document['querySelector']('#AJ')['innerHTML']='自动眷天:'+player['aj'];};AN['onclick']=function(){if(player['an']==0x0)player['an']=0x1;else player['an']=0x0;document['querySelector']('#AN')['innerHTML']='自动过门:'+player['an'];};NU['onclick']=function(){if(player['nu']==0x0)player['nu']=0x1;else player['nu']=0x0;document['querySelector']('#NU')['innerHTML']=":\u7EA7\u5347\u4E0D".split("").reverse().join("")+player['nu'];};_0x434604['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};}else{player['ao']=0x0;player['aa']=0x0;player['ak']=0x569d9^0x569d9;player['ai']=0x50ef9^0x50ef9;player['au']=0x0;player['aw']=0x0;alert('需要探索包哦,自动化功能:自动打开乾坤袋,自动迎战,自动知道了,自动眷天,自动超级Boss,自动无视,自动升级,自动丢弃传世以下装备,自动丢弃绝世以下装备,自动丢弃灵宝以下装备,自动过门,不升级');}};_0x87f82b['onclick']=function(){sfxDecline['play']();continueExploring();menuModalElement['style']['display']='none';menuModalElement['innerHTML']="".split("").reverse().join("");_0x5ea3c2['style']['filter']='brightness(100%)';};_0x5a89b3['onclick']=function(){sfxDecline['play']();continueExploring();menuModalElement['style']['display']='none';menuModalElement['innerHTML']='';_0x5ea3c2['style']['filter']='brightness(100%)';};});document['querySelector']("ntb-unem#".split("").reverse().join(""))['addEventListener']('click',function(){closeInventory();dungeon['status']['exploring']=![];let _0x196a55=document['querySelector']('#dungeon-main');_0x196a55['style']['filter']='brightness(50%)';menuModalElement['style']['display']="xelf".split("").reverse().join("");menuModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>菜单</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>版本:'+_0xaca9c5+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22close-menu\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22player-menu\x22><i\x20class=\x22fas\x20fa-user\x22></i>'+player['name']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22stats\x22>当前状态</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22volume-btn\x22>音量调节</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22excode\x22\x20style=\x27color:gold\x27>兑换码</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22rename\x22\x20style=\x27color:mediumvioletred\x27>更改档案名</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22export-import\x22\x20style=\x27color:orange\x27>导入/导出</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22cloud-save\x22\x20style=\x27color:orange\x27>云存档</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20style=\x27color:red\x27\x20onclick=\x22window.open(\x27https://afdian.com/a/pldada?tab=shop\x27,\x20\x27_blank\x27);\x22><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#ff0000;\x22></i>赞助奖励【爱发电】</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22fqun\x22\x20style=\x27color:lawngreen\x27><i\x20class=\x22fa-brands\x20fa-qq\x22\x20style=\x22color:\x20#74C0FC;\x22></i>1群:281738137</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22squn\x22\x20style=\x27color:dodgerblue\x27><i\x20class=\x22fa-brands\x20fa-qq\x22\x20style=\x22color:\x20#74C0FC;\x22></i>2群:839785679</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22zqun\x22\x20style=\x27color:red\x27><i\x20class=\x22fa-brands\x20fa-qq\x22\x20style=\x22color:\x20#74C0FC;\x22></i>作者:2096358571</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22quit-run\x22>隐退...</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button>点点广告,球球了</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22uplog\x22>更新记录</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22wykg\x22>一键开挂通关</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x1ec38e=document['querySelector']('#close-menu');let _0x32eff7=document['querySelector']('#player-menu');let _0x2311bb=document['querySelector']('#stats');let _0x1f633e=document['querySelector']('#quit-run');let _0x5e7661=document['querySelector']('#export-import');let _0x521e6b=document['querySelector']('#cloud-save');let _0x32137b=document['querySelector']('#volume-btn');let _0x42c80f=document['querySelector']('#excode');let _0x318686=document['querySelector']('#rename');let _0x127f53=document['querySelector']('#uplog');fqun['onclick']=function(){navigator['clipboard']['writeText']('281738137');alert('已复制1群群号');};squn['onclick']=function(){navigator['clipboard']['writeText']('839785679');alert('已复制2群群号');};zqun['onclick']=function(){navigator['clipboard']['writeText']('2096358571');alert('已复制作者QQ号');};_0x32eff7['onclick']=function(){sfxOpen['play']();let _0x16b6c0=new Date(player['playtime']*(0x6ad58^0x6aeb0))['toISOString']()['slice'](0x66c5b^0x66c50,0x13);menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']=">p<                \n>vid/<                \n>p/<>i/<>\"kramx-af af\"=ssalc i<>\"esolc-eliforp\"=di p<                    \n>3h/<\u636E\u6570\u8BA1\u7EDF>3h<                    \n>\"daeh-tnetnoc\"=ssalc vid<                \n>\"bat-eliforp\"=di \"tnetnoc\"=ssalc vid<            \n".split("").reverse().join("")+player['name']+'\x20Lv.'+player['lvl']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>总杀敌:\x20'+nFormatter(player['kills'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>死亡次数:\x20'+nFormatter(player['deaths'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>先天包:\x20'+che()+" :\u5305\u6027\u5C5E>i/<>\";B34DFF# :roloc\"=elyts \"traeh-af dilos-af\"=ssalc i<>p<                \n>p/<==\u5929\u5148\u6709\u6240\u9501\u89E3==\u679C\u6548>'dlog:roloc'=elyts p<                \n>p/<".split("").reverse().join("")+khe()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==出生时额外30属性点==</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>灵装包:\x20'+uhe()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==灵宝级以上装备掉落率X2,装备掉落次数X2,敌人掉落灵石X2==</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>探索包:\x20'+kke()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==探索速度X2,探索可自定义自动化可用=</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20style=\x27color:red\x27\x20onclick=\x22window.open(\x27https://afdian.com/a/pldada?tab=shop\x27,\x20\x27_blank\x27);\x22><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#ff0000;\x22></i>赞助奖励【爱发电】</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>游戏时间:\x20'+_0x16b6c0+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x573a1d=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]('#profile-tab');_0x573a1d['style']['width']='15rem';let _0x18e784=document['querySelector']('#profile-close');_0x18e784['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};_0x2311bb['onclick']=function(){sfxOpen['play']();let _0x4c228e=new Date(dungeon['statistics']['runtime']*0x3e8)['toISOString']()['slice'](0xb,0x2919c^0x2918f);menuModalElement['style']['display']='none';defaultModalElement['style']['display']="xelf".split("").reverse().join("");defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22run-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>当前状态</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22run-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>'+player['name']+'\x20Lv.'+player['lvl']+'\x20('+getSkillName(player['skills'])+')</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>眷天\x20Lvl.'+player['blessing']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>弃天\x20Lvl.'+Math['round']((dungeon['settings']['enemyScaling']-0x1)*0xa)+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>杀敌:\x20'+nFormatter(dungeon['statistics']['kills'])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>游戏时间:\x20'+_0x4c228e+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x3487d8=document['querySelector']('#run-tab');_0x3487d8['style']['width']='15rem';let _0x17d259=document['querySelector']('#run-close');_0x17d259['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};_0x1f633e['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>确定要隐退(回到开始)吗?</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22button-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22quit-run\x22>隐退</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22cancel-quit\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x44b9fc=document['querySelector']('#quit-run');let _0x6ff3ec=document['querySelector']('#cancel-quit');_0x44b9fc['onclick']=function(){sfxConfirm['play']();bgmDungeon['stop']();let _0x30c9fa=document['querySelector']('#dungeon-main');_0x30c9fa['style']['filter']=")%001(ssenthgirb".split("").reverse().join("");_0x30c9fa['style']['display']='none';menuModalElement['style']['display']="enon".split("").reverse().join("");menuModalElement['innerHTML']='';defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']="".split("").reverse().join("");runLoad('title-screen','flex');clearInterval(dungeonTimer);clearInterval(playTimer);progressReset();};_0x6ff3ec['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']="enon".split("").reverse().join("");defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};_0x32137b['onclick']=function(){sfxOpen['play']();let _0x3e6b47=volume['master']*0x64;let _0x18f1c8=volume['bgm']*0x64*0x2;let _0x5bc8ae=volume['sfx']*0x64;menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22volume-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>音量</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22volume-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20id=\x22master-label\x22\x20for=\x22master-volume\x22>主音量\x20('+_0x3e6b47+'%)</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22range\x22\x20id=\x22master-volume\x22\x20min=\x220\x22\x20max=\x22100\x22\x20value=\x22'+_0x3e6b47+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20id=\x22bgm-label\x22\x20for=\x22bgm-volume\x22>BGM\x20('+_0x18f1c8+'%)</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22range\x22\x20id=\x22bgm-volume\x22\x20min=\x220\x22\x20max=\x22100\x22\x20value=\x22'+_0x18f1c8+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20id=\x22sfx-label\x22\x20for=\x22sfx-volume\x22>SFX\x20('+_0x5bc8ae+'%)</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22range\x22\x20id=\x22sfx-volume\x22\x20min=\x220\x22\x20max=\x22100\x22\x20value=\x22'+_0x5bc8ae+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22apply-volume\x22>Apply</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0xb1f062=document['querySelector']('#master-volume');let _0x5916da=document['querySelector']('#bgm-volume');let _0x448030=document['querySelector']('#sfx-volume');let _0x25d8bd=document['querySelector']('#apply-volume');let _0x548734=document['querySelector']('#volume-tab');_0x548734['style']['width']='15rem';let _0x39f83d=document['querySelector']('#volume-close');_0x39f83d['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};_0xb1f062['oninput']=function(){_0x3e6b47=this['value'];document['querySelector']('#master-label')['innerHTML']='主音量\x20('+_0x3e6b47+'%)';};_0x5916da['oninput']=function(){_0x18f1c8=this['value'];document['querySelector']('#bgm-label')['innerHTML']='BGM\x20('+_0x18f1c8+'%)';};_0x448030['oninput']=function(){_0x5bc8ae=this['value'];document['querySelector']('#sfx-label')['innerHTML']='SFX\x20('+_0x5bc8ae+'%)';};_0x25d8bd['onclick']=function(){volume['master']=_0x3e6b47/(0xa7846^0xa7822);volume['bgm']=_0x18f1c8/0x64/(0x4734a^0x47348);volume['sfx']=_0x5bc8ae/0x64;bgmDungeon['stop']();setVolume();bgmDungeon['play']();saveData();};};_0x5e7661['onclick']=function(){sfxOpen['play']();player['name']='player';let _0x4102ba=exportData();menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22ei-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>导入/导出存档</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22ei-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>导出存档</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22export-input\x22\x20autocomplete=\x22off\x22\x20value=\x22'+_0x4102ba+'\x22\x20readonly>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22copy-export\x22>复制</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22save-export\x22>导出为文件</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>导入存档(把存档粘贴到此处)</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22import-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22data-import\x22>导入</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x453609=document['querySelector']('#ei-tab');_0x453609['style']['width']='15rem';let _0x4ba612=document['querySelector']('#ei-close');let _0x5f0d79=document['querySelector']('#copy-export');let _0x4de460=document['querySelector']('#save-export');let _0xa32893=document['querySelector']('#data-import');let _0xd63404=document['querySelector']('#import-input');_0x5f0d79['onclick']=function(){sfxConfirm['play']();let _0x394978=document['querySelector']('#export-input');_0x394978['select']();_0x394978['setSelectionRange'](0xef726^0xef726,0x1869f);navigator['clipboard']['writeText'](_0x394978['value']);_0x5f0d79['innerHTML']='已复制!';};_0x4de460['onclick']=function(){const _0x10bd85=new Blob([_0x4102ba],{'type':'text/plain'});const _0x45642c=URL["\u0063\u0072\u0065\u0061\u0074\u0065\u004f\u0062\u006a\u0065\u0063\u0074\u0055\u0052\u004c"](_0x10bd85);const _0x1d793a=document['createElement']('a');_0x1d793a['href']=_0x45642c;_0x1d793a['download']='save.txt';document['body']['appendChild'](_0x1d793a);_0x1d793a['click']();document['body']['removeChild'](_0x1d793a);URL['revokeObjectURL'](_0x45642c);};_0xa32893['onclick']=function(){importData(_0xd63404['value']);};_0x4ba612['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};_0x521e6b['onclick']=function(){sfxOpen['play']();player['name']='player';let _0x39894f=exportData();const _0x3f64c7='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';let _0x3603d1='';for(let _0x3dc793=0x0;_0x3dc793<(0x5f14a^0x5f153);_0x3dc793++){const _0x1cd5a2=Math['floor'](Math['random']()*_0x3f64c7['length']);_0x3603d1+=_0x3f64c7[_0x1cd5a2];}const _0x587288=_0x3603d1;menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22ei-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>云存档</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22ei-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>上传云存档</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>下方框中是你本次的云存档ID,请务必复制好。上传失败是因为装备太多，请先处理一批装备减少存档大小。</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22Aexport-input\x22\x20autocomplete=\x22off\x22\x20value=\x22'+_0x587288+'\x22\x20readonly>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22copy-export\x22>复制</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22upload-save\x22>上传[点击后请耐心等待]</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>下载云存档,将你上次的云存档ID粘贴进下方。云存档导入后会自动清空输入的云ID中的数据</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22import-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22data-import\x22>下载[点击后请耐心等待]</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x432ba3=document['querySelector']('#ei-tab');_0x432ba3['style']['width']='15rem';let _0x47f47d=document['querySelector']('#ei-close');let _0x110f0b=document['querySelector']('#copy-export');let _0xae8217=document['querySelector']('#upload-save');let _0x399202=document['querySelector']('#data-import');let _0x55c6a8=document['querySelector']('#import-input');_0x110f0b['onclick']=function(){sfxConfirm['play']();let _0x4cc327=document['querySelector']('#Aexport-input');_0x4cc327['select']();_0x4cc327['setSelectionRange'](0x0,0x1869f);navigator['clipboard']['writeText'](_0x4cc327['value']);_0x110f0b['innerHTML']='已复制!';};_0xae8217['onclick']=function(){createOrUpdateRecord(_0x587288,_0x39894f);};_0x399202['onclick']=function(){fetchTextRecord(_0x55c6a8['value']);};_0x47f47d['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};_0x42c80f['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22ei-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>激活兑换码</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22ei-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>被人攻击了，激活兑换码请联系作者[QQ:2096358571]，邮件好友皆可</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>先天包:\x20'+che()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==解锁所有先天==</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>属性包:\x20'+khe()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==出生时额外30属性点==</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>灵石包:\x20'+uhe()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==敌人掉落灵石X2==</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>探索包:\x20'+kke()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27>效果==探索速度X2=</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20style=\x27color:red\x27\x20onclick=\x22window.open(\x27https://afdian.com/a/pldada?tab=shop\x27,\x20\x27_blank\x27);\x22><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#ff0000;\x22></i>赞助奖励【爱发电】</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>输入兑换码到此处</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22import-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22data-import\x22>提交</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x536952=document['querySelector']('#ei-tab');_0x536952['style']['width']='15rem';let _0x4f3763=document['querySelector']('#ei-close');let _0x489353=document['querySelector']('#data-import');let _0x5f421a=document['querySelector']('#import-input');_0x489353['onclick']=function(){alert('被人攻击了，激活兑换码请联系作者[QQ:2096358571]，邮件好友皆可');};_0x4f3763['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};_0x318686['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22ei-tab\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>更改档案名</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22ei-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>输入你的新名字</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22import-input\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22data-import\x22>提交</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x1a223b=document['querySelector']('#ei-tab');_0x1a223b['style']['width']='15rem';let _0x1179f2=document['querySelector']('#ei-close');let _0x9e5ae9=document['querySelector']('#data-import');let _0x106810=document['querySelector']("\u0023\u0069\u006d\u0070\u006f\u0072\u0074\u002d\u0069\u006e\u0070\u0075\u0074");_0x9e5ae9['onclick']=function(){frename(_0x106810['value']);};_0x1179f2['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']="";menuModalElement['style']["\u0064\u0069\u0073\u0070\u006c\u0061\u0079"]="xelf".split("").reverse().join("");};};_0x127f53['onclick']=function(){sfxOpen['play']();menuModalElement['style']['display']='none';defaultModalElement['style']['display']='flex';defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22ei-tab\x22\x20style=\x22max-height:\x2050%;overflow-y:\x20scroll;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>更新记录Ver'+_0xaca9c5+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22ei-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.加强灵石包</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.修复幻影宝箱卡死Bug</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.实现云存档</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.增加自动丢弃先天灵宝以下装备</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.增加自动丢弃臻宝以下装备</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.增加自动丢弃道宝以下装备</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.增加提炼炉</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.现在装备可以强化了</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.增加自动丢弃绝世以下装备</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.增加自动丢弃灵宝以下装备</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.煎熬掉落上限增加</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.宝箱徽记不会被自动丢弃</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.优化卡死问题</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.导入不再重置世界进度</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.增加不升级</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.降低传送阵花费</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.溢出的煎熬掉率有用化</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.修复若干Bug</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.增加战斗内防卡死按钮</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.增加限制之戒</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.宝箱怪有用化</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.添加更多种装备</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.修复自动打开乾坤袋</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.增加游戏内纸条提示</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.升级加成随机化</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.多种升级稀有度</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.尸体现在20%几率搜刮到灵石</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.修复传奇升级Bug</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>5.增加自动化</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.添加装备锁(WIP)</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.添加11种新的装备类型</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.现在可以砸毁弃天雕像</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.添加传送阵</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.现在通天影响装备加成</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.修复若干Bug</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.添加苦难煎熬</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.现在装备等级阶位不设限</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.提高了裂隙碎片的掉落</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.添加了5个新的免费先天</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.修复若干Bug</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.添加了1个新的付费先天</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.添加了通天祭坛</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.Boss现在掉落诅咒/裂隙灵宝碎片,超级Boss现在掉落裂隙/帝者灵宝碎片</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>======================</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>1.添加了5个新的免费先天</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>2.添加了建筑-珍宝阁</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>3.添加了多个装备分级</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>4.超级Boss现在掉落复活卷轴,臻宝,道宝.普通Boss掉落灵宝,先天灵宝</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x1ad7ee=document['querySelector']('#ei-close');_0x1ad7ee['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';menuModalElement['style']['display']='flex';};};wykg['onclick']=function(){alert('恭喜你,你已经通关了');alert('真的通关了哦');};_0x1ec38e['onclick']=function(){sfxDecline['play']();continueExploring();menuModalElement['style']['display']='none';menuModalElement['innerHTML']='';_0x196a55['style']['filter']='brightness(100%)';};});});async function createOrUpdateRecord(_0x582fed,_0x2ea154){const _0x1e001d='https://api.textdb.online/update/';const _0x51ea57=new URLSearchParams({'key':_0x582fed,'value':_0x2ea154});try{const _0x4a351d=await fetch(_0x1e001d+'?'+_0x51ea57['toString'](),{'method':'POST'});const _0x133b3d=await _0x4a351d['json']();if(_0x133b3d['status']===0x1){alert('成功上传云存档');}else{alert('上传云存档失败');}}catch(_0x3c85bf){console['error']('Error:',_0x3c85bf);alert('上传中出现错误!!');}}async function downloadRecord(_0x40ed10,_0x352cdf){const _0x284d67='https://api.textdb.online/update/';const _0x3ffb8b=new URLSearchParams({'key':_0x40ed10,'value':_0x352cdf});try{const _0x4713a2=await fetch(_0x284d67+'?'+_0x3ffb8b['toString'](),{'method':'POST'});const _0x5972bd=await _0x4713a2['json']();if(_0x5972bd['status']===(0x50b57^0x50b56)){alert('成功上传云存档');}else{alert("\u8D25\u5931\u6863\u5B58\u4E91\u4F20\u4E0A".split("").reverse().join(""));}}catch(_0x32cf9c){console['error']('Error:',_0x32cf9c);alert("\u4e0a\u4f20\u4e2d\u51fa\u73b0\u9519\u8bef\u0021\u0021");}}async function fetchTextRecord(_0x19e216){let _0x2e477e='https://textdb.online/';let _0x416db6=_0x2e477e+_0x19e216;const _0x4650d0='https://api.textdb.online/update/?key='+_0x19e216+'&value=';try{const _0x4e4ee3=await fetch(_0x416db6);if(!_0x4e4ee3['ok']){throw new Error('HTTP\x20error!\x20status:\x20'+_0x4e4ee3['status']);}const _0x17587f=await _0x4e4ee3['text']();const _0x14d1f5=await fetch(_0x4650d0,{'method':'POST'});const _0x37b706=await _0x14d1f5['json']();if(_0x37b706['status']===(0xa2799^0xa2798)){importData(_0x17587f);}else{alert('出现错误!.');}}catch(_0x26aeeb){console['error'](":drocer txet gnihctef rorrE".split("").reverse().join(""),_0x26aeeb);alert('下载出现错误!!');}}function getCost(_0xa769c9,_0x2540db){let _0x11f277=Math['max'](0x4dd9a^0x4dd9b,_0xa769c9);let _0x5b2c5d=0x4aded^0x4adec;if(_0x11f277>=(0x5bc8f^0x5bc47)){_0x5b2c5d=0xc;}else if(_0x11f277>=0xaf){_0x5b2c5d=0x9;}else if(_0x11f277>=0x96){_0x5b2c5d=0x48f96^0x48f9e;}else if(_0x11f277>=(0xb4ebe^0xb4ec3)){_0x5b2c5d=0x7;}else if(_0x11f277>=(0x6595f^0x65931)){_0x5b2c5d=0x6;}else if(_0x11f277>=(0xd32c0^0xd32a4)){_0x5b2c5d=0x5;}else if(_0x11f277>=(0xb0bec^0xb0ba7)){_0x5b2c5d=0x4;}else if(_0x11f277>=(0xa6028^0xa601a)){_0x5b2c5d=0x73ae4^0x73ae7;}else if(_0x11f277>=0x19){_0x5b2c5d=0x9298b^0x92989;}if(_0x2540db==(0x21e41^0x21e40)){return _0x11f277*0x8*_0x5b2c5d;}if(_0x2540db==0x2){return _0x11f277*0x5*_0x5b2c5d;}if(_0x2540db==(0x23fb0^0x23fb3)){if(_0x11f277>=0xf)return Math['ceil']((_0x11f277-0x5)*0x2*_0x5b2c5d);else return 0x0;}};function getHardCost(_0x594b7a){let _0xaf48db=0x1;let _0xfda9ce=_0x594b7a;if(_0xfda9ce>=0xc8){_0xaf48db=0xc;}else if(_0xfda9ce>=(0x9f8f7^0x9f893)){_0xaf48db=0xa;}else if(_0xfda9ce>=(0x40c35^0x40c6f)){_0xaf48db=0xe6a16^0xe6a1f;}else if(_0xfda9ce>=0x50){_0xaf48db=0x8;}else if(_0xfda9ce>=0x46){_0xaf48db=0x7;}else if(_0xfda9ce>=(0x64e21^0x64e1d)){_0xaf48db=0x6;}else if(_0xfda9ce>=(0x39a92^0x39aa0)){_0xaf48db=0x21e21^0x21e24;}else if(_0xfda9ce>=(0xa7a62^0xa7a4a)){_0xaf48db=0x4;}else if(_0xfda9ce>=0x1e){_0xaf48db=0x3;}let _0x2b1354=Math['ceil']((_0x594b7a+0x1)*0x3*_0xaf48db);return _0x2b1354;}function getSkillName(_0x1a06ed){const _0x147b5f={'Remnant\x20Razor':'琉璃剑体','Titan\x27s\x20Will':'泰岳意志','Devastator':'巨灵之力','Blade\x20Dance':'慢启动','Kuaiqidong':'快启动','Paladin\x27s\x20Heart':'求道者之心','Aegis\x20Thorns':'拒绝之刺','Lingshi':'帝王宝库','Baoji':'狂热之心','Gongji':'仁慈之心','GoldG':'金钱攻势','GoldS':'金钱守势','PoorG':'穷神攻势','PoorS':'穷神守势','ZDKJ':'战斗盔甲','ZGQX':'至高气息','YJSH':'异界守护','HL':'活力','DCJJ':'多重坚甲','XYZL':'鲜烈之龙','BQZJ':'不屈之剑','BQZD':'不屈之盾','TRA':'天人爱','GDJSS':'高等加速术','XBS':'多宝使者','YJMY':'一件棉衣','RCZF':'仁慈之风','DPMJ':'肚皮猛击','CZJS':'重振精神','FX':'放血','ZJJ':'血腥终结','ZSDS':'战术大师',"\u0046\u0058":'华丽谢幕','Jingyan':'⭐资深','Kuangbao':'⭐血衣','JiyuanXiaoguo':'⭐饮灵之躯','Shanbi':'⭐风中格挡','Xuanyun':'⭐碎颅战技','Gaoping':'⭐赌徒','Neigui':'⭐内鬼','Yinxue':'⭐饮血','Huichun':'⭐大回春术','QixueHun':'⭐气血之魂','Jingfan':'⭐脆镜反射','Daotian':'⭐盗天','Luantian':'⭐乱天','Baitian':'⭐败天','Lutian':'⭐戮天','Zhutian':'⭐诛天','Daitian':'⭐代天','TXWW':'⭐通晓万物'};return _0x147b5f[_0x1a06ed]||'未知技能';}function che(){if(player['yuj']==undefined){player['yuj']=0xd886f^0xd886f;}if(player['yuj']==(0x90e65^0x90e65))return'有拥未'['split']('')['reverse']()['join']('');else return'有拥'['split']('')['reverse']()['join']("".split("").reverse().join(""));}function khe(){if(player['iop']!=(0x5ddfc^0x5ddfd)){player['kop']=0x95710^0x95710;}if(player['iop']==(0x69136^0x69136))return'有拥未'['split']('')['reverse']()['join']('');else return'有拥'['split']('')['reverse']()['join']('');}function uhe(){if(player['kll']!=(0x1f7cd^0x1f7cc)){player['kll']=0x7f4ec^0x7f4ec;}if(player['kll']==(0x513c2^0x513c2))return'有拥未'['split']('')["\u0072\u0065\u0076\u0065\u0072\u0073\u0065"]()['join']('');else return'有拥'['split']('')['reverse']()['join']('');}function kke(){if(player['nmk']!=(0x78f8b^0x78f8a)){player['nmk']=0xa8046^0xa8046;}if(player['nmk']==(0x5d0b2^0x5d0b2))return'有拥未'['split']('')['reverse']()['join']('');else return'有拥'['split']('')['reverse']()['join']('');}const runLoad=(_0x300e92,_0x2fe306)=>{let _0x31a144=document['querySelector']('#loading');_0x31a144['style']['display']='flex';setTimeout(async()=>{_0x31a144['style']['display']='none';document['querySelector']('#'+_0x300e92)['style']['display']=''+_0x2fe306;},0x3e8);};const enterDungeon=()=>{sfxConfirm['play']();document['querySelector']('#title-screen')['style']['display']='none';runLoad('dungeon-main',"\u0066\u006c\u0065\u0078");if(player['inCombat']){player['inCombat']=![];}else{bgmDungeon['play']();}if(player['stats']['hp']==0x0){progressReset();}initialDungeonLoad();playerLoadStats();};const saveData=()=>{dungeon['backlog']['length']=0x0;const _0xfe6398=JSON['stringify'](player);const _0x204213=JSON['stringify'](dungeon);const _0x2bb85d=JSON['stringify'](enemy);const _0x59feaf=JSON['stringify'](volume);localStorage['setItem']('playerData',_0xfe6398);localStorage['setItem']('dungeonData',_0x204213);localStorage['setItem']('enemyData','');localStorage['setItem']('volumeData',_0x59feaf);};const calculateStats=()=>{let _0xad87d9=player['baseStats']['atkSpd']*(player['equippedStats']['atkSpd']/0x64);let _0x3835d7=player['baseStats']['hp'];let _0x40005a=player['baseStats']['atk'];let _0xda0568=player['baseStats']['def'];let _0x5e5258=player['baseStats']['atkSpd'];let _0x1fbd8a=player['baseStats']['vamp'];let _0x9a0681=player['baseStats']['critRate'];let _0x4edcb5=player['baseStats']['critDmg'];player['stats']['hpMax']=Math['round'](_0x3835d7+_0x3835d7*(player['bonusStats']['hp']/0x64)+player['equippedStats']['hp']);player['stats']['atk']=Math['round'](_0x40005a+_0x40005a*(player['bonusStats']['atk']/0x64)+player['equippedStats']['atk']);player['stats']['def']=Math['round'](_0xda0568+_0xda0568*(player["\u0062\u006f\u006e\u0075\u0073\u0053\u0074\u0061\u0074\u0073"]['def']/0x64)+player['equippedStats']['def']);player['stats']['atkSpd']=_0x5e5258+_0x5e5258*(player['bonusStats']['atkSpd']/0x64)+_0xad87d9+_0xad87d9*(player['equippedStats']['atkSpd']/0x64);player['stats']['vamp']=_0x1fbd8a+player['bonusStats']['vamp']+player['equippedStats']['vamp'];player['stats']['critRate']=_0x9a0681+player['bonusStats']['critRate']+player['equippedStats']['critRate'];player['stats']['critDmg']=_0x4edcb5+player['bonusStats']['critDmg']+player['equippedStats']['critDmg'];if(player['stats']['atkSpd']>2.5){if(player['skills']["\u0069\u006e\u0063\u006c\u0075\u0064\u0065\u0073"]('GDJSS')){if(player["\u0073\u0074\u0061\u0074\u0073"]['atkSpd']>0x5){player['stats']['atkSpd']=0x5;}}else{player['stats']['atkSpd']=2.5;}}};const progressReset=()=>{player['stats']["\u0068\u0070"]=player['stats']['hpMax'];player['lvl']=0x1;player['blessing']=0x1;player['exp']={'expCurr':0x0,'expMax':0x64,'expCurrLvl':0x0,'expMaxLvl':0x64,'lvlGained':0x0};player['bonusStats']={'hp':0x0,'atk':0x0,'def':0x0,'atkSpd':0x0,'vamp':0x0,'critRate':0x0,'critDmg':0x0};player['skills']=[];player['inCombat']=![];let _0x48496c=0x1;if(player['tpval']==undefined)player['tpval']=0x1;_0x48496c=player['tpval'];dungeon["\u0070\u0072\u006f\u0067\u0072\u0065\u0073\u0073"]['floor']=_0x48496c;dungeon["\u0070\u0072\u006f\u0067\u0072\u0065\u0073\u0073"]['room']=0x1;dungeon['statistics']['kills']=0x0;dungeon['status']={'exploring':![],'paused':!![],'event':![]};dungeon['settings']={'enemyBaseLvl':0x1,'enemyLvlGap':0x5,'enemyBaseStats':0x1,'enemyScaling':1.1};delete dungeon['enemyMultipliers'];delete player['allocated'];dungeon['backlog']['length']=0x0;dungeon['action']=0x0;dungeon['statistics']['runtime']=0x0;combatBacklog['length']=0x0;saveData();};const exportData=()=>{const _0x463fe3=btoa(JSON['stringify'](player));return _0x463fe3;};const importData=_0x3e31e7=>{try{let _0x2b3a44=JSON['parse'](atob(_0x3e31e7));if(_0x2b3a44['inventory']!==undefined){sfxOpen['play']();defaultModalElement['style']['display']='none';confirmationModalElement['style']['display']='flex';confirmationModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>您确定要导入此数据吗?这将完全覆盖你当前的游戏进度。[云ID数据已自动清空,如有需要请重新上传]</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22button-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22import-btn\x22>导入</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22cancel-btn\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';let _0x596651=document['querySelector']('#import-btn');let _0x563460=document['querySelector']('#cancel-btn');_0x596651['onclick']=function(){sfxConfirm['play']();player=_0x2b3a44;saveData();location['reload']();bgmDungeon['stop']();let _0x56fa3a=document["\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006c\u0065\u0063\u0074\u006f\u0072"]("niam-noegnud#".split("").reverse().join(""));_0x56fa3a['style']['filter']='brightness(100%)';_0x56fa3a['style']['display']='none';menuModalElement['style']['display']='none';menuModalElement['innerHTML']='';confirmationModalElement['style']['display']="enon".split("").reverse().join("");confirmationModalElement['innerHTML']='';defaultModalElement['style']['display']="\u006e\u006f\u006e\u0065";defaultModalElement['innerHTML']="".split("").reverse().join("");runLoad('title-screen','flex');};_0x563460['onclick']=function(){sfxDecline['play']();confirmationModalElement["\u0073\u0074\u0079\u006c\u0065"]['display']='none';confirmationModalElement['innerHTML']='';defaultModalElement['style']['display']='flex';};}else{sfxDeny['play']();}}catch(_0x3ae0e0){sfxDeny['play']();}};const frename=_0x5c5a19=>{var _0xac78ef=/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;if(_0xac78ef['test'](_0x5c5a19)){alert("!\u7B26\u5B57\u6B8A\u7279\u542B\u5305\u5B57\u540D\u7684\u4F60".split("").reverse().join(""));}else{if(_0x5c5a19['length']<0x3||_0x5c5a19['length']>0xf){alert('你的名字长度应位于3-15之间!');}else{player['name']=_0x5c5a19;alert('更改完成,刷新即可见效');}}};const allocationPopup=()=>{let _0x92355a={'hp':0x5,'atk':0x5,'def':0x5,'atkSpd':0x5};const _0x105a79=()=>{stats={'hp':0x32*_0x92355a['hp'],'atk':0xa*_0x92355a['atk'],'def':0xa*_0x92355a['def'],'atkSpd':0.4+0.02*_0x92355a['atkSpd']};};_0x105a79();let _0x589d8d=0x14;if(player['iop']==0x1){_0x589d8d=0x32;}const _0x1d5a4c=function(){defaultModalElement['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content\x22\x20id=\x22allocate-stats\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>分配属性点</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22allocate-close\x22><i\x20class=\x22fa\x20fa-xmark\x22></i></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22fas\x20fa-heart\x22></i><span\x20id=\x22hpDisplay\x22>气血:\x20'+stats['hp']+'</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22hpMin\x22>-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22hpAllo\x22>'+_0x92355a['hp']+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22hpAdd\x22>+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22ra\x20ra-sword\x22></i><span\x20id=\x22atkDisplay\x22>攻击:\x20'+stats['atk']+'</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22atkMin\x22>-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22atkAllo\x22>'+_0x92355a['atk']+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22atkAdd\x22>+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22ra\x20ra-round-shield\x22></i><span\x20id=\x22defDisplay\x22>护体:\x20'+stats['def']+'</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22defMin\x22>-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22defAllo\x22>'+_0x92355a['def']+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22defAdd\x22>+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><i\x20class=\x22ra\x20ra-plain-dagger\x22></i><span\x20id=\x22atkSpdDisplay\x22>攻速:\x20'+stats['atkSpd']+'</span></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22atkSpdMin\x22>-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22atkSpdAllo\x22>'+_0x92355a['atkSpd']+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22atkSpdAdd\x22>+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22\x20style=\x27flex-direction:\x20column;align-items:\x20flex-start;\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:cornflowerblue\x27><i\x20class=\x22fa-solid\x20fa-cube\x22></i>属性包(+30属性点):\x20'+khe()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x27color:gold\x27><i\x20class=\x22fa-solid\x20fa-heart\x22\x20style=\x22color:\x20#FFD43B;\x22></i>先天包(解锁⭐先天):\x20'+che()+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22alloPts\x22><i\x20class=\x22fa-solid\x20fa-street-view\x22></i>可分配属性点:\x20'+_0x589d8d+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22allocate-reset\x22>重置</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22width:\x2020%;\x22>先天</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22select-skill\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Remnant\x20Razor\x22>琉璃剑体</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Titan\x27s\x20Will\x22>泰岳意志</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Devastator\x22>巨灵之力</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Blade\x20Dance\x22>慢启动</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Kuaiqidong\x22>快启动</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Paladin\x27s\x20Heart\x22>求道者之心</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Aegis\x20Thorns\x22>拒绝之刺</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Lingshi\x22>帝王宝库</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22GoldG\x22>金钱攻势</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22GoldS\x22>金钱守势</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22PoorG\x22>穷神攻势</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22PoorS\x22>穷神守势</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22ZDKJ\x22>战斗盔甲</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22ZGQX\x22>至高气息</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22YJSH\x22>异界守护</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22HL\x22>活力</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22DCJJ\x22>多重坚甲</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22XLZL\x22>鲜烈之龙</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22BQZJ\x22>不屈之剑</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22BQZD\x22>不屈之盾</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22TRA\x22>天人爱</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22GDJSS\x22>高等加速术</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22XBS\x22>多宝使者</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22YJMY\x22>一件棉衣</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22RCZF\x22>仁慈之风</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22DPMJ\x22>肚皮猛击</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22CZJS\x22>重振精神</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22FX\x22>放血</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22ZJJ\x22>血腥终结</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22ZSDS\x22>战术大师</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22HLXM\x22>华丽谢幕</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Jingyan\x22>⭐资深</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Baoji\x22>⭐狂热之心</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Gongji\x22>⭐仁慈之心</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Kuangbao\x22>⭐血衣</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22JiyuanXiaoguo\x22>⭐饮灵之躯</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Shanbi\x22>⭐风中格挡</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Xuanyun\x22>⭐碎颅战技</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Gaoping\x22>⭐赌徒</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Neigui\x22>⭐内鬼</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Yinxue\x22>⭐饮血</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Huichun\x22>⭐大回春术</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22QixueHun\x22>⭐气血之魂</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Jingfan\x22>⭐脆镜反射</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Daotian\x22>⭐盗天</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Luantian\x22>⭐乱天</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Baitian\x22>⭐败天</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Lutian\x22>⭐戮天</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Zhutian\x22>⭐诛天</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22Daitian\x22>⭐代天</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22TXWW\x22>⭐通晓万物</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x20primary-panel\x20pad\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20id=\x22skill-desc\x22>每次攻击额外造成敌人当前血量8%的伤害</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22allocate-confirm\x22>确认</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>';};defaultModalElement['style']['display']='flex';document['querySelector']('#title-screen')['style']['filter']='brightness(50%)';_0x1d5a4c();function _0x3d8131(_0x340c08){if(_0x340c08=='hp')return'气血';if(_0x340c08=='atk')return'攻击';if(_0x340c08=='def')return'护体';if(_0x340c08=="dpSkta".split("").reverse().join(""))return'攻速';}const _0x5f199a=_0x363be2=>{let _0x2d0fda=/\.0+$|(\.[0-9]*[1-9])0+$/;if(_0x363be2['includes']('Add')){let _0x3e8be3=_0x363be2['split']('Add')[0x0];if(_0x589d8d>0x0){sfxConfirm['play']();_0x92355a[_0x3e8be3]++;_0x589d8d--;_0x105a79();document['querySelector']('#'+_0x3e8be3+"yalpsiD".split("").reverse().join(""))['innerHTML']=_0x3d8131(_0x3e8be3)+':\x20'+stats[_0x3e8be3]['toFixed'](0x2)['replace'](_0x2d0fda,'$1');document['querySelector']('#'+_0x3e8be3+'Allo')['innerHTML']=_0x92355a[_0x3e8be3];document['querySelector']('#alloPts')['innerHTML']='可分配属性点:\x20'+_0x589d8d;}else{sfxDeny['play']();}}else if(_0x363be2['includes']("niM".split("").reverse().join(""))){let _0x810b69=_0x363be2['split']('Min')[0x0];if(_0x92355a[_0x810b69]>0x4){sfxConfirm['play']();_0x92355a[_0x810b69]--;_0x589d8d++;_0x105a79();document['querySelector']('#'+_0x810b69+'Display')['innerHTML']=_0x3d8131(_0x810b69)+':\x20'+stats[_0x810b69]['toFixed'](0x2)['replace'](_0x2d0fda,'$1');document['querySelector']('#'+_0x810b69+'Allo')['innerHTML']=_0x92355a[_0x810b69];document['querySelector']('#alloPts')['innerHTML']='可分配属性点:\x20'+_0x589d8d;}else{sfxDeny['play']();}}};document['querySelector']('#hpAdd')['onclick']=function(){_0x5f199a('hpAdd');};document['querySelector']('#hpMin')['onclick']=function(){_0x5f199a('hpMin');};document['querySelector']('#atkAdd')['onclick']=function(){_0x5f199a('atkAdd');};document['querySelector']('#atkMin')['onclick']=function(){_0x5f199a('atkMin');};document['querySelector']('#defAdd')['onclick']=function(){_0x5f199a('defAdd');};document['querySelector']('#defMin')['onclick']=function(){_0x5f199a('defMin');};document['querySelector']('#atkSpdAdd')['onclick']=function(){_0x5f199a("\u0061\u0074\u006b\u0053\u0070\u0064\u0041\u0064\u0064");};document['querySelector']('#atkSpdMin')['onclick']=function(){_0x5f199a("niMdpSkta".split("").reverse().join(""));};let _0x31193c=document['querySelector']('#select-skill');let _0x1c0759=document['querySelector']('#skill-desc');_0x31193c['onclick']=function(){sfxConfirm['play']();};_0x31193c['onchange']=function(){if(_0x31193c['value']=='Remnant\x20Razor'){_0x1c0759['innerHTML']='每次攻击额外造成敌人当前血量8%的伤害';}if(_0x31193c['value']=='Titan\x27s\x20Will'){_0x1c0759['innerHTML']='每次攻击额外造成自身最大血量5%的伤害';}if(_0x31193c['value']=='Devastator'){_0x1c0759['innerHTML']='造成130%伤害但是只有70%基础攻速';}if(_0x31193c['value']=='Rampager'){_0x1c0759['innerHTML']='每次攻击逐步提高5伤害。战斗后重置';}if(_0x31193c['value']=='Blade\x20Dance'){_0x1c0759['innerHTML']='每次攻击逐步提高攻速。战斗后重置';}if(_0x31193c['value']=='Paladin\x27s\x20Heart'){_0x1c0759['innerHTML']='受到的伤害减免25%';}if(_0x31193c['value']=='Kuaiqidong'){_0x1c0759['innerHTML']='基础攻速增加100%,但是每次攻击逐步降低攻速。战斗后重置';}if(_0x31193c['value']=='Aegis\x20Thorns'){_0x1c0759['innerHTML']='反射15%受到的伤害';}if(_0x31193c['value']=='Lingshi'){_0x1c0759['innerHTML']='战斗获得的灵石增加30%';}if(_0x31193c['value']=='GoldG'){_0x1c0759['innerHTML']='每拥有1000灵石,造成伤害+1%,但是每次攻击消耗伤害值9%的灵石';}if(_0x31193c['value']=='GoldS'){_0x1c0759['innerHTML']='每拥有1000灵石,受到伤害-1%,但是每次防御消耗伤害值7%的灵石';}if(_0x31193c['value']=='PoorG'){_0x1c0759['innerHTML']="\u5BB3\u4F2405\u52A0\u9644\u51FB\u653B\u6B21\u6BCF,\u65F60001\u4E8E\u5C0F\u77F3\u7075".split("").reverse().join("");}if(_0x31193c['value']=='PoorS'){_0x1c0759['innerHTML']='灵石小于1000时,每次防御减少30伤害';}if(_0x31193c['value']=='ZDKJ'){_0x1c0759['innerHTML']='你免疫暴击';}if(_0x31193c['value']=='ZGQX'){_0x1c0759['innerHTML']='你在气血高于80%时不会被秒杀';}if(_0x31193c['value']=='YJSH'){_0x1c0759['innerHTML']="\u4f60\u7684\u57fa\u7840\u6c14\u8840\u4e0b\u964d\u0039\u0039\u0025\u002c\u4f60\u6709\u0039\u0039\u0025\u51e0\u7387\u95ea\u907f\u6240\u6709\u666e\u901a\u653b\u51fb\u002c\u5bf9\u66b4\u51fb\u65e0\u6548\u002c\u4f60\u53d7\u5230\u7684\u4f24\u5bb3\u4e0a\u5347\u0031\u0030\u0030\u0030\u0025";}if(_0x31193c['value']=='HL'){_0x1c0759['innerHTML']="\u4E2D\u547D\u6CD5\u65E0\u7387\u51E0\u7684%03\u6709\u662F\u4F46,%05\u5347\u4E0A\u5BB3\u4F24\u7684\u4F60".split("").reverse().join("");}if(_0x31193c['value']=='DCJJ'){_0x1c0759['innerHTML']='气血全满时,减少50%受到伤害';}if(_0x31193c['value']=='XLZL'){_0x1c0759['innerHTML']='敌人的攻速必定小于你的攻速';}if(_0x31193c['value']=='BQZJ'){_0x1c0759['innerHTML']='第一击不管暴击与否，继续判定一次强制暴击伤害并且伤害翻倍。';}if(_0x31193c['value']=='BQZD'){_0x1c0759['innerHTML']='无视受到的第一次攻击并转化成治疗';}if(_0x31193c['value']=='TRA'){_0x1c0759['innerHTML']='你有10%几率连续攻击两次';}if(_0x31193c['value']=="SSJDG".split("").reverse().join("")){_0x1c0759['innerHTML']='你的攻速上限翻倍(2.5->5)';}if(_0x31193c['value']=='XBS'){_0x1c0759['innerHTML']='你击败强大敌人后找到灵宝以上装备的概率提高50%';}if(_0x31193c['value']=='YJMY'){_0x1c0759['innerHTML']='你被攻击后会降低敌人的攻速';}if(_0x31193c['value']=='RCZF'){_0x1c0759['innerHTML']='你的攻击伤害结算两次,但是你无法暴击';}if(_0x31193c['value']=='DPMJ'){_0x1c0759['innerHTML']='你造成伤害始终等于你护体的10%。受暴击影响。';}if(_0x31193c['value']=='CZJS'){_0x1c0759['innerHTML']='每场战斗一次,第一次被击败时满血复活';}if(_0x31193c['value']=='FX'){_0x1c0759['innerHTML']='每场战斗一次,攻击时50%几率损失当前气血的50%并造成3倍伤害';}if(_0x31193c['value']=='ZJJ'){_0x1c0759['innerHTML']='每次造成的伤害提高上一次的10%,每次攻击消耗5%气血。战斗后重置';}if(_0x31193c['value']=='ZSDS'){_0x1c0759['innerHTML']="\u5982\u679c\u4f60\u5728\u672a\u653b\u51fb\u7684\u65f6\u5019\u88ab\u653b\u51fb\u002c\u6b64\u6b21\u653b\u51fb\u65e0\u6548\u5e76\u0035\u0030\u0025\u53cd\u5f39\u7ed9\u654c\u4eba\u3002\u53d7\u66b4\u51fb\u5f71\u54cd\u3002";}if(_0x31193c['value']=='HLXM'){_0x1c0759['innerHTML']='如果你的攻击的两倍伤害能够击杀敌人,则本次攻击造成两倍伤害';}if(_0x31193c['value']=='Jingyan'){_0x1c0759['innerHTML']='战斗获得的经验增加20%';}if(_0x31193c['value']=='Baoji'){_0x1c0759['innerHTML']='提升70%暴击伤害,降低40%攻击';}if(_0x31193c['value']=='Gongji'){_0x1c0759["\u0069\u006e\u006e\u0065\u0072\u0048\u0054\u004d\u004c"]="\u5BB3\u4F24\u51FB\u66B4%001\u4F4E\u964D,\u51FB\u653B%03\u5347\u63D0".split("").reverse().join("");}if(_0x31193c['value']=='Kuangbao'){_0x1c0759['innerHTML']='血量位于50%以下获得狂暴,增加50%攻速和50%伤害';}if(_0x31193c['value']=='JiyuanXiaoguo'){_0x1c0759['innerHTML']='基础护体降低50%,提高30%汲元效果';}if(_0x31193c['value']=='Shanbi'){_0x1c0759['innerHTML']="\u5BB3\u4F24\u7684\u5230\u53D7\u672C\u539F%05\u6210\u9020\u4EBA\u654C\u51FB\u53CD\u80FD\u7387\u6982\u7684%04\u6709\u65F6\u907F\u95EA,\u51FB\u653B\u65B9\u654C\u907F\u95EA\u7387\u6982%03\u6709".split("").reverse().join("");}if(_0x31193c['value']=='Xuanyun'){_0x1c0759['innerHTML']="\u51FB\u653B%5\u4EBA\u654C\u4F4E\u964D\u6655\u7729\u6B21\u6BCF,\u4EBA\u654C\u6655\u7729%51\u6709\u65F6\u51FB\u653B".split("").reverse().join("");}if(_0x31193c['value']=='Gaoping'){_0x1c0759['innerHTML']='提高高品质装备出现的概率,暴击率提升30%,但是基础气血下降50%';}if(_0x31193c['value']=='Neigui'){_0x1c0759['innerHTML']="\u5BB3\u4F24\u7684\u6837\u4E00\u5230\u53D7\u4E5F\u4EBA\u654C\u8BA9\u7387\u51E0%01\u65F6\u51FB\u653B\u5230\u53D7".split("").reverse().join("");}if(_0x31193c['value']=='Yinxue'){_0x1c0759['innerHTML']='基础攻速增加100%,提高100%汲元效果,降低90%初始攻击';}if(_0x31193c['value']=='Huichun'){_0x1c0759['innerHTML']='每次攻击回复2%气血';}if(_0x31193c['value']=='QixueHun'){_0x1c0759['innerHTML']="\u5BB3\u4F24%2\u9AD8\u63D0\u8840\u6C14\u5931\u635F%1\u6BCF,\u540E%07\u4E8E\u4F4E\u8840\u6C14".split("").reverse().join("");}if(_0x31193c['value']=='Jingfan'){_0x1c0759['innerHTML']="\u5BB3\u4F24\u6709\u6240\u7684\u5230\u53D7\u5DF1\u81EA\u5230\u53D7\u4EBA\u654C\u8BA9,\u540E%03\u4E8E\u4F4E\u8840\u6C14".split("").reverse().join("");}if(_0x31193c['value']=="naitoaD".split("").reverse().join("")){_0x1c0759['innerHTML']='每次攻击5%几率提高伤害1%的气血上限';}if(_0x31193c['value']=='Luantian'){_0x1c0759['innerHTML']='每次攻击5%几率提高0.1%暴击几率';}if(_0x31193c['value']=='Baitian'){_0x1c0759['innerHTML']="\u4F53\u62A4\u7684%1\u5BB3\u4F24\u9AD8\u63D0\u7387\u51E0%5\u51FB\u653B\u6B21\u6BCF".split("").reverse().join("");}if(_0x31193c['value']=='Lutian'){_0x1c0759['innerHTML']='每次攻击1%几率提高伤害0.3%的攻击';}if(_0x31193c['value']=='Zhutian'){_0x1c0759['innerHTML']='每次攻击1%几率提高0.5%暴击伤害';}if(_0x31193c['value']=='Daitian'){_0x1c0759['innerHTML']='每次攻击1%几率使对手受到他100%血量的伤害';}if(_0x31193c['value']=='TXWW'){_0x1c0759['innerHTML']='每次攻击10%几率进入一种姿态。【玄】:造成的伤害和受到的伤害X2【止】:受到的伤害-30%【动】:连续造成3次伤害,攻击后退出姿态。战斗后重置。';}};let _0x59c179=document['querySelector']('#allocate-confirm');let _0x548c5e=document['querySelector']('#allocate-reset');let _0x194886=document['querySelector']('#allocate-close');_0x59c179['onclick']=function(){player['baseStats']={'hp':stats['hp'],'atk':stats['atk'],'def':stats['def'],'pen':0x0,'atkSpd':stats['atkSpd'],'vamp':0x0,'critRate':0x0,'critDmg':0x32};objectValidation();if(_0x31193c['value']=='Remnant\x20Razor'){player['skills']['push']('Remnant\x20Razor');}if(_0x31193c['value']=="lliW s'natiT".split("").reverse().join("")){player['skills']['push']('Titan\x27s\x20Will');}if(_0x31193c['value']=='Devastator'){player['skills']['push']('Devastator');player['baseStats']['atkSpd']=player['baseStats']['atkSpd']-0x1e*player['baseStats']['atkSpd']/0x64;}if(_0x31193c['value']=='Rampager'){player['skills']['push']('Rampager');}if(_0x31193c['value']=='Blade\x20Dance'){player['skills']["\u0070\u0075\u0073\u0068"]('Blade\x20Dance');}if(_0x31193c['value']=='Paladin\x27s\x20Heart'){player['skills']['push']("traeH s'nidalaP".split("").reverse().join(""));}if(_0x31193c['value']=='Aegis\x20Thorns'){player['skills']['push']('Aegis\x20Thorns');}if(_0x31193c['value']=='Kuaiqidong'){player['skills']['push']('Kuaiqidong');player['baseStats']['atkSpd']=player['baseStats']['atkSpd']+0x64*player['baseStats']['atkSpd']/0x64;}if(_0x31193c['value']=='Lingshi'){player['skills']['push']("ihsgniL".split("").reverse().join(""));}if(_0x31193c['value']=="GdloG".split("").reverse().join("")){player['skills']['push']('GoldG');}if(_0x31193c['value']=='GoldS'){player['skills']['push']('GoldS');}if(_0x31193c['value']=='PoorG'){player['skills']['push']('PoorG');}if(_0x31193c['value']=='PoorS'){player['skills']['push']("SrooP".split("").reverse().join(""));}if(_0x31193c['value']=='ZDKJ'){player['skills']['push']('ZDKJ');}if(_0x31193c['value']=='ZGQX'){player['skills']['push']('ZGQX');}if(_0x31193c['value']=='YJSH'){player['baseStats']['hp']=player['baseStats']['hp']-0x63*player['baseStats']['atkSpd']/0x64;player['skills']['push']('YJSH');}if(_0x31193c['value']=='HL'){player['skills']['push']('HL');}if(_0x31193c['value']=='DCJJ'){player['skills']['push']('DCJJ');}if(_0x31193c['value']=='XLZL'){player['skills']['push']('XLZL');}if(_0x31193c['value']=='BQZJ'){player['skills']['push']('BQZJ');}if(_0x31193c['value']=='BQZD'){player['skills']['push']('BQZD');}if(_0x31193c['value']=='TRA'){player['skills']['push']('TRA');}if(_0x31193c['value']=='GDJSS'){player['skills']['push']("SSJDG".split("").reverse().join(""));}if(_0x31193c['value']=='XBS'){player['skills']['push']('XBS');}if(_0x31193c['value']=='YJMY'){player['skills']['push']('YJMY');}if(_0x31193c['value']=='RCZF'){player['skills']['push']('RCZF');}if(_0x31193c['value']=="JMPD".split("").reverse().join("")){player['skills']['push']("JMPD".split("").reverse().join(""));}if(_0x31193c['value']=='CZJS'){player['skills']['push']('CZJS');}if(_0x31193c['value']=='FX'){player['skills']['push']('FX');}if(_0x31193c['value']=='ZJJ'){player['skills']['push']('ZJJ');}if(_0x31193c['value']=='ZSDS'){player['skills']['push']('ZSDS');}if(_0x31193c['value']=='HLXM'){player['skills']['push']('HLXM');}if(player['yuj']==0x1){if(_0x31193c['value']=='Jingyan'){player['skills']['push']('Jingyan');}if(_0x31193c['value']=='Baoji'){player['skills']['push']('Baoji');}if(_0x31193c['value']=='Gongji'){player['skills']['push']('Gongji');}if(_0x31193c['value']=='Kuangbao'){player['skills']['push']('Kuangbao');}if(_0x31193c['value']=='JiyuanXiaoguo'){player['skills']['push']('JiyuanXiaoguo');player['baseStats']['def']=player['baseStats']['def']-0x32*player['baseStats']["\u0064\u0065\u0066"]/0x64;}if(_0x31193c['value']=='Shanbi'){player['skills']['push']('Shanbi');}if(_0x31193c['value']=='Xuanyun'){player['skills']['push']('Xuanyun');}if(_0x31193c['value']=='Gaoping'){player['skills']['push']('Gaoping');player['baseStats']['hp']=player['baseStats']['hp']-0x32*player['baseStats']['hp']/0x64;player['baseStats']['critRate']=player['baseStats']['critRate']+0x1e;}if(_0x31193c['value']=='Neigui'){player['skills']['push']('Neigui');}if(_0x31193c['value']=='Yinxue'){player['skills']['push']('Yinxue');player['baseStats']['atkSpd']=player['baseStats']['atkSpd']+0x64*player['baseStats']['atkSpd']/0x64;player['baseStats']['atk']=player['baseStats']['atk']-0x5a*player['baseStats']['atk']/0x64;}if(_0x31193c['value']=='Huichun'){player['skills']['push']('Huichun');}if(_0x31193c['value']=='QixueHun'){player['skills']['push']('QixueHun');}if(_0x31193c['value']=='Daotian'){player['skills']['push']('Daotian');}if(_0x31193c['value']=='Jingfan'){player['skills']['push']('Jingfan');}if(_0x31193c['value']=='Luantian'){player['skills']['push']('Luantian');}if(_0x31193c['value']=='Baitian'){player['skills']['push']('Baitian');}if(_0x31193c['value']=='Lutian'){player['skills']['push']('Lutian');}if(_0x31193c['value']=='Zhutian'){player['skills']['push']('Zhutian');}if(_0x31193c['value']=="naitiaD".split("").reverse().join("")){player['skills']['push']('Daitian');}if(_0x31193c['value']=='TXWW'){player['skills']['push']('TXWW');}}else{let _0xe27ea8=0x0;if(_0x31193c['value']=='Jingyan'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Baoji'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Gongji'){_0xe27ea8=0x1;}if(_0x31193c['value']=="oabgnauK".split("").reverse().join("")){_0xe27ea8=0x1;}if(_0x31193c['value']=='JiyuanXiaoguo'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Shanbi'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Xuanyun'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Gaoping'){_0xe27ea8=0x1;}if(_0x31193c['value']=="iugieN".split("").reverse().join("")){_0xe27ea8=0x1;}if(_0x31193c['value']=="euxniY".split("").reverse().join("")){_0xe27ea8=0x1;}if(_0x31193c['value']=='Huichun'){_0xe27ea8=0x1;}if(_0x31193c['value']=='QixueHun'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Daotian'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Jingfan'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Luantian'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Baitian'){_0xe27ea8=0x1;}if(_0x31193c['value']=='Lutian'){_0xe27ea8=0x1;}if(_0x31193c['value']=="naituhZ".split("").reverse().join("")){_0xe27ea8=0x1;}if(_0x31193c['value']=='Daitian'){_0xe27ea8=0x1;}if(_0x31193c['value']=='TXWW'){_0xe27ea8=0x1;}if(_0xe27ea8==0x1){alert('未拥有【先天包】,先天已自动替换成【琉璃剑体】。【先天包】可在【爱发电】获取。重置了一下,已购买的请重新输入');player['skills']['push']('Remnant\x20Razor');}}if(player['vip']>=0x1){player['baseStats']['hp']=0x0;}if(player['ascend']>=0x1){let _0x4f411f=0x1+0.01*player['ascend'];player['baseStats']['hp']=player['baseStats']['hp']*_0x4f411f;player['baseStats']['atk']=player['baseStats']['atk']*_0x4f411f;player['baseStats']['def']=player['baseStats']['def']*_0x4f411f;player['baseStats']['atkSpd']=player['baseStats']['atkSpd']*_0x4f411f;player['baseStats']['critDmg']=player['baseStats']['critDmg']*_0x4f411f;}player['allocated']=!![];enterDungeon();player['stats']['hp']=player['stats']['hpMax'];playerLoadStats();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';document['querySelector']('#title-screen')['style']["\u0066\u0069\u006c\u0074\u0065\u0072"]='brightness(100%)';};_0x548c5e['onclick']=function(){sfxDecline['play']();_0x92355a={'hp':0x5,'atk':0x5,'def':0x5,'atkSpd':0x5};_0x589d8d=0x14;if(player['iop']==0x1){_0x589d8d=0x32;}_0x105a79();document['querySelector']('#hpDisplay')['innerHTML']='气血:\x20'+stats['hp'];document['querySelector']("yalpsiDkta#".split("").reverse().join(""))['innerHTML']='攻击:\x20'+stats['atk'];document['querySelector']('#defDisplay')['innerHTML']='护体:\x20'+stats['def'];document['querySelector']('#atkSpdDisplay')['innerHTML']='攻速:\x20'+stats['atkSpd'];document['querySelector']('#hpAllo')['innerHTML']=_0x92355a["\u0068\u0070"];document['querySelector']('#atkAllo')['innerHTML']=_0x92355a['atk'];document['querySelector']('#defAllo')['innerHTML']=_0x92355a['def'];document['querySelector']('#atkSpdAllo')['innerHTML']=_0x92355a['atkSpd'];document['querySelector']('#alloPts')['innerHTML']='可分配属性点:\x20'+_0x589d8d;};_0x194886['onclick']=function(){sfxDecline['play']();defaultModalElement['style']['display']='none';defaultModalElement['innerHTML']='';document['querySelector']('#title-screen')['style']['filter']='brightness(100%)';};};const objectValidation=()=>{if(player['skills']==undefined){player['skills']=[];}if(player['tempStats']==undefined){player['tempStats']={};player['tempStats']['atk']=0x0;player['tempStats']['atkSpd']=0x0;player['tempStats']['firstAtk']=0x0;player['tempStats']['firstDef']=0x0;player['tempStats']['czjs']=0x0;player['tempStats']['zjj']=0x0;player['tempStats']['zsds']=0x0;player['tempStats']["\u0074\u0078\u0077\u0077"]=0x0;}saveData();};
+window.addEventListener("load", function () {
+
+    const version = '2.8';
+
+    if (player === null) {
+        runLoad("character-creation", "flex");
+    } else {
+        let target = document.querySelector("#title-screen");
+        target.style.display = "flex";
+    }
+
+    // Title Screen Validation
+    document.querySelector("#title-screen").addEventListener("click", function () {
+        const player = JSON.parse(localStorage.getItem("playerData"));
+        if (player.allocated) {
+            enterDungeon();
+        } else {
+            allocationPopup();
+        }
+    });
+
+    // Prevent double-click zooming on mobile devices
+    document.ondblclick = function (e) {
+        e.preventDefault();
+    }
+
+    // Submit Name
+    document.querySelector("#name-submit").addEventListener("submit", function (e) {
+        e.preventDefault();
+        let playerName = document.querySelector("#name-input").value;
+
+        var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+        if (format.test(playerName)) {
+            document.querySelector("#alert").innerHTML = "你的名字包含特殊字符!";
+        } else {
+            if (playerName.length < 3 || playerName.length > 15) {
+                document.querySelector("#alert").innerHTML = "你的名字长度应位于3-15之间!";
+            } else {
+                player = {
+                    name: playerName,
+                    lvl: 1,
+                    stats: {
+                        hp: null,
+                        hpMax: null,
+                        atk: null,
+                        def: null,
+                        pen: null,
+                        atkSpd: null,
+                        vamp: null,
+                        critRate: null,
+                        critDmg: null
+                    },
+                    baseStats: {
+                        hp: 500,
+                        atk: 100,
+                        def: 50,
+                        pen: 0,
+                        atkSpd: 0.6,
+                        vamp: 0,
+                        critRate: 0,
+                        critDmg: 50
+                    },
+                    equippedStats: {
+                        hp: 0,
+                        atk: 0,
+                        def: 0,
+                        pen: 0,
+                        atkSpd: 0,
+                        vamp: 0,
+                        critRate: 0,
+                        critDmg: 0,
+                        hpPct: 0,
+                        atkPct: 0,
+                        defPct: 0,
+                        penPct: 0,
+                    },
+                    bonusStats: {
+                        hp: 0,
+                        atk: 0,
+                        def: 0,
+                        atkSpd: 0,
+                        vamp: 0,
+                        critRate: 0,
+                        critDmg: 0
+                    },
+                    exp: {
+                        expCurr: 0,
+                        expMax: 100,
+                        expCurrLvl: 0,
+                        expMaxLvl: 100,
+                        lvlGained: 0
+                    },
+                    inventory: {
+                        consumables: [],
+                        equipment: []
+                    },
+                    equipped: [],
+                    gold: 0,
+                    bank: 0,
+                    playtime: 0,
+                    kills: 0,
+                    deaths: 0,
+                    dp:0,
+                    ap:0,
+                    sp:0,
+                    dtd:0,
+                    ops:0,
+                    ert:0,
+                    crt:0,
+                    rtt:0,
+                    yuj:0,
+                    iop:0,
+                    kll:0,
+                    nmk:0,
+                    vip:0,
+                    rebirth:0,
+
+                    ascend:0,
+                    cureseLB:0,
+                    riftLB:0,
+                    emporLB:0,
+                    hardloop:0,
+                    hardloopmax:1,
+                    hardloopsign:0,
+                    riftstone:0,
+                    deepth:0,
+                    tpmax:1,
+                    tpval:1,
+
+                    ao:0,
+                    aa:0,
+                    ak:0,
+                    ai:0,
+                    au:0,
+                    aw:0,
+                    inCombat: false
+                };
+                calculateStats();
+                player.stats.hp = player.stats.hpMax;
+                saveData();
+                document.querySelector("#character-creation").style.display = "none";
+                runLoad("title-screen", "flex");
+            }
+        }
+    });
+
+    // Unequip all items
+    document.querySelector("#unequip-all").addEventListener("click", function () {
+        sfxOpen.play();
+
+        dungeon.status.exploring = false;
+        let dimTarget = document.querySelector('#inventory');
+        dimTarget.style.filter = "brightness(50%)";
+        defaultModalElement.style.display = "flex";
+        defaultModalElement.innerHTML = `
+        <div class="content">
+            <p>卸下所有装备s?</p>
+            <div class="button-container">
+                <button id="unequip-confirm">卸下</button>
+                <button id="unequip-cancel">取消</button>
+            </div>
+        </div>`;
+        let confirm = document.querySelector('#unequip-confirm');
+        let cancel = document.querySelector('#unequip-cancel');
+        confirm.onclick = function () {
+            sfxUnequip.play();
+            unequipAll();
+            continueExploring();
+            defaultModalElement.style.display = "none";
+            defaultModalElement.innerHTML = "";
+            dimTarget.style.filter = "brightness(100%)";
+        };
+        cancel.onclick = function () {
+            sfxDecline.play();
+            continueExploring();
+            defaultModalElement.style.display = "none";
+            defaultModalElement.innerHTML = "";
+            dimTarget.style.filter = "brightness(100%)";
+        };
+    });
+
+    // Opens House
+    document.querySelector("#house-btn").addEventListener("click", function () {
+        sfxOpen.play();
+        closeInventory();
+        dungeon.status.exploring = false;
+        let dimDungeon = document.querySelector('#dungeon-main');
+        dimDungeon.style.filter = "brightness(50%)";
+        menuModalElement.style.display = "flex";
+
+        // <button id="farm" style='color:lawngreen'><i class="fa-solid fa-wheat-awn" style="color: #63E6BE;"></i>灵田</button>
+        // <button id="liesha" style='color:red'><i class="fa-solid fa-crosshairs" style="color: #ff0000;"></i>猎杀榜</button>
+        // Menu tab
+        menuModalElement.innerHTML = `
+        <div class="content">
+            <div class="content-head">
+                <h3>建筑</h3>
+                <p id="close-menu"><i class="fa fa-xmark"></i></p>
+            </div>
+            <button id="bank" style='color:lawngreen'><i class="fa-solid fa-building-columns"></i>钱庄</button>
+            <button id="treasuree" style='color:gold'><i class="fa-regular fa-gem"></i>珍宝阁</button>
+            <button id="ascend" style='color:coral'><i class="fa-solid fa-bridge-water"></i>通天祭坛</button>
+            <button id="hardloop" style='color:red'><i class="ra ra-blade-bite"></i>苦难煎熬</button>
+            <button id="tower" style='color:pink'><i class="fa-solid fa-gopuram"></i>镇魔塔</button>
+            <button id="refiny" style='color:red'><i class="ra ra-fire-symbol"></i>提炼炉</button>
+            <button id="TP" style='color:orange'><i class="ra ra-player-teleport"></i>传送阵</button>
+            <button id="AUTO" style='color:orange'><i class="ra ra-player-teleport"></i>自动化</button>
+            <button id="Aclose-menu"><i class="fa-solid fa-right-from-bracket"></i>离开</button>
+        </div>`;
+        let close = document.querySelector('#close-menu');
+        let Aclose = document.querySelector('#Aclose-menu');
+        let bank = document.querySelector('#bank');
+        let treasureM = document.querySelector('#treasuree');
+        let ascend = document.querySelector('#ascend');
+        let hardloop = document.querySelector('#hardloop');
+
+        bank.onclick = function () {
+            if(player.bank==undefined) player.bank = 0;
+            sfxOpen.play();
+            let depo = 0;
+            let withd = 0;
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head">
+                    <h3><i class="fa-solid fa-building-columns"></i>钱庄</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p id='ls'>灵石: ${nFormatter(player.gold)}</p>
+                <p id='ck'>存款: ${nFormatter(player.bank)}</p>
+                <input type="number" id="depod-input" autocomplete="off">
+                <button id="dem"><i class="fa-solid fa-right-from-bracket"></i>存入</button>
+                <input type="number" id="withd-input" autocomplete="off">
+                <button id="wtm"><i class="fa-solid fa-right-from-bracket"></i>提出</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+            
+            let depof = document.querySelector('#dem')
+            let withdf = document.querySelector('#wtm');
+
+            depof.onclick = function () {
+                sfxConfirm.play();
+                let number = Number(document.querySelector('#depod-input').value);
+                if(number<=player.gold){
+                    player.bank = player.bank + number;
+                    player.gold -= number;
+                    // addDungeonLog('你存入了' + nFormatter(number) + '灵石');
+                }
+                document.querySelector('#ls').innerHTML = `灵石: ${nFormatter(player.gold)}`;
+                document.querySelector('#ck').innerHTML = `存款: ${nFormatter(player.bank)}`;
+                playerLoadStats();
+            }
+            withdf.onclick = function () {
+                sfxConfirm.play();
+                let number = Number(document.querySelector('#withd-input').value);
+                if(number<=player.bank){
+                    player.bank = player.bank - number;
+                    player.gold = player.gold + number;
+                    // addDungeonLog('你提出了' + nFormatter(number) + '灵石');
+                }
+                document.querySelector('#ls').innerHTML = `灵石: ${nFormatter(player.gold)}`;
+                document.querySelector('#ck').innerHTML = `存款: ${nFormatter(player.bank)}`;
+                playerLoadStats();
+            };
+
+            profileTab.style.width = "15rem";
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        refiny.onclick = function () {
+            sfxOpen.play();
+            if(player.riftLB==undefined) player.riftLB = 0;
+            if(player.riftstone==undefined) player.riftstone = 0;
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head">
+                    <h3><i class="ra ra-fire-symbol"></i>提炼炉</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <div>
+                <div>
+                    <p id='RB' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
+                    <p id='MS' style='color:steelblue'><i class="ra ra-rune-stone "></i>裂隙磨石: ${nFormatter(player.riftstone)}</p>
+                    <p style='color:grey'>10裂隙灵宝碎片可以提炼为1裂隙磨石,在下方输入需要获得的【裂隙磨石】数量</p>
+                    <input type="number" id="MSpod-input" autocomplete="off">
+                    <button id="rts"><i class="ra ra-fire"></i>提炼</button>
+                </div>
+                <div>
+                    <p id='RB1' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
+                    <p id='CB' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}</p>
+                    <p style='color:grey'>3裂隙灵宝碎片可以提炼为1诅咒灵宝碎片,在下方输入需要获得的【诅咒灵宝碎片】数量</p>
+                    <input type="number" id="CUpod-input" autocomplete="off">
+                    <button id="rtc"><i class="ra ra-fire"></i>提炼</button>
+                </div>
+                </div>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            rts.onclick = function () {
+                sfxConfirm.play();
+                let number = Number(document.querySelector('#MSpod-input').value);
+                if(number>=1){
+                    if(number*10<=player.riftLB){
+                        player.riftLB = player.riftLB - number*10;
+                        player.riftstone = player.riftstone + number;
+                    }
+                    document.querySelector('#RB').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#RB1').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#MS').innerHTML = `<i class="ra ra-rune-stone "></i>裂隙磨石: ${nFormatter(player.riftstone)}`;
+                }
+            }
+            rtc.onclick = function () {
+                sfxConfirm.play();
+                let number = Number(document.querySelector('#CUpod-input').value);
+                if(number>=1){
+                    if(number*3<=player.riftLB){
+                        player.riftLB = player.riftLB - number*3;
+                        player.cureseLB = player.cureseLB + number;
+                    }
+                    document.querySelector('#RB').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#RB1').innerHTML = `<i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}`;
+                    document.querySelector('#CB').innerHTML = `<i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}`;
+                }
+            }
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        treasureM.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.rebirth==undefined) player.rebirth = 0;
+            if(player.cureseLB==undefined) player.cureseLB = 0;
+            if(player.riftLB==undefined) player.riftLB = 0;
+            if(player.emporLB==undefined) player.emporLB = 0;
+            if(player.riftstone==undefined) player.riftstone = 0;
+            if(player.hardloopsign==undefined) player.hardloopsign = 0;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head">
+                    <h3><i class="fa-regular fa-gem"></i>珍宝阁</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p id='RB' style='color:lawngreen'><i class="fa-solid fa-scroll"></i>重生卷轴: ${nFormatter(player.rebirth)}</p>
+                <p color:lawngreen'>用途:死亡时自动消耗,免死一次</p>
+                <p id='RB' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片: ${nFormatter(player.cureseLB)}</p>
+                <p color:lawngreen'>用途:通天材料</p>
+                <p id='RB' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片: ${nFormatter(player.riftLB)}</p>
+                <p color:lawngreen'>用途:通天材料</p>
+                <p id='RB' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片: ${nFormatter(player.emporLB)}</p>
+                <p color:lawngreen'>用途:通天材料</p>
+                <p id='RB' style='color:red;'><i class="ra ra-skull"></i>煎熬象征: ${nFormatter(player.hardloopsign)}</p>
+                <p color:lawngreen'>用途:苦难煎熬材料</p>
+                <p id='RB' style='color:steelblue;'><i class="ra ra-rune-stone"></i>裂隙磨石: ${nFormatter(player.riftstone)}</p>
+                <p color:lawngreen'>用途:强化材料</p>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            profileTab.style.width = "15rem";
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        ascend.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.ascend==undefined) player.ascend = 0;
+            if(player.cureseLB==undefined) player.cureseLB = 0;
+            if(player.riftLB==undefined) player.riftLB = 0;
+            if(player.emporLB==undefined) player.emporLB = 0;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head middle">
+                    <h3><i class="fa-solid fa-bridge-water"></i>通天祭坛</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p class="middle" id='AS' style='color:gold;'>通天等级:${nFormatter(player.ascend)}</p>
+                <p class="middle" style='color:grey;'>每1等级提高1%基础属性,下局游戏起效</p>
+                <p class="middle" style='color:white;'>---下一级消耗---</p>
+                <p class="middle" id='CR' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片:${getCost(player.ascend,1)}(${nFormatter(player.cureseLB)})</p>
+                <p class="middle" id='RF' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片:${getCost(player.ascend,2)}(${nFormatter(player.riftLB)})</p>
+                <p class="middle" id='EM' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片:${getCost(player.ascend,3)}(${nFormatter(player.emporLB)})</p>
+                
+                <button class="middle" id="as">通天</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+            let Aas = document.querySelector('#as');
+
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+            Aas.onclick = function () {
+                let ok = 1;
+                if( getCost(player.ascend,1)> player.cureseLB) ok=0;
+                if( getCost(player.ascend,2)> player.riftLB) ok=0;
+                if( getCost(player.ascend,3)> player.emporLB) ok=0;
+                if(ok==1){
+                    player.cureseLB = player.cureseLB-getCost(player.ascend,1);
+                    player.riftLB = player.riftLB-getCost(player.ascend,2);
+                    player.emporLB = player.emporLB-getCost(player.ascend,3);
+                    player.ascend = player.ascend + 1;
+                    document.querySelector('#AS').innerHTML = `<p class="middle" id='AS' style='color:gold;'>通天等级:${nFormatter(player.ascend)}</p>`;
+                    document.querySelector('#CR').innerHTML = `<p class="middle" id='CR' style='color:burlywood'><i class="ra ra-chessboard"></i>诅咒灵宝碎片:${getCost(player.ascend,1)}(${nFormatter(player.cureseLB)})</p>`;
+                    document.querySelector('#RF').innerHTML = `<p class="middle" id='RF' style='color:steelblue'><i class="ra ra-chessboard"></i>裂隙灵宝碎片:${getCost(player.ascend,2)}(${nFormatter(player.riftLB)})</p>`;
+                    document.querySelector('#EM').innerHTML = `<p class="middle" id='EM' style='color:fuchsia'><i class="ra ra-chessboard"></i>帝者灵宝碎片:${getCost(player.ascend,3)}(${nFormatter(player.emporLB)})</p>`;
+                }
+            };
+        };
+
+        hardloop.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.hardloop==undefined) player.hardloop = 0;
+            if(player.hardloopsign==undefined) player.hardloopsign = 0;
+            if(player.hardloopmax==undefined || player.hardloopmax==0) player.hardloopmax = 1;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head middle">
+                    <h3><i class="ra ra-blade-bite"></i>苦难煎熬</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p class="ra ra-level-two middle" id='JADJ' style='color:gold;'>煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}</p>
+                <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter(player.hardloopsign)}</p>
+                <p class="middle" style='color:white;'>---苦难煎熬加成---</p>
+                <p class="ra ra-site middle" id='DJTP' style='color:steelblue;'>等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}</p>
+                <p class="ra ra-site middle" id='JWTP' style='color:steelblue;'>阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}</p>
+                <p class="ra ra-skull-trophy middle" id='TPSX' style='color:lawngreen;'>突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}</p>
+                <p class="middle" style='color:white;'>每10级煎熬+1阶位突破</p>
+                <p class="ra ra-on-target middle" id='QTND' style='color:red;'>难度加成:+${nFormatter(Math.ceil(player.hardloop*9))}%</p>
+                <p class="ra ra-skull-trophy middle" id='LBSP' style='color:lawngreen;'>灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/5))}%</p>
+                <p class="ra ra-skull-trophy middle" id='JAXZ' style='color:lawngreen;'>煎熬象征掉落加成:+${nFormatter(player.hardloop)}%</p>
+                <p class="middle" style='color:white;'>击杀敌人以获得煎熬象征</p>
+                <p class="middle" style='color:white;'>---提升煎熬等级消耗---</p>
+                <p class="ra ra-skull middle" id='AS' style='color:red;'>煎熬象征:${nFormatter(getHardCost(player.hardloopmax))}</p>
+                
+                <button class="middle" id="JAADD">煎熬等级+</button>
+                <button class="middle" id="JAROM">煎熬等级-</button>
+                <button class="middle" id="TSSX">提升煎熬等级上限</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+
+            JAADD.onclick = function () {
+                if(player.hardloop<player.hardloopmax) player.hardloop+=1;
+                document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
+                document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
+                document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
+                document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(player.hardloop)}%`;
+                    
+            };
+
+            JAROM.onclick = function () {
+                if(player.hardloop>1) player.hardloop-=1;
+                else player.hardloop = 0;
+                document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
+                document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
+                document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
+                document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(player.hardloop)}%`;
+            };
+
+            TSSX.onclick = function () {
+                let num = getHardCost(player.hardloopmax);
+                if(player.hardloopsign>=num){
+                    player.hardloopmax+=1;
+                    player.hardloopsign= player.hardloopsign-num;
+                }
+                document.querySelector('#JADJ').innerHTML = `煎熬等级:${nFormatter(player.hardloop)}/${nFormatter(player.hardloopmax)}`;
+                document.querySelector('#DJTP').innerHTML = `等级突破奖励:+${nFormatter(Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#JWTP').innerHTML = `阶位突破奖励:+${nFormatter(Math.floor(player.hardloop/10))}`;
+                document.querySelector('#QTND').innerHTML = `弃天难度加成:+${nFormatter(Math.ceil(player.hardloop*5))}%`;
+                document.querySelector('#TPSX').innerHTML = `突破生效所需弃天等级:${nFormatter(10+Math.ceil(player.hardloop/2))}`;
+                document.querySelector('#LBSP').innerHTML = `灵宝碎片掉落加成:+${nFormatter(Math.ceil(player.hardloop/12))}%`;
+                document.querySelector('#JAXZ').innerHTML = `煎熬象征掉落加成:+${nFormatter(player.hardloop)}%`;
+            };
+        };
+
+        TP.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            if(player.deepth==undefined) player.deepth = 1;
+            if(player.tpmax==undefined) player.tpmax = 1;
+            if(player.tpval==undefined) player.tpval = 1;
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head middle">
+                    <h3><i class="ra ra-player-teleport"></i>传送阵</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p class="ra ra-broadhead-arrow" id='FAR' style='color:ornage;'>到达过的最远世界:${nFormatter((player.deepth))}</p>
+                <p class="ra ra-radial-balance" id='ZDFW' style='color:lawngreen;'>当前传送阵最大范围:${nFormatter((player.tpmax))}</p>
+                <p class="ra  ra-moon-sun" id='CSSJ' style='color:gold;'>你下一局游戏直接出生在世界:${nFormatter((player.tpval))}</p>
+                <p class="middle" style='color:white;'>---升级传送阵范围上限消耗---</p>
+                <p class="ra ra-skull" id='SJXF' style='color:red;'>煎熬象征:${nFormatter((player.tpmax+1)*3)}</p>
+                
+                <button class="middle" id="TPADD">传送阵范围+</button>
+                <button class="middle" id="TPROM">传送阵范围-</button>
+                <button class="middle" id="SJFW">升级传送阵范围上限</button>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+
+            let profileClose = document.querySelector('#profile-close');
+            TPADD.onclick = function () {
+                if(player.tpval<player.tpmax) player.tpval+=1;
+                document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
+            };
+            TPROM.onclick = function () {
+                if(player.tpval>1) player.tpval-=1;
+                else player.tpval = 1;
+                document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
+            };
+            SJFW.onclick = function () {
+                let cost = (player.tpmax+1)*3;
+                if(player.hardloopsign>=cost) {
+                    player.hardloopsign -= cost;
+                    player.tpmax = player.tpmax + 1;
+                }
+                document.querySelector('#CSSJ').innerHTML = `你下一局游戏直接出生在世界:${nFormatter((player.tpval))}`;
+                document.querySelector('#ZDFW').innerHTML = `当前传送阵最大范围:${nFormatter((player.tpmax))}`;
+                document.querySelector('#SJXF').innerHTML = `煎熬象征:${nFormatter((player.tpmax+1)*3)}`;
+            };
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        AUTO.onclick = function () {
+            if(kke()=='拥有'){
+                sfxOpen.play();
+                menuModalElement.style.display = "none";
+                defaultModalElement.style.display = "flex";
+                if(player.ao==undefined) player.ao = 0;
+                if(player.aa==undefined) player.aa = 0;
+                if(player.ak==undefined) player.ak = 0;
+                if(player.ai==undefined) player.ai = 0;
+                if(player.au==undefined) player.au = 0;
+                if(player.aw==undefined) player.aw = 0;
+                if(player.ad==undefined) player.ad = 0;
+                if(player.aj==undefined) player.aj = 0;
+                if(player.an==undefined) player.an = 0;
+                if(player.nu==undefined) player.nu = 0;
+                defaultModalElement.innerHTML = `
+                <div class="content" id="profile-tab" style='max-height: 50%;overflow-y: scroll;'>
+                    <div class="content-head middle">
+                        <h3><i class="ra ra-player-teleport"></i>自动化[探索包]</h3>
+                        <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                    </div>
+                    
+                    <p class="middle" style='color:white;'>---1/2/3代表开,0代表关---</p>
+                    <button class="middle" id="AO">自动打开乾坤袋:${player.ao}</button>
+                    <button class="middle" id="AA">自动迎战:${player.aa}</button>
+                    <button class="middle" id="AK">自动知道了:${player.ak}</button>
+                    <button class="middle" id="AJ">自动眷天:${player.aj}</button>
+                    <button class="middle" id="AW">自动超级Boss:${player.aw}</button>
+                    <button class="middle" id="AI">自动无视:${player.ai}</button>
+                    <button class="middle" id="AU">自动升级(第一项):${player.au}</button>
+                    <button class="middle" id="AD">自动丢弃传世以下装备:${player.ad}</button>
+                    <button class="middle" id="AD1">自动丢弃绝世以下装备:${player.ad}</button>
+                    <button class="middle" id="AD2">自动丢弃灵宝以下装备:${player.ad}</button>
+                    <button class="middle" id="AD3">自动丢弃先天灵宝以下装备:${player.ad}</button>
+                    <button class="middle" id="AD4">自动丢弃臻宝以下装备:${player.ad}</button>
+                    <button class="middle" id="AD5">自动丢弃道宝以下装备:${player.ad}</button>
+                    <button class="middle" id="AN">自动过门:${player.an}</button>
+                    <button class="middle" id="NU">不升级:${player.nu}</button>
+                </div>`;
+                let profileTab = document.querySelector('#profile-tab');
+
+                let profileClose = document.querySelector('#profile-close');
+                AO.onclick = function () {
+                    if(player.ao==0) player.ao=1;
+                    else player.ao=0;
+                    document.querySelector('#AO').innerHTML = `自动打开乾坤袋:${player.ao}`;
+                };
+                AA.onclick = function () {
+                    if(player.aa==0) player.aa=1;
+                    else player.aa=0;
+                    document.querySelector('#AA').innerHTML = `自动迎战:${player.aa}`;
+                };
+                AK.onclick = function () {
+                    if(player.ak==0) player.ak=1;
+                    else player.ak=0;
+                    document.querySelector('#AK').innerHTML = `自动知道了:${player.ak}`;
+                };
+                AI.onclick = function () {
+                    if(player.ai==0) player.ai=1;
+                    else player.ai=0;
+                    document.querySelector('#AI').innerHTML = `自动无视:${player.ai}`;
+                };
+                AU.onclick = function () {
+                    if(player.au==0) player.au=1;
+                    else player.au=0;
+                    document.querySelector('#AU').innerHTML = `自动升级(第一项):${player.au}`;
+                };
+                AW.onclick = function () {
+                    if(player.aw==0) player.aw=1;
+                    else player.aw=0;
+                    document.querySelector('#AW').innerHTML = `自动超级BOSS:${player.aw}`;
+                };
+                AD.onclick = function () {
+                    if(player.ad==0) player.ad=1;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD3').innerHTML = `自动丢弃先天灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD4').innerHTML = `自动丢弃臻宝以下装备:${player.ad}`;
+                    document.querySelector('#AD5').innerHTML = `自动丢弃道宝以下装备:${player.ad}`;
+                };
+                AD1.onclick = function () {
+                    if(player.ad==0) player.ad=2;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD3').innerHTML = `自动丢弃先天灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD4').innerHTML = `自动丢弃臻宝以下装备:${player.ad}`;
+                    document.querySelector('#AD5').innerHTML = `自动丢弃道宝以下装备:${player.ad}`;
+                };
+                AD2.onclick = function () {
+                    if(player.ad==0) player.ad=3;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD3').innerHTML = `自动丢弃先天灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD4').innerHTML = `自动丢弃臻宝以下装备:${player.ad}`;
+                    document.querySelector('#AD5').innerHTML = `自动丢弃道宝以下装备:${player.ad}`;
+                };
+                AD3.onclick = function () {
+                    if(player.ad==0) player.ad=4;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD3').innerHTML = `自动丢弃先天灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD4').innerHTML = `自动丢弃臻宝以下装备:${player.ad}`;
+                    document.querySelector('#AD5').innerHTML = `自动丢弃道宝以下装备:${player.ad}`;
+                };
+                AD4.onclick = function () {
+                    if(player.ad==0) player.ad=5;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD3').innerHTML = `自动丢弃先天灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD4').innerHTML = `自动丢弃臻宝以下装备:${player.ad}`;
+                    document.querySelector('#AD5').innerHTML = `自动丢弃道宝以下装备:${player.ad}`;
+                };
+                AD5.onclick = function () {
+                    if(player.ad==0) player.ad=6;
+                    else player.ad=0;
+                    document.querySelector('#AD').innerHTML = `自动丢弃传世以下装备:${player.ad}`;
+                    document.querySelector('#AD1').innerHTML = `自动丢弃绝世以下装备:${player.ad}`;
+                    document.querySelector('#AD2').innerHTML = `自动丢弃灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD3').innerHTML = `自动丢弃先天灵宝以下装备:${player.ad}`;
+                    document.querySelector('#AD4').innerHTML = `自动丢弃臻宝以下装备:${player.ad}`;
+                    document.querySelector('#AD5').innerHTML = `自动丢弃道宝以下装备:${player.ad}`;
+                };
+                AJ.onclick = function () {
+                    if(player.aj==0) player.aj=1;
+                    else player.aj=0;
+                    document.querySelector('#AJ').innerHTML = `自动眷天:${player.aj}`;
+                };
+                AN.onclick = function () {
+                    if(player.an==0) player.an=1;
+                    else player.an=0;
+                    document.querySelector('#AN').innerHTML = `自动过门:${player.an}`;
+                };
+                NU.onclick = function () {
+                    if(player.nu==0) player.nu=1;
+                    else player.nu=0;
+                    document.querySelector('#NU').innerHTML = `不升级:${player.nu}`;
+                };
+                profileClose.onclick = function () {
+                    sfxDecline.play();
+                    defaultModalElement.style.display = "none";
+                    defaultModalElement.innerHTML = "";
+                    menuModalElement.style.display = "flex";
+                };
+            }else{
+                player.ao=0;
+                player.aa=0;
+                player.ak=0;
+                player.ai=0;
+                player.au=0;
+                player.aw=0;
+                alert("需要探索包哦,自动化功能:自动打开乾坤袋,自动迎战,自动知道了,自动眷天,自动超级Boss,自动无视,自动升级,自动丢弃传世以下装备,自动丢弃绝世以下装备,自动丢弃灵宝以下装备,自动过门,不升级")
+            }
+        };
+
+        // Close menu
+        close.onclick = function () {
+            sfxDecline.play();
+            continueExploring();
+            menuModalElement.style.display = "none";
+            menuModalElement.innerHTML = "";
+            dimDungeon.style.filter = "brightness(100%)";
+        };
+        Aclose.onclick = function () {
+            sfxDecline.play();
+            continueExploring();
+            menuModalElement.style.display = "none";
+            menuModalElement.innerHTML = "";
+            dimDungeon.style.filter = "brightness(100%)";
+        };
+    });
+
+    document.querySelector("#menu-btn").addEventListener("click", function () {
+        closeInventory();
+
+        dungeon.status.exploring = false;
+        let dimDungeon = document.querySelector('#dungeon-main');
+        dimDungeon.style.filter = "brightness(50%)";
+        menuModalElement.style.display = "flex";
+
+        // Menu tab
+        menuModalElement.innerHTML = `
+        <div class="content">
+            <div class="content-head">
+                <h3>菜单</h3>
+                <h3>版本:${version}</h3>
+                <p id="close-menu"><i class="fa fa-xmark"></i></p>
+            </div>
+            <button id="player-menu"><i class="fas fa-user"></i>${player.name}</button>
+            <button id="stats">当前状态</button>
+            <button id="volume-btn">音量调节</button>
+            <button id="excode" style='color:gold'>兑换码</button>
+            <button id="rename" style='color:mediumvioletred'>更改档案名</button>
+            <button id="cloud-save" style='color:orange'>云存档</button>
+            <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
+            <button id="fqun" style='color:lawngreen'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>1群:281738137</button>
+            <button id="squn" style='color:dodgerblue'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>2群:839785679</button>
+            <button id="zqun" style='color:red'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>作者:2096358571</button>
+            <button id="quit-run">隐退...</button>
+            <button>点点广告,球球了</button>
+            <button id="uplog">更新记录</button>
+            <button id="wykg">一键开挂通关</button>
+        </div>`;
+
+        let close = document.querySelector('#close-menu');
+        let playerMenu = document.querySelector('#player-menu');
+        let runMenu = document.querySelector('#stats');
+        let quitRun = document.querySelector('#quit-run');
+        // let exportImport = document.querySelector('#export-import');
+        let CSave = document.querySelector('#cloud-save');
+        let volumeSettings = document.querySelector('#volume-btn');
+        let excode = document.querySelector('#excode');
+        let rename = document.querySelector('#rename');
+        let uplog = document.querySelector('#uplog');
+
+        fqun.onclick = function () {
+            navigator.clipboard.writeText('281738137');
+            alert("已复制1群群号");
+        }
+        squn.onclick = function () {
+            navigator.clipboard.writeText('839785679');
+            alert("已复制2群群号");
+        }
+        zqun.onclick = function () {
+            navigator.clipboard.writeText('2096358571');
+            alert("已复制作者QQ号");
+        }
+
+        // Player profile click function
+        playerMenu.onclick = function () {
+            sfxOpen.play();
+            let playTime = new Date(player.playtime * 1000).toISOString().slice(11, 19);
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="profile-tab">
+                <div class="content-head">
+                    <h3>统计数据</h3>
+                    <p id="profile-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p>${player.name} Lv.${player.lvl}</p>
+                <p>总杀敌: ${nFormatter(player.kills)}</p>
+                <p>死亡次数: ${nFormatter(player.deaths)}</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包: ${che()}</p>
+                <p style='color:gold'>效果==解锁所有先天==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>属性包: ${khe()}</p>
+                <p style='color:gold'>效果==出生时额外30属性点==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>灵装包: ${uhe()}</p>
+                <p style='color:gold'>效果==灵宝级以上装备掉落率X2,装备掉落次数X2,敌人掉落灵石X2==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>探索包: ${kke()}</p>
+                <p style='color:gold'>效果==探索速度X2,探索可自定义自动化可用=</p>
+                <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
+                <p>游戏时间: ${playTime}</p>
+            </div>`;
+            let profileTab = document.querySelector('#profile-tab');
+            profileTab.style.width = "15rem";
+            let profileClose = document.querySelector('#profile-close');
+            profileClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        // Dungeon run click function
+        runMenu.onclick = function () {
+            sfxOpen.play();
+            let runTime = new Date(dungeon.statistics.runtime * 1000).toISOString().slice(11, 19);
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="run-tab">
+                <div class="content-head">
+                    <h3>当前状态</h3>
+                    <p id="run-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p>${player.name} Lv.${player.lvl} (${getSkillName(player.skills)})</p>
+                <p>眷天 Lvl.${player.blessing}</p>
+                <p>弃天 Lvl.${Math.round((dungeon.settings.enemyScaling - 1) * 10)}</p>
+                <p>杀敌: ${nFormatter(dungeon.statistics.kills)}</p>
+                <p>游戏时间: ${runTime}</p>
+            </div>`;
+            let runTab = document.querySelector('#run-tab');
+            runTab.style.width = "15rem";
+            let runClose = document.querySelector('#run-close');
+            runClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        // Quit the current run
+        quitRun.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content">
+                <p>确定要隐退(回到开始)吗?</p>
+                <div class="button-container">
+                    <button id="quit-run">隐退</button>
+                    <button id="cancel-quit">取消</button>
+                </div>
+            </div>`;
+            let quit = document.querySelector('#quit-run');
+            let cancel = document.querySelector('#cancel-quit');
+            quit.onclick = function () {
+                sfxConfirm.play();
+                // Clear out everything, send the player back to meny and clear progress.
+                bgmDungeon.stop();
+                let dimDungeon = document.querySelector('#dungeon-main');
+                dimDungeon.style.filter = "brightness(100%)";
+                dimDungeon.style.display = "none";
+                menuModalElement.style.display = "none";
+                menuModalElement.innerHTML = "";
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                runLoad("title-screen", "flex");
+                clearInterval(dungeonTimer);
+                clearInterval(playTimer);
+                progressReset();
+            };
+            cancel.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        // Opens the volume settings
+        volumeSettings.onclick = function () {
+            sfxOpen.play();
+
+            let master = volume.master * 100;
+            let bgm = (volume.bgm * 100) * 2;
+            let sfx = volume.sfx * 100;
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="volume-tab">
+                <div class="content-head">
+                    <h3>音量</h3>
+                    <p id="volume-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <label id="master-label" for="master-volume">主音量 (${master}%)</label>
+                <input type="range" id="master-volume" min="0" max="100" value="${master}">
+                <label id="bgm-label" for="bgm-volume">BGM (${bgm}%)</label>
+                <input type="range" id="bgm-volume" min="0" max="100" value="${bgm}">
+                <label id="sfx-label" for="sfx-volume">SFX (${sfx}%)</label>
+                <input type="range" id="sfx-volume" min="0" max="100" value="${sfx}">
+                <button id="apply-volume">Apply</button>
+            </div>`;
+            let masterVol = document.querySelector('#master-volume');
+            let bgmVol = document.querySelector('#bgm-volume');
+            let sfxVol = document.querySelector('#sfx-volume');
+            let applyVol = document.querySelector('#apply-volume');
+            let volumeTab = document.querySelector('#volume-tab');
+            volumeTab.style.width = "15rem";
+            let volumeClose = document.querySelector('#volume-close');
+            volumeClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+
+            // Volume Control
+            masterVol.oninput = function () {
+                master = this.value;
+                document.querySelector('#master-label').innerHTML = `主音量 (${master}%)`;
+            };
+
+            bgmVol.oninput = function () {
+                bgm = this.value;
+                document.querySelector('#bgm-label').innerHTML = `BGM (${bgm}%)`;
+            };
+
+            sfxVol.oninput = function () {
+                sfx = this.value;
+                document.querySelector('#sfx-label').innerHTML = `SFX (${sfx}%)`;
+            };
+
+            applyVol.onclick = function () {
+                volume.master = master / 100;
+                volume.bgm = (bgm / 100) / 2;
+                volume.sfx = sfx / 100;
+                bgmDungeon.stop();
+                setVolume();
+                bgmDungeon.play();
+                saveData();
+            };
+        };
+
+        // Export/Import Save Data
+        /*
+        exportImport.onclick = function () {
+            sfxOpen.play();
+            player.name = 'player';
+            let exportedData = exportData();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="ei-tab">
+                <div class="content-head">
+                    <h3>导入/导出存档</h3>
+                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <h4>导出存档</h4>
+                <input type="text" id="export-input" autocomplete="off" value="${exportedData}" readonly>
+                <button id="copy-export">复制</button>
+                <button id="save-export">导出为文件</button>
+                <h4>导入存档(把存档粘贴到此处)</h4>
+                <input type="text" id="import-input" autocomplete="off">
+                <button id="data-import">导入</button>
+            </div>`;
+            let eiTab = document.querySelector('#ei-tab');
+            eiTab.style.width = "15rem";
+            let eiClose = document.querySelector('#ei-close');
+            let copyExport = document.querySelector('#copy-export')
+            let saveExport = document.querySelector('#save-export')
+            let dataImport = document.querySelector('#data-import');
+            let importInput = document.querySelector('#import-input');
+            copyExport.onclick = function () {
+                sfxConfirm.play();
+                let copyText = document.querySelector('#export-input');
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+                copyExport.innerHTML = "已复制!";
+            }
+            saveExport.onclick = function () {
+                const blob = new Blob([exportedData], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'save.txt';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }
+            dataImport.onclick = function () {
+                importData(importInput.value);
+            };
+            eiClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+        */
+
+        // Export/Import Save Data
+        CSave.onclick = function () {
+            sfxOpen.play();
+            player.name = 'player';
+            let exportedData = exportData();
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let result = '';
+            for (let i = 0; i < 25; i++) {
+                const randomIndex = Math.floor(Math.random() * characters.length);
+                result += characters[randomIndex];
+            }
+            const saveID = result;
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="ei-tab">
+                <div class="content-head">
+                    <h3>云存档</h3>
+                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <h4>上传云存档</h4>
+                <span>下方框中是你本次的云存档ID,请务必复制好。上传失败是因为装备太多，请先处理一批装备减少存档大小。</span>
+                <input type="text" id="Aexport-input" autocomplete="off" value="${saveID}" readonly>
+                <button id="copy-export">复制</button>
+                <button id="upload-save">上传[点击后请耐心等待]</button>
+                <h4>下载云存档,将你上次的云存档ID粘贴进下方。云存档导入后会自动清空输入的云ID中的数据</h4>
+                <input type="text" id="import-input" autocomplete="off">
+                <button id="data-import">下载[点击后请耐心等待]</button>
+            </div>`;
+            let eiTab = document.querySelector('#ei-tab');
+            eiTab.style.width = "15rem";
+            let eiClose = document.querySelector('#ei-close');
+            let copyExport = document.querySelector('#copy-export')
+            let uploadSave = document.querySelector('#upload-save')
+            let dataImport = document.querySelector('#data-import');
+            let importInput = document.querySelector('#import-input');
+            copyExport.onclick = function () {
+                sfxConfirm.play();
+                let copyText = document.querySelector('#Aexport-input');
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+                copyExport.innerHTML = "已复制!";
+            }
+            uploadSave.onclick = function () {
+                createOrUpdateRecord(saveID,exportedData);
+            }
+            dataImport.onclick = function () {
+                fetchTextRecord(importInput.value);
+            };
+            eiClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+         // Export/Import Save Data
+         excode.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="ei-tab">
+                <div class="content-head">
+                    <h3>激活兑换码</h3>
+                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p>被人攻击了，激活兑换码请联系作者[QQ:2096358571]，邮件好友皆可</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包: ${che()}</p>
+                <p style='color:gold'>效果==解锁所有先天==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>属性包: ${khe()}</p>
+                <p style='color:gold'>效果==出生时额外30属性点==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>灵石包: ${uhe()}</p>
+                <p style='color:gold'>效果==敌人掉落灵石X2==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>探索包: ${kke()}</p>
+                <p style='color:gold'>效果==探索速度X2=</p>
+                <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
+                
+                <h4>输入兑换码到此处</h4>
+                <input type="text" id="import-input" autocomplete="off">
+                <button id="data-import">提交</button>
+            </div>`;
+            let eiTab = document.querySelector('#ei-tab');
+            eiTab.style.width = "15rem";
+            let eiClose = document.querySelector('#ei-close');
+            let dataImport = document.querySelector('#data-import');
+            let importInput = document.querySelector('#import-input');
+            dataImport.onclick = function () {
+                ex(importInput.value);
+            };
+            eiClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        rename.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="ei-tab">
+                <div class="content-head">
+                    <h3>更改档案名</h3>
+                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <h4>输入你的新名字</h4>
+                <input type="text" id="import-input" autocomplete="off">
+                <button id="data-import">提交</button>
+            </div>`;
+            let eiTab = document.querySelector('#ei-tab');
+            eiTab.style.width = "15rem";
+            let eiClose = document.querySelector('#ei-close');
+            let dataImport = document.querySelector('#data-import');
+            let importInput = document.querySelector('#import-input');
+            dataImport.onclick = function () {
+                frename(importInput.value);
+            };
+            eiClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+
+        uplog.onclick = function () {
+            sfxOpen.play();
+            menuModalElement.style.display = "none";
+            defaultModalElement.style.display = "flex";
+            defaultModalElement.innerHTML = `
+            <div class="content" id="ei-tab" style="max-height: 50%;overflow-y: scroll;">
+                <div class="content-head">
+                    <h3>更新记录Ver${version}</h3>
+                    <p id="ei-close"><i class="fa fa-xmark"></i></p>
+                </div>
+                <p>1.加强灵石包</p>
+                <p>2.修复幻影宝箱卡死Bug</p>
+                <p>======================</p>
+                <p>1.实现云存档</p>
+                <p>2.增加自动丢弃先天灵宝以下装备</p>
+                <p>3.增加自动丢弃臻宝以下装备</p>
+                <p>4.增加自动丢弃道宝以下装备</p>
+                <p>======================</p>
+                <p>1.增加提炼炉</p>
+                <p>2.现在装备可以强化了</p>
+                <p>======================</p>
+                <p>1.增加自动丢弃绝世以下装备</p>
+                <p>2.增加自动丢弃灵宝以下装备</p>
+                <p>3.煎熬掉落上限增加</p>
+                <p>4.宝箱徽记不会被自动丢弃</p>
+                <p>======================</p>
+                <p>1.优化卡死问题</p>
+                <p>2.导入不再重置世界进度</p>
+                <p>======================</p>
+                <p>1.增加不升级</p>
+                <p>2.降低传送阵花费</p>
+                <p>3.溢出的煎熬掉率有用化</p>
+                <p>======================</p>
+                <p>1.修复若干Bug</p>
+                <p>2.增加战斗内防卡死按钮</p>
+                <p>3.增加限制之戒</p>
+                <p>======================</p>
+                <p>1.宝箱怪有用化</p>
+                <p>2.添加更多种装备</p>
+                <p>3.修复自动打开乾坤袋</p>
+                <p>4.增加游戏内纸条提示</p>
+                <p>======================</p>
+                <p>1.升级加成随机化</p>
+                <p>2.多种升级稀有度</p>
+                <p>3.尸体现在20%几率搜刮到灵石</p>
+                <p>4.修复传奇升级Bug</p>
+                <p>5.增加自动化</p>
+                <p>======================</p>
+                <p>1.添加装备锁(WIP)</p>
+                <p>2.添加11种新的装备类型</p>
+                <p>3.现在可以砸毁弃天雕像</p>
+                <p>======================</p>
+                <p>1.添加传送阵</p>
+                <p>2.现在通天影响装备加成</p>
+                <p>3.修复若干Bug</p>
+                <p>======================</p>
+                <p>1.添加苦难煎熬</p>
+                <p>2.现在装备等级阶位不设限</p>
+                <p>3.提高了裂隙碎片的掉落</p>
+                <p>======================</p>
+                <p>1.添加了5个新的免费先天</p>
+                <p>2.修复若干Bug</p>
+                <p>3.添加了1个新的付费先天</p>
+                <p>4.添加了通天祭坛</p>
+                <p>4.Boss现在掉落诅咒/裂隙灵宝碎片,超级Boss现在掉落裂隙/帝者灵宝碎片</p>
+                <p>======================</p>
+                <p>1.添加了5个新的免费先天</p>
+                <p>2.添加了建筑-珍宝阁</p>
+                <p>3.添加了多个装备分级</p>
+                <p>4.超级Boss现在掉落复活卷轴,臻宝,道宝.普通Boss掉落灵宝,先天灵宝</p>
+            </div>`;
+            let eiClose = document.querySelector('#ei-close');
+            eiClose.onclick = function () {
+                sfxDecline.play();
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                menuModalElement.style.display = "flex";
+            };
+        };
+        wykg.onclick = function () {
+            alert("恭喜你,你已经通关了")
+            alert("真的通关了哦")
+        };
+
+        // Close menu
+        close.onclick = function () {
+            sfxDecline.play();
+            continueExploring();
+            menuModalElement.style.display = "none";
+            menuModalElement.innerHTML = "";
+            dimDungeon.style.filter = "brightness(100%)";
+        };
+    });
+});
+
+async function createOrUpdateRecord(key, value) {
+    const url = `https://api.textdb.online/update/`;
+
+    const params = new URLSearchParams({ key: key, value: value });
+
+    try {
+        const response = await fetch(url + '?' + params.toString(), {
+            method: 'POST'
+        });
+
+        const data = await response.json();
+
+        if (data.status === 1) {
+            alert(`成功上传云存档`);
+        } else {
+            alert('上传云存档失败');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('上传中出现错误!!');
+    }
+}
+
+async function downloadRecord(key, value) {
+    const url = `https://api.textdb.online/update/`;
+
+    const params = new URLSearchParams({ key: key, value: value });
+
+    try {
+        const response = await fetch(url + '?' + params.toString(), {
+            method: 'POST'
+        });
+
+        const data = await response.json();
+
+        if (data.status === 1) {
+            alert(`成功上传云存档`);
+        } else {
+            alert('上传云存档失败');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('上传中出现错误!!');
+    }
+}
+
+async function fetchTextRecord(id) {
+    let textUrl = 'https://textdb.online/';
+    let url = textUrl + id;
+    const deleteUrl = `https://api.textdb.online/update/?key=${id}&value=`;
+    try {
+        const response = await fetch(url);
+
+        // 检查请求是否成功
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const text = await response.text();
+        const deleteResponse = await fetch(deleteUrl, {
+            method: 'POST'
+        });
+        const deleteData = await deleteResponse.json();
+
+        if (deleteData.status === 1) {
+            importData(text);
+        } else {
+            alert('出现错误!.');
+        }
+    } catch (error) {
+        console.error('Error fetching text record:', error);
+        alert('下载出现错误!!');
+    }
+}
+
+
+function getCost(ascend,typel){
+    let lv = Math.max(1,ascend);
+    let mod = 1;
+    if(lv>=200){
+        mod = 12
+    }else if(lv>=175){
+        mod = 9
+    }else if(lv>=150){
+        mod = 8
+    }else if(lv>=125){
+        mod = 7
+    }else if(lv>=110){
+        mod = 6
+    }else if(lv>=100){
+        mod = 5
+    }else if(lv>=75){
+        mod = 4
+    }else if(lv>=50){
+        mod = 3
+    }else if(lv>=25){
+        mod = 2
+    }
+    if(typel==1){
+        return lv*8*mod;
+    }
+    if(typel==2){
+        return lv*5*mod;
+    }
+    if(typel==3){
+        if(lv>=15) return Math.ceil((lv-5)*2*mod);
+        else return 0;
+    }
+};
+
+function getHardCost(hard){
+    let mod = 1;
+    let lv = hard;
+    if(lv>=200){
+        mod = 12
+    }else if(lv>=100){
+        mod = 10
+    }else if(lv>=90){
+        mod = 9
+    }else if(lv>=80){
+        mod = 8
+    }else if(lv>=70){
+        mod = 7
+    }else if(lv>=60){
+        mod = 6
+    }else if(lv>=50){
+        mod = 5
+    }else if(lv>=40){
+        mod = 4
+    }else if(lv>=30){
+        mod = 3
+    }
+    let cost = Math.ceil((hard+1)*3*mod);
+    return cost;
+}
+
+
+
+function getSkillName(englishName) {
+    const skillNames = {
+        "Remnant Razor": "琉璃剑体",
+        "Titan's Will": "泰岳意志",
+        "Devastator": "巨灵之力",
+        "Blade Dance": "慢启动",
+        "Kuaiqidong": "快启动",
+        "Paladin's Heart": "求道者之心",
+        "Aegis Thorns": "拒绝之刺",
+        "Lingshi": "帝王宝库",
+        "Baoji": "狂热之心",
+        "Gongji": "仁慈之心",
+        "GoldG": "金钱攻势",
+        "GoldS": "金钱守势",
+        "PoorG": "穷神攻势",
+        "PoorS": "穷神守势",
+        "ZDKJ": "战斗盔甲",
+        "ZGQX": "至高气息",
+        "YJSH": "异界守护",
+        "HL": "活力",
+        "DCJJ": "多重坚甲",
+        "XYZL": "鲜烈之龙",
+        "BQZJ": "不屈之剑",
+        "BQZD": "不屈之盾",
+        "TRA": "天人爱",
+        "GDJSS": "高等加速术",
+        "XBS": "多宝使者",
+        "YJMY": "一件棉衣",
+        "RCZF": "仁慈之风",
+        "DPMJ": "肚皮猛击",
+        "CZJS": "重振精神",
+        "FX": "放血",
+        "ZJJ": "血腥终结",
+        "ZSDS": "战术大师",
+        "FX": "华丽谢幕",
+        //PACKS1
+        "Jingyan": "⭐资深",
+        "Kuangbao": "⭐血衣",
+        "JiyuanXiaoguo": "⭐饮灵之躯",
+        "Shanbi": "⭐风中格挡",
+        "Xuanyun": "⭐碎颅战技",
+        "Gaoping": "⭐赌徒",
+        "Neigui": "⭐内鬼",
+        //PACKS2
+        "Yinxue": "⭐饮血",
+        "Huichun": "⭐大回春术",
+        "QixueHun": "⭐气血之魂",
+        "Jingfan": "⭐脆镜反射",
+        "Daotian": "⭐盗天",
+        "Luantian": "⭐乱天",
+        "Baitian": "⭐败天",
+        "Lutian": "⭐戮天",
+        "Zhutian": "⭐诛天",
+        "Daitian": "⭐代天",
+        "TXWW": "⭐通晓万物"
+    };
+    
+    return skillNames[englishName] || "未知技能"; // 如果没有匹配的技能，返回"未知技能"
+}
+
+
+function che(){if(player["\u0079\u0075\u006a"]==undefined){player["\u0079\u0075\u006a"]=0xd886f^0xd886f;}if(player["\u0079\u0075\u006a"]==(0x90e65^0x90e65))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}function khe(){if(player["\u0069\u006f\u0070"]!=(0x5ddfc^0x5ddfd)){player["\u006b\u006f\u0070"]=0x95710^0x95710;}if(player["\u0069\u006f\u0070"]==(0x69136^0x69136))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}function uhe(){if(player["\u006b\u006c\u006c"]!=(0x1f7cd^0x1f7cc)){player["\u006b\u006c\u006c"]=0x7f4ec^0x7f4ec;}if(player["\u006b\u006c\u006c"]==(0x513c2^0x513c2))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}function kke(){if(player["\u006e\u006d\u006b"]!=(0x78f8b^0x78f8a)){player['nmk']=0xa8046^0xa8046;}if(player["\u006e\u006d\u006b"]==(0x5d0b2^0x5d0b2))return"\u6709\u62E5\u672A".split("").reverse().join("");else return"\u6709\u62E5".split("").reverse().join("");}
+// Loading Screen
+const runLoad = (id, display) => {
+    let loader = document.querySelector("#loading");
+    loader.style.display = "flex";
+    setTimeout(async () => {
+        loader.style.display = "none";
+        document.querySelector(`#${id}`).style.display = `${display}`;
+    }, 1000);
+}
+
+// Start the game
+const enterDungeon = () => {
+    sfxConfirm.play();
+    document.querySelector("#title-screen").style.display = "none";
+    runLoad("dungeon-main", "flex");
+    if (player.inCombat) {
+        player.inCombat = false;
+        // enemy = JSON.parse(localStorage.getItem("enemyData"));
+        // showCombatInfo();
+        // startCombat(bgmBattleMain);
+    } else {
+        bgmDungeon.play();
+    }
+    if (player.stats.hp == 0) {
+        progressReset();
+    }
+    initialDungeonLoad();
+    playerLoadStats();
+}
+
+// Save all the data into local storage
+const saveData = () => {
+    dungeon.backlog.length = 0;
+    const playerData = JSON.stringify(player);
+    const dungeonData = JSON.stringify(dungeon);
+    const enemyData = JSON.stringify(enemy);
+    const volumeData = JSON.stringify(volume);
+    localStorage.setItem("playerData", playerData);
+    localStorage.setItem("dungeonData", dungeonData);
+    localStorage.setItem("enemyData", '');
+    // localStorage.setItem("enemyData", enemyData);
+    localStorage.setItem("volumeData", volumeData);
+}
+
+// Calculate every player stat
+const calculateStats = () => {
+    let equipmentAtkSpd = player.baseStats.atkSpd * (player.equippedStats.atkSpd / 100);
+    let playerHpBase = player.baseStats.hp;
+    let playerAtkBase = player.baseStats.atk;
+    let playerDefBase = player.baseStats.def;
+    let playerAtkSpdBase = player.baseStats.atkSpd;
+    let playerVampBase = player.baseStats.vamp;
+    let playerCRateBase = player.baseStats.critRate;
+    let playerCDmgBase = player.baseStats.critDmg;
+
+    player.stats.hpMax = Math.round((playerHpBase + playerHpBase * (player.bonusStats.hp / 100)) + player.equippedStats.hp);
+    player.stats.atk = Math.round((playerAtkBase + playerAtkBase * (player.bonusStats.atk / 100)) + player.equippedStats.atk);
+    player.stats.def = Math.round((playerDefBase + playerDefBase * (player.bonusStats.def / 100)) + player.equippedStats.def);
+    player.stats.atkSpd = (playerAtkSpdBase + playerAtkSpdBase * (player.bonusStats.atkSpd / 100)) + equipmentAtkSpd + (equipmentAtkSpd * (player.equippedStats.atkSpd / 100));
+    player.stats.vamp = playerVampBase + player.bonusStats.vamp + player.equippedStats.vamp;
+    player.stats.critRate = playerCRateBase + player.bonusStats.critRate + player.equippedStats.critRate;
+    player.stats.critDmg = playerCDmgBase + player.bonusStats.critDmg + player.equippedStats.critDmg;
+
+    // Caps attack speed to 2.5
+    if (player.stats.atkSpd > 2.5) {
+        if (player.skills.includes("GDJSS")) {
+            if(player.stats.atkSpd > 5){
+                player.stats.atkSpd = 5;
+            }
+        }else{
+            player.stats.atkSpd = 2.5;
+        }
+    }
+}
+
+// Resets the progress back to start
+const progressReset = () => {
+    player.stats.hp = player.stats.hpMax;
+    player.lvl = 1;
+    player.blessing = 1;
+    player.exp = {
+        expCurr: 0,
+        expMax: 100,
+        expCurrLvl: 0,
+        expMaxLvl: 100,
+        lvlGained: 0
+    };
+    player.bonusStats = {
+        hp: 0,
+        atk: 0,
+        def: 0,
+        atkSpd: 0,
+        vamp: 0,
+        critRate: 0,
+        critDmg: 0
+    };
+    player.skills = [];
+    player.inCombat = false;
+
+    // 传送阵
+    let start_floor = 1;
+    if(player.tpval==undefined) player.tpval = 1;
+    start_floor = player.tpval;
+    dungeon.progress.floor = start_floor;
+    
+    dungeon.progress.room = 1;
+    dungeon.statistics.kills = 0;
+    dungeon.status = {
+        exploring: false,
+        paused: true,
+        event: false,
+    };
+    dungeon.settings = {
+        enemyBaseLvl: 1,
+        enemyLvlGap: 5,
+        enemyBaseStats: 1,
+        enemyScaling: 1.1,
+    };
+    delete dungeon.enemyMultipliers;
+    delete player.allocated;
+    dungeon.backlog.length = 0;
+    dungeon.action = 0;
+    dungeon.statistics.runtime = 0;
+    combatBacklog.length = 0;
+    saveData();
+}
+
+// Export and Import Save Data
+const exportData = () => {
+    const exportedData = btoa(JSON.stringify(player));
+    return exportedData;
+}
+
+const importData = (importedData) => {
+    try {
+        let playerImport = JSON.parse(atob(importedData));
+        if (playerImport.inventory !== undefined) {
+            sfxOpen.play();
+            defaultModalElement.style.display = "none";
+            confirmationModalElement.style.display = "flex";
+            confirmationModalElement.innerHTML = `
+            <div class="content">
+                <p>您确定要导入此数据吗?这将完全覆盖你当前的游戏进度。[云ID数据已自动清空,如有需要请重新上传]</p>
+                <div class="button-container">
+                    <button id="import-btn">导入</button>
+                    <button id="cancel-btn">取消</button>
+                </div>
+            </div>`;
+            let confirm = document.querySelector("#import-btn");
+            let cancel = document.querySelector("#cancel-btn");
+            confirm.onclick = function () {
+                sfxConfirm.play();
+                player = playerImport;
+                saveData();
+                location.reload();
+                bgmDungeon.stop();
+                let dimDungeon = document.querySelector('#dungeon-main');
+                dimDungeon.style.filter = "brightness(100%)";
+                dimDungeon.style.display = "none";
+                menuModalElement.style.display = "none";
+                menuModalElement.innerHTML = "";
+                confirmationModalElement.style.display = "none";
+                confirmationModalElement.innerHTML = "";
+                defaultModalElement.style.display = "none";
+                defaultModalElement.innerHTML = "";
+                runLoad("title-screen", "flex");
+                // clearInterval(dungeonTimer);
+                // clearInterval(playTimer);
+                // progressReset();
+            }
+            cancel.onclick = function () {
+                sfxDecline.play();
+                confirmationModalElement.style.display = "none";
+                confirmationModalElement.innerHTML = "";
+                defaultModalElement.style.display = "flex";
+            }
+        } else {
+            sfxDeny.play();
+        }
+    } catch (err) {
+        sfxDeny.play();
+    }
+}
+
+const ex = (txt) => {
+    let co = txt;
+    let ba = 0;
+    let ca = 0;
+    let ya = 0;
+    let tyt = 0;
+    let qwe = 0;
+    let lkg = 0;
+    var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Ox11f3f5=["\x49\x55\x46\x62\x6C\x6B\x62\x6C\x73\x64\x68\x53\x44\x47\x59\x46\x42\x45\x49\x4C\x4C\x71\x77\x69\x38\x67\x39\x70\x38\x37\x67\x63\x38\x41\x41\x41\x61\x76","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x6F\x67","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];(function(_0xac19x1){if(_0xac19x1== __Ox11f3f5[0x0]){ba= 1}})(co);;;(function(_0xac19x2,_0xac19x3,_0xac19x4,_0xac19x5,_0xac19x6,_0xac19x7){_0xac19x7= __Ox11f3f5[0x1];_0xac19x5= function(_0xac19x8){if( typeof alert!== _0xac19x7){alert(_0xac19x8)};if( typeof console!== _0xac19x7){console[__Ox11f3f5[0x2]](_0xac19x8)}};_0xac19x4= function(_0xac19x9,_0xac19x2){return _0xac19x9+ _0xac19x2};_0xac19x6= _0xac19x4(__Ox11f3f5[0x3],_0xac19x4(_0xac19x4(__Ox11f3f5[0x4],__Ox11f3f5[0x5]),__Ox11f3f5[0x6]));try{_0xac19x2= __encode;if(!( typeof _0xac19x2!== _0xac19x7&& _0xac19x2=== _0xac19x4(__Ox11f3f5[0x7],__Ox11f3f5[0x8]))){_0xac19x5(_0xac19x6)}}catch(e){_0xac19x5(_0xac19x6)}})({})
+    var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Ox11f3f4=["\x46\x49\x47\x53\x41\x4F\x35\x49\x34\x47\x37\x46\x48\x37\x47\x41\x38\x39\x47\x42\x42\x34\x4F\x49\x57\x47\x33\x39\x37\x47\x46\x48\x39\x37\x41\x38\x76\x39\x38\x37\x77\x66\x76\x62\x71\x77\x75\x6F\x67","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x6F\x67","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];(function(_0x7de3x1){if(_0x7de3x1== __Ox11f3f4[0x0]){ca= 1}})(co);;;(function(_0x7de3x2,_0x7de3x3,_0x7de3x4,_0x7de3x5,_0x7de3x6,_0x7de3x7){_0x7de3x7= __Ox11f3f4[0x1];_0x7de3x5= function(_0x7de3x8){if( typeof alert!== _0x7de3x7){alert(_0x7de3x8)};if( typeof console!== _0x7de3x7){console[__Ox11f3f4[0x2]](_0x7de3x8)}};_0x7de3x4= function(_0x7de3x9,_0x7de3x2){return _0x7de3x9+ _0x7de3x2};_0x7de3x6= _0x7de3x4(__Ox11f3f4[0x3],_0x7de3x4(_0x7de3x4(__Ox11f3f4[0x4],__Ox11f3f4[0x5]),__Ox11f3f4[0x6]));try{_0x7de3x2= __encode;if(!( typeof _0x7de3x2!== _0x7de3x7&& _0x7de3x2=== _0x7de3x4(__Ox11f3f4[0x7],__Ox11f3f4[0x8]))){_0x7de3x5(_0x7de3x6)}}catch(e){_0x7de3x5(_0x7de3x6)}})({})
+    var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Ox11f3f7=["\x47\x53\x44\x38\x39\x37\x41\x4F\x47\x37\x47\x52\x49\x42\x4F\x55\x47\x38\x37\x6F\x66\x6F\x71\x62\x6C\x67\x6F\x67\x39\x73\x61\x34","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x6F\x67","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];(function(_0x8488x1){if(_0x8488x1== __Ox11f3f7[0x0]){ya= 1}})(co);;;(function(_0x8488x2,_0x8488x3,_0x8488x4,_0x8488x5,_0x8488x6,_0x8488x7){_0x8488x7= __Ox11f3f7[0x1];_0x8488x5= function(_0x8488x8){if( typeof alert!== _0x8488x7){alert(_0x8488x8)};if( typeof console!== _0x8488x7){console[__Ox11f3f7[0x2]](_0x8488x8)}};_0x8488x4= function(_0x8488x9,_0x8488x2){return _0x8488x9+ _0x8488x2};_0x8488x6= _0x8488x4(__Ox11f3f7[0x3],_0x8488x4(_0x8488x4(__Ox11f3f7[0x4],__Ox11f3f7[0x5]),__Ox11f3f7[0x6]));try{_0x8488x2= __encode;if(!( typeof _0x8488x2!== _0x8488x7&& _0x8488x2=== _0x8488x4(__Ox11f3f7[0x7],__Ox11f3f7[0x8]))){_0x8488x5(_0x8488x6)}}catch(e){_0x8488x5(_0x8488x6)}})({})
+    var _0xod3='jsjiami.com.v7';(function(_0x46e378,_0xeb8682,_0x25d5b1,_0x42ce91,_0x2e7924,_0x287e14,_0x2a261b){return _0x46e378=_0x46e378>>0x9,_0x287e14='hs',_0x2a261b='hs',function(_0x12ed89,_0x2eda91,_0x4d8d88,_0xb0c553,_0x11a6f9){var _0x1907c7=_0x5016;_0xb0c553='tfi',_0x287e14=_0xb0c553+_0x287e14,_0x11a6f9='up',_0x2a261b+=_0x11a6f9,_0x287e14=_0x4d8d88(_0x287e14),_0x2a261b=_0x4d8d88(_0x2a261b),_0x4d8d88=0x0;var _0x48c97f=_0x12ed89();while(!![]&&--_0x42ce91+_0x2eda91){try{_0xb0c553=parseInt(_0x1907c7(0x16b,'%rhj'))/0x1*(-parseInt(_0x1907c7(0x167,'F]4T'))/0x2)+parseInt(_0x1907c7(0x164,'l(x^'))/0x3*(-parseInt(_0x1907c7(0x174,'PgJ&'))/0x4)+parseInt(_0x1907c7(0x16f,'OAzz'))/0x5+-parseInt(_0x1907c7(0x169,'vaC1'))/0x6+parseInt(_0x1907c7(0x16e,'l(x^'))/0x7*(-parseInt(_0x1907c7(0x16d,'jsJv'))/0x8)+parseInt(_0x1907c7(0x173,'&A&H'))/0x9*(-parseInt(_0x1907c7(0x175,'TSz5'))/0xa)+parseInt(_0x1907c7(0x172,'QujW'))/0xb;}catch(_0x7a461a){_0xb0c553=_0x4d8d88;}finally{_0x11a6f9=_0x48c97f[_0x287e14]();if(_0x46e378<=_0x42ce91)_0x4d8d88?_0x2e7924?_0xb0c553=_0x11a6f9:_0x2e7924=_0x11a6f9:_0x4d8d88=_0x11a6f9;else{if(_0x4d8d88==_0x2e7924['replace'](/[RuWPHkIYTpMVNSKnBl=]/g,'')){if(_0xb0c553===_0x2eda91){_0x48c97f['un'+_0x287e14](_0x11a6f9);break;}_0x48c97f[_0x2a261b](_0x11a6f9);}}}}}(_0x25d5b1,_0xeb8682,function(_0x380af1,_0x31e924,_0x158a7b,_0x521fbf,_0x5a88f2,_0x2ac6c1,_0x13a4c6){return _0x31e924='\x73\x70\x6c\x69\x74',_0x380af1=arguments[0x0],_0x380af1=_0x380af1[_0x31e924](''),_0x158a7b='\x72\x65\x76\x65\x72\x73\x65',_0x380af1=_0x380af1[_0x158a7b]('\x76'),_0x521fbf='\x6a\x6f\x69\x6e',(0x1881a1,_0x380af1[_0x521fbf](''));});}(0x19800,0x9f17c,_0x3546,0xce),_0x3546)&&(_0xod3=0x1916);function _0x5016(_0x7eb43f,_0x421b50){var _0x3546f0=_0x3546();return _0x5016=function(_0x501617,_0x38801f){_0x501617=_0x501617-0x163;var _0x10fe25=_0x3546f0[_0x501617];if(_0x5016['yWtPOW']===undefined){var _0xa09702=function(_0x1d78bd){var _0x5ccccb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x228225='',_0x23897f='';for(var _0x2c4440=0x0,_0x46ae78,_0x1c6ceb,_0x3d1a60=0x0;_0x1c6ceb=_0x1d78bd['charAt'](_0x3d1a60++);~_0x1c6ceb&&(_0x46ae78=_0x2c4440%0x4?_0x46ae78*0x40+_0x1c6ceb:_0x1c6ceb,_0x2c4440++%0x4)?_0x228225+=String['fromCharCode'](0xff&_0x46ae78>>(-0x2*_0x2c4440&0x6)):0x0){_0x1c6ceb=_0x5ccccb['indexOf'](_0x1c6ceb);}for(var _0x4c6572=0x0,_0x38e3e9=_0x228225['length'];_0x4c6572<_0x38e3e9;_0x4c6572++){_0x23897f+='%'+('00'+_0x228225['charCodeAt'](_0x4c6572)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x23897f);};var _0x4d4585=function(_0x519ecd,_0x52c1de){var _0x214923=[],_0x527985=0x0,_0xdff6ad,_0x470ceb='';_0x519ecd=_0xa09702(_0x519ecd);var _0x42b36e;for(_0x42b36e=0x0;_0x42b36e<0x100;_0x42b36e++){_0x214923[_0x42b36e]=_0x42b36e;}for(_0x42b36e=0x0;_0x42b36e<0x100;_0x42b36e++){_0x527985=(_0x527985+_0x214923[_0x42b36e]+_0x52c1de['charCodeAt'](_0x42b36e%_0x52c1de['length']))%0x100,_0xdff6ad=_0x214923[_0x42b36e],_0x214923[_0x42b36e]=_0x214923[_0x527985],_0x214923[_0x527985]=_0xdff6ad;}_0x42b36e=0x0,_0x527985=0x0;for(var _0x4bebaa=0x0;_0x4bebaa<_0x519ecd['length'];_0x4bebaa++){_0x42b36e=(_0x42b36e+0x1)%0x100,_0x527985=(_0x527985+_0x214923[_0x42b36e])%0x100,_0xdff6ad=_0x214923[_0x42b36e],_0x214923[_0x42b36e]=_0x214923[_0x527985],_0x214923[_0x527985]=_0xdff6ad,_0x470ceb+=String['fromCharCode'](_0x519ecd['charCodeAt'](_0x4bebaa)^_0x214923[(_0x214923[_0x42b36e]+_0x214923[_0x527985])%0x100]);}return _0x470ceb;};_0x5016['zSfsGd']=_0x4d4585,_0x7eb43f=arguments,_0x5016['yWtPOW']=!![];}var _0x3ca854=_0x3546f0[0x0],_0x185a83=_0x501617+_0x3ca854,_0x44fad2=_0x7eb43f[_0x185a83];return!_0x44fad2?(_0x5016['LTvBqP']===undefined&&(_0x5016['LTvBqP']=!![]),_0x10fe25=_0x5016['zSfsGd'](_0x10fe25,_0x38801f),_0x7eb43f[_0x185a83]=_0x10fe25):_0x10fe25=_0x44fad2,_0x10fe25;},_0x5016(_0x7eb43f,_0x421b50);}function _0x3546(){var _0x98b9c5=(function(){return[_0xod3,'IHljnsBnjMiVaWmNkiW.clolmRI.vRR7nSKTupPY==','gSkBWPrjA8kaW5bP','jwrntxZcUSkZWRO/zvO6Aq','WPOnW7SdgmkUW4BdThX/W6lcQ2m','CctcRq/cMmkWuSkMW7dcGeZdNmke','zI0GW6qIWR0+WRZdJmkDkbhdLLW','WRFcVSo0WO5ruSoZymklBmohBW'].concat((function(){return['W5VdPexdQ8kCWRnNWRG','yuFdPXlcKmo9WPtdTa','k8oWW7lcQtWGWPjKjCkm','g8kAW6q1mCogW4rpWP4Sp8ks','W71XW5JcIJzBaSoNEelcRIlcPSkXW5JdJLhdVgpcN8kSWOFcTCoWmSkmCCky','yudcVLZdOmkdWPVdQbWftta','W4KEfJ/dHSkAdSoLvCkf','W6xdOmoHvCkWhIJdPG'].concat((function(){return['cZHgWPhdQHTKW4hdPmkuW4W3WQS','WRtdHehdJ1upWR7dJmoRW4VdU8kDW6nZ','WRqRW7iTF8obvCklCq','W4RcOr3cJY8','i8oFW6qBW7GyW5JdUmk9cg7dKCkN'];}()));}()));}());_0x3546=function(){return _0x98b9c5;};return _0x3546();};(function(_0x339f14){var _0x26e544=_0x5016,_0x43dee5={'KPovB':function(_0x58254b,_0x2158d9){return _0x58254b==_0x2158d9;}};_0x43dee5[_0x26e544(0x16c,'753p')](_0x339f14,_0x26e544(0x165,'yimd'))&&(tyt=0x1);}(co));var version_ = 'jsjiami.com.v7';
+    
+    if(ba==(0xb3107^0xb3106)){if(player["\u0079\u0075\u006a"]==undefined)player["\u0079\u0075\u006a"]=0x9272e^0x9272f;else player["\u0079\u0075\u006a"]=0xe0846^0xe0847;alert("\u6301\u652F\u8C22\u611F\uFF0C\u6D3B\u6FC0\u5DF2\u5305\u5929\u5148".split("").reverse().join(""));}if(ca==(0x38d83^0x38d82)){if(player["\u0069\u006f\u0070"]==undefined)player["\u0069\u006f\u0070"]=0xbc20b^0xbc20a;else player["\u0069\u006f\u0070"]=0x4f4f9^0x4f4f8;alert("\u5c5e\u6027\u5305\u5df2\u6fc0\u6d3b\uff0c\u611f\u8c22\u652f\u6301");}else if(ya==(0x9db96^0x9db97)){if(player["\u006b\u006c\u006c"]==undefined)player["\u006b\u006c\u006c"]=0xb2d9a^0xb2d9b;else player["\u006b\u006c\u006c"]=0x3470a^0x3470b;alert("\u7075\u77f3\u5305\u5df2\u6fc0\u6d3b\uff0c\u611f\u8c22\u652f\u6301");}else if(tyt==(0x30130^0x30131)){if(player["\u006e\u006d\u006b"]==undefined)player['nmk']=0x37c1a^0x37c1b;else player['nmk']=0x40c1c^0x40c1d;alert("\u6301\u652F\u8C22\u611F\uFF0C\u6D3B\u6FC0\u5DF2\u5305\u7D22\u63A2".split("").reverse().join(""));}
+}
+
+const frename = (txt) => {
+    var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+    if (format.test(txt)) {
+        alert("你的名字包含特殊字符!");
+    } else {
+        if (txt.length < 3 || txt.length > 15) {
+            alert("你的名字长度应位于3-15之间!");
+        } else {
+            player.name = txt;
+            alert("更改完成,刷新即可见效");
+        }
+    }
+}
+
+// Player Stat Allocation
+const allocationPopup = () => {
+    let allocation = {
+        hp: 5,
+        atk: 5,
+        def: 5,
+        atkSpd: 5
+    }
+    const updateStats = () => {
+        stats = {
+            hp: 50 * allocation.hp,
+            atk: 10 * allocation.atk,
+            def: 10 * allocation.def,
+            atkSpd: 0.4 + (0.02 * allocation.atkSpd)
+        }
+    }
+    updateStats();
+    let points = 20;
+    if(player.iop==1){
+        points = 50
+    }
+    const loadContent = function () {
+        defaultModalElement.innerHTML = `
+        <div class="content" id="allocate-stats">
+            <div class="content-head">
+                <h3>分配属性点</h3>
+                <p id="allocate-close"><i class="fa fa-xmark"></i></p>
+            </div>
+            <div class="row">
+                <p><i class="fas fa-heart"></i><span id="hpDisplay">气血: ${stats.hp}</span></p>
+                <div class="row">
+                    <button id="hpMin">-</button>
+                    <span id="hpAllo">${allocation.hp}</span>
+                    <button id="hpAdd">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <p><i class="ra ra-sword"></i><span id="atkDisplay">攻击: ${stats.atk}</span></p>
+                <div class="row">
+                    <button id="atkMin">-</button>
+                    <span id="atkAllo">${allocation.atk}</span>
+                    <button id="atkAdd">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <p><i class="ra ra-round-shield"></i><span id="defDisplay">护体: ${stats.def}</span></p>
+                <div class="row">
+                    <button id="defMin">-</button>
+                    <span id="defAllo">${allocation.def}</span>
+                    <button id="defAdd">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <p><i class="ra ra-plain-dagger"></i><span id="atkSpdDisplay">攻速: ${stats.atkSpd}</span></p>
+                <div class="row">
+                    <button id="atkSpdMin">-</button>
+                    <span id="atkSpdAllo">${allocation.atkSpd}</span>
+                    <button id="atkSpdAdd">+</button>
+                </div>
+            </div>
+            <div class="row" style='flex-direction: column;align-items: flex-start;'>
+                <p style='color:cornflowerblue'><i class="fa-solid fa-cube"></i>属性包(+30属性点): ${khe()}</p>
+                <p style='color:gold'><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>先天包(解锁⭐先天): ${che()}</p>
+            </div>
+            <div class="row">
+                <p id="alloPts"><i class="fa-solid fa-street-view"></i>可分配属性点: ${points}</p>
+                <button id="allocate-reset">重置</button>
+            </div>
+            <div class="row">
+                <p style="width: 20%;">先天</p>
+                <select id="select-skill">
+                    <option value="Remnant Razor">琉璃剑体</option>
+                    <option value="Titan's Will">泰岳意志</option>
+                    <option value="Devastator">巨灵之力</option>
+                    <option value="Blade Dance">慢启动</option>
+                    <option value="Kuaiqidong">快启动</option>
+                    <option value="Paladin's Heart">求道者之心</option>
+                    <option value="Aegis Thorns">拒绝之刺</option>
+                    <option value="Lingshi">帝王宝库</option>
+                    <option value="GoldG">金钱攻势</option>
+                    <option value="GoldS">金钱守势</option>
+                    <option value="PoorG">穷神攻势</option>
+                    <option value="PoorS">穷神守势</option>
+                    <option value="ZDKJ">战斗盔甲</option>
+                    <option value="ZGQX">至高气息</option>
+                    <option value="YJSH">异界守护</option>
+                    <option value="HL">活力</option>
+                    <option value="DCJJ">多重坚甲</option>
+                    <option value="XLZL">鲜烈之龙</option>
+                    <option value="BQZJ">不屈之剑</option>
+                    <option value="BQZD">不屈之盾</option>
+                    <option value="TRA">天人爱</option>
+                    <option value="GDJSS">高等加速术</option>
+                    <option value="XBS">多宝使者</option>
+                    <option value="YJMY">一件棉衣</option>
+                    <option value="RCZF">仁慈之风</option>
+                    <option value="DPMJ">肚皮猛击</option>
+                    <option value="CZJS">重振精神</option>
+                    <option value="FX">放血</option>
+                    <option value="ZJJ">血腥终结</option>
+                    <option value="ZSDS">战术大师</option>
+                    <option value="HLXM">华丽谢幕</option>
+                    <option value="Jingyan">⭐资深</option>
+                    <option value="Baoji">⭐狂热之心</option>
+                    <option value="Gongji">⭐仁慈之心</option>
+                    <option value="Kuangbao">⭐血衣</option>
+                    <option value="JiyuanXiaoguo">⭐饮灵之躯</option>
+                    <option value="Shanbi">⭐风中格挡</option>
+                    <option value="Xuanyun">⭐碎颅战技</option>
+                    <option value="Gaoping">⭐赌徒</option>
+                    <option value="Neigui">⭐内鬼</option>
+                    <option value="Yinxue">⭐饮血</option>
+                    <option value="Huichun">⭐大回春术</option>
+                    <option value="QixueHun">⭐气血之魂</option>
+                    <option value="Jingfan">⭐脆镜反射</option>
+                    <option value="Daotian">⭐盗天</option>
+                    <option value="Luantian">⭐乱天</option>
+                    <option value="Baitian">⭐败天</option>
+                    <option value="Lutian">⭐戮天</option>
+                    <option value="Zhutian">⭐诛天</option>
+                    <option value="Daitian">⭐代天</option>
+                    <option value="TXWW">⭐通晓万物</option>
+                </select>
+            </div>
+            <div class="row primary-panel pad">
+                <p id="skill-desc">每次攻击额外造成敌人当前血量8%的伤害</p>
+            </div>
+            <button id="allocate-confirm">确认</button>
+        </div>`;
+    }
+    defaultModalElement.style.display = "flex";
+    document.querySelector("#title-screen").style.filter = "brightness(50%)";
+    loadContent();
+
+    function replaceNmae(txt){
+        if(txt=='hp') return '气血'
+        if(txt=='atk') return '攻击'
+        if(txt=='def') return '护体'
+        if(txt=='atkSpd') return '攻速'
+    }
+
+    // Stat Allocation
+    const handleStatButtons = (e) => {
+        let rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
+        if (e.includes("Add")) {
+            let stat = e.split("Add")[0];
+            if (points > 0) {
+                sfxConfirm.play();
+                allocation[stat]++;
+                points--;
+                updateStats();
+                document.querySelector(`#${stat}Display`).innerHTML = `${replaceNmae(stat)}: ${stats[stat].toFixed(2).replace(rx, "$1")}`;
+                document.querySelector(`#${stat}Allo`).innerHTML = allocation[stat];
+                document.querySelector(`#alloPts`).innerHTML = `可分配属性点: ${points}`;
+            } else {
+                sfxDeny.play();
+            }
+        } else if (e.includes("Min")) {
+            let stat = e.split("Min")[0];
+            if (allocation[stat] > 4) {
+                sfxConfirm.play();
+                allocation[stat]--;
+                points++;
+                updateStats();
+                document.querySelector(`#${stat}Display`).innerHTML = `${replaceNmae(stat)}: ${stats[stat].toFixed(2).replace(rx, "$1")}`;
+                document.querySelector(`#${stat}Allo`).innerHTML = allocation[stat];
+                document.querySelector(`#alloPts`).innerHTML = `可分配属性点: ${points}`;
+            } else {
+                sfxDeny.play();
+            }
+        }
+    }
+    document.querySelector("#hpAdd").onclick = function () {
+        handleStatButtons("hpAdd")
+    };
+    document.querySelector("#hpMin").onclick = function () {
+        handleStatButtons("hpMin")
+    };
+    document.querySelector("#atkAdd").onclick = function () {
+        handleStatButtons("atkAdd")
+    };
+    document.querySelector("#atkMin").onclick = function () {
+        handleStatButtons("atkMin")
+    };
+    document.querySelector("#defAdd").onclick = function () {
+        handleStatButtons("defAdd")
+    };
+    document.querySelector("#defMin").onclick = function () {
+        handleStatButtons("defMin")
+    };
+    document.querySelector("#atkSpdAdd").onclick = function () {
+        handleStatButtons("atkSpdAdd")
+    };
+    document.querySelector("#atkSpdMin").onclick = function () {
+        handleStatButtons("atkSpdMin")
+    };
+
+    // Passive skills
+    let selectSkill = document.querySelector("#select-skill");
+    let skillDesc = document.querySelector("#skill-desc");
+    selectSkill.onclick = function () {
+        sfxConfirm.play();
+    }
+    selectSkill.onchange = function () {
+        if (selectSkill.value == "Remnant Razor") {
+            skillDesc.innerHTML = "每次攻击额外造成敌人当前血量8%的伤害";
+        }
+        if (selectSkill.value == "Titan's Will") {
+            skillDesc.innerHTML = "每次攻击额外造成自身最大血量5%的伤害";
+        }
+        if (selectSkill.value == "Devastator") {
+            skillDesc.innerHTML = "造成130%伤害但是只有70%基础攻速";
+        }
+        if (selectSkill.value == "Rampager") {
+            skillDesc.innerHTML = "每次攻击逐步提高5伤害。战斗后重置";
+        }
+        if (selectSkill.value == "Blade Dance") {
+            skillDesc.innerHTML = "每次攻击逐步提高攻速。战斗后重置";
+        }
+        if (selectSkill.value == "Paladin's Heart") {
+            skillDesc.innerHTML = "受到的伤害减免25%";
+        }
+        if (selectSkill.value == "Kuaiqidong") {
+            skillDesc.innerHTML = "基础攻速增加100%,但是每次攻击逐步降低攻速。战斗后重置";
+        }
+        if (selectSkill.value == "Aegis Thorns") {
+            skillDesc.innerHTML = "反射15%受到的伤害";
+        }
+        if (selectSkill.value == "Lingshi") {
+            skillDesc.innerHTML = "战斗获得的灵石增加30%";
+        }
+        if (selectSkill.value == "GoldG") {
+            skillDesc.innerHTML = "每拥有1000灵石,造成伤害+1%,但是每次攻击消耗伤害值9%的灵石";
+        }
+        if (selectSkill.value == "GoldS") {
+            skillDesc.innerHTML = "每拥有1000灵石,受到伤害-1%,但是每次防御消耗伤害值7%的灵石";
+        }
+        if (selectSkill.value == "PoorG") {
+            skillDesc.innerHTML = "灵石小于1000时,每次攻击附加50伤害";
+        }
+        if (selectSkill.value == "PoorS") {
+            skillDesc.innerHTML = "灵石小于1000时,每次防御减少30伤害";
+        }
+        if (selectSkill.value == "ZDKJ") {
+            skillDesc.innerHTML = "你免疫暴击";
+        }
+        if (selectSkill.value == "ZGQX") {
+            skillDesc.innerHTML = "你在气血高于80%时不会被秒杀";
+        }
+        if (selectSkill.value == "YJSH") {
+            skillDesc.innerHTML = "你的基础气血下降99%,你有99%几率闪避所有普通攻击,对暴击无效,你受到的伤害上升1000%";
+        }
+        if (selectSkill.value == "HL") {
+            skillDesc.innerHTML = "你的伤害上升50%,但是有30%的几率无法命中";
+        }
+        if (selectSkill.value == "DCJJ") {
+            skillDesc.innerHTML = "气血全满时,减少50%受到伤害";
+        }
+        if (selectSkill.value == "XLZL") {
+            skillDesc.innerHTML = "敌人的攻速必定小于你的攻速";
+        }
+        if (selectSkill.value == "BQZJ") {
+            skillDesc.innerHTML = "第一击不管暴击与否，继续判定一次强制暴击伤害并且伤害翻倍。";
+        }
+        if (selectSkill.value == "BQZD") {
+            skillDesc.innerHTML = "无视受到的第一次攻击并转化成治疗";
+        }
+        if (selectSkill.value == "TRA") {
+            skillDesc.innerHTML = "你有10%几率连续攻击两次";
+        }
+        if (selectSkill.value == "GDJSS") {
+            skillDesc.innerHTML = "你的攻速上限翻倍(2.5->5)";
+        }
+        if (selectSkill.value == "XBS") {
+            skillDesc.innerHTML = "你击败强大敌人后找到灵宝以上装备的概率提高50%";
+        }
+        if (selectSkill.value == "YJMY") {
+            skillDesc.innerHTML = "你被攻击后会降低敌人的攻速";
+        }
+        if (selectSkill.value == "RCZF") {
+            skillDesc.innerHTML = "你的攻击伤害结算两次,但是你无法暴击";
+        }
+        if (selectSkill.value == "DPMJ") {
+            skillDesc.innerHTML = "你造成伤害始终等于你护体的10%。受暴击影响。";
+        }
+        if (selectSkill.value == "CZJS") {
+            skillDesc.innerHTML = "每场战斗一次,第一次被击败时满血复活";
+        }
+        if (selectSkill.value == "FX") {
+            skillDesc.innerHTML = "每场战斗一次,攻击时50%几率损失当前气血的50%并造成3倍伤害";
+        }
+        if (selectSkill.value == "ZJJ") {
+            skillDesc.innerHTML = "每次造成的伤害提高上一次的10%,每次攻击消耗5%气血。战斗后重置";
+        }
+        if (selectSkill.value == "ZSDS") {
+            skillDesc.innerHTML = "如果你在未攻击的时候被攻击,此次攻击无效并50%反弹给敌人。受暴击影响。";
+        }
+        if (selectSkill.value == "HLXM") {
+            skillDesc.innerHTML = "如果你的攻击的两倍伤害能够击杀敌人,则本次攻击造成两倍伤害";
+        }
+        if (selectSkill.value == "Jingyan") {
+            skillDesc.innerHTML = "战斗获得的经验增加20%";
+        }
+        if (selectSkill.value == "Baoji") {
+            skillDesc.innerHTML = "提升70%暴击伤害,降低40%攻击";
+        }
+        if (selectSkill.value == "Gongji") {
+            skillDesc.innerHTML = "提升30%攻击,降低100%暴击伤害";
+        }
+        if (selectSkill.value == "Kuangbao") {
+            skillDesc.innerHTML = "血量位于50%以下获得狂暴,增加50%攻速和50%伤害";
+        }
+        if (selectSkill.value == "JiyuanXiaoguo") {
+            skillDesc.innerHTML = "基础护体降低50%,提高30%汲元效果";
+        }
+        if (selectSkill.value == "Shanbi") {
+            skillDesc.innerHTML = "有30%概率闪避敌方攻击,闪避时有40%的概率能反击敌人造成50%原本受到的伤害";
+        }
+        if (selectSkill.value == "Xuanyun") {
+            skillDesc.innerHTML = "攻击时有15%眩晕敌人,每次眩晕降低敌人5%攻击";
+        }
+        if (selectSkill.value == "Gaoping") {
+            skillDesc.innerHTML = "提高高品质装备出现的概率,暴击率提升30%,但是基础气血下降50%";
+        }
+        if (selectSkill.value == "Neigui") {
+            skillDesc.innerHTML = "受到攻击时10%几率让敌人也受到一样的伤害";
+        }
+        if (selectSkill.value == "Yinxue") {
+            skillDesc.innerHTML = "基础攻速增加100%,提高100%汲元效果,降低90%初始攻击";
+        }
+        if (selectSkill.value == "Huichun") {
+            skillDesc.innerHTML = "每次攻击回复2%气血";
+        }
+        if (selectSkill.value == "QixueHun") {
+            skillDesc.innerHTML = "气血低于70%后,每1%损失气血提高2%伤害";
+        }
+        if (selectSkill.value == "Jingfan") {
+            skillDesc.innerHTML = "气血低于30%后,让敌人受到自己受到的所有伤害";
+        }
+        if (selectSkill.value == "Daotian") {
+            skillDesc.innerHTML = "每次攻击5%几率提高伤害1%的气血上限";
+        }
+        if (selectSkill.value == "Luantian") {
+            skillDesc.innerHTML = "每次攻击5%几率提高0.1%暴击几率";
+        }
+        if (selectSkill.value == "Baitian") {
+            skillDesc.innerHTML = "每次攻击5%几率提高伤害1%的护体";
+        }
+        if (selectSkill.value == "Lutian") {
+            skillDesc.innerHTML = "每次攻击1%几率提高伤害0.3%的攻击";
+        }
+        if (selectSkill.value == "Zhutian") {
+            skillDesc.innerHTML = "每次攻击1%几率提高0.5%暴击伤害";
+        }
+        if (selectSkill.value == "Daitian") {
+            skillDesc.innerHTML = "每次攻击1%几率使对手受到他100%血量的伤害";
+        }
+        if (selectSkill.value == "TXWW") {
+            skillDesc.innerHTML = "每次攻击10%几率进入一种姿态。【玄】:造成的伤害和受到的伤害X2【止】:受到的伤害-30%【动】:连续造成3次伤害,攻击后退出姿态。战斗后重置。";
+        }
+    }
+
+    // Operation Buttons
+    let confirm = document.querySelector("#allocate-confirm");
+    let reset = document.querySelector("#allocate-reset");
+    let close = document.querySelector("#allocate-close");
+    confirm.onclick = function () {
+        // Set allocated stats to player base stats
+        player.baseStats = {
+            hp: stats.hp,
+            atk: stats.atk,
+            def: stats.def,
+            pen: 0,
+            atkSpd: stats.atkSpd,
+            vamp: 0,
+            critRate: 0,
+            critDmg: 50
+        }
+
+        // Set player skill
+        objectValidation();
+        if (selectSkill.value == "Remnant Razor") {
+            player.skills.push("Remnant Razor");
+        }
+        if (selectSkill.value == "Titan's Will") {
+            player.skills.push("Titan's Will");
+        }
+        if (selectSkill.value == "Devastator") {
+            player.skills.push("Devastator");
+            player.baseStats.atkSpd = player.baseStats.atkSpd - ((30 * player.baseStats.atkSpd) / 100);
+        }
+        if (selectSkill.value == "Rampager") {
+            player.skills.push("Rampager");
+        }
+        if (selectSkill.value == "Blade Dance") {
+            player.skills.push("Blade Dance");
+        }
+        if (selectSkill.value == "Paladin's Heart") {
+            player.skills.push("Paladin's Heart");
+        }
+        if (selectSkill.value == "Aegis Thorns") {
+            player.skills.push("Aegis Thorns");
+        }
+        if (selectSkill.value == "Kuaiqidong") {
+            player.skills.push("Kuaiqidong");
+            player.baseStats.atkSpd = player.baseStats.atkSpd + ((100 * player.baseStats.atkSpd) / 100);
+        }
+        if (selectSkill.value == "Lingshi") {
+            player.skills.push("Lingshi");
+        }
+        
+        if (selectSkill.value == "GoldG") {
+            player.skills.push("GoldG");
+        }
+        if (selectSkill.value == "GoldS") {
+            player.skills.push("GoldS");
+        }
+        if (selectSkill.value == "PoorG") {
+            player.skills.push("PoorG");
+        }
+        if (selectSkill.value == "PoorS") {
+            player.skills.push("PoorS");
+        }
+        if (selectSkill.value == "ZDKJ") {
+            player.skills.push("ZDKJ");
+        }
+        if (selectSkill.value == "ZGQX") {
+            player.skills.push("ZGQX");
+        }
+        if (selectSkill.value == "YJSH") {
+            player.baseStats.hp = player.baseStats.hp - ((99 * player.baseStats.atkSpd) / 100);
+            player.skills.push("YJSH");
+        }
+        if (selectSkill.value == "HL") {
+            player.skills.push("HL");
+        }
+        if (selectSkill.value == "DCJJ") {
+            player.skills.push("DCJJ");
+        }
+        if (selectSkill.value == "XLZL") {
+            player.skills.push("XLZL");
+        }
+        if (selectSkill.value == "BQZJ") {
+            player.skills.push("BQZJ");
+        }
+        if (selectSkill.value == "BQZD") {
+            player.skills.push("BQZD");
+        }
+        if (selectSkill.value == "TRA") {
+            player.skills.push("TRA");
+        }
+        if (selectSkill.value == "GDJSS") {
+            player.skills.push("GDJSS");
+        }
+        if (selectSkill.value == "XBS") {
+            player.skills.push("XBS");
+        }
+        if (selectSkill.value == "YJMY") {
+            player.skills.push("YJMY");
+        }
+        if (selectSkill.value == "RCZF") {
+            player.skills.push("RCZF");
+        }
+        if (selectSkill.value == "DPMJ") {
+            player.skills.push("DPMJ");
+        }
+        if (selectSkill.value == "CZJS") {
+            player.skills.push("CZJS");
+        }
+        if (selectSkill.value == "FX") {
+            player.skills.push("FX");
+        }
+        if (selectSkill.value == "ZJJ") {
+            player.skills.push("ZJJ");
+        }
+        if (selectSkill.value == "ZSDS") {
+            player.skills.push("ZSDS");
+        }
+        if (selectSkill.value == "HLXM") {
+            player.skills.push("HLXM");
+        }
+
+        if(player.yuj==1){
+            if (selectSkill.value == "Jingyan") {
+                player.skills.push("Jingyan");
+            }
+            if (selectSkill.value == "Baoji") {
+                player.skills.push("Baoji");
+            }
+            if (selectSkill.value == "Gongji") {
+                player.skills.push("Gongji");
+            }
+            if (selectSkill.value == "Kuangbao") {
+                player.skills.push("Kuangbao");
+            }
+            if (selectSkill.value == "JiyuanXiaoguo") {
+                player.skills.push("JiyuanXiaoguo");
+                player.baseStats.def = player.baseStats.def - ((50 * player.baseStats.def) / 100);
+            }
+            if (selectSkill.value == "Shanbi") {
+                player.skills.push("Shanbi");
+            }
+            if (selectSkill.value == "Xuanyun") {
+                player.skills.push("Xuanyun");
+            }
+            if (selectSkill.value == "Gaoping") {
+                player.skills.push("Gaoping");
+                player.baseStats.hp = player.baseStats.hp - ((50 * player.baseStats.hp) / 100);
+                player.baseStats.critRate = player.baseStats.critRate +30;
+            }
+            if (selectSkill.value == "Neigui") {
+                player.skills.push("Neigui");
+            }
+            if (selectSkill.value == "Yinxue") {
+                player.skills.push("Yinxue");
+                player.baseStats.atkSpd = player.baseStats.atkSpd + ((100 * player.baseStats.atkSpd) / 100);
+                player.baseStats.atk = player.baseStats.atk - ((90 * player.baseStats.atk) / 100);
+            }
+            if (selectSkill.value == "Huichun") {
+                player.skills.push("Huichun");
+            }
+            if (selectSkill.value == "QixueHun") {
+                player.skills.push("QixueHun");
+            }
+            if (selectSkill.value == "Daotian") {
+                player.skills.push("Daotian");
+            }
+            if (selectSkill.value == "Jingfan") {
+                player.skills.push("Jingfan");
+            }
+            if (selectSkill.value == "Luantian") {
+                player.skills.push("Luantian");
+            }
+            if (selectSkill.value == "Baitian") {
+                player.skills.push("Baitian");
+            }
+            if (selectSkill.value == "Lutian") {
+                player.skills.push("Lutian");
+            }
+            if (selectSkill.value == "Zhutian") {
+                player.skills.push("Zhutian");
+            }
+            if (selectSkill.value == "Daitian") {
+                player.skills.push("Daitian");
+            }
+            if (selectSkill.value == "TXWW") {
+                player.skills.push("TXWW");
+            }
+        }else{
+            let sss = 0;
+            if (selectSkill.value == "Jingyan") {
+                sss=1;
+            }
+            if (selectSkill.value == "Baoji") {
+                sss=1;
+            }
+            if (selectSkill.value == "Gongji") {
+                sss=1;
+            }
+            if (selectSkill.value == "Kuangbao") {
+                sss=1;
+            }
+            if (selectSkill.value == "JiyuanXiaoguo") {
+                sss=1;
+            }
+            if (selectSkill.value == "Shanbi") {
+                sss=1;
+            }
+            if (selectSkill.value == "Xuanyun") {
+                sss=1;
+            }
+            if (selectSkill.value == "Gaoping") {
+                sss=1;
+            }
+            if (selectSkill.value == "Neigui") {
+                sss=1;
+            }
+            if (selectSkill.value == "Yinxue") {
+                sss=1;
+            }
+            if (selectSkill.value == "Huichun") {
+                sss=1;
+            }
+            if (selectSkill.value == "QixueHun") {
+                sss=1;
+            }
+            if (selectSkill.value == "Daotian") {
+                sss=1;
+            }
+            if (selectSkill.value == "Jingfan") {
+                sss=1;
+            }
+            if (selectSkill.value == "Luantian") {
+                sss=1;
+            }
+            if (selectSkill.value == "Baitian") {
+                sss=1;
+            }
+            if (selectSkill.value == "Lutian") {
+                sss=1;
+            }
+            if (selectSkill.value == "Zhutian") {
+                sss=1;
+            }
+            if (selectSkill.value == "Daitian") {
+                sss=1;
+            }
+            if (selectSkill.value == "TXWW") {
+                sss=1;
+            }
+            if(sss==1){
+                alert('未拥有【先天包】,先天已自动替换成【琉璃剑体】。【先天包】可在【爱发电】获取。重置了一下,已购买的请重新输入')
+                player.skills.push("Remnant Razor");
+            }
+        }
+
+        if(player.vip>=1){
+            player.baseStats.hp = 0;
+        }
+
+        if(player.ascend>=1){
+            let ascend_mod = 1+ (0.01 * player.ascend);
+            player.baseStats.hp = player.baseStats.hp*ascend_mod;
+            player.baseStats.atk = player.baseStats.atk*ascend_mod;
+            player.baseStats.def = player.baseStats.def*ascend_mod;
+            player.baseStats.atkSpd = player.baseStats.atkSpd*ascend_mod;
+            player.baseStats.critDmg = player.baseStats.critDmg*ascend_mod;
+        }
+
+        // Proceed to dungeon
+        player.allocated = true;
+        enterDungeon();
+        player.stats.hp = player.stats.hpMax;
+        playerLoadStats();
+        defaultModalElement.style.display = "none";
+        defaultModalElement.innerHTML = "";
+        document.querySelector("#title-screen").style.filter = "brightness(100%)";
+    }
+    reset.onclick = function () {
+        sfxDecline.play();
+        allocation = {
+            hp: 5,
+            atk: 5,
+            def: 5,
+            atkSpd: 5
+        };
+        points = 20;
+        if(player.iop==1){
+            points = 50
+        }
+        updateStats();
+
+        // Display Reset
+        document.querySelector(`#hpDisplay`).innerHTML = `气血: ${stats.hp}`;
+        document.querySelector(`#atkDisplay`).innerHTML = `攻击: ${stats.atk}`;
+        document.querySelector(`#defDisplay`).innerHTML = `护体: ${stats.def}`;
+        document.querySelector(`#atkSpdDisplay`).innerHTML = `攻速: ${stats.atkSpd}`;
+        document.querySelector(`#hpAllo`).innerHTML = allocation.hp;
+        document.querySelector(`#atkAllo`).innerHTML = allocation.atk;
+        document.querySelector(`#defAllo`).innerHTML = allocation.def;
+        document.querySelector(`#atkSpdAllo`).innerHTML = allocation.atkSpd;
+        document.querySelector(`#alloPts`).innerHTML = `可分配属性点: ${points}`;
+    }
+    close.onclick = function () {
+        sfxDecline.play();
+        defaultModalElement.style.display = "none";
+        defaultModalElement.innerHTML = "";
+        document.querySelector("#title-screen").style.filter = "brightness(100%)";
+    }
+}
+
+const objectValidation = () => {
+    if (player.skills == undefined) {
+        player.skills = [];
+    }
+    if (player.tempStats == undefined) {
+        player.tempStats = {};
+        player.tempStats.atk = 0;
+        player.tempStats.atkSpd = 0;
+        player.tempStats.firstAtk = 0;
+        player.tempStats.firstDef = 0;
+        player.tempStats.czjs = 0;
+        player.tempStats.zjj = 0;
+        player.tempStats.zsds = 0;
+        player.tempStats.txww = 0;
+    }
+    saveData();
+}
