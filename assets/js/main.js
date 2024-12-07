@@ -1104,8 +1104,8 @@ window.addEventListener("load", function () {
                 <p style='color:gold'>效果==解锁所有先天==</p>
                 <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>属性包: ${khe()}</p>
                 <p style='color:gold'>效果==出生时额外30属性点==</p>
-                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>灵石包: ${uhe()}</p>
-                <p style='color:gold'>效果==敌人掉落灵石X2==</p>
+                <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>灵装包: ${uhe()}</p>
+                <p style='color:gold'>效果==敌人掉落装备X2灵石X2,灵宝以上装备掉落率X2==</p>
                 <p><i class="fa-solid fa-heart" style="color: #FFD43B;"></i>探索包: ${kke()}</p>
                 <p style='color:gold'>效果==探索速度X2=</p>
                 <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
