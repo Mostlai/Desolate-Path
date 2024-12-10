@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-    const version = '2.8';
+    const version = '2.8-fix';
 
     if (player === null) {
         runLoad("character-creation", "flex");
@@ -769,6 +769,7 @@ window.addEventListener("load", function () {
             <button id="excode" style='color:gold'>兑换码</button>
             <button id="rename" style='color:mediumvioletred'>更改档案名</button>
             <button id="cloud-save" style='color:orange'>云存档</button>
+            <button id="export-import" style='color:orange'>导入/导出</button>
             <button style='color:red' onclick="window.open('https://afdian.com/a/pldada?tab=shop', '_blank');"><i class="fa-solid fa-heart" style="color: #ff0000;"></i>赞助奖励【爱发电】</button>
             <button id="fqun" style='color:lawngreen'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>1群:281738137</button>
             <button id="squn" style='color:dodgerblue'><i class="fa-brands fa-qq" style="color: #74C0FC;"></i>2群:839785679</button>
