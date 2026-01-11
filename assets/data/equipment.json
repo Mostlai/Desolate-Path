@@ -1,0 +1,676 @@
+{
+  "equipment": {
+    "Sword": {
+      "name": "灵剑",
+      "icon": "ra-relic-blade",
+      "image": "/assets/equip/Sword.png",
+      "type": "weapon",
+      "descr": "一把蕴含灵力的古老剑刃，锋利无比。"
+    },
+    "Axe": {
+      "name": "斩魂斧",
+      "icon": "ra-axe",
+      "image": "/assets/equip/Axe.png",
+      "type": "weapon",
+      "descr": "传说中能斩断灵魂的巨斧，散发着恐怖的气息。"
+    },
+    "Hammer": {
+      "name": "天锤",
+      "icon": "ra-flat-hammer",
+      "image": "/assets/equip/Hammer.png",
+      "type": "weapon",
+      "descr": "重如泰山的战锤，一击可碎山石。"
+    },
+    "Dagger": {
+      "name": "飞刀",
+      "icon": "ra-bowie-knife",
+      "image": "/assets/equip/Dagger.png",
+      "type": "weapon",
+      "descr": "轻巧灵活的飞刀，暗杀利器。"
+    },
+    "Flail": {
+      "name": "锁链锤",
+      "icon": "ra-chain",
+      "image": "/assets/equip/Flail.png",
+      "type": "weapon",
+      "descr": "带有锁链的重锤，攻击范围广，威力惊人。"
+    },
+    "Scythe": {
+      "name": "夺命镰",
+      "icon": "ra-scythe",
+      "image": "/assets/equip/Scythe.png",
+      "type": "weapon",
+      "descr": "死神的象征，挥舞间收割生命。"
+    },
+    "Bowie Knife": {
+      "name": "龙骨刃",
+      "icon": "ra-bone-knife",
+      "image": "/assets/equip/BowieKnife.png",
+      "type": "weapon",
+      "descr": "由龙骨打造的神兵，坚韧锋利。"
+    },
+    "Duel": {
+      "name": "对刀",
+      "icon": "ra-duel",
+      "image": "/assets/equip/Duel.png",
+      "type": "weapon",
+      "descr": "双刀合璧，攻守兼备的完美武器。"
+    },
+    "Croc Sword": {
+      "name": "裂隙巨剑",
+      "icon": "ra-croc-sword",
+      "image": "/assets/equip/CrocSword.png",
+      "type": "weapon",
+      "descr": "来自裂隙的巨剑。"
+    },
+    "Bat Sword": {
+      "name": "汲元剑",
+      "icon": "ra-bat-sword",
+      "image": "/assets/equip/BatSword.png",
+      "type": "weapon",
+      "descr": "能够汲取敌人元气的邪剑，危险而强大。"
+    },
+    "Drill": {
+      "name": "灵枪",
+      "icon": "ra-drill",
+      "image": "/assets/equip/Drill.png",
+      "type": "weapon",
+      "descr": "如龙钻般的灵枪，无坚不摧。"
+    },
+    "Plate": {
+      "name": "铠甲",
+      "icon": "ra-vest",
+      "image": "/assets/equip/Plate.png",
+      "type": "armor",
+      "descr": "厚重的板甲，提供强大的物理防护。"
+    },
+    "Chain": {
+      "name": "链甲",
+      "icon": "ra-vest",
+      "image": "/assets/equip/Plate.png",
+      "type": "armor",
+      "descr": "精铁锻造的链甲，轻便而坚固。"
+    },
+    "Leather": {
+      "name": "法灵皮甲",
+      "icon": "ra-vest",
+      "image": "/assets/equip/Leather.png",
+      "type": "armor",
+      "descr": "附有法力的皮甲，兼具防护与灵性。"
+    },
+    "Tower": {
+      "name": "护法盾",
+      "icon": "ra-shield",
+      "image": "/assets/equip/Tower.png",
+      "type": "shield",
+      "descr": "如城墙般的巨盾，守护着持有者。"
+    },
+    "Kite": {
+      "name": "幻影风盾",
+      "icon": "ra-heavy-shield",
+      "image": "/assets/equip/Kite.png",
+      "type": "shield",
+      "descr": "轻盈如风神奇盾牌。"
+    },
+    "Buckler": {
+      "name": "小圆盾",
+      "icon": "ra-round-shield",
+      "image": "/assets/equip/Buckler.png",
+      "type": "shield",
+      "descr": "小巧实用的圆盾，适合近战格挡。"
+    },
+    "Great Helm": {
+      "name": "无双头盔",
+      "icon": "ra-knight-helmet",
+      "image": "/assets/equip/GreatHelm.png",
+      "type": "helmet",
+      "descr": "威严的头盔。"
+    },
+    "Horned Helm": {
+      "name": "角盔",
+      "icon": "ra-helmet",
+      "image": "/assets/equip/HornedHelm.png",
+      "type": "helmet",
+      "descr": "带有双角的头盔。"
+    },
+    "Frostfire": {
+      "name": "焰形石",
+      "icon": "ra-frostfire",
+      "image": "/assets/equip/Frostfire.png",
+      "type": "jewelry",
+      "descr": "火之力宝石。"
+    },
+    "Pendant": {
+      "name": "御符",
+      "icon": "ra-gem-pendant",
+      "image": "/assets/equip/Pendant.png",
+      "type": "jewelry",
+      "descr": "古老的护身符，能驱散邪祟。"
+    },
+    "Overmind": {
+      "name": "全界之灵",
+      "icon": "ra-overmind",
+      "image": "/assets/equip/Overmind.png",
+      "type": "jewelry",
+      "descr": "蕴含全界智慧的神秘宝石，据说能预知未来。"
+    },
+    "Laser Blast": {
+      "name": "血魂杖",
+      "icon": "ra-laser-blast",
+      "image": "/assets/equip/LaserBlast.png",
+      "type": "jewelry",
+      "descr": "以血魂为祭的魔杖。"
+    },
+    "Arena": {
+      "name": "血影护盔",
+      "icon": "ra-arena",
+      "image": "/assets/equip/Arena.png",
+      "type": "jewelry",
+      "descr": "在无数战斗中淬炼的护盔，沾染着血与荣耀。"
+    },
+    "Triforce": {
+      "name": "三界调零",
+      "icon": "ra-triforce",
+      "image": "/assets/equip/Triforce.png",
+      "type": "jewelry",
+      "descr": "象征着三界平衡。"
+    },
+    "Biohazard": {
+      "name": "无色宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_1": {
+      "name": "诅咒宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_2": {
+      "name": "裂隙宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_3": {
+      "name": "究极宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_4": {
+      "name": "重生宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_5": {
+      "name": "变异宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_6": {
+      "name": "帝者宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "B_7": {
+      "name": "全知宝箱徽记",
+      "icon": "ra-biohazard",
+      "image": "/assets/equip/B_1.png",
+      "type": "special",
+      "descr": "散发着诅咒气息的徽记。"
+    },
+    "Slash Ring": {
+      "name": "限制之戒",
+      "icon": "ra-slash-ring",
+      "image": "/assets/equip/SlashRing.png",
+      "type": "jewelry",
+      "descr": "能够限制力量的戒指。"
+    },
+    "draco_bow": {
+      "name": "龙仆之弓",
+      "image": "/assets/equip/draco_bow.png",
+      "type": "weapon",
+      "dtype": "火",
+      "exotic": true,
+      "descr": "远古巨龙仆人之弓",
+      "stat": {
+        "atk": 33,
+        "ignoreDef": 1,
+        "atkSpd": 0.1
+      }
+    },
+    "draco_sword": {
+      "name": "龙仆之剑",
+      "image": "/assets/equip/draco_sword.png",
+      "type": "weapon",
+      "dtype": "冰",
+      "exotic": true,
+      "descr": "远古巨龙仆人之剑",
+      "stat": {
+        "atk": 10,
+        "def": 200
+      }
+    },
+    "draco_staff": {
+      "name": "龙仆之杖",
+      "image": "/assets/equip/wooden_staff.png",
+      "type": "weapon",
+      "dtype": "火",
+      "exotic": true,
+      "descr": "远古巨龙仆人之杖",
+      "stat": {
+        "atk": 10,
+        "hp": 33,
+        "damageReductionPercent": 0.1,
+        "atkSpd": 0.1
+      }
+    },
+    "dracon_shield": {
+      "name": "龙仆之盾",
+      "image": "/assets/equip/dracon_shield.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "远古巨龙仆人之盾",
+      "stat": {
+        "hp": -20,
+        "atk": -30,
+        "def": 455
+      }
+    },
+    "fomor_katana": {
+      "name": "魔仆开锋长刃",
+      "image": "/assets/equip/fomor_katana.png",
+      "type": "weapon",
+      "dtype": "暗影",
+      "exotic": true,
+      "descr": "远古大魔仆人之长刃",
+      "stat": {
+        "atk": 48,
+        "ignoreDef": 1,
+        "atkSpd": 0.2
+      }
+    },
+    "fomor_sword": {
+      "name": "魔仆之剑",
+      "image": "/assets/equip/fomor_sword.png",
+      "type": "weapon",
+      "dtype": "暗影",
+      "exotic": true,
+      "descr": "远古大魔仆人之剑",
+      "stat": {
+        "atk": 33,
+        "hp": 13,
+        "def": 165
+      }
+    },
+    "fomor_staff": {
+      "name": "魔仆之杖",
+      "image": "/assets/equip/fomor_staff.png",
+      "type": "weapon",
+      "dtype": "暗影",
+      "exotic": true,
+      "descr": "远古大魔仆人之杖",
+      "stat": {
+        "atk": 19,
+        "damageReductionPercent": 0.1,
+        "atkSpd": 0.2
+      }
+    },
+    "fomor_shield": {
+      "name": "魔仆之盾",
+      "image": "/assets/equip/fomor_shield.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "远古大魔仆人之盾",
+      "stat": {
+        "hp": -90,
+        "atk": -90,
+        "def": 985
+      }
+    },
+    "mirror": {
+      "name": "碎裂镜面",
+      "image": "/assets/equip/mirror.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "已经碎掉的镜子",
+      "stat": {
+        "def": 805
+      }
+    },
+    "dawn_hood": {
+      "name": "破晓兜帽",
+      "image": "/assets/equip/dawn_hood.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "灵王之庭制式兜帽",
+      "stat": {
+        "hp": 66,
+        "def": 10,
+        "atkSpd": 0.1
+      }
+    },
+    "dawn_armor": {
+      "name": "破晓护腿",
+      "image": "/assets/equip/dawn_armor.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "灵王之庭制式护腿",
+      "stat": {
+        "hp": 3,
+        "def": 72,
+        "mod.神圣": 1
+      }
+    },
+    "dawn_boots": {
+      "name": "破晓靴子",
+      "image": "/assets/equip/dawn_boots.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "灵王之庭制式靴子",
+      "stat": {
+        "mod.神圣": 0.5,
+        "atkSpd": 0.2
+      }
+    },
+    "dawn_bow": {
+      "name": "破晓弓",
+      "image": "/assets/equip/dawn_bow.png",
+      "type": "weapon",
+      "dtype": "神圣",
+      "exotic": true,
+      "descr": "灵王之庭制式弓",
+      "stat": {
+        "atk": 90,
+        "atkSpd": 0.2
+      }
+    },
+    "dawnbreaker": {
+      "name": "破晓之剑",
+      "image": "/assets/equip/dawnbreaker.png",
+      "type": "weapon",
+      "dtype": "神圣",
+      "exotic": true,
+      "descr": "灵王之庭制式剑",
+      "stat": {
+        "atk": 150,
+        "def": 150,
+        "mod.神圣": 1,
+        "atkSpd": 0.2
+      }
+    },
+    "dawn_staff": {
+      "name": "破晓之杖",
+      "image": "/assets/equip/dawn_staff.png",
+      "type": "weapon",
+      "dtype": "神圣",
+      "exotic": true,
+      "descr": "灵王之庭制式杖",
+      "stat": {
+        "atk": 19,
+        "mod.神圣": 1.9,
+        "damageReductionPercent": 0.1
+      }
+    },
+    "warrior_ring": {
+      "name": "黎明拂晓之戒",
+      "image": "/assets/equip/warrior_ring.png",
+      "type": "jewelry",
+      "exotic": true,
+      "descr": "灵王佩戴的一枚戒指",
+      "stat": {
+        "mod.神圣": 5
+      }
+    },
+    "horseman_hood": {
+      "name": "第一骑士兜帽",
+      "image": "/assets/equip/horseman_hood.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "第一骑士的兜帽",
+      "stat": {
+        "hp": 150,
+        "def": 150,
+        "damageReductionFixed": 144
+      }
+    },
+    "horseman_robe": {
+      "name": "第一骑士斗篷",
+      "image": "/assets/equip/horseman_robe.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "第一骑士的斗篷",
+      "stat": {
+        "hp": 199,
+        "def": 99,
+        "ignoreDef": 1,
+        "damageReductionFixed": 200
+      }
+    },
+    "horseman_armor": {
+      "name": "第一骑士护甲",
+      "image": "/assets/equip/horseman_armor.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "第一骑士的护甲",
+      "stat": {
+        "hp": 32,
+        "def": 12,
+        "damageReductionFixed": 600
+      }
+    },
+    "horseman_boots": {
+      "name": "第一骑士靴子",
+      "image": "/assets/equip/horseman_boots.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "第一骑士的靴子",
+      "stat": {
+        "damageReductionFixed": 900
+      }
+    },
+    "horseman_spear": {
+      "name": "第一骑士长矛",
+      "image": "/assets/equip/horseman_spear.png",
+      "type": "weapon",
+      "exotic": true,
+      "dtype": "毒",
+      "descr": "第一骑士的长矛",
+      "stat": {
+        "atk": 366,
+        "critDmg": 5,
+        "critRate": 0.2,
+        "mod.毒": 5,
+        "mod.神圣": -20,
+        "atkSpd": 0.1
+      }
+    },
+    "bone_lute": {
+      "name": "变异凝视者之眼",
+      "image": "/assets/equip/bone_lute.png",
+      "type": "weapon",
+      "exotic": true,
+      "dtype": "雷",
+      "descr": "这就是战斗的快感吗？",
+      "stat": {
+        "atk": 566,
+        "mod.雷": 1,
+        "mod.毒": 1,
+        "mod.火": 1,
+        "mod.暗影": 1,
+        "mod.神圣": 1
+      }
+    },
+    "gazing_eye": {
+      "name": "变异凝视者之瞳",
+      "image": "/assets/gem/crystal_eye.png",
+      "type": "jewelry",
+      "exotic": true,
+      "dtype": "雷",
+      "descr": "他在盯着你",
+      "stat": {
+        "atk": -666,
+        "mod.雷": 2,
+        "mod.毒": 2,
+        "mod.火": 2,
+        "mod.暗影": 2,
+        "mod.神圣": 2
+      }
+    },
+    "gazing_eye1": {
+      "name": "变异凝视者之杖",
+      "image": "/assets/equip/gazing_eye.png",
+      "type": "weapon",
+      "exotic": true,
+      "dtype": "雷",
+      "descr": "这就是战斗的快感吗？",
+      "stat": {
+        "atk": 1366,
+        "critDmg": 1,
+        "critRate": 0.5
+      }
+    },
+    "arcane_robe": {
+      "name": "失落长袍",
+      "image": "/assets/equip/arcane_robe.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "失落之人穿着的长袍",
+      "stat": {
+        "hp": 199,
+        "def": 299,
+        "damageReductionFixed": 500
+      }
+    },
+    "arcane_boots": {
+      "name": "失落靴子",
+      "image": "/assets/equip/arcane_boots.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "失落之人穿着的靴子",
+      "stat": {
+        "hp": 3000
+      }
+    },
+    "wyvern_helm": {
+      "name": "变异异龙战盔",
+      "image": "/assets/equip/wyvern_helm.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "由变异异龙的鳞片和皮革制成的战盔",
+      "stat": {
+        "hp": 1000,
+        "def": 100,
+        "mod.冰":2
+      }
+    },
+    "wyvern_plate": {
+      "name": "变异异龙战甲",
+      "image": "/assets/equip/wyvern_plate.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "由变异异龙的鳞片和皮革制成的战甲",
+      "stat": {
+        "hp": 3000,
+        "def": 255,
+        "damageReductionFixed": 100,
+        "damageReductionPercent": 1,
+        "mod.冰":2
+      }
+    },
+    "wyvern_leggings": {
+      "name": "变异异龙护腿",
+      "image": "/assets/equip/wyvern_leggings.png",
+      "type": "armor",
+      "exotic": true,
+      "dtype": "冰",
+      "descr": "由变异异龙的鳞片和皮革制成的护腿",
+      "stat": {
+        "hp": 1200,
+        "atk": 232,
+        "def": 100,
+        "mod.冰":2
+      }
+    },
+    "Aries_hood": {
+      "name": "白羊兜帽",
+      "image": "/assets/equip/aries_hood.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "白羊之灵的兜帽",
+      "stat": {
+        "hp": 25,
+        "def": 10,
+        "atkSpd": 0.5
+      }
+    },
+    "Aries_leg": {
+      "name": "白羊护腿",
+      "image": "/assets/equip/aries_leg.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "白羊之灵的护腿",
+      "stat": {
+        "hp": 40,
+        "def": 15,
+        "mod.火": 1
+      }
+    },
+    "aries_horns1": {
+      "name": "白羊之角",
+      "image": "/assets/equip/aries_horns1.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "白羊之灵的角",
+      "stat": {
+        "hp": 40,
+        "def": 30,
+        "atk": 30,
+        "mod.火": 1
+      }
+    },
+    "aries_panflute": {
+      "name": "林中白羊排箫",
+      "image": "/assets/equip/aries_panflute.png",
+      "type": "armor",
+      "exotic": true,
+      "descr": "林中白羊的排箫",
+      "stat": {
+        "atk": 49,
+        "def": 1,
+        "atkSpd": 1,
+        "vamp": 1,
+        "mod.火": 1
+      }
+    },
+    "aries_staff": {
+      "name": "林中白羊之杖",
+      "image": "/assets/equip/aries_staff.png",
+      "type": "armor",
+      "dtype": "火",
+      "exotic": true,
+      "descr": "林中白羊的手杖",
+      "stat": {
+        "hp": -25,
+        "def": -15,
+        "atkSpd": 1,
+        "ignoreDef": 1,
+        "firstStrike": 0.2,
+        "damageReductionPercent": 1,
+        "mod.火": 5
+      }
+    }
+  }
+}

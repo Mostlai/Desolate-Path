@@ -1,0 +1,499 @@
+{
+  "skins": [
+    {
+      "id": "default",
+      "name": "基础1",
+      "from": "基础",
+      "imagePath": "./assets/dkin/D1.png"
+    },
+    {
+      "id": "default2",
+      "name": "基础2",
+      "from": "基础",
+      "imagePath": "./assets/dkin/D2.png",
+      "cost":{
+        "gold": 1000
+      }
+    },
+    {
+      "id": "default3",
+      "name": "基础3",
+      "from": "基础",
+      "imagePath": "./assets/dkin/D3.png",
+      "cost":{
+        "gold": 1000
+      }
+    },
+    {
+      "id": "default4",
+      "name": "基础4",
+      "from": "基础",
+      "imagePath": "./assets/dkin/D4.png",
+      "cost":{
+        "gold": 1000
+      }
+    },
+    {
+      "id": "default5",
+      "name": "基础5",
+      "from": "基础",
+      "imagePath": "./assets/dkin/D5.png",
+      "cost":{
+        "gold": 1000
+      }
+    },
+    {
+      "id": "default_m",
+      "name": "基础M",
+      "from": "基础",
+      "imagePath": "./assets/dkin/player_default_m.png",
+      "cost":{
+        "gold": 30000
+      }
+    },
+    {
+      "id": "default_f",
+      "name": "基础F",
+      "from": "基础",
+      "imagePath": "./assets/dkin/player_default_f.png",
+      "cost":{
+        "gold": 30000
+      }
+    },
+    {
+      "id": "xt1",
+      "name": "星天1",
+      "from": "基础",
+      "imagePath": "./assets/dkin/xi_m.png",
+      "cost":{
+        "gold": 90000
+      }
+    },
+    {
+      "id": "xt2",
+      "name": "星天2",
+      "from": "基础",
+      "imagePath": "./assets/dkin/nu_m.png",
+      "cost":{
+        "gold": 90000
+      }
+    },
+    {
+      "id": "js",
+      "name": "剑士",
+      "from": "基础",
+      "imagePath": "./assets/dkin/js.png",
+      "cost":{
+        "gold": 10000
+      }
+    },
+    {
+      "id": "ms",
+      "name": "秘术师",
+      "from": "基础",
+      "imagePath": "./assets/dkin/ms.png",
+      "cost":{
+        "gold": 10000
+      }
+    },
+    {
+      "id": "dw",
+      "name": "盾卫",
+      "from": "基础",
+      "imagePath": "./assets/dkin/dw.png",
+      "cost":{
+        "gold": 10000
+      }
+    },
+    {
+      "id": "yl",
+      "name": "驭龙",
+      "from": "基础",
+      "imagePath": "./assets/dkin/yl.png",
+      "cost":{
+        "gold": 10000
+      }
+    },
+    {
+      "id": "yshj",
+      "name": "火鸡",
+      "from": "元素",
+      "imagePath": "./assets/sprites/turkey.png"
+    },
+    {
+      "id": "huoskin",
+      "name": "控火",
+      "from": "元素",
+      "imagePath": "./assets/dkin/h.png"
+    },
+    {
+      "id": "huoskin1",
+      "name": "控火1",
+      "from": "元素",
+      "imagePath": "./assets/dkin/h1.png"
+    },
+    {
+      "id": "bingskin",
+      "name": "控冰",
+      "from": "元素",
+      "imagePath": "./assets/dkin/s.png"
+    },
+    {
+      "id": "bingskin1",
+      "name": "控冰1",
+      "from": "元素",
+      "imagePath": "./assets/dkin/s1.png"
+    },
+    {
+      "id": "leiskin",
+      "name": "控雷",
+      "from": "元素",
+      "imagePath": "./assets/dkin/l.png"
+    },
+    {
+      "id": "leiskin1",
+      "name": "控雷1",
+      "from": "元素",
+      "imagePath": "./assets/dkin/l1.png"
+    },
+    {
+      "id": "diskin",
+      "name": "控地",
+      "from": "元素",
+      "imagePath": "./assets/dkin/d.png"
+    },
+    {
+      "id": "diskin1",
+      "name": "控地1",
+      "from": "元素",
+      "imagePath": "./assets/dkin/dd1.png"
+    },
+    {
+      "id": "dyuansuskin",
+      "name": "元素",
+      "from": "元素",
+      "imagePath": "./assets/dkin/ys1.png"
+    },
+    {
+      "id": "slime1",
+      "name": "怪物1",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/slime.png"
+    },
+    {
+      "id": "slime2",
+      "name": "怪物2",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/red_slime.png"
+    },
+    {
+      "id": "slime3",
+      "name": "怪物3",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/green_slime.png"
+    },
+    {
+      "id": "slime4",
+      "name": "怪物4",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/mighty_slime.png"
+    },
+    {
+      "id": "flames",
+      "name": "怪物5",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/flames.png"
+    },
+    {
+      "id": "behemoth",
+      "name": "怪物6",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/behemoth.png"
+    },
+    {
+      "id": "beige_lobster",
+      "name": "怪物7",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/beige_lobster.png"
+    },
+    {
+      "id": "cerberus",
+      "name": "怪物8",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/cerberus.png"
+    },
+    {
+      "id": "colossus",
+      "name": "怪物9",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/colossus.png"
+    },
+    {
+      "id": "deathworm",
+      "name": "怪物10",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/deathworm.png"
+    },
+    {
+      "id": "dracon",
+      "name": "怪物11",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/dracon.png"
+    },
+    {
+      "id": "fallen_vulcan_arisen",
+      "name": "怪物12",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/fallen_vulcan_arisen.png"
+    },
+    {
+      "id": "fey_dragon",
+      "name": "怪物13",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/fey_dragon.png"
+    },
+    {
+      "id": "fey_gazer",
+      "name": "怪物14",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/fey_gazer.png"
+    },
+    {
+      "id": "fomor",
+      "name": "怪物15",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/fomor.png"
+    },
+    {
+      "id": "gargoyle",
+      "name": "怪物16",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/gargoyle.png"
+    },
+    {
+      "id": "goblin",
+      "name": "怪物17",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/goblin.png"
+    },
+    {
+      "id": "goblin_lord",
+      "name": "怪物18",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/goblin_lord.png"
+    },
+    {
+      "id": "goblin_mage",
+      "name": "怪物19",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/goblin_mage.png"
+    },
+    {
+      "id": "goblin_warrior",
+      "name": "怪物20",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/goblin_warrior.png"
+    },
+    {
+      "id": "great_orc",
+      "name": "怪物21",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/great_orc.png"
+    },
+    {
+      "id": "grim_reaper",
+      "name": "怪物22",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/grim_reaper.png"
+    },
+    {
+      "id": "hobgoblin_lord",
+      "name": "怪物23",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/hobgoblin_lord.png"
+    },
+    {
+      "id": "hobgoblin_lord2",
+      "name": "怪物24",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/hobgoblin_lord2.png"
+    },
+    {
+      "id": "horseman_famine",
+      "name": "怪物25",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/horseman_famine.png"
+    },
+    {
+      "id": "king_balor",
+      "name": "怪物26",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/king_balor.png"
+    },
+    {
+      "id": "lj_king",
+      "name": "怪物27",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/lj_king.png"
+    },
+    {
+      "id": "mimic_king",
+      "name": "怪物28",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/mimic_king.png"
+    },
+    {
+      "id": "orc",
+      "name": "怪物29",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/orc.png"
+    },
+    {
+      "id": "orc_brute",
+      "name": "怪物30",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/orc_brute.png"
+    },
+    {
+      "id": "pale_dragon",
+      "name": "怪物31",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/pale_dragon.png"
+    },
+    {
+      "id": "reaper",
+      "name": "怪物32",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/reaper.png"
+    },
+    {
+      "id": "skeleton",
+      "name": "怪物33",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/skeleton.png"
+    },
+    {
+      "id": "skeleton_rogue",
+      "name": "怪物34",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/skeleton_rogue.png"
+    },
+    {
+      "id": "skeleton_warrior",
+      "name": "怪物35",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/skeleton_warrior.png"
+    },
+    {
+      "id": "spider",
+      "name": "怪物36",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/spider.png"
+    },
+    {
+      "id": "surtrs_mighty_flame",
+      "name": "怪物37",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/surtrs_mighty_flame.png"
+    },
+    {
+      "id": "twilight_wisp",
+      "name": "怪物38",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/twilight_wisp.png"
+    },
+    {
+      "id": "undead",
+      "name": "怪物39",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/undead.png"
+    },
+    {
+      "id": "wolf",
+      "name": "怪物40",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/wolf.png"
+    },
+    {
+      "id": "wolfman_lord",
+      "name": "怪物41",
+      "from": "磨难",
+      "imagePath": "./assets/sprites/wolfman_lord.png"
+    },
+    {
+      "id": "star1",
+      "name": "星君1",
+      "from": "星君",
+      "imagePath": "./assets/sprites/aries1.png"
+    },
+    {
+      "id": "star2",
+      "name": "星君2",
+      "from": "星君",
+      "imagePath": "./assets/sprites/aries2.png"
+    },
+    {
+      "id": "star3",
+      "name": "星君3",
+      "from": "星君",
+      "imagePath": "./assets/sprites/aries3.png"
+    },
+    {
+      "id": "star4",
+      "name": "星君4",
+      "from": "星君",
+      "imagePath": "./assets/sprites/cerus1.png"
+    },
+    {
+      "id": "star5",
+      "name": "星君5",
+      "from": "星君",
+      "imagePath": "./assets/sprites/cerus2.png"
+    },
+    {
+      "id": "star6",
+      "name": "星君6",
+      "from": "星君",
+      "imagePath": "./assets/sprites/cerus3.png"
+    },
+    {
+      "id": "star7",
+      "name": "星君7",
+      "from": "星君",
+      "imagePath": "./assets/dkin/xj1.png"
+    },
+    {
+      "id": "star8",
+      "name": "星君8",
+      "from": "星君",
+      "imagePath": "./assets/dkin/xj2.png"
+    },
+    {
+      "id": "star9",
+      "name": "星君9",
+      "from": "星君",
+      "imagePath": "./assets/dkin/xj3.png"
+    },
+    {
+      "id": "star10",
+      "name": "星君X",
+      "from": "星君",
+      "imagePath": "./assets/sprites/kmx1.png"
+    },
+    {
+      "id": "star11",
+      "name": "星君Y",
+      "from": "星君",
+      "imagePath": "./assets/sprites/kmx2.png"
+    },
+    {
+      "id": "hongh1",
+      "name": "洪荒1",
+      "from": "洪荒",
+      "imagePath": "./assets/sprites/xiangliu.png",
+      "cost":{
+        "gold": 8000000
+      }
+    }
+  ]
+}

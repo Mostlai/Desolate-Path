@@ -1,0 +1,1349 @@
+{
+  "monsters": [
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "nameCN": "山精",
+      "type": "Balanced",
+      "image": {
+        "name": "goblin",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "goblin_rogue",
+      "name": "Goblin Rogue",
+      "nameCN": "灵巧山精",
+      "type": "Quick",
+      "image": {
+        "name": "goblin_warrior",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "goblin_mage",
+      "name": "Goblin Mage",
+      "nameCN": "智谋山精",
+      "type": "Offensive",
+      "image": {
+        "name": "goblin_mage",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "goblin_archer",
+      "name": "Goblin Archer",
+      "nameCN": "弓术山精",
+      "type": "Offensive",
+      "image": {
+        "name": "goblin",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "nameCN": "狼兽",
+      "type": "Offensive",
+      "image": {
+        "name": "wolf",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "wolf_black",
+      "name": "Black Wolf",
+      "nameCN": "黑狼兽",
+      "type": "Offensive",
+      "image": {
+        "name": "wolf",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "wolf_winter",
+      "name": "Winter Wolf",
+      "nameCN": "寒冬狼",
+      "type": "Offensive",
+      "image": {
+        "name": "wolf",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "slime",
+      "name": "Slime",
+      "nameCN": "粘液怪",
+      "type": "Balanced",
+      "image": {
+        "name": "slime",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "slime_angel",
+      "name": "Angel Slime",
+      "nameCN": "红色粘液",
+      "type": "Defensive",
+      "image": {
+        "name": "red_slime",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "slime_knight",
+      "name": "Knight Slime",
+      "nameCN": "绿色粘液",
+      "type": "Defensive",
+      "image": {
+        "name": "green_slime",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "slime_crusader",
+      "name": "Crusader Slime",
+      "nameCN": "护卫粘液",
+      "type": "Defensive",
+      "image": {
+        "name": "slime",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "orc_swordsmaster",
+      "name": "Orc Swordsmaster",
+      "nameCN": "野人剑师",
+      "type": "Offensive",
+      "image": {
+        "name": "orc",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "orc_axe",
+      "name": "Orc Axe",
+      "nameCN": "野人斧手",
+      "type": "Offensive",
+      "image": {
+        "name": "orc",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "orc_archer",
+      "name": "Orc Archer",
+      "nameCN": "野人砍柴者",
+      "type": "Offensive",
+      "image": {
+        "name": "orc_brute",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "orc_mage",
+      "name": "Orc Mage",
+      "nameCN": "野人法师",
+      "type": "Offensive",
+      "image": {
+        "name": "great_orc",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "spider",
+      "name": "Spider",
+      "nameCN": "蛛妖",
+      "type": "Balanced",
+      "image": {
+        "name": "spider",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "spider_red",
+      "name": "Red Spider",
+      "nameCN": "赤蛛",
+      "type": "Offensive",
+      "image": {
+        "name": "spider",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "spider_green",
+      "name": "Green Spider",
+      "nameCN": "绿蛛",
+      "type": "Defensive",
+      "image": {
+        "name": "spider",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "skeleton_archer",
+      "name": "Skeleton Archer",
+      "nameCN": "骷髅弓手",
+      "type": "Offensive",
+      "image": {
+        "name": "skeleton_rogue",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "skeleton_swordsmaster",
+      "name": "Skeleton Swordsmaster",
+      "nameCN": "骷髅剑客",
+      "type": "Quick",
+      "image": {
+        "name": "skeleton",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "skeleton_knight",
+      "name": "Skeleton Knight",
+      "nameCN": "骷髅骑士",
+      "type": "Defensive",
+      "image": {
+        "name": "skeleton_warrior",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "skeleton_mage",
+      "name": "Skeleton Mage",
+      "nameCN": "骷髅法师",
+      "type": "Offensive",
+      "image": {
+        "name": "skeleton_warrior",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "skeleton_pirate",
+      "name": "Skeleton Pirate",
+      "nameCN": "骷髅海盗",
+      "type": "Quick",
+      "image": {
+        "name": "skeleton",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "skeleton_samurai",
+      "name": "Skeleton Samurai",
+      "nameCN": "骷髅武士",
+      "type": "Quick",
+      "image": {
+        "name": "skeleton_warrior",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "skeleton_warrior",
+      "name": "Skeleton Warrior",
+      "nameCN": "骷髅战士",
+      "type": "Defensive",
+      "image": {
+        "name": "skeleton_warrior",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "mimic",
+      "name": "Mimic",
+      "nameCN": "幻影宝箱",
+      "type": "Balanced",
+      "image": {
+        "name": "mimic_king",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["chest"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "door_mimic",
+      "name": "Door Mimic",
+      "nameCN": "诡异之门",
+      "type": "Balanced",
+      "image": {
+        "name": "mimic_king",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["door"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "zaart",
+      "name": "Zaart, the Dominator Goblin",
+      "nameCN": "霸主山精",
+      "type": "Offensive",
+      "image": {
+        "name": "goblin_lord",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "banshee",
+      "name": "Banshee, Skeleton Lord",
+      "nameCN": "骷髅领主",
+      "type": "Offensive",
+      "image": {
+        "name": "skeleton_warrior",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "molten_spider",
+      "name": "Molten Spider",
+      "nameCN": "熔岩蛛妖",
+      "type": "Offensive",
+      "image": {
+        "name": "spider",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "cerberus",
+      "name": "Cerberus Ptolemaios",
+      "nameCN": "三头犬",
+      "type": "Lethal",
+      "image": {
+        "name": "cerberus",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [4, 8],
+        "critDmg": [6, 9]
+      }
+    },
+    {
+      "id": "hellhound",
+      "name": "Hellhound Inferni",
+      "nameCN": "幽冥犬",
+      "type": "Lethal",
+      "image": {
+        "name": "cerberus",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [4, 8],
+        "critDmg": [6, 9]
+      }
+    },
+    {
+      "id": "berthelot",
+      "name": "Berthelot, the Undead King",
+      "nameCN": "亡灵之王",
+      "type": "Offensive",
+      "image": {
+        "name": "undead",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "slime_king",
+      "name": "Slime King",
+      "nameCN": "究极粘液",
+      "type": "Defensive",
+      "image": {
+        "name": "mighty_slime",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "zodiac_cancer",
+      "name": "Zodiac Cancer",
+      "nameCN": "巨蟹",
+      "type": "Defensive",
+      "image": {
+        "name": "beige_lobster",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "alfadriel",
+      "name": "Alfadriel",
+      "nameCN": "光耀斑点",
+      "type": "Defensive",
+      "image": {
+        "name": "twilight_wisp",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "tiamat",
+      "name": "Tiamat, the Dragon Knight",
+      "nameCN": "红龙骑者",
+      "type": "Balanced",
+      "image": {
+        "name": "fallen_vulcan_arisen",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "fallen_king",
+      "name": "Nameless Fallen King",
+      "nameCN": "无名沉沦帝君",
+      "type": "Balanced",
+      "image": {
+        "name": "king_balor",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "zodiac_aries",
+      "name": "Zodiac Aries",
+      "nameCN": "白羊",
+      "type": "Balanced",
+      "image": {
+        "name": "aries1",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "llyrrad",
+      "name": "Llyrrad",
+      "nameCN": "军星蚁主",
+      "type": "Quick",
+      "image": {
+        "name": "grim_reaper",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "clockwork_spider",
+      "name": "Clockwork Spider",
+      "nameCN": "机关蛛妖",
+      "type": "Quick",
+      "image": {
+        "name": "spider",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "aragorn",
+      "name": "Aragorn, the Lethal Wolf",
+      "nameCN": "究极狼王",
+      "type": "Lethal",
+      "image": {
+        "name": "wolfman_lord",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["guardian"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [4, 8],
+        "critDmg": [6, 9]
+      }
+    },
+    {
+      "id": "naizicher",
+      "name": "Naizicher",
+      "nameCN": "白龙",
+      "type": "Quick",
+      "image": {
+        "name": "pale_dragon",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "deathworm",
+      "name": "deathworm",
+      "nameCN": "究极死亡蠕虫",
+      "type": "Defensive",
+      "image": {
+        "name": "deathworm",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "ifrit",
+      "name": "Ifrit",
+      "nameCN": "火焰之灵",
+      "type": "Balanced",
+      "image": {
+        "name": "flames",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "shiva",
+      "name": "Shiva",
+      "nameCN": "寒冰之灵",
+      "type": "Balanced",
+      "image": {
+        "name": "surtrs_mighty_flame",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [320, 420],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [0.5, 1.5],
+        "critDmg": [1, 3]
+      }
+    },
+    {
+      "id": "behemoth",
+      "name": "Behemoth",
+      "nameCN": "移山巨兽",
+      "type": "Offensive",
+      "image": {
+        "name": "behemoth",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.2, 0.4],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [6.5, 7.5]
+      }
+    },
+    {
+      "id": "blood_manipulation",
+      "name": "Blood Manipulation Feral",
+      "nameCN": "血脉寄藏魔",
+      "type": "Lethal",
+      "image": {
+        "name": "grim_reaper",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [70, 100],
+        "def": [20, 50],
+        "atkSpd": [0.15, 0.35],
+        "vamp": 0,
+        "critRate": [4, 8],
+        "critDmg": [6, 9]
+      }
+    },
+    {
+      "id": "darkness_angel",
+      "name": "Darkness Angel Reaper",
+      "nameCN": "黑暗收割者",
+      "type": "Quick",
+      "image": {
+        "name": "reaper",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["sboss"],
+      "baseStats": {
+        "hpMax": [300, 370],
+        "atk": [50, 80],
+        "def": [30, 60],
+        "atkSpd": [0.35, 0.45],
+        "vamp": 0,
+        "critRate": [1, 4],
+        "critDmg": [3, 6]
+      }
+    },
+    {
+      "id": "golem",
+      "name": "Golem",
+      "nameCN": "石灵",
+      "type": "Defensive",
+      "image": {
+        "name": "colossus",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["normal"],
+      "baseStats": {
+        "hpMax": [400, 500],
+        "atk": [40, 70],
+        "def": [40, 70],
+        "atkSpd": [0.1, 0.3],
+        "vamp": 0,
+        "critRate": 0,
+        "critDmg": 0
+      }
+    },
+    {
+      "id": "longpu",
+      "name": "longpu",
+      "nameCN": "龙仆",
+      "descr": "远古巨龙之仆",
+      "type": "Offensive",
+      "image": {
+        "name": "dracon",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 100,
+      "baseStats": {
+        "hpMax": [8000, 8000],
+        "atk": [44, 44],
+        "def": [33, 33],
+        "atkSpd": [0.9, 0.9],
+        "vamp": [0, 0],
+        "critRate": [1, 1],
+        "critDmg": [10, 10]
+      },
+      "resistances": { "神圣": 0.5, "暗影": 0.5},
+      "drops": [
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 11},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 11},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 4},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 4},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 1},
+        {"type": "equipment","id": "draco_bow","probability": 9},
+        {"type": "equipment","id": "draco_sword","probability": 9},
+        {"type": "equipment", "id": "draco_staff","probability": 9},
+        {"type": "equipment","id": "dracon_shield","probability": 9},
+        {"type": "gem","id": "dragem","quantity": 1,"probability": 5}
+      ]
+    },
+    {
+      "id": "mopu",
+      "name": "mopu",
+      "nameCN": "魔仆",
+      "descr": "远古大魔之仆",
+      "type": "Offensive",
+      "image": {
+        "name": "fomor",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 120,
+      "baseStats": {
+        "hpMax": [8500, 8500],
+        "atk": [62, 62],
+        "def": [40, 40],
+        "atkSpd": [0.9, 0.9],
+        "vamp": [0, 0],
+        "critRate": [1.7, 1.7],
+        "critDmg": [10, 10]
+      },
+      "resistances": { "毒": 0.5, "暗影": 0.3},
+      "drops": [
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 11},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 11},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 4},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 4},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 1},
+        {"type": "equipment","id": "fomor_katana","probability": 9},
+        {"type": "equipment","id": "fomor_sword","probability": 9},
+        {"type": "equipment", "id": "fomor_staff","probability": 9},
+        {"type": "equipment","id": "fomor_shield","probability": 9},
+        {"type": "gem","id": "mopugem","quantity": 1,"probability": 5}
+      ]
+    },
+    {
+      "id": "ljking",
+      "name": "ljking",
+      "nameCN": "光之灵王",
+      "descr": "手持光杖的灵王",
+      "type": "Offensive",
+      "image": {
+        "name": "lj_king",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 135,
+      "baseStats": {
+        "hpMax": [11000, 11000],
+        "atk": [62, 62],
+        "def": [60, 60],
+        "atkSpd": [0.9, 0.9],
+        "vamp": [0, 0],
+        "critRate": [1, 1],
+        "critDmg": [10, 10]
+      },
+      "resistances": { "火": 0.5,"雷": 0.5},
+      "weaknesses": {"毒": 2},
+      "immunities": ["神圣"],
+      "drops": [
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 11},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 11},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 4},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 4},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 1},
+        {"type": "equipment","id": "mirror","probability": 9},
+        {"type": "equipment","id": "dawn_hood","probability": 9},
+        {"type": "equipment", "id": "dawn_armor","probability": 9},
+        {"type": "equipment","id": "dawn_boots","probability": 9},
+        {"type": "equipment","id": "dawn_bow","probability": 9},
+        {"type": "equipment", "id": "dawnbreaker","probability": 9},
+        {"type": "equipment","id": "dawn_staff","probability": 9},
+        {"type": "equipment","id": "warrior_ring","probability": 2}
+      ]
+    },
+    {
+      "id": "fhorseman",
+      "name": "fhorseman",
+      "nameCN": "第一骑士",
+      "descr": "四骑士中的第一骑士，这位混沌的化身为这片大地带来饥荒。",
+      "type": "Offensive",
+      "image": {
+        "name": "horseman_famine",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 175,
+      "baseStats": {
+        "hpMax": [31000, 31000],
+        "atk": [133, 133],
+        "def": [170, 170],
+        "atkSpd": [1.2, 1.2],
+        "vamp": [0, 0],
+        "critRate": [1, 1],
+        "critDmg": [10, 10]
+      },
+      "drops": [
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 50},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 50},
+        {"type": "consumables","id": "greater_health_potion", "quantity": 1,"probability": 20},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 10},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 10},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 1},
+        {"type": "equipment","id": "horseman_hood","probability": 9},
+        {"type": "equipment","id": "horseman_roob","probability": 9},
+        {"type": "equipment", "id": "horseman_armor","probability": 9},
+        {"type": "equipment","id": "horseman_boots","probability": 9},
+        {"type": "equipment","id": "horseman_spear","probability": 5},
+        {"type": "gem","id": "fhgem","quantity": 1,"probability": 5}
+      ]
+    },
+    {
+      "id": "fey_gazer",
+      "name": "fey_gazer",
+      "nameCN": "变异凝视者",
+      "descr": "眼魔之亲，异界来客。",
+      "type": "Offensive",
+      "image": {
+        "name": "fey_gazer",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "resistances": { "火": 0.5,"冰": 0.5},
+      "weaknesses": {"雷": 2},
+      "immunities": ["物理"],
+      "level": 199,
+      "baseStats": {
+        "hpMax": [28000, 28000],
+        "atk": [467, 467],
+        "def": [377, 377],
+        "atkSpd": [1.2, 1.2],
+        "vamp": [0, 0],
+        "critRate": [3, 3],
+        "critDmg": [0.1, 0.1]
+      },
+      "drops": [
+        {"type": "consumables","id": "large_health_potion", "quantity": 2,"probability": 100},
+        {"type": "consumables","id": "greater_health_potion", "quantity": 1,"probability": 50},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 20},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 20},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 2},
+        {"type": "equipment","id": "bone_lute","probability": 9},
+        {"type": "equipment","id": "gazing_eye","probability": 9},
+        {"type": "equipment", "id": "gazing_eye1","probability": 9},
+        {"type": "equipment","id": "arcane_robe","probability": 9},
+        {"type": "equipment","id": "arcane_boots","probability": 5},
+        {"type": "gem","id": "crystal_eye","quantity": 1,"probability": 5}
+      ]
+    },
+    {
+      "id": "hobgoblin_lord",
+      "name": "hobgoblin_lord",
+      "nameCN": "霍布星",
+      "descr": "能引导星空力量的哥布林总是很少的。",
+      "type": "Offensive",
+      "image": {
+        "name": "hobgoblin_lord",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 201,
+      "baseStats": {
+        "hpMax": [31000, 31000],
+        "atk": [333, 333],
+        "def": [499, 499],
+        "atkSpd": [1, 1],
+        "vamp": [0, 0],
+        "critRate": [4, 4],
+        "critDmg": [0.1, 0.1]
+      },
+      "drops": [
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 100},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 100},
+        {"type": "consumables","id": "greater_health_potion", "quantity": 1,"probability": 50},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 20},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 20},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 2},
+        {"type": "equipment","id": "Aries_hood","probability": 15},
+        {"type": "equipment", "id": "Aries_leg","probability": 15},
+        {"type": "gem","id": "Aries_eye", "quantity": 1,"probability": 5},
+        {"type": "gem","id": "Aries_soul","quantity": 1,"probability": 5},
+        {"type": "gem","id": "Flame_Resin","quantity": 1,"probability": 0.2}
+      ]
+    },
+    {
+      "id": "fey_dragon",
+      "name": "fey_dragon",
+      "nameCN": "变异异龙",
+      "descr": "变异的异龙",
+      "type": "Offensive",
+      "image": {
+        "name": "fey_dragon",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 210,
+      "immunities": ["冰"],
+      "baseStats": {
+        "hpMax": [45000, 45000],
+        "atk": [396, 396],
+        "def": [600, 600],
+        "atkSpd": [0.8, 0.8],
+        "vamp": [0, 0],
+        "critRate": [1, 1],
+        "critDmg": [0.2, 0.2]
+      },
+      "drops": [
+        {"type": "consumables","id": "small_health_potion", "quantity": 2,"probability": 100},
+        {"type": "consumables","id": "large_health_potion", "quantity": 2,"probability": 100},
+        {"type": "consumables","id": "greater_health_potion", "quantity": 1,"probability": 100},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 33},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 33},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 5},
+        {"type": "equipment","id": "wyvern_leggings","probability": 15},
+        {"type": "equipment", "id": "wyvern_plate","probability": 15},
+        {"type": "equipment", "id": "wyvern_helm","probability": 15},
+        {"type": "gem","id": "wyvern_eye", "quantity": 1,"probability": 5},
+        {"type": "gem","id": "wyvern_lp","quantity": 1,"probability": 5}
+      ]
+    },
+    {
+      "id": "mimic_king",
+      "name": "mimic_king",
+      "nameCN": "箱王",
+      "descr": "古老箱王再临",
+      "type": "Offensive",
+      "image": {
+        "name": "mimic_king",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 230,
+      "weaknesses": {"雷": 2},
+      "immunities": ["暗影","神圣"],
+      "baseStats": {
+        "hpMax": [45000, 45000],
+        "atk": [432, 432],
+        "def": [666, 666],
+        "atkSpd": [0.8, 0.8],
+        "vamp": [0.1, 0.1],
+        "critRate": [1, 1],
+        "critDmg": [0.2, 0.2]
+      },
+      "drops": [
+        {"type": "consumables","id": "large_health_potion", "quantity": 2,"probability": 100},
+        {"type": "consumables","id": "greater_health_potion", "quantity": 2,"probability": 100},
+        {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 6},
+        {"type": "equipment","id": "B_1","probability": 2},
+        {"type": "equipment", "id": "B_2","probability": 2},
+        {"type": "equipment", "id": "B_3","probability": 2}
+      ]
+    }
+  ]
+}

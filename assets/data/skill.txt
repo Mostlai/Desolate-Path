@@ -1,0 +1,170 @@
+{
+  "slash": {
+    "name": "斩击",
+    "descr": "造成额外的伤害且可能造成流血状态。"
+  },
+  "hexacut": {
+    "name": "六连击",
+    "descr": "神速地攻击 6 次。"
+  },
+  "sweep-ii": {
+    "name": "横扫 II",
+    "descr": "对所有对手造成伤害。"
+  },
+  "firestrike-iii": {
+    "name": "火焰之击 III",
+    "descr": "点燃你的武器并攻击敌人。"
+  },
+  "icestrike-iii": {
+    "name": "冰冻之击 III",
+    "descr": "冰冻你的武器并攻击敌人。"
+  },
+  "earthstrike-iii": {
+    "name": "大地之击 III",
+    "descr": "用大地之力攻击敌人。"
+  },
+  "lightningstrike-iii": {
+    "name": "闪电之击 III",
+    "descr": "让你的武器带电并攻击敌人。"
+  },
+  "darkstrike-iii": {
+    "name": "黑暗之击 III",
+    "descr": "让超自然的力量渗入你的武器并攻击敌人。"
+  },
+  "holystrike-iii": {
+    "name": "圣光之击 III",
+    "descr": "净化你的武器并且攻击敌人。"
+  },
+  "viperstrike-iii": {
+    "name": "龙息之击 III",
+    "descr": "造成巨量的龙系伤害，吸收少量生命值并获得 2 回合的护盾。"
+  },
+  "arcana-iv": {
+    "name": "秘仪术 IV",
+    "descr": "造成巨大的奥术伤害。该法术的伤害取决于你的物攻或魔攻更高的一方。"
+  },
+  "magic-strikes-iv": {
+    "name": "魔法连击 IV",
+    "descr": "迅速攻击三次，最多造成三倍伤害。造成的伤害是基于魔攻属性而不是物攻属性。"
+  },
+  "natura-iii": {
+    "name": "天然魔法 III",
+    "descr": "对所有对手造成土系伤害。"
+  },
+  "omnistrike-iii": {
+    "name": "融合之击 III",
+    "descr": "猛烈的一击，有机率降低对手的攻击或防御。"
+  },
+  "desperation": {
+    "name": "破釜沉舟",
+    "descr": "依据自身已损生命值的一定比例造成伤害。"
+  },
+  "mana-burn": {
+    "name": "魔力燃烧",
+    "descr": "将你当前魔力值的一半转换成对敌人的伤害。"
+  },
+  "dragons-vengeance": {
+    "name": "龙的复仇",
+    "descr": "根据最近击杀的龙族数量造成巨量伤害。增益效果可能不会直接提升此技能的伤害。"
+  },
+  "casted-shadows-ii": {
+    "name": "阴影投射 II",
+    "descr": "造成多次暗属性伤害，伤害取决于敌人身上减益状态的数量。"
+  },
+  "stonefire": {
+    "name": "石之炎",
+    "descr": "向所有对手造成物理属性魔法伤害，并有机率造成燃烧或石化。"
+  },
+  "wisps-heal-ii": {
+    "name": "幽光疗术 II",
+    "descr": "回复 1000 点生命值，并解除常见的减益状态。"
+  },
+  "alpha-dart": {
+    "name": "阿尔法飞镖",
+    "descr": "丢出一支有机会击昏对手或使之燃烧的飞镖。"
+  },
+  "poison": {
+    "name": "下毒",
+    "descr": "尝试毒害对手，每回合造成伤害。"
+  },
+  "petrify": {
+    "name": "石化术",
+    "descr": "有 90% 的机率石化对手。"
+  },
+  "flash": {
+    "name": "闪光弹",
+    "descr": "发出一道闪光来致盲对手。"
+  },
+  "dispel-ii": {
+    "name": "痊愈 II",
+    "descr": "从所有异常状态中恢复。"
+  },
+  "berserk-iii": {
+    "name": "狂暴 III",
+    "descr": "提高所有属性，但会随时间流失大量生命值。"
+  },
+  "scout-weakness": {
+    "name": "弱点观测",
+    "descr": "提高暴击率。"
+  },
+  "sharpen": {
+    "name": "磨刀术",
+    "descr": "暂时提升物攻。"
+  },
+  "magic-boost": {
+    "name": "魔法增幅",
+    "descr": "提高魔攻。"
+  },
+  "protection-ii": {
+    "name": "保护 II",
+    "descr": "大幅提高物防。"
+  },
+  "magic-shield-ii": {
+    "name": "魔法盾 II",
+    "descr": "大幅提高魔防。"
+  },
+  "prism-wall": {
+    "name": "四方防壁",
+    "descr": "获得四种基本元素的属性抗性。"
+  },
+  "grand-rally": {
+    "name": "大集结",
+    "descr": "暂时地提升全队成员的状态。"
+  },
+  "mindblast": {
+    "name": "心灵震爆",
+    "descr": "有 25% 的机率降低对手的所有属性。"
+  },
+  "threaten": {
+    "name": "胁迫",
+    "descr": "降低对手的物攻。"
+  },
+  "mute": {
+    "name": "沉默术",
+    "descr": "降低对手的魔攻。"
+  },
+  "exploit-ii": {
+    "name": "剥削 II",
+    "descr": "降低对手的物防，并暂时提升自身暴击率。"
+  },
+  "outwill": {
+    "name": "威吓",
+    "descr": "降低对手的魔防。"
+  },
+  "gait-of-gunnr": {
+    "name": "古娜步态",
+    "descr": "战争女武神喜欢采用的战斗姿态。在战斗中采取这种姿态将大幅提高物攻，同时也会大幅降低魔攻和魔防。"
+  },
+  "gait-of-snotra": {
+    "name": "斯洛特拉步态",
+    "descr": "智慧女武神喜欢采用的战斗姿态。在战斗中采取这种姿态将大幅提高魔攻，同时也会大幅降低物攻和物防。"
+  },
+  "gait-of-hildr": {
+    "name": "希露德步态",
+    "descr": "战争女武神喜欢采用的战斗姿态。在战斗中采取这种姿态将牺牲物攻与魔攻来稍微提升物防与魔防。"
+  },
+  "brittle-break": {
+    "name": "化身利刃",
+    "descr": "暂时地移除全部防御与敏捷，同时增加少量的物攻、魔攻与暴击率。此外，你每回合会受到少量的自损。"
+  }
+}
