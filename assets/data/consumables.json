@@ -4,7 +4,7 @@
     "name": "次级生命药剂",
     "color": "lawngreen",
     "description": "回复200气血",
-    "imagePath": "/assets/consumables/small_health_potion.png",
+    "imagePath": "./assets/consumables/small_health_potion.png",
     "isUsable": true,
     "sell": 100,
     "effect": {
@@ -18,7 +18,7 @@
     "name": "大型生命药剂",
     "color": "lawngreen",
     "description": "回复1000气血",
-    "imagePath": "/assets/consumables/large_health_potion.png",
+    "imagePath": "./assets/consumables/large_health_potion.png",
     "isUsable": true,
     "sell": 500,
     "effect": {
@@ -32,7 +32,7 @@
     "name": "上级生命药剂",
     "color": "lawngreen",
     "description": "回复3000气血",
-    "imagePath": "/assets/consumables/greater_health_potion.png",
+    "imagePath": "./assets/consumables/greater_health_potion.png",
     "isUsable": true,
     "sell": 1000,
     "effect": {
@@ -46,7 +46,7 @@
     "name": "超级生命药剂",
     "color": "lawngreen",
     "description": "回复9000气血",
-    "imagePath": "/assets/consumables/super_health_potion.png",
+    "imagePath": "./assets/consumables/super_health_potion.png",
     "isUsable": true,
     "sell": 2500,
     "effect": {
@@ -60,7 +60,7 @@
     "name": "究级生命药剂",
     "color": "lawngreen",
     "description": "回复20000气血",
-    "imagePath": "/assets/consumables/x_health_potion.png",
+    "imagePath": "./assets/consumables/x_health_potion.png",
     "isUsable": true,
     "sell": 5000,
     "effect": {
@@ -75,7 +75,7 @@
     "color": "lawngreen",
     "icon": "fa-solid fa-scroll",
     "description": "死亡时自动消耗,免死一次",
-    "imagePath": "/assets/consumables/rebirth_scroll.png",
+    "imagePath": "./assets/consumables/rebirth_scroll.png",
     "isUsable": false
   },
   {
@@ -84,7 +84,7 @@
     "color": "burlywood",
     "icon": "ra ra-chessboard",
     "description": "通天材料",
-    "imagePath": "/assets/consumables/curse_lb_fragment.png",
+    "imagePath": "./assets/consumables/curse_lb_fragment.png",
     "isUsable": false
   },
   {
@@ -93,7 +93,7 @@
     "color": "steelblue",
     "icon": "ra ra-chessboard",
     "description": "通天材料",
-    "imagePath": "/assets/consumables/rift_lb_fragment.png",
+    "imagePath": "./assets/consumables/rift_lb_fragment.png",
     "isUsable": false
   },
   {
@@ -102,7 +102,7 @@
     "color": "fuchsia",
     "icon": "ra ra-chessboard",
     "description": "通天材料",
-    "imagePath": "/assets/consumables/empor_lb_fragment.png",
+    "imagePath": "./assets/consumables/empor_lb_fragment.png",
     "isUsable": false
   },
   {
@@ -111,7 +111,7 @@
     "color": "red",
     "icon": "ra ra-skull",
     "description": "苦难煎熬材料",
-    "imagePath": "/assets/equip/hardloopsign.png",
+    "imagePath": "./assets/equip/hardloopsign.png",
     "isUsable": false
   },
   {
@@ -120,7 +120,7 @@
     "color": "steelblue",
     "icon": "ra ra-rune-stone",
     "description": "强化材料",
-    "imagePath": "/assets/consumables/riftstone.png",
+    "imagePath": "./assets/consumables/riftstone.png",
     "isUsable": false
   },
   {
@@ -129,12 +129,12 @@
     "color": "gold",
     "icon": "fa-solid fa-coins",
     "description": "使用后30分钟内灵石掉落+50%",
-    "imagePath": "/assets/consumables/lucky_coin.png",
+    "imagePath": "./assets/consumables/lucky_coin.png",
     "isUsable": true,
     "sell": 1000,
     "effect": {
       "type": "spiritStoneDropRate",
-      "imagePath": "/assets/consumables/lucky_coin.png",
+      "imagePath": "./assets/consumables/lucky_coin.png",
       "value": 50,
       "duration": 1800
     }
@@ -145,12 +145,12 @@
     "color": "deepskyblue",
     "icon": "fa-solid fa-book-open",
     "description": "使用后30分钟内经验掉落+50%",
-    "imagePath": "/assets/equip/exp.png",
+    "imagePath": "./assets/equip/exp.png",
     "isUsable": true,
     "sell": 1000,
     "effect": {
       "type": "expDropRate",
-      "imagePath": "/assets/equip/exp.png",
+      "imagePath": "./assets/equip/exp.png",
       "value": 50,
       "duration": 1800
     }
