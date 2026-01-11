@@ -3,7 +3,7 @@
     "id": "dragem",
     "name": "龙仆结晶",
     "descr": "远古巨龙仆人死亡后的残留物。",
-    "image": "/assets/gem/38.png",
+    "image": "./assets/gem/38.png",
     "stats": [
       {"atk": 100},
       {"critRate": 1}
@@ -14,7 +14,7 @@
     "id": "dragem",
     "name": "魔仆结晶",
     "descr": "远古大魔仆人死亡后的残留物。",
-    "image": "/assets/gem/46.png",
+    "image": "./assets/gem/46.png",
     "stats": [
       {"def": 245}
     ],
@@ -24,7 +24,7 @@
     "id": "fhgem",
     "name": "饥荒象征",
     "descr": "第一骑士的装饰品",
-    "image": "/assets/gem/55.png",
+    "image": "./assets/gem/55.png",
     "stats": [
       {"def": 100, "hpMax": 1000}
     ],
@@ -34,7 +34,7 @@
     "id": "crystal_eye",
     "name": "全知水晶之眼",
     "descr": "变异凝视者的瞳孔残留物",
-    "image": "/assets/gem/crystal_eye.png",
+    "image": "./assets/gem/crystal_eye.png",
     "stats": [
       {"def": 100, "hpMax": -20, "atk": 100, "vamp": 0.1, "critRate": 0.1, "critDmg": 0.1}
     ],
@@ -44,7 +44,7 @@
     "id": "wyvern_eye",
     "name": "变异异龙眼球",
     "descr": "变异异龙的双眼",
-    "image": "/assets/gem/crystal_eye.png",
+    "image": "./assets/gem/crystal_eye.png",
     "stats": [
       {"damageTypeModifiers": {"冰": 1}}
     ],
@@ -54,7 +54,7 @@
     "id": "wyvern_lp",
     "name": "变异异龙鳞片",
     "descr": "变异异龙的鳞片",
-    "image": "/assets/gem/scalestone.png",
+    "image": "./assets/gem/scalestone.png",
     "stats": [
       {"damageTypeModifiers": {"火": -6, "冰": 2},
       "hp": 100, "def": 125}
@@ -65,7 +65,7 @@
     "id": "Aries_eye",
     "name": "白羊之眼",
     "descr": "林中白羊之眼。能够提供暴击率",
-    "image": "/assets/gem/58.png",
+    "image": "./assets/gem/58.png",
     "stats": [
       {"critRate": 1}
     ],
@@ -75,7 +75,7 @@
     "id": "Aries_soul",
     "name": "白羊之魂",
     "descr": "林中白羊之魂。大量提高火伤害，但是降低冰伤害",
-    "image": "/assets/gem/aries_soul.png",
+    "image": "./assets/gem/aries_soul.png",
     "stats": [
       {"damageTypeModifiers": {"火": 3, "冰": -20},
       "hp": -2000}
@@ -86,7 +86,7 @@
     "id": "Ruby",
     "name": "红宝石",
     "descr": "蕴含火焰之力的红色宝石，能够提升攻击力。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"atk": 50}
     ],
@@ -96,7 +96,7 @@
     "id": "Ruby_Plus",
     "name": "红宝石+",
     "descr": "经过精炼的红宝石，蕴含更强的火焰之力。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"atk": 100}
     ],
@@ -106,7 +106,7 @@
     "id": "Ruby_Premium",
     "name": "红宝石++",
     "descr": "高度精炼的红宝石，火焰之力澎湃。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"atk": 200}
     ],
@@ -116,7 +116,7 @@
     "id": "Ruby_Epic",
     "name": "红宝石+++",
     "descr": "史诗级红宝石，蕴含着炽热的火焰精华。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"atk": 400}
     ],
@@ -126,7 +126,7 @@
     "id": "Ruby_Legendary",
     "name": "红宝石++++",
     "descr": "传世红宝石，传说中由火神亲手雕琢，蕴含着无尽的火焰之力。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"atk": 800}
     ],
@@ -136,7 +136,7 @@
     "id": "Sapphire",
     "name": "蓝宝石",
     "descr": "蕴含冰霜之力的蓝色宝石，能够提升防御力。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"def": 30}
     ],
@@ -146,7 +146,7 @@
     "id": "Sapphire_Plus",
     "name": "蓝宝石+",
     "descr": "经过精炼的蓝宝石，蕴含更强的冰霜之力。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"def": 60}
     ],
@@ -156,7 +156,7 @@
     "id": "Sapphire_Premium",
     "name": "蓝宝石++",
     "descr": "高度精炼的蓝宝石，冰霜之力澎湃。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"def": 120}
     ],
@@ -166,7 +166,7 @@
     "id": "Sapphire_Epic",
     "name": "蓝宝石+++",
     "descr": "史诗级蓝宝石，蕴含着刺骨的冰霜精华。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"def": 240}
     ],
@@ -176,7 +176,7 @@
     "id": "Sapphire_Legendary",
     "name": "蓝宝石++++",
     "descr": "传世蓝宝石，传说中由冰神亲手雕琢，蕴含着无尽的冰霜之力。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"def": 480}
     ],
@@ -186,7 +186,7 @@
     "id": "Emerald",
     "name": "绿宝石",
     "descr": "蕴含生命之力的绿色宝石，能够提升生命值。",
-    "image": "/assets/gem/14.png",
+    "image": "./assets/gem/14.png",
     "stats": [
       {"hp": 300}
     ],
@@ -196,7 +196,7 @@
     "id": "Emerald_Plus",
     "name": "绿宝石+",
     "descr": "经过精炼的绿宝石，蕴含更强的生命之力。",
-    "image": "/assets/gem/14.png",
+    "image": "./assets/gem/14.png",
     "stats": [
       {"hp": 600}
     ],
@@ -206,7 +206,7 @@
     "id": "Emerald_Premium",
     "name": "绿宝石++",
     "descr": "高度精炼的绿宝石，生命之力澎湃。",
-    "image": "/assets/gem/14.png",
+    "image": "./assets/gem/14.png",
     "stats": [
       {"hp": 1200}
     ],
@@ -216,7 +216,7 @@
     "id": "Emerald_Epic",
     "name": "绿宝石+++",
     "descr": "史诗级绿宝石，蕴含着旺盛的生命精华。",
-    "image": "/assets/gem/14.png",
+    "image": "./assets/gem/14.png",
     "stats": [
       {"hp": 2400}
     ],
@@ -226,7 +226,7 @@
     "id": "Emerald_Legendary",
     "name": "绿宝石++++",
     "descr": "传世绿宝石，传说中由生命女神亲手雕琢，蕴含着无尽的生命之力。",
-    "image": "/assets/gem/14.png",
+    "image": "./assets/gem/14.png",
     "stats": [
       {"hp": 4800}
     ],
@@ -236,7 +236,7 @@
     "id": "Amethyst",
     "name": "紫水晶",
     "descr": "蕴含雷霆之力的紫色宝石，能够提升暴击率。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"critRate": 3}
     ],
@@ -246,7 +246,7 @@
     "id": "Amethyst_Plus",
     "name": "紫水晶+",
     "descr": "经过精炼的紫水晶，蕴含更强的雷霆之力。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"critRate": 6}
     ],
@@ -256,7 +256,7 @@
     "id": "Amethyst_Premium",
     "name": "紫水晶++",
     "descr": "高度精炼的紫水晶，雷霆之力澎湃。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"critRate": 12}
     ],
@@ -266,7 +266,7 @@
     "id": "Amethyst_Epic",
     "name": "紫水晶+++",
     "descr": "史诗级紫水晶，蕴含着狂暴的雷霆精华。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"critRate": 24}
     ],
@@ -276,7 +276,7 @@
     "id": "Amethyst_Legendary",
     "name": "紫水晶++++",
     "descr": "传世紫水晶，传说中由雷神亲手雕琢，蕴含着无尽的雷霆之力。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"critRate": 48}
     ],
@@ -286,7 +286,7 @@
     "id": "Topaz",
     "name": "黄宝石",
     "descr": "蕴含毁灭之力的黄色宝石，能够提升暴击伤害。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"critDmg": 10}
     ],
@@ -296,7 +296,7 @@
     "id": "Topaz_Plus",
     "name": "黄宝石+",
     "descr": "经过精炼的黄宝石，蕴含更强的毁灭之力。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"critDmg": 20}
     ],
@@ -306,7 +306,7 @@
     "id": "Topaz_Premium",
     "name": "黄宝石++",
     "descr": "高度精炼的黄宝石，毁灭之力澎湃。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"critDmg": 40}
     ],
@@ -316,7 +316,7 @@
     "id": "Topaz_Epic",
     "name": "黄宝石+++",
     "descr": "史诗级黄宝石，蕴含着恐怖的毁灭精华。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"critDmg": 80}
     ],
@@ -326,7 +326,7 @@
     "id": "Topaz_Legendary",
     "name": "黄宝石++++",
     "descr": "传世黄宝石，传说中由战神亲手雕琢，蕴含着无尽的毁灭之力。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"critDmg": 160}
     ],
@@ -336,7 +336,7 @@
     "id": "Diamond",
     "name": "钻石",
     "descr": "纯净无瑕的钻石，蕴含着攻击和暴击的双重力量。",
-    "image": "/assets/gem/46.png",
+    "image": "./assets/gem/46.png",
     "stats": [
       {"atk": 25},
       {"critRate": 2}
@@ -347,7 +347,7 @@
     "id": "Diamond_Plus",
     "name": "钻石+",
     "descr": "经过精炼的钻石，纯净度更高，力量更强。",
-    "image": "/assets/gem/46.png",
+    "image": "./assets/gem/46.png",
     "stats": [
       {"atk": 50},
       {"critRate": 4}
@@ -358,7 +358,7 @@
     "id": "Diamond_Legendary",
     "name": "钻石++++",
     "descr": "传世钻石，传说中由创世神亲手雕琢，纯净无瑕，蕴含着无尽的力量。",
-    "image": "/assets/gem/46.png",
+    "image": "./assets/gem/46.png",
     "stats": [
       {"atk": 100},
       {"critRate": 8}
@@ -369,7 +369,7 @@
     "id": "Obsidian",
     "name": "黑曜石",
     "descr": "深邃的黑曜石，蕴含着防御和生命的双重力量。",
-    "image": "/assets/gem/realm_ore.png",
+    "image": "./assets/gem/realm_ore.png",
     "stats": [
       {"def": 20},
       {"hp": 150}
@@ -380,7 +380,7 @@
     "id": "Obsidian_Plus",
     "name": "黑曜石+",
     "descr": "经过精炼的黑曜石，深邃度更高，力量更强。",
-    "image": "/assets/gem/realm_ore.png",
+    "image": "./assets/gem/realm_ore.png",
     "stats": [
       {"def": 40},
       {"hp": 300}
@@ -391,7 +391,7 @@
     "id": "Obsidian_Legendary",
     "name": "黑曜石++++",
     "descr": "传世黑曜石，传说中由深渊之神亲手雕琢，深邃无底，蕴含着无尽的力量。",
-    "image": "/assets/gem/realm_ore.png",
+    "image": "./assets/gem/realm_ore.png",
     "stats": [
       {"def": 80},
       {"hp": 600}
@@ -402,7 +402,7 @@
     "id": "Bloodstone",
     "name": "血石",
     "descr": "鲜红的血石，蕴含着吸血的力量，能够从敌人身上汲取生命。",
-    "image": "/assets/gem/bgem.png",
+    "image": "./assets/gem/bgem.png",
     "stats": [
       {"vamp": 2}
     ],
@@ -412,7 +412,7 @@
     "id": "Bloodstone_Plus",
     "name": "血石+",
     "descr": "经过精炼的血石，鲜红度更高，吸血之力更强。",
-    "image": "/assets/gem/bgem.png",
+    "image": "./assets/gem/bgem.png",
     "stats": [
       {"vamp": 4}
     ],
@@ -422,7 +422,7 @@
     "id": "Bloodstone_Legendary",
     "name": "血石++++",
     "descr": "传世血石，传说中由吸血鬼始祖亲手雕琢，鲜红如血，蕴含着无尽的吸血之力。",
-    "image": "/assets/gem/bgem.png",
+    "image": "./assets/gem/bgem.png",
     "stats": [
       {"vamp": 8}
     ],
@@ -432,7 +432,7 @@
     "id": "Thunderstone",
     "name": "雷石",
     "descr": "闪烁着电光的雷石，蕴含着提升攻击速度的力量。",
-    "image": "/assets/gem/lightning_stone.png",
+    "image": "./assets/gem/lightning_stone.png",
     "stats": [
       {"atkSpd": 5}
     ],
@@ -442,7 +442,7 @@
     "id": "Thunderstone_Plus",
     "name": "雷石+",
     "descr": "经过精炼的雷石，电光更盛，攻击速度提升更强。",
-    "image": "/assets/gem/lightning_stone.png",
+    "image": "./assets/gem/lightning_stone.png",
     "stats": [
       {"atkSpd": 10}
     ],
@@ -452,7 +452,7 @@
     "id": "Thunderstone_Legendary",
     "name": "雷石++++",
     "descr": "传世雷石，传说中由闪电之神亲手雕琢，电光闪烁，蕴含着无尽的攻击速度之力。",
-    "image": "/assets/gem/lightning_stone.png",
+    "image": "./assets/gem/lightning_stone.png",
     "stats": [
       {"atkSpd": 20}
     ],
@@ -462,7 +462,7 @@
     "id": "Phantomstone",
     "name": "幻影石",
     "descr": "虚幻的幻影石，蕴含着穿透的力量，能够无视敌人的防御。",
-    "image": "/assets/gem/55.png",
+    "image": "./assets/gem/55.png",
     "stats": [
       {"pen": 15}
     ],
@@ -472,7 +472,7 @@
     "id": "Phantomstone_Plus",
     "name": "幻影石+",
     "descr": "经过精炼的幻影石，虚幻度更高，穿透之力更强。",
-    "image": "/assets/gem/55.png",
+    "image": "./assets/gem/55.png",
     "stats": [
       {"pen": 30}
     ],
@@ -482,7 +482,7 @@
     "id": "Phantomstone_Legendary",
     "name": "幻影石++++",
     "descr": "传世幻影石，传说中由幻影之神亲手雕琢，虚幻无迹，蕴含着无尽的穿透之力。",
-    "image": "/assets/gem/55.png",
+    "image": "./assets/gem/55.png",
     "stats": [
       {"pen": 60}
     ],
@@ -492,7 +492,7 @@
     "id": "pruby",
     "name": "凤凰红玉",
     "descr": "凤凰精华凝结的红玉，蕴含着涅槃重生之力。",
-    "image": "/assets/gem/39.png",
+    "image": "./assets/gem/39.png",
     "stats": [
       {"pen": 60,
       "hp": 2000
@@ -504,7 +504,7 @@
     "id": "Flame_Resin",
     "name": "火焰灵脂",
     "descr": "蕴含火焰元素的灵脂。",
-    "image": "/assets/gem/flame.png",
+    "image": "./assets/gem/flame.png",
     "effect": "该装备造成的伤害类型变更为火",
     "transform": "fire",
     "rarity": "Rare"
@@ -513,7 +513,7 @@
     "id": "Frost_Resin",
     "name": "冰霜灵脂",
     "descr": "蕴含冰霜元素的灵脂。",
-    "image": "/assets/gem/ice.png",
+    "image": "./assets/gem/ice.png",
     "effect": "该装备造成的伤害类型变更为冰",
     "transform": "ice",
     "rarity": "Rare"
@@ -522,7 +522,7 @@
     "id": "Thunder_Resin",
     "name": "雷电灵脂",
     "descr": "蕴含雷电元素的灵脂。",
-    "image": "/assets/gem/llz.png",
+    "image": "./assets/gem/llz.png",
     "effect": "该装备造成的伤害类型变更为雷",
     "transform": "thunder",
     "rarity": "Rare"
@@ -531,7 +531,7 @@
     "id": "Poison_Resin",
     "name": "剧毒瓶",
     "descr": "装着剧毒素的瓶子。",
-    "image": "/assets/gem/du.png",
+    "image": "./assets/gem/du.png",
     "effect": "该装备造成的伤害类型变更为毒",
     "transform": "poison",
     "rarity": "Rare"
@@ -540,7 +540,7 @@
     "id": "G_Resin",
     "name": "神圣抛光石",
     "descr": "蕴含神圣元素的抛光石。",
-    "image": "/assets/gem/lightstone.png",
+    "image": "./assets/gem/lightstone.png",
     "effect": "该装备造成的伤害类型变更为神圣",
     "transform": "holy",
     "rarity": "Rare"
@@ -549,7 +549,7 @@
     "id": "D_Resin",
     "name": "暗影抛光石",
     "descr": "蕴含暗影元素的抛光石。",
-    "image": "/assets/gem/pure_darkstone.png",
+    "image": "./assets/gem/pure_darkstone.png",
     "effect": "该装备造成的伤害类型变更为暗影",
     "transform": "dark",
     "rarity": "Rare"
@@ -558,7 +558,7 @@
     "id": "PhysicalGem",
     "name": "力量宝石",
     "descr": "蕴含物理之力的宝石，能够提升物理伤害。",
-    "image": "/assets/gem/20.png",
+    "image": "./assets/gem/20.png",
     "stats": [
       {"damageTypeModifiers": {"物理": 5}}
     ],
@@ -568,7 +568,7 @@
     "id": "PhysicalGem_Plus",
     "name": "力量宝石+",
     "descr": "经过精炼的力量宝石，蕴含更强的物理之力。",
-    "image": "/assets/gem/20.png",
+    "image": "./assets/gem/20.png",
     "stats": [
       {"damageTypeModifiers": {"物理": 10}}
     ],
@@ -578,7 +578,7 @@
     "id": "PhysicalGem_Premium",
     "name": "力量宝石++",
     "descr": "高度精炼的力量宝石，物理之力澎湃。",
-    "image": "/assets/gem/20.png",
+    "image": "./assets/gem/20.png",
     "stats": [
       {"damageTypeModifiers": {"物理": 20}}
     ],
@@ -588,7 +588,7 @@
     "id": "PhysicalGem_Epic",
     "name": "力量宝石+++",
     "descr": "史诗级力量宝石，蕴含着纯粹的物理精华。",
-    "image": "/assets/gem/20.png",
+    "image": "./assets/gem/20.png",
     "stats": [
       {"damageTypeModifiers": {"物理": 40}}
     ],
@@ -598,7 +598,7 @@
     "id": "PhysicalGem_Legendary",
     "name": "力量宝石++++",
     "descr": "传世力量宝石，传说中由战神亲手雕琢，蕴含着无尽的物理之力。",
-    "image": "/assets/gem/20.png",
+    "image": "./assets/gem/20.png",
     "stats": [
       {"damageTypeModifiers": {"物理": 80}}
     ],
@@ -608,7 +608,7 @@
     "id": "FireGem",
     "name": "火焰宝石",
     "descr": "蕴含火焰之力的宝石，能够提升火属性伤害。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"damageTypeModifiers": {"火": 5}}
     ],
@@ -618,7 +618,7 @@
     "id": "FireGem_Plus",
     "name": "火焰宝石+",
     "descr": "经过精炼的火焰宝石，蕴含更强的火焰之力。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"damageTypeModifiers": {"火": 10}}
     ],
@@ -628,7 +628,7 @@
     "id": "FireGem_Premium",
     "name": "火焰宝石++",
     "descr": "高度精炼的火焰宝石，火焰之力澎湃。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"damageTypeModifiers": {"火": 20}}
     ],
@@ -638,7 +638,7 @@
     "id": "FireGem_Epic",
     "name": "火焰宝石+++",
     "descr": "史诗级火焰宝石，蕴含着炽热的火焰精华。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"damageTypeModifiers": {"火": 40}}
     ],
@@ -648,7 +648,7 @@
     "id": "FireGem_Legendary",
     "name": "火焰宝石++++",
     "descr": "传世火焰宝石，传说中由火神亲手雕琢，蕴含着无尽的火焰之力。",
-    "image": "/assets/gem/11.png",
+    "image": "./assets/gem/11.png",
     "stats": [
       {"damageTypeModifiers": {"火": 80}}
     ],
@@ -658,7 +658,7 @@
     "id": "IceGem",
     "name": "冰霜宝石",
     "descr": "蕴含冰霜之力的宝石，能够提升冰属性伤害。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"damageTypeModifiers": {"冰": 5}}
     ],
@@ -668,7 +668,7 @@
     "id": "IceGem_Plus",
     "name": "冰霜宝石+",
     "descr": "经过精炼的冰霜宝石，蕴含更强的冰霜之力。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"damageTypeModifiers": {"冰": 10}}
     ],
@@ -678,7 +678,7 @@
     "id": "IceGem_Premium",
     "name": "冰霜宝石++",
     "descr": "高度精炼的冰霜宝石，冰霜之力澎湃。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"damageTypeModifiers": {"冰": 20}}
     ],
@@ -688,7 +688,7 @@
     "id": "IceGem_Epic",
     "name": "冰霜宝石+++",
     "descr": "史诗级冰霜宝石，蕴含着刺骨的冰霜精华。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"damageTypeModifiers": {"冰": 40}}
     ],
@@ -698,7 +698,7 @@
     "id": "IceGem_Legendary",
     "name": "冰霜宝石++++",
     "descr": "传世冰霜宝石，传说中由冰神亲手雕琢，蕴含着无尽的冰霜之力。",
-    "image": "/assets/gem/15.png",
+    "image": "./assets/gem/15.png",
     "stats": [
       {"damageTypeModifiers": {"冰": 80}}
     ],
@@ -708,7 +708,7 @@
     "id": "ThunderGem",
     "name": "雷电宝石",
     "descr": "蕴含雷电之力的宝石，能够提升雷属性伤害。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"damageTypeModifiers": {"雷": 5}}
     ],
@@ -718,7 +718,7 @@
     "id": "ThunderGem_Plus",
     "name": "雷电宝石+",
     "descr": "经过精炼的雷电宝石，蕴含更强的雷电之力。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"damageTypeModifiers": {"雷": 10}}
     ],
@@ -728,7 +728,7 @@
     "id": "ThunderGem_Premium",
     "name": "雷电宝石++",
     "descr": "高度精炼的雷电宝石，雷电之力澎湃。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"damageTypeModifiers": {"雷": 20}}
     ],
@@ -738,7 +738,7 @@
     "id": "ThunderGem_Epic",
     "name": "雷电宝石+++",
     "descr": "史诗级雷电宝石，蕴含着狂暴的雷电精华。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"damageTypeModifiers": {"雷": 40}}
     ],
@@ -748,7 +748,7 @@
     "id": "ThunderGem_Legendary",
     "name": "雷电宝石++++",
     "descr": "传世雷电宝石，传说中由雷神亲手雕琢，蕴含着无尽的雷电之力。",
-    "image": "/assets/gem/10.png",
+    "image": "./assets/gem/10.png",
     "stats": [
       {"damageTypeModifiers": {"雷": 80}}
     ],
@@ -758,7 +758,7 @@
     "id": "PoisonGem",
     "name": "剧毒宝石",
     "descr": "蕴含剧毒之力的宝石，能够提升毒属性伤害。",
-    "image": "/assets/gem/12.png",
+    "image": "./assets/gem/12.png",
     "stats": [
       {"damageTypeModifiers": {"毒": 5}}
     ],
@@ -768,7 +768,7 @@
     "id": "PoisonGem_Plus",
     "name": "剧毒宝石+",
     "descr": "经过精炼的剧毒宝石，蕴含更强的剧毒之力。",
-    "image": "/assets/gem/12.png",
+    "image": "./assets/gem/12.png",
     "stats": [
       {"damageTypeModifiers": {"毒": 10}}
     ],
@@ -778,7 +778,7 @@
     "id": "PoisonGem_Premium",
     "name": "剧毒宝石++",
     "descr": "高度精炼的剧毒宝石，剧毒之力澎湃。",
-    "image": "/assets/gem/12.png",
+    "image": "./assets/gem/12.png",
     "stats": [
       {"damageTypeModifiers": {"毒": 20}}
     ],
@@ -788,7 +788,7 @@
     "id": "PoisonGem_Epic",
     "name": "剧毒宝石+++",
     "descr": "史诗级剧毒宝石，蕴含着致命的剧毒精华。",
-    "image": "/assets/gem/12.png",
+    "image": "./assets/gem/12.png",
     "stats": [
       {"damageTypeModifiers": {"毒": 40}}
     ],
@@ -798,7 +798,7 @@
     "id": "PoisonGem_Legendary",
     "name": "剧毒宝石++++",
     "descr": "传世剧毒宝石，传说中由毒神亲手雕琢，蕴含着无尽的剧毒之力。",
-    "image": "/assets/gem/12.png",
+    "image": "./assets/gem/12.png",
     "stats": [
       {"damageTypeModifiers": {"毒": 80}}
     ],
@@ -808,7 +808,7 @@
     "id": "HolyGem",
     "name": "神圣宝石",
     "descr": "蕴含神圣之力的宝石，能够提升神圣属性伤害。",
-    "image": "/assets/gem/16.png",
+    "image": "./assets/gem/16.png",
     "stats": [
       {"damageTypeModifiers": {"神圣": 5}}
     ],
@@ -818,7 +818,7 @@
     "id": "HolyGem_Plus",
     "name": "神圣宝石+",
     "descr": "经过精炼的神圣宝石，蕴含更强的神圣之力。",
-    "image": "/assets/gem/16.png",
+    "image": "./assets/gem/16.png",
     "stats": [
       {"damageTypeModifiers": {"神圣": 10}}
     ],
@@ -828,7 +828,7 @@
     "id": "HolyGem_Premium",
     "name": "神圣宝石++",
     "descr": "高度精炼的神圣宝石，神圣之力澎湃。",
-    "image": "/assets/gem/16.png",
+    "image": "./assets/gem/16.png",
     "stats": [
       {"damageTypeModifiers": {"神圣": 20}}
     ],
@@ -838,7 +838,7 @@
     "id": "HolyGem_Epic",
     "name": "神圣宝石+++",
     "descr": "史诗级神圣宝石，蕴含着纯洁的神圣精华。",
-    "image": "/assets/gem/16.png",
+    "image": "./assets/gem/16.png",
     "stats": [
       {"damageTypeModifiers": {"神圣": 40}}
     ],
@@ -848,7 +848,7 @@
     "id": "HolyGem_Legendary",
     "name": "神圣宝石++++",
     "descr": "传世神圣宝石，传说中由光明神亲手雕琢，蕴含着无尽的神圣之力。",
-    "image": "/assets/gem/16.png",
+    "image": "./assets/gem/16.png",
     "stats": [
       {"damageTypeModifiers": {"神圣": 80}}
     ],
@@ -858,7 +858,7 @@
     "id": "ShadowGem",
     "name": "暗影宝石",
     "descr": "蕴含暗影之力的宝石，能够提升暗影属性伤害。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"damageTypeModifiers": {"暗影": 5}}
     ],
@@ -868,7 +868,7 @@
     "id": "ShadowGem_Plus",
     "name": "暗影宝石+",
     "descr": "经过精炼的暗影宝石，蕴含更强的暗影之力。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"damageTypeModifiers": {"暗影": 10}}
     ],
@@ -878,7 +878,7 @@
     "id": "ShadowGem_Premium",
     "name": "暗影宝石++",
     "descr": "高度精炼的暗影宝石，暗影之力澎湃。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"damageTypeModifiers": {"暗影": 20}}
     ],
@@ -888,7 +888,7 @@
     "id": "ShadowGem_Epic",
     "name": "暗影宝石+++",
     "descr": "史诗级暗影宝石，蕴含着深邃的暗影精华。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"damageTypeModifiers": {"暗影": 40}}
     ],
@@ -898,7 +898,7 @@
     "id": "ShadowGem_Legendary",
     "name": "暗影宝石++++",
     "descr": "传世暗影宝石，传说中由黑暗神亲手雕琢，蕴含着无尽的暗影之力。",
-    "image": "/assets/gem/13.png",
+    "image": "./assets/gem/13.png",
     "stats": [
       {"damageTypeModifiers": {"暗影": 80}}
     ],
