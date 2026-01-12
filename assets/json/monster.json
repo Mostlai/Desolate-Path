@@ -38,7 +38,7 @@
         "def": [30, 60],
         "atkSpd": [0.35, 0.45],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [3, 6]
       }
     },
@@ -59,7 +59,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -80,7 +80,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -101,7 +101,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -122,7 +122,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -143,7 +143,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -248,7 +248,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -269,7 +269,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -290,7 +290,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -311,7 +311,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -395,7 +395,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [1, 2],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -416,7 +416,7 @@
         "def": [30, 60],
         "atkSpd": [0.35, 0.45],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [1, 2],
         "critDmg": [3, 6]
       }
     },
@@ -458,7 +458,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [1, 2],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -479,7 +479,7 @@
         "def": [30, 60],
         "atkSpd": [0.35, 0.45],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [1, 2],
         "critDmg": [3, 6]
       }
     },
@@ -584,7 +584,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -605,7 +605,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -626,7 +626,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -647,7 +647,7 @@
         "def": [20, 50],
         "atkSpd": [0.15, 0.35],
         "vamp": 0,
-        "critRate": [4, 8],
+        "critRate": [0.5, 1.5],
         "critDmg": [6, 9]
       }
     },
@@ -668,7 +668,7 @@
         "def": [20, 50],
         "atkSpd": [0.15, 0.35],
         "vamp": 0,
-        "critRate": [4, 8],
+        "critRate": [0.5, 1.5],
         "critDmg": [6, 9]
       }
     },
@@ -689,7 +689,7 @@
         "def": [20, 50],
         "atkSpd": [0.2, 0.4],
         "vamp": 0,
-        "critRate": [1, 4],
+        "critRate": [0.5, 1.5],
         "critDmg": [6.5, 7.5]
       }
     },
@@ -878,7 +878,7 @@
         "def": [20, 50],
         "atkSpd": [0.15, 0.35],
         "vamp": 0,
-        "critRate": [4, 8],
+        "critRate": [1, 8],
         "critDmg": [6, 9]
       }
     },
