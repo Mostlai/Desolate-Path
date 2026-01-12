@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://2096358571.de5.net/Desolate-Path/sitemap.xml
+
+# 排除特定文件和目录
+Disallow: /Desolate-Path/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/fonts/
+Disallow: /assets/webfonts/
+Disallow: /node_modules/
+
+# 限制爬取频率
+Crawl-delay: 5
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
