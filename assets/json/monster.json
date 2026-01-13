@@ -1193,7 +1193,7 @@
         {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 10},
         {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 1},
         {"type": "equipment","id": "horseman_hood","probability": 9},
-        {"type": "equipment","id": "horseman_roob","probability": 9},
+        {"type": "equipment","id": "horseman_robe","probability": 9},
         {"type": "equipment", "id": "horseman_armor","probability": 9},
         {"type": "equipment","id": "horseman_boots","probability": 9},
         {"type": "equipment","id": "horseman_spear","probability": 5},
@@ -1269,10 +1269,7 @@
         {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 20},
         {"type": "consumables","id": "hardloopsign", "quantity": 1,"probability": 2},
         {"type": "equipment","id": "Aries_hood","probability": 15},
-        {"type": "equipment", "id": "Aries_leg","probability": 15},
-        {"type": "gem","id": "Aries_eye", "quantity": 1,"probability": 5},
-        {"type": "gem","id": "Aries_soul","quantity": 1,"probability": 5},
-        {"type": "gem","id": "Flame_Resin","quantity": 1,"probability": 0.2}
+        {"type": "equipment", "id": "Aries_leg","probability": 15}
       ]
     },
     {
