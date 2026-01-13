@@ -586,7 +586,7 @@
         "hp": 3000,
         "def": 255,
         "damageReductionFixed": 100,
-        "damageReductionPercent": 1,
+        "damageReductionPercent": 0.2,
         "mod.冰":2
       }
     },
