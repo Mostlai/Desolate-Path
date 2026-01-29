@@ -70,6 +70,24 @@
     }
   },
   {
+    "id": "realmcrystal",
+    "name": "传送水晶",
+    "color": "fuchsia",
+    "description": "使用后传送到本局当访过的世界",
+    "imagePath": "./assets/consumables/realmcrystal.png",
+    "isUsable": true,
+    "sell": 1000
+  },
+  {
+    "id": "cursecrystal",
+    "name": "弃天水晶",
+    "color": "red",
+    "description": "使用后调整弃天等级",
+    "imagePath": "./assets/consumables/realmcrystal.png",
+    "isUsable": true,
+    "sell": 1000
+  },
+  {
     "id": "rebirth",
     "name": "重生卷轴",
     "color": "lawngreen",

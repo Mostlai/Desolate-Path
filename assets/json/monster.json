@@ -1123,6 +1123,70 @@
       ]
     },
     {
+      "id": "fgateway",
+      "name": "fgateway",
+      "nameCN": "魔之传送门",
+      "descr": "神秘传送门,掉落传送水晶",
+      "type": "Offensive",
+      "image": {
+        "name": "gateway",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 130,
+      "baseStats": {
+        "hpMax": [3500, 3500],
+        "atk": [88, 88],
+        "def": [120, 120],
+        "atkSpd": [0.9, 0.9],
+        "vamp": [0, 0],
+        "critRate": [1.7, 1.7],
+        "critDmg": [10, 10]
+      },
+      "resistances": { "火": 0.5,"雷": 0.5},
+      "immunities": ["暗影", "神圣"],
+      "drops": [
+        {"type": "consumables","id": "realmcrystal", "quantity": 1,"probability": 66},
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 3},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 3},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 1},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 1}
+      ]
+    },
+    {
+      "id": "fgateway1",
+      "name": "fgateway1",
+      "nameCN": "圣之传送门",
+      "descr": "神秘传送门,掉落弃天水晶",
+      "type": "Offensive",
+      "image": {
+        "name": "gateway",
+        "type": ".png",
+        "size": "50%"
+      },
+      "conditions": ["fboss"],
+      "level": 75,
+      "baseStats": {
+        "hpMax": [1400, 1400],
+        "atk": [33, 33],
+        "def": [120, 120],
+        "atkSpd": [0.9, 0.9],
+        "vamp": [0, 0],
+        "critRate": [1.7, 1.7],
+        "critDmg": [10, 10]
+      },
+      "resistances": { "火": 0.5,"雷": 0.5},
+      "immunities": ["暗影", "神圣"],
+      "drops": [
+        {"type": "consumables","id": "cursecrystal", "quantity": 1,"probability": 66},
+        {"type": "consumables","id": "small_health_potion", "quantity": 1,"probability": 3},
+        {"type": "consumables","id": "large_health_potion", "quantity": 1,"probability": 3},
+        {"type": "consumables","id": "lucky_coin", "quantity": 1,"probability": 1},
+        {"type": "consumables","id": "exp_manual", "quantity": 1,"probability": 1}
+      ]
+    },
+    {
       "id": "ljking",
       "name": "ljking",
       "nameCN": "光之灵王",
